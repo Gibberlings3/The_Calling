@@ -1,0 +1,19 @@
+IF
+	Global("D0SpawnCultists","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("D0SpawnCultists","MYAREA",1)
+		CreateCreature("D0CULT1",[1535.2951],10)
+		CreateCreature("D0CULT2",[1552.3047],7)
+		CreateCreature("D0CULT2",[1648.2962],3)
+		CreateCreature("D0CULT2",[1638.3091],7)
+		CreateCreature("D0CULT2",[1765.3014],3)
+END
+
+/* IF
+	Global("D0SpawnCultists","MYAREA",2)
+THEN
+	RESPONSE #100
+		SetGlobal("D0SpawnCultists","MYAREA",3)
+		CreateCreature("D0CULT1",[1535.2951],10)
+END */

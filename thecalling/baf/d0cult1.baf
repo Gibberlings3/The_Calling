@@ -1,0 +1,13 @@
+IF
+	OR(3)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+		HitBy([GOODCUTOFF],CRUSHING)
+		Global("D0AttackCult","MYAREA",1)
+	OR(2)
+		Global("D0AttackCult","MYAREA",0)
+		Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		SetGlobal("D0AttackCult","MYAREA",1)
+		Enemy()
+END
