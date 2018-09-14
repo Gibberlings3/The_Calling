@@ -1,0 +1,10 @@
+/*
+Translator note:
+
+Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGEE/EET.
+When The Calling is installed on non-EE games, only strings from setup.tra are used. On BGEE/EET, strings defined here will override the strings
+from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vanilla and EE games.
+This file is also formatted in utf-8 since it's only used on EE games. setup.tra will be converted on the fly for EE.
+
+This file can be left blank, but cannot be deleted. 
+*/

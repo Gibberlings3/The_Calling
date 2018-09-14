@@ -1,0 +1,7 @@
+IF
+  Global("CDSpawnGrace","MYAREA",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDSpawnGrace","MYAREA",1)
+    CreateCreature("cdgrace",[1999.561],8)
+END

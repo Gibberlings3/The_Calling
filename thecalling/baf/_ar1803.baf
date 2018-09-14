@@ -1,0 +1,7 @@
+IF
+	Global("CDContagion","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CDContagion","MYAREA",1)
+		ActionOverride("Container7",CreateItem("SCRLA8",0,0,0))
+END

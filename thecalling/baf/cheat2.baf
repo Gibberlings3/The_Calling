@@ -1,0 +1,6 @@
+IF
+  !Global("CDMultistronghold","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("CDMultistronghold","GLOBAL",1)
+END

@@ -1,0 +1,102 @@
+@40000 = ~Zestaw egzotycznych przedmiotow~
+@40001 = ~Ko³czan obfitoœci~
+@40002 = ~Historia tego magicznego ko³czana dawno ju¿ posz³a w zapomnienie, choæ prawdopodobnie mia³a ona coœ wspólnego z trudnym do wyjaœnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców strza³ podczas Czasu Niepokojów.
+PARAMETRY:
+Nieskoñczona iloœæ strza³
+Nie mo¿e u¿ywaæ:~
+@40003 = ~Futera³ obfitoœci~
+@40004 = ~Historia tego magicznego ko³czana dawno ju¿ posz³a w zapomnienie, choæ prawdopodobnie mia³a ona coœ wspólnego z trudnym do wyjaœnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców strza³ podczas Czasu Niepokojów.
+PARAMETRY:
+Nieskoñczona iloœæ be³tów
+Nie mo¿e u¿ywaæ:~
+@40005 = ~Torba obfitoœci~
+@40006 = ~Choæ ta torba na pociski do procy  jest teraz pusta, to wci¹¿ otacza j¹ potê¿na magiczna aura.
+PARAMETRY:
+Nieskoñczona iloœæ pocisków do procy
+Nie mo¿e u¿ywaæ:~
+@40007 = ~Kamieñ Ioun w kolorze g³êbokiego fioletu~
+@40008 = ~Kamieñ Ioun w kolorze g³êbokiego fioletu
+Ten kamieñ o kolorze g³êbokiego fioletu pozwala nosz¹cemu widzieæ w ciemnoœci.
+PARAMETRY:
+Specjalne: 
+ Infrawizja na 60 metrów
+Waga: 2
+Nie mo¿e u¿ywaæ:~
+@40009 = ~Migocz¹cy bia³y kamieñ Ioun~
+@40010 = ~Migocz¹cy bia³y kamieñ Ioun
+Ten kamieñ jest zimny w dotyku i promieniuje energi¹.
+PARAMETRY:
+Specjalne: 
+ +10% do dopornoœci na zimno
+Waga: 2
+Nie mo¿e u¿ywaæ:~
+@40011 = ~Katana~
+@40012 = ~Katana
+Katana to lekko zakrzywiony miecz o jednym ostrzu. S¹ to prawdopodobnie najostrzejsze miecze jakie kiedykolwiek wykuto, proces ich tworzenia jest d³ugi, trzymany w tajemnicy i jest prawdziw¹ sztuk¹. To ostrze jest chyba najwa¿niejsz¹ czêœci¹ kultury Kara-Tur. Dotkniêcie czy wziêcie do rêki katany samuraja to dla niego obraza i zawsze wywo³uje jego gniew. Rzadkoœci¹ jest by gaijin, czyli obcokrajowiec, posiada³ taki miecz. Albo ten gaijin jest serdecznym przyjacielem wa¿nego ministra, albo zamordowa³ samuraja.
+PARAMETRY:
+Obra¿enia: 1k10
+Typ obra¿eñ: sieczne 
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+Wymaga si³a: 6
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ W³adca Zwierz¹t~
+@40013 = ~Katana +2: 'Tsu-O-Shi'~
+@40014 = ~Katana +2: 'Tsu-O-Shi'
+Tsu-O-Shi, te¿ znany jako Po¿¹dane Ostrze, zosta³ wytworzony w narodzie Wa, wiêcej ni¿ piêæ wieków temu, przez kowala miecza Murakaken Shinji, umiejêtnoœæ by³a tak wielka on zosta³ puszczony pog³osk¹, ¿e jest w stanie, by obudziæ duch metalu. Tsu - och - Shi przeszed³ przez rêce ró¿nych spadkobierców inaczej przeciêtnej rodziny Kasune, do potê¿nego daimyo i dobrze znany kochanek miecza Fushima Takagi widzia³ to. Takagi sta³ siê nawiedzony z mieczem i zrobi³ wiele sfrustrowanych prób, by nabyæ ostrze. W koñcu, wynaj¹³ klan ninja, by ukraœæ ostrze dla niego, przykrywaj¹c jego stratê z paleniem mieszaniny rodziny Kasune. Kiedy ninja przedstawi³ ostrze ich pracodawcy, zabi³ ich, na zawsze usuwaj¹c jakiœ zwi¹zek miêdzy Takagi i prawowitymi w³aœcicielami miecza. Takagi schowa³ miecz, czêsto wycofuj¹c do jego kryjówki, by przyjrzeæ siê na jego piêkno i doskona³oœæ. W dniu œmierci Takagiego, jego duch odmówi³ odejœæ ziemia i zostawi³ miecz, wiêc pozosta³ z Tsu - Och - Shi, staj¹c jednym z nich. Od tego dnia, w³adca, potê¿ny, Tsu - Och - Shi musia³ uwa¿aæ na ducha Takagi Fushima, który pija istotê ¿ycia tych, który dotyka broni, ¿eby pozostaæ na Torilu z przedmiotem jego pragnienia. Jako skutek, to przeklête ostrze ma szansê, by osuszyæ nosz¹cego zawsze kiedy jest u¿yte.
+PARAMETRY:
+Obra¿enia: 1k10 +2
+TraK0: +2 
+Typ obra¿eñ: sieczne
+Specjalne:
+ Szansa na sta³¹ utratê punktów ¿ycia lub cech przez u¿ywaj¹cego
+Waga:  4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+Wymaga si³a: 6 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ W³adca Zwierz¹t~
+@40015 = ~Modyfikacja m¹droœci~
+@40016 = ~Modyfikacja kondycji~
+@40017 = ~Modyfikacja zrêcznoœci~
+@40018 = ~Modyfikacja charyzmy~
+@40019 = ~Modyfikacja punktów ¿ycia~
+@40020 = ~Modyfikacja inteligencji~
+@40021 = ~Modyfikacja si³y~
+@40022 = ~Œwi¹tynia Gullykin~
+@40023 = ~Kamieñ Ioun~
+@40024 = ~To ma³y kamyk, który lata wokó³ g³owy w³aœciciela. Aby go wprowadziæ w ten ruch, wystarczy siê w niego wyposa¿yæ. Te magiczne kamienie maj¹ ró¿ne w³aœciwoœci, w zale¿noœci od swojego koloru.~
+@40025 = ~Katana
+Katana to lekko zakrzywiony miecz o jednym ostrzu. S¹ to prawdopodobnie najostrzejsze miecze jakie kiedykolwiek wykuto, proces ich tworzenia jest d³ugi, trzymany w tajemnicy i jest prawdziw¹ sztuk¹. To ostrze jest chyba najwa¿niejsz¹ czêœci¹ kultury Kara-Tur. Dotkniêcie czy wziêcie do rêki katany samuraja to dla niego obraza i zawsze wywo³uje jego gniew. Rzadkoœci¹ jest by gaijin, czyli obcokrajowiec, posiada³ taki miecz. Albo ten gaijin jest serdecznym przyjacielem wa¿nego ministra, albo zamordowa³ samuraja.
+PARAMETRY:
+Obra¿enia: 1k10
+Typ obra¿eñ: sieczne 
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: katana
+Typ broni: 1-rêczna
+Wymagana si³a: 6
+Nie mo¿e u¿ywaæ:~
+@40026 = ~Katana +2: 'Tsu-O-Shi'
+Tsu-O- Shi, te¿ znany jako Po¿¹dane Ostrze, zosta³ wytworzony w narodzie Wa, wiêcej ni¿ piêæ wieków temu, przez kowala miecza Murakaken Shinji, umiejêtnoœæ by³a tak wielka on zosta³ puszczony pog³osk¹, ¿e jest w stanie, by obudziæ duch metalu. Tsu - och - Shi przeszed³ przez rêce ró¿nych spadkobierców inaczej przeciêtnej rodziny Kasune, do potê¿nego daimyo i dobrze znany kochanek miecza Fushima Takagi widzia³ to. Takagi sta³ siê nawiedzony z mieczem i zrobi³ wiele sfrustrowanych prób, by nabyæ ostrze. W koñcu, wynaj¹³ klan ninja, by ukraœæ ostrze dla niego, przykrywaj¹c jego stratê z paleniem mieszaniny rodziny Kasune. Kiedy ninja przedstawi³ ostrze ich pracodawcy, zabi³ ich, na zawsze usuwaj¹c jakiœ zwi¹zek miêdzy Takagi i prawowitymi w³aœcicielami miecza. Takagi schowa³ miecz, czêsto wycofuj¹c do jego kryjówki, by przyjrzeæ siê na jego piêkno i doskona³oœæ. W dniu œmierci Takagiego, jego duch odmówi³ odejœæ ziemia i zostawi³ miecz, wiêc pozosta³ z Tsu - Och - Shi, staj¹c jednym z nich. Od tego dnia, w³adca, potê¿ny, Tsu - Och - Shi musia³ uwa¿aæ na ducha Takagi Fushima, który pija istotê ¿ycia tych, który dotyka broni, ¿eby pozostaæ na Torilu z przedmiotem jego pragnienia. Jako skutek, to przeklête ostrze ma szansê, by osuszyæ nosz¹cego zawsze kiedy jest u¿yte.
+PARAMETRY:
+Obra¿enia: 1k10 +2
+TraK0: +2 
+Typ obra¿eñ: sieczne
+Specjalne:
+ Szansa na sta³¹ utratê Punktów ¯ycia lub cech przez u¿ywaj¹cego
+Waga:  4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: katana
+Typ broni: jednorêczna
+Wymaga si³a: 6
+Nie mo¿e u¿ywaæ:~

@@ -1,0 +1,118 @@
+@40000  = ~Sada exotickych predmetu~
+@40001  = ~Toulec hojnosti~
+@40002  = ~Historie tohoto magického toulce byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtlenım, ale anály potrvzenım nedostatkem schopnıch vırobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství šípù~
+@40003  = ~Schránka hojnosti~
+@40004  = ~Historie této magické schránky byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtlenım, ale anály potrvzenım nedostatkem schopnıch vırobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství šipek~
+@40005  = ~Vak hojnosti~
+@40006  = ~Aèkoli tento váèek z jemného plátna prváì zeje prázdnotou, obklopuje ho stále silná aura magie.
+
+VLASTNOSTI:
+
+Nevyèerpatelné mnoství nábojù do praku~
+@40007  = ~Tmavì fialovı Iounskı kámen~
+@40008  = ~Tmavì fialovı Iounskı kámen
+
+Tento kámen tmavì fialového odstínu umoòuje svému nositeli jasnì vidìt i v temnotì
+
+VLASTNOSTI:
+
+Zvláštní schopnost: infravidìní do 20 metrù
+Váha: 2~
+@40009  = ~Mihotavì bílı Iounskı kámen~
+@40010  = ~Mihotavì bílı Iounskı kámen
+
+Tento kámen je chladnı na dotek a oèividnì vyzaøuje nìjakou energii.
+
+VLASTNOSTI:
+
+Odolnost na chlad: +10%
+Váha: 2~
+@40011  = ~Katana~
+@40012  = ~Katana
+
+Katana je lehce zahnutı meè s jedním ostøím, se sraenım zakonèením. Katana je pravdìpodobnì jeden z nejlepších meèù, jaké kdy byly vyrobeny. Proces jeho zhotovení je dlouhı a tajemnı, je víc umìní ne cokoliv jiného. Tato èepel je dùleitou souèástí kultury Kara-Tur. Dotknout se nebo nést samurajovu katanu znamená urazit samuraje a vyprovokovat jeho hnìv. Vlastnictví takové èepele gaijinem, cizincem, je velmi neobvyklé. Buï je ten gaijin velmi ctìnı pøítel nìjakého dùleitého pøedstavitele, nebo gaijin zavradil samuraje.
+
+VLASTNOSTI:
+
+Zranìní:  1K10
+Druh zranìní:  seèné
+Váha:  6
+Rychlost: 4
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+Nemùe uívat:
+ Druid
+ Klerik
+ Mág
+ Pán šelem~
+@40013  = ~Katana +2, Tsu-O-Shi~
+@40014  = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, nìkdy také známá jako Vytouená èepel, byla vyrobena pøed pìti staletími v zemi Wa. Jejím tvùrcem byl známı meèíø Murakaken Shinji, jeho dovednosti byly tak skvìlé, e o nich kolovaly dokonce povìry o vzívání samotnıch duchù kovu. Tsu-O-Shi prošla rukama mnoha dìdicùm jinak nièím vyjímeèné rodiny Kasunù. A ji jednoho dne spatøil mocnı daimyo a známı milovník meèù, Fushima Takagi. Takagi se stal meèem úplnì posedlı a podnikl mnoho pokusù o jeho získání. Nakonec najal nindu, aby èepel ukradl a nechal na její ztrátu zapomenout zapálením rodinné usedlosti Kasunù. Kdy ninda meè pøinesl svému zamìstnavateli, byla mu jím sata hlava, èím tak byla navdy odstarìna jakákoliv souvislost mezi Tagakim a legitimními vlastníky meèe. Tagaki meè skrıval. Èasto chodíval na místo, kde byl tento jeho poklad ukryt, a kochal se jeho krásou a dokonalostí. Takagi jednoho dne zemøel. Jeho duše však odmítla opustit zemi, a nechat tak meè o samotì. Proto zùstala s Tsu-O-Shi a stala se její souèástí. Od té doby se musí kdokoliv, kdo chce bıt majitelem mocné Tsu-O-Shi, mít na pozoru pøed duchem Fushima Takagiho, kterı se iví esencí tìch, kdo se dotknou zbranì, aby mohl nadále zùstat na Torilu s pøedmìtem své touhy. Vısledkem toho je šance, e tato prokletá èepel oslabí svého nositele, kdykoli je pouita.
+
+VLASTNOSTI:
+
+THAC0: +2 bonus
+Zranìní:  1K10 + 2
+Druh zranìní:  seèné
+Váha:  4
+Rychlost: 2
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+
+Šance na trvalé vysátí ivotù èi vlastností nositele kdykoli je pouita
+
+Nemùe uívat:
+Druid
+Klerik
+Mág
+Pán šelem~
+@40015  = ~Úprava moudrosti~
+@40016  = ~Úprava odolnosti~
+@40017  = ~Úprava obratnosti~
+@40018  = ~Úprava charisma~
+@40019  = ~Úprava ivotù~
+@40020  = ~Úprava inteligence~
+@40021  = ~Úprava síly~
+@40022  = ~Gullykinskı chrám~
+@40025  = ~Katana
+
+Katana je lehce zahnutı meè s jedním ostøím, se sraenım zakonèením. Katana je pravdìpodobnì jeden z nejlepších meèù, jaké kdy byly vyrobeny. Proces jeho zhotovení je dlouhı a tajemnı, je víc umìní ne cokoliv jiného. Tato èepel je dùleitou souèástí kultury Kara-Tur. Dotknout se nebo nést samurajovu katanu znamená urazit samuraje a vyprovokovat jeho hnìv. Vlastnictví takové èepele gaijinem, cizincem, je velmi neobvyklé. Buï je ten gaijin velmi ctìnı pøítel nìjakého dùleitého pøedstavitele, nebo gaijin zavradil samuraje.
+
+VLASTNOSTI:
+
+Zranìní:  1K10
+Druh zranìní:  seèné
+Váha:  6
+Rychlost: 4
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+~
+@40026  = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, nìkdy také známá jako Vytouená èepel, byla vyrobena pøed pìti staletími v zemi Wa. Jejím tvùrcem byl známı meèíø Murakaken Shinji, jeho dovednosti byly tak skvìlé, e o nich kolovaly dokonce povìry o vzívání samotnıch duchù kovu. Tsu-O-Shi prošla rukama mnoha dìdicùm jinak nièím vyjímeèné rodiny Kasunù. A ji jednoho dne spatøil mocnı daimyo a známı milovník meèù, Fushima Takagi. Takagi se stal meèem úplnì posedlı a podnikl mnoho pokusù o jeho získání. Nakonec najal nindu, aby èepel ukradl a nechal na její ztrátu zapomenout zapálením rodinné usedlosti Kasunù. Kdy ninda meè pøinesl svému zamìstnavateli, byla mu jím sata hlava, èím tak byla navdy odstarìna jakákoliv souvislost mezi Tagakim a legitimními vlastníky meèe. Tagaki meè skrıval. Èasto chodíval na místo, kde byl tento jeho poklad ukryt, a kochal se jeho krásou a dokonalostí. Takagi jednoho dne zemøel. Jeho duše však odmítla opustit zemi, a nechat tak meè o samotì. Proto zùstala s Tsu-O-Shi a stala se její souèástí. Od té doby se musí kdokoliv, kdo chce bıt majitelem mocné Tsu-O-Shi, mít na pozoru pøed duchem Fushima Takagiho, kterı se iví esencí tìch, kdo se dotknou zbranì, aby mohl nadále zùstat na Torilu s pøedmìtem své touhy. Vısledkem toho je šance, e tato prokletá èepel oslabí svého nositele, kdykoli je pouita.
+
+VLASTNOSTI:
+
+THAC0: +2 bonus
+Zranìní:  1K10 + 2
+Druh zranìní:  seèné
+Váha:  4
+Rychlost: 2
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyaduje: Síla 6
+
+Šance na trvalé vysátí ivotù èi vlastností nositele kdykoli je pouita
+~

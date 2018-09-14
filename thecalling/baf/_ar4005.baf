@@ -1,0 +1,18 @@
+IF
+  Global("CDSpawnIris","MYAREA",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDSpawnIris","MYAREA",1)
+    CreateCreature("cdiris",[274.257],10)
+    CreateCreature("cdlargo",[415.259],6)
+END
+
+IF 
+  Global("CDBracerQuest","GLOBAL",17)
+THEN
+  RESPONSE #100
+    ActionOverride("cdiris",Polymorph(SQUIRREL))
+    Wait(1)
+    SetGlobal("CDBracerQuest","GLOBAL",18)
+    ActionOverride("cdlargo",StartDialogueNoSet([PC]))
+END

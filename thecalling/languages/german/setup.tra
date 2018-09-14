@@ -1,0 +1,79 @@
+@40000 = ~Exotische Gegenstaende~
+@40001 = ~Immervoller Köcher~
+@40002 = ~Die Geschichte dieses magischen Köchers ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+EIGENSCHAFTEN:
+Der Köcher enthält eine unbegrenzte Anzahl von Pfeilen~
+@40003 = ~Immervoller Behälter~
+@40004 = ~Die Geschichte dieses magischen Behälters ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+EIGENSCHAFTEN:
+Der Behälter enthält eine unbegrenzte Anzahl von Bolzen~
+@40005 = ~Immervoller Beutel~
+@40006 = ~Obwohl dieser kleine Stoffbeutel leer erscheint, wird er doch von einer mächtigen magischen Aura umgeben.
+EIGENSCHAFTEN:
+Der Stoffbeutel enthält eine unbegrenzte Anzahl von Schleuderkugeln.~
+@40007 = ~Dunkler Purpurner Ionenstein~
+@40008 = ~Mit diesem Stein, von dunkler purpurner Farbe, kann der Träger in die Schatten der Dunkelheit sehen.
+EIGENSCHAFTEN:
+Infravision (bis zu 30 m)
+Gewicht: 2~
+@40009 = ~Flimmernd Weißer Ionenstein~
+@40010 = ~Der Stein fühlt sich kalt an und strahlt Energie aus.
+EIGENSCHAFTEN:
+Kältewiderstand: +10%
+Gewicht: 2~
+@40011 = ~Katana~
+@40012 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+EIGENSCHAFTEN:
+Schaden: 1W10 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@40013 = ~Tsu-O-Shi~
+@40014 = ~Tsu-O-Shi, auch als die Begehrte Klinge bekannt, wurde vor über fünfhundert Jahren im Lande Wa von dem Schwertschmied Murakaken Shinji geschmiedet, von dem man sich erzählte, er könnte den Geist des Metalls selbst erwecken. Tsu-O-Shi wurde in der ansonsten unbedeutenden Familie Kasune von Generation zu Generation weitergereicht, bis der mächtige Daimyo Fushima Takagi, ein bekannter Liebhaber von Schwertern, es sah. Takagi, besessen von dem Schwert, versuchte viele Male vergeblich, es in seinen Besitz zu bringen. Schließlich warb er einen Clan von Ninjas an, die die Klinge für ihn stahlen und das Anwesen der Kasunes verbrannten, um den Diebstahl zu vertuschen. Als die Ninjas die Klinge ihrem Auftraggeber übergaben, wurden sie mit ebendieser Waffe niedergemacht und so jede Verbindung zwischen Takagi und den wahren Eigentümern des Schwerts zertrennt. Takagi verbarg das Schwert, zog sich aber oft zu dessen Versteck zurück, um seine Schönheit und Vollkommenheit zu bewundern. Als Takagi starb, weigerte sein Geist sich, die Erde zu verlassen und das Schwert zurückzulassen. So blieb sein Geist bei Tsu-O-Shi und wurde eins mit ihm. Seit diesem Tag muss sich jeder, der die mächtige Waffe führt, vor dem Geist des Fushima Takagi in Acht nehmen, der die Lebenskraft derer trinkt, die die Waffe berühren, um so mit dem Objekt seiner Begierde auf Toril verweilen zu können. Es besteht daher bei jeder Benutzung die Möglichkeit, daß die verfluchte Klinge dem Träger Lebensessenz entzieht.
+EIGENSCHAFTEN:
+Bei jedem Treffer besteht eine Chance dem Träger Treffer- oder Attributspunkte permanent abzuziehen.
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~
+@40015 = ~Modifikation: Weisheit~
+@40016 = ~Modifikation: Konstitution~
+@40017 = ~Modifikation: Geschicklichkeit~
+@40018 = ~Modifikation: Charisma~
+@40019 = ~Modifikation: Trefferpunkte~
+@40020 = ~Modifikation: Intelligenz~
+@40021 = ~Modifikation: Stärke~
+@40022 = ~Tempel von Gullykin~
+@40025 = ~Das Katana ist ein Schwert, dessen Klinge nur auf einer Seite scharf ist. Es ist leicht gekrümmt und endet in einer Spitze, die an die Spitze eines Meißels erinnert. Das Katana stellt vermutlich die aufwendigste Form des Schwertes dar. Seine Fertigung ist ein langer, aufwendiger und höchst geheimer Vorgang, den man schon fast als Kunstwerk bezeichnen müsste. Dieses Schwert spielt in der Kultur von Kara-Tur eine wichtige Rolle. Wenn man es wagt, das Katana eines Samurais zu berühren oder gar zu ziehen, beleidigt man den Samurai, dem es gehört, und zieht seinen Zorn auf sich. Es kommt nur äußerst selten vor, dass ein Gaijin, ein Fremder, in den Besitz einer derartigen Waffe kommt. Entweder handelt es sich bei diesem Gaijin dann um den geehrten Freund eines wichtigen Ministers oder um den Mörder eines Samurais.
+EIGENSCHAFTEN:
+Schaden: 1W10 (Klinge)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+~
+@40026 = ~Tsu-O-Shi, auch als die Begehrte Klinge bekannt, wurde vor über fünfhundert Jahren im Lande Wa von dem Schwertschmied Murakaken Shinji geschmiedet, von dem man sich erzählte, er könnte den Geist des Metalls selbst erwecken. Tsu-O-Shi wurde in der ansonsten unbedeutenden Familie Kasune von Generation zu Generation weitergereicht, bis der mächtige Daimyo Fushima Takagi, ein bekannter Liebhaber von Schwertern, es sah. Takagi, besessen von dem Schwert, versuchte viele Male vergeblich, es in seinen Besitz zu bringen. Schließlich warb er einen Clan von Ninjas an, die die Klinge für ihn stahlen und das Anwesen der Kasunes verbrannten, um den Diebstahl zu vertuschen. Als die Ninjas die Klinge ihrem Auftraggeber übergaben, wurden sie mit ebendieser Waffe niedergemacht und so jede Verbindung zwischen Takagi und den wahren Eigentümern des Schwerts zertrennt. Takagi verbarg das Schwert, zog sich aber oft zu dessen Versteck zurück, um seine Schönheit und Vollkommenheit zu bewundern. Als Takagi starb, weigerte sein Geist sich, die Erde zu verlassen und das Schwert zurückzulassen. So blieb sein Geist bei Tsu-O-Shi und wurde eins mit ihm. Seit diesem Tag muss sich jeder, der die mächtige Waffe führt, vor dem Geist des Fushima Takagi in Acht nehmen, der die Lebenskraft derer trinkt, die die Waffe berühren, um so mit dem Objekt seiner Begierde auf Toril verweilen zu können. Es besteht daher bei jeder Benutzung die Möglichkeit, daß die verfluchte Klinge dem Träger Lebensessenz entzieht.
+EIGENSCHAFTEN:
+Bei jedem Treffer besteht eine Chance dem Träger Treffer- oder Attributspunkte permanent abzuziehen.
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Mindeststärke: 6
+~

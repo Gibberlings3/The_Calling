@@ -1,0 +1,100 @@
+IF
+  Global("CDBracerQuest","GLOBAL",15)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ActionOverride("thalantyr",ForceSpell(Myself,WIZARD_PROTECTION_FROM_EVIL))
+    ActionOverride("thalantyr",ForceSpell(Myself,WIZARD_TRUE_SIGHT))
+    SetGlobal("CDBracerQuest","GLOBAL",16)
+    ActionOverride("thalantyr",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END
+
+IF
+  Global("CDBracerQuest","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ActionOverride("melicamp",MoveToPointNoInterrupt([159.558]))
+    Wait(3)
+//    ActionOverride("melicamp",EscapeAreaMove("fw5401",[1948.1370]))
+    Deactivate("melicamp")
+    SetGlobal("CDBracerQuest","GLOBAL",2)
+    ActionOverride("thalantyr",StartDialogueNoSet(Player1))
+    EndCutSceneMode()
+END
+
+IF
+  OnCreation()
+  Global("CDBracerQuest","GLOBAL",98)
+THEN
+  RESPONSE #100
+    ActionOverride("melicamp",DestroySelf())
+    SetGlobal("CDBracerQuest","GLOBAL",99)
+END
+
+IF 
+  GlobalTimerExpired("CDMelicampReturns","GLOBAL")
+  Global("CDBracerQuest","GLOBAL",13)
+THEN
+  RESPONSE #100
+    Activate("melicamp")
+    ActionOverride("melicamp",MoveToPointNoInterrupt([286.398]))
+    Wait(3)
+    ActionOverride("melicamp",FaceObject("thalantyr"))
+    SetGlobal("CDBracerQuest","GLOBAL",14)
+    ActionOverride("melicamp",StartDialogueNoSet("thalantyr"))
+END
+
+IF 
+  GlobalTimerExpired("CDMelicampReturns","GLOBAL")
+  GlobalGT("CDBracerQuest","GLOBAL",10)
+  GlobalLT("CDBracerQuest","GLOBAL",13)
+  Global("CDMeliBackFromMines","MYAREA",0)
+THEN
+  RESPONSE #100
+    Activate("melicamp")
+    ActionOverride("melicamp",MoveToPointNoInterrupt([286.398]))
+    Wait(3)
+    ActionOverride("melicamp",FaceObject("thalantyr"))
+    SetGlobal("CDMeliBackFromMines","MYAREA",1)
+END
+
+IF
+  Global("CDBracerQuest","GLOBAL",20)
+  Global("CDIncantationRight","FW3202",0)
+THEN 
+  RESPONSE #100
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ClearAllActions()
+    ActionOverride("cdiris",Polymorph(THIEF_FEMALE_HALFLING))
+    PlaySound("%tutuvar%halff5")
+    ActionOverride("thalantyr",ForceSpell("cdiris","CUTSCENE_DAMAGE_1"))
+    PlaySound("EFF_M20")
+    PlaySound("%tutuvar%halff6")
+    Wait(4)
+    SetGlobal("CDBracerQuest","GLOBAL",21)
+    EndCutSceneMode()
+    ActionOverride("thalantyr",StartDialogueNoSet(Player1))
+END
+
+IF
+  Global("CDBracerQuest","GLOBAL",20)
+  GlobalGT("CDIncantationRight","FW3202",0)
+THEN 
+  RESPONSE #100
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ClearAllActions()
+    ActionOverride("cdiris",Polymorph(THIEF_FEMALE_HALFLING))
+    PlaySound("%tutuvar%halff5")
+    CreateVisualEffectObject("ICRMPARI","cdiris")
+    PlaySound("EFF_M20")
+    Wait(4)
+    SetGlobal("CDBracerQuest","GLOBAL",21)
+    EndCutSceneMode()
+    ActionOverride("thalantyr",StartDialogueNoSet(Player1))
+END

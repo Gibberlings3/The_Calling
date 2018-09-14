@@ -1,0 +1,180 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// main tp2 strings                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+    @0 = ~None of the components of this mod are available for your game.~
+    @1 = ~The functionality of this component is either already included or superceded by one of your already installed mods.~
+    @2 = ~Tales of the Sword Coast is required for this component.~
+	@3 = ~This component is not available yet.~
+	@4 = ~Modmerge is required before mods can be installed on this game. Check the readme for more information and a link to download Modmerge.~
+	@5 = ~This component is not available in your language yet.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @100 = ~The Calling~
+  @101 = ~Would you like to install cheats?
+
+  a) No cheats; keep it one calling per game
+  b) Allow multiple callings but keep class restrictions
+  c) Allow multiple callings with no class restrictions~
+
+  @102 = ~Pearls consist of layers of aragonite agonizingly formed around a bit of grit or other irritant inside oysters and other mollusks.  The resulting pearl has a rich, deep luster.  Most of the pearls in the realms are white, however, this is a rare black variant. Black pearls are highly valued for their unique magical properties, particularly by diviners.~
+  @103 = ~Miner Sal~
+  @104 = ~Miner James~
+  @105 = ~Grace~
+  @106 = ~Scrying Device~
+  @107 = ~Iris Cotton~
+  @108 = ~Largo Cotton~
+  @109 = ~Magic Powder~
+  @110 = ~Thalantyr has asked you to deliver this to Taerom Fuirium. By adding this to his forge, Taerom will be able to destroy the bracers in the flames.~
+  @111 = ~Zircon is a brownish crystal found in igneous (volcanic) rocks and has applications in scrying devices.  Zircon attains its pale blue shade with heating and cutting (usually facet-cut).~
+  @112 = ~Taerom's Ore~
+  @113 = ~This is a blend of ore for Taerom, collected by Melicamp and Grace in the Nashkel Mines.~
+  @114 = ~Cursed Bracers~
+  @115 = ~These are the bracers responsible for cursing Melicamp, recovered at last. Despite their unusual and interesting nature, Thalantyr has decided that the risk of keeping the bracers outweighs the knowledge that could be gained in further study.
+
+As it would be unwise to try and use them, Thalantyr has charmed them to be too small to wear.~
+  @116 = ~Damaged Piece of Parchment~
+  @117 = ~This parchment appears torn from a book, and is singed around the edges. Only a small portion of text is legible:
+
+Just about any crystal can be used for scrying when properly prepared, though some have a natural affinity. It is a common mistake of those studying magic to believe that expensive, difficult to obtain gems are needed as spell components, when a common zircon will often suffice. Even with a properly constructed device, the results are often unclear makng divination a particularly difficult branch of magic to study.~
+  @118 = ~This device was commissioned by Thalantyr and built by Taerom of Beregost. Thalantyr hopes to use it to locate the bracers which cursed Melicamp. Near the center, you can see three settings for gemstones.~
+  @119 = ~Amulet of Acid Resistance~
+  @120 = ~Acid, when available, is an effective hindrance to mages, frequently interrupting their spellcasting. Sinosta, a minor mage of Waterdeep, designed this amulet to counteract the effects of acid. Unfortunately, it did little good for Sinosta, who was assassinated in a back alley after insulting the local thieves guild.
+
+STATISTICS:
+
++25% resistance to acid~
+  @121 = ~Amulet of Constriction~
+  @122 = ~This seemingly innocuous amulet tightly constricts around the neck. Speech is possible, though barely, and it makes the complex vocalizations required for spellcasting impossible. Constricting amulets have been used for everything from pranks between apprentices to weakening archmagi to facilitate assassination.
+
+STATISTICS:
+
+Disables spellcasting~
+  @123 = ~The Imbecile's Amulet~
+  @124 = ~Amulets such as these are very popular amongst unscrupulous merchants. These items appear to be ornate, expensive amulets and are often given as gifts to potential clients, rivals, or other potential business contacts. They're designed merely to dull the wit, without being unduly noticeable, enabling the merchant to press their advantage during complex negotiations.
+
+STATISTICS:
+
+Reduces intelligence, wisdom, and charisma by two while worn~
+  @125 = ~Black Pearl~
+  @126 = ~White Pearl~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Expanded gnoll stronghold                        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@10000 = ~Expanded Gnoll Fortress~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Peaceful Kaishas resolution                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@20000 = ~Peaceful Werewolf Isle Resolution~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Movanic Cult                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@30000 = ~The Movanic Cult~
+@30001 = ~Movanic Cult Leader~
+@30002 = ~Movanic Cultist~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40000 = ~Exotic Item Pack~
+@40001 = ~Quiver of Plenty~
+@40002 = ~The history of this magical quiver has been long forgotten, though it likely had something to do with the inexplicable but well documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Unlimited Arrows~
+@40003 = ~Case of Plenty~
+@40004 = ~The history of this magical case has been long forgotten, though it likely had something to do with the inexplicable but well-documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Unlimited Bolts~
+@40005 = ~Bag of Plenty~
+@40006 = ~Although this soft cloth pouch is empty right now, there is still a powerful aura of magic surrounding it.
+
+STATISTICS:
+
+Unlimited sling bullets~
+@40007 = ~Deep Purple Ioun Stone~
+@40008 = ~Deep Purple Ioun Stone
+
+This stone, deep purple in hue, allows the bearer to see into the shadows of darkness.
+
+STATISTICS:
+
+Special ability: 60' infravision
+Weight: 2~
+@40009 = ~Flickering White Ioun Stone~
+@40010 = ~Flickering White Ioun Stone
+
+This stone is cool to the touch and radiates energy.
+
+STATISTICS:
+
+Bonus: +10% cold resistance
+Weight: 2~
+@40013 = ~Katana +2, Tsu-O-Shi~
+@40014 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, also known as the Coveted Blade, was forged in the nation of Wa more than five centuries ago, by the sword smith Murakaken Shinji, whose skill was so great he was rumored to be able to awaken the very spirit of the metal. Tsu-O-Shi passed through the hands of the various heirs of the otherwise unremarkable Kasune family, until the powerful daimyo and well-known sword lover Fushima Takagi saw it. Takagi became obsessed with the sword and made many frustrated attempts to acquire the blade. Finally, he hired a clan of ninja to steal the blade for him, covering its loss with the burning of the Kasune family compound. When the ninja presented the blade to their employer, it was used to cut them down, forever removing any link between Takagi and the sword's legitimate owners. Takagi hid the sword, often withdrawing to its hiding place to gaze upon its beauty and perfection. On the day Takagi died, his spirit refused to depart the earth and leave the sword behind, so he stayed with Tsu-O-Shi, becoming one with it. From that day forth, any who wield the mighty Tsu-O-Shi must beware of the spirit of Fushima Takagi, who drinks the life essence of those who touch the weapon, in order to remain on Toril with the object of his desire. As a result, this cursed blade has a chance to drain the wielder every time it is used.
+
+STATISTICS:
+
+THAC0: +2 bonus
+Damage:  1D10 + 2
+Damage type:  slashing
+Weight:  4
+Speed Factor: 2
+Proficiency Type: Katana
+Type:  1-handed
+Requires: 6 Strength
+
+Chance to permanently drain life or attributes from wielder when used
+
+Not Usable By:
+Druid
+Cleric
+Mage
+Beast Master~
+@40015 = ~Wisdom Modification~
+@40016 = ~Constitution Modification~
+@40017 = ~Dexterity Modification~
+@40018 = ~Charisma Modification~
+@40019 = ~Hit Point Modification~
+@40020 = ~Intelligence Modification~
+@40021 = ~Strength Modification~
+@40022 = ~Gullykin Temple~

@@ -1,0 +1,6 @@
+IF
+  !Global("CDPlayerHasCalling","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDPlayerHasCalling","GLOBAL",0)
+END    

@@ -1,0 +1,17 @@
+IF
+  !AreaCheck("%Gullykin_House1_L1%")
+  Global("CDScripts","LOCALS",0)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",DEFAULT)
+    SetGlobal("CDScripts","LOCALS",1)
+END
+
+IF
+  AreaCheck("%Gullykin_Winery_L1%")
+  See([PC])
+  Global("CDBracerQuest","GLOBAL",80)
+THEN
+  RESPONSE #100
+    StartDialogueNoSet("alvahe")
+END

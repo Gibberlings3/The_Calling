@@ -1,0 +1,8 @@
+IF
+  !AreaCheck("%Gullykin_House1_L1%")
+  Global("CDScripts","LOCALS",0)
+THEN
+  RESPONSE #100
+    ChangeAIScript("",DEFAULT)
+    SetGlobal("CDScripts","LOCALS",1)
+END

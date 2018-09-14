@@ -1,0 +1,93 @@
+@40000 = ~Pack d'objets exotiques~
+@40001 = ~Carquois d'abondance~
+@40002 = ~Les origines de ce carquois ont été oubliées depuis longtemps, mais on peut supposer sans trop de risques qu'il existe un lien entre lui et l'étrange pénurie de fabricants de flèches au cours du Temps des Troubles.
+PARAMETRES :
+Quantité illimitée de flèches~
+@40003 = ~Etui d'abondance~
+@40004 = ~L'histoire de cet étui magique s'est perdue dans le brouillard du passé, mais elle doit sans aucun doute être liée à l'inexplicable pénurie de fabricants de carreaux au cours du Temps des Troubles.
+PARAMETRES :
+Quantité illimitée de carreaux~
+@40005 = ~Sac d'abondance~
+@40006 = ~Cette petite poche de tissu est vide, mais cela ne l'empêche pas de rayonner d'une puissane aura magique.
+PARAMETRES :
+Quantité illimité de billes.~
+@40007 = ~Pierre ionique violette~
+@40008 = ~Pierre ionique violette
+Cette pierre ionique, de couleur violette, autorise son porteur à voir dans l'obscurité.
+PARAMETRES :
+Spécial : le porteur est doté du don d'infravision sur 36 mètres.
+Poids: 2~
+@40009 = ~Pierre ionique blanche scintillante~
+@40010 = ~Pierre ionique blanche scintillante
+Cette pierre ionique est froide au toucher et rayonne d'énergie.
+PARAMETRES :
+Bonus: +10% de résistance au froid
+Poids: 2~
+@40011 = ~Katana~
+@40012 = ~Katana
+Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+PARAMETRES :
+Dégâts : 1D10
+Type de dégât : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Inutilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+@40013 = ~Katana +2, Tsu-O-Shi~
+@40014 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame Convoitée, fut forgée dans la nation de Wa il y a plus de cinq siècles, par le forgeron Murakaken Shinji, dont le talent était si réputé que la rumeur disait qu'il était capable de réveiller l'esprit même du métal. Tsu-O-Shi est passé entre les mains de différents héritiers de la famille Kasune (famille tout à fait ordinaire sinon), jusqu'à ce que le puissant daimyo et bien connu pour son amour des épées, Fushima Takagi, la vit. Takagi devint obsédé par cette lame et fit plusieurs tentatives frustrantes pour l'acquérir. Finalement, il engagea un groupe de ninja pour voler la lame pour lui, vengeant ses pertes en brûlant le quartier général de la famille Kasune. Lorsque le ninja présenta la lame à son employeur, elle fut utilisée pour les découper en morceaux, permettant ainsi de retirer définitivement tout lien entre Tagaki et les légitimes propriétaires de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où Tagaki mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière, donc il resta avec Tsu-O-Shi, faisant part intégrante avec elle. Depuis ce jour, toute personne qui utilise Tsu-O-Shi doit faire attention à l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent à l'arme, pour que son âme reste sur Toril avec l'objet de son désir. En résultat, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+PARAMETRES :
+TAC0 : +2
+Dégâts : 1D10 + 2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur lorsqu'elle est utilisée.
+Inutilisable par :
+Druide
+Clerc
+Mage
+Belluaire~
+@40015 = ~Modification de la sagesse~
+@40016 = ~Modification de la constitution~
+@40017 = ~Modification de la dextérité~
+@40018 = ~Modification du charisme~
+@40019 = ~Modification des points de vie~
+@40020 = ~Modification de l'intelligence~
+@40021 = ~Modification de la force~
+@40022 = ~Temple de Gullykin~
+@40023 = ~Pierre ionique~
+@40024 = ~Cette petite pierre flotte autour de la tête de son possesseur quand on la place dans son inventaire. Ces pierres évidemment magiques ont des propriétés différentes en fonction de leur couleur.~
+@40025 = ~Katana
+Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+PARAMETRES :
+Dégâts : 1D10
+Type de dégât : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+~
+@40026 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame Convoitée, fut forgée dans la nation de Wa il y a plus de cinq siècles, par le forgeron Murakaken Shinji, dont le talent était si réputé que la rumeur disait qu'il était capable de réveiller l'esprit même du métal. Tsu-O-Shi est passé entre les mains de différents héritiers de la famille Kasune (famille tout à fait ordinaire sinon), jusqu'à ce que le puissant daimyo et bien connu pour son amour des épées, Fushima Takagi, la vit. Takagi devint obsédé par cette lame et fit plusieurs tentatives frustrantes pour l'acquérir. Finalement, il engagea un groupe de ninja pour voler la lame pour lui, vengeant ses pertes en brûlant le quartier général de la famille Kasune. Lorsque le ninja présenta la lame à son employeur, elle fut utilisée pour les découper en morceaux, permettant ainsi de retirer définitivement tout lien entre Tagaki et les légitimes propriétaires de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où Tagaki mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière, donc il resta avec Tsu-O-Shi, faisant part intégrante avec elle. Depuis ce jour, toute personne qui utilise Tsu-O-Shi doit faire attention à l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent à l'arme, pour que son âme reste sur Toril avec l'objet de son désir. En résultat, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+PARAMETRES :
+TAC0 : +2
+Dégâts : 1D10 + 2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur lorsqu'elle est utilisée.
+~

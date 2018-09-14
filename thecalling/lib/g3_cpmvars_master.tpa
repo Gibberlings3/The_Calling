@@ -1,0 +1,39 @@
+ACTION_IF NOT VARIABLE_IS_SET firebeadstate1 THEN BEGIN
+
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+
+    INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+
+  END ELSE BEGIN
+
+    ACTION_IF GAME_IS ~eet~ THEN BEGIN
+
+      INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
+
+    END ELSE BEGIN
+
+      ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+
+        INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
+
+      END ELSE BEGIN
+
+        ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  
+          INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
+          
+        END ELSE BEGIN
+  
+          INCLUDE ~%MOD_FOLDER%/lib/g3_bg_cpmvars.tpa~
+
+        END
+
+      END
+
+    END
+
+  END
+
+END
+
+// bg1npc also maintains libraries for dream scripts, fluid states, and some other goodies, but they're not needed for Tweaks

@@ -1,0 +1,150 @@
+/*
+Translator note:
+
+Since the EEs uses slightly different formatting and conventions than oBG2, this file allows you to override strings for *only* BGEE/EET.
+When The Calling is installed on non-EE games, only strings from setup.tra are used. On BGEE/EET, strings defined here will override the strings
+from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vanilla and EE games.
+This file is also formatted in utf-8 since it's only used on EE games. setup.tra will be converted on the fly for EE.
+
+This file can be left blank, but cannot be deleted. 
+*/
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @102 = ~Pearls consist of layers of aragonite agonizingly formed around a bit of grit or other irritant inside oysters and other mollusks.  The resulting pearl has a rich, deep luster.  Most of the pearls in the realms are white, however, this is a rare black variant. Black pearls are highly valued for their unique magical properties, particularly by diviners.
+
+STATISTICS:
+
+Weight: 0~
+  @110 = ~Thalantyr has asked you to deliver this to Taerom Fuirium. By adding this to his forge, Taerom will be able to destroy the bracers in the flames.
+
+STATISTICS:
+
+Weight: 1~
+
+  @111 = ~Zircon is a brownish crystal found in igneous (volcanic) rocks and has applications in scrying devices. Zircon attains its pale blue shade with heating and cutting (usually facet-cut).
+
+STATISTICS:
+
+Weight: 0~
+  @113 = ~This is a blend of ore for Taerom, collected by Melicamp and Grace in the Nashkel Mines.
+
+STATISTICS:
+
+Weight: 15~
+  @115 = ~These are the bracers responsible for cursing Melicamp, recovered at last. Despite their unusual and interesting nature, Thalantyr has decided that the risk of keeping the bracers outweighs the knowledge that could be gained in further study.
+
+As it would be unwise to try and use them, Thalantyr has charmed them to be too small to wear.
+
+STATISTICS:
+
+Weight: 1~
+  @118 = ~This device was commissioned by Thalantyr and built by Taerom of Beregost. Thalantyr hopes to use it to locate the bracers which cursed Melicamp. Near the center, you can see three settings for gemstones.
+
+STATISTICS:
+
+Weight: 0~
+  @120 = ~Acid, when available, is an effective hindrance to mages, frequently interrupting their spellcasting. Sinosta, a minor mage of Waterdeep, designed this amulet to counteract the effects of acid. Unfortunately, it did little good for Sinosta, who was assassinated in a back alley after insulting a member of the local thieves guild.
+
+STATISTICS:
+
+Equipped abilities:
+– Acid Resistance: +25%
+
+Weight: 1~
+  @122 = ~This seemingly innocuous amulet tightly constricts around the neck. Speech is possible, though barely, and it makes the complex vocalizations required for spellcasting impossible. Constricting amulets have been used for everything from pranks between apprentices to weakening archmagi to facilitate assassination.
+
+STATISTICS:
+
+Equipped abilities:
+– Casting failure: 100%
+– May only be removed with a Remove Curse spell
+
+Weight: 1~
+  @124 = ~Amulets such as these are very popular amongst unscrupulous merchants. These items appear to be ornate, expensive amulets and are often given as gifts to potential clients, rivals, or other potential business contacts. They're designed merely to dull the wit, without being unduly noticeable, enabling the merchant to press their advantage during complex negotiations.
+
+STATISTICS:
+
+Equipped abilities:
+– Intelligence: -2
+– Wisdom: -2
+– Charisma: -2
+– May only be removed with a Remove Curse spell
+
+Weight: 1~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40002 = ~The history of this magical quiver has been long forgotten, though it likely had something to do with the inexplicable but well documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Equipped abilities:
+– Unlimited arrows
+
+Weight: 0~
+@40004 = ~The history of this magical case has been long forgotten, though it likely had something to do with the inexplicable but well-documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Equipped abilities:
+– Unlimited bolts
+
+Weight: 0~
+@40006 = ~Although this soft cloth pouch is empty right now, there is still a powerful aura of magic surrounding it.
+
+STATISTICS:
+
+Equipped abilities:
+– Unlimited sling bullets
+
+Weight: 0~
+@40008 = ~This stone, deep purple in hue, allows the bearer to see into the shadows of darkness.
+
+STATISTICS:
+
+Equipped abilities:
+– Infravision up to 60 ft.
+
+Weight: 2
+~
+@40010 = ~This stone is cool to the touch and radiates energy.
+
+STATISTICS:
+
+Equipped abilities:
+– Cold Resistance: +10%
+
+Weight: 2
+~
+@40013 = ~Tsu-O-Shi +2~
+@40014 = ~Tsu-O-Shi, also known as the Coveted Blade, was forged in the nation of Wa more than five centuries ago by the sword smith Murakaken Shinji, whose skill was so great he was rumored to be able to awaken the very spirit of the metal. Tsu-O-Shi passed through the hands of the various heirs of the otherwise unremarkable Kasune family, until the powerful daimyo and well-known sword-lover Fushima Takagi saw it. Takagi became obsessed with the sword and made many frustrated attempts to acquire the blade. Finally, he hired a clan of ninja to steal the blade for him, covering its loss with the burning of the Kasune family compound. When the ninja presented the blade to their employer, it was used to cut them down, forever removing any link between Takagi and the sword's legitimate owners. Takagi hid the sword, often withdrawing to its hiding place to gaze upon its beauty and perfection. On the day Takagi died, his spirit refused to depart the earth and leave the sword behind, so he stayed with Tsu-O-Shi, becoming one with it. From that day forth, any who wield the mighty Tsu-O-Shi must beware of the spirit of Fushima Takagi, who drinks the life essence of those who touch the weapon, in order to remain on Toril with the object of his desire. As a result, this cursed blade has a chance to drain the wielder every time it is used.
+
+STATISTICS:
+
+Equipped abilities:
+– Chance to permanently drain life or attributes from wielder when used
+– May only be removed with a Remove Curse spell
+
+THAC0: +2
+Damage: 1d10+2 (slashing)
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires: 
+ 6 Strength
+
+Weight:  4
+~

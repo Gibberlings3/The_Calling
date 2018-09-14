@@ -1,0 +1,138 @@
+@40000 = ~Pacchetto "Oggetti esotici" ~
+@40001 = ~Faretra dell'Abbondanza~
+@40002 = ~La storia di questa faretra magica si è persa nelle nebbie del tempo, anche se probabilmente aveva qualcosa a che fare con l'inspiegabile, ma ben documentata carenza di abili costruttori di frecce durante il Periodo dei Disordini.
+
+STATISTICHE:                           
+
+Frecce illimitate~                     
+@40003 = ~Custodia dell'Abbondanza~
+@40004 = ~La storia di questa custodia magica è stata da tempo dimenticata, sebbene avesse verosimilmente a che fare con l'inspiegabile, ma ben documentata penuria di abili creatori di quadrelli durante il Periodo dei Disordini.
+
+STATISTICHE:                           
+
+Quadrelli illimitati.~                
+@40005 = ~Borsa dell'abbondanza~      
+@40006 = ~Sebbene questa cartucciera di morbida tela sia vuota al momento, è ancora circondata da una intensa aura magica.
+
+STATISTICHE:                           
+
+Proiettili illimitati~       
+@40007 = ~Pietra Viola Scuro~         
+@40008 = ~Pietra Viola Scuro          
+
+Questa pietra, di colore viola scuro, permette a chi la indossa di vedere attraverso le ombre dell'oscurità.
+
+STATISTICHE:                           
+
+Speciale:
+- Infravisione fino a 18 metri.
+
+Peso: 2~                               
+@40009 = ~Pietra Bianca Scintillante~ 
+@40010 = ~Pietra Bianca Scintillante  
+
+Questa pietra è fredda al tatto ed irradia una grande energia.
+
+STATISTICHE:                           
+
+Abilità durante l'uso:
+- Resistenza al freddo +10%
+
+Peso: 2~                               
+@40011 = ~Katana~                     
+@40012 = ~Katana                      
+
+La katana è una spada leggermente curva, ad un filo e con l'estremità superiore appuntita. La katana è forse una delle migliore spade mai forgiate; le tappe per la sua creazione sono un lungo e segreto processo, più una forma di arte che altro. Questa lama è un'importante aspetto della cultura di Kara-Tur. Toccare o maneggiare la katana di un samurai vuol dire insultarlo o incitare la sua collera. Per un gaijin (o straniero), avere questa spada è un raro evento. Il gaijin può essere un grande ed onorato amico di un importante ministro oppure l'assassino di un samurai.
+STATISTICHE:                           
+
+Danno: 1d10 (tagliente)
+Fattore-velocità: 4
+Tipo di Competenza: Katana
+Tipo: A una mano
+
+Richiede:
+Forza 6
+
+Peso: 6
+                   
+Non utilizzabile da:                   
+Addestratore di Animali               
+Chierico                              
+Druido                                
+Mago~
+                                 
+@40013 = ~Katana +2, Tsu-O-Shi~       
+@40014 = ~Katana +2, Tsu-O-Shi        
+
+Tsu-O-Shi, anche conosciuta come la Lama Agognata, fu forgiata in una nazione di Wa più di cinque secoli fa dal fabbro Murakaken Shinji, la cui abilità era talmente straordinaria che si diceva addirittura egli potesse risvegliare lo spirito del metallo. Tsu-O-Shi passò tra le mani dei diversi eredi della altrimenti anonima famiglia Kasune, finché il potente daimyo e noto amante delle spade Fushima Takagi vi posò gli occhi. Presto la spada diventò un'ossessione per Tagaki, che cercò invano, più volte, di acquistarla. Finalmente, assoldò un clan ninja affinché rubasse la lama per lui, coprendo la perdita con l'incendio della tenuta della famiglia Kasune. Quando il clan ninja consegnò la spada al suo mandante, essa fu usata per toglier loro la vita, cancellando così ogni collegamento tra Takagi e i legittimi possessori della spada. Takagi la nascose, recandosi sovente al nascondiglio, nei giorni seguenti, per ammirarne la bellezza e la perfezione. Quando morì, la sua anima si rifiutò di lasciare la terra separandosi dalla spada e decise di rimanervi accanto, diventando un tutt'uno con essa. Da quel giorno in avanti, chiunque brandisca la possente Tsu-O-Shi deve fare attenzione allo spirito di Fushima Takagi, che consuma l'essenza vitale di coloro che toccano l'arma per poter restare su Toril con l'oggetto del suo desiderio. Di conseguenza, la vita del portatore rischia di essere risucchiata ogni qualvolta egli, od ella, la impugna.
+
+STATISTICHE:                           
+
+Speciale:
+- Possibilità di risucchiare permanentemente vita o punteggi caratteristica del portatore.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1d10+2 (tagliente)
+Fattore-velocità: 2
+Tipo di Competenza: Katana
+Tipo: A una mano
+
+Richiede:
+Forza 6
+
+Peso: 4
+                   
+Non utilizzabile da:                   
+Addestratore di Animali               
+Chierico                              
+Druido                                
+Mago~                                 
+
+@40015 = ~Saggezza modificata~        
+@40016 = ~Costituzione modificata~    
+@40017 = ~Destrezza modificata~       
+@40018 = ~Carisma modificato~         
+@40019 = ~Punti ferita modificati~    
+@40020 = ~Intelligenza modificata~    
+@40021 = ~Forza modificata~           
+@40022 = ~Tempio di Gullykin~         
+@40023 = ~Pietra Ioun~                
+@40024 = ~Questa è una piccola pietra che fluttua in un'orbita attorno alla testa del possessore. Bisogna semplicemente equipaggiare la pietra perché inizi ad orbitare. Questo tipo di pietra magica ha proprietà diverse a seconda del colore.~
+@40025 = ~Katana                      
+
+La katana è una spada leggermente curva, ad un filo e con l'estremità superiore appuntita. La katana è forse una delle migliore spade mai forgiate; le tappe per la sua creazione sono un lungo e segreto processo, più una forma di arte che altro. Questa lama è un'importante aspetto della cultura di Kara-Tur. Toccare o maneggiare la katana di un samurai vuol dire insultarlo o incitare la sua collera. Per un gaijin (o straniero), avere questa spada è un raro evento. Il gaijin può essere un grande ed onorato amico di un importante ministro oppure l'assassino di un samurai.
+
+STATISTICHE:                           
+
+Danno: 1d10 (tagliente)
+Fattore-velocità: 4
+Tipo di Competenza: Katana
+Tipo: A una mano
+
+Richiede:
+Forza 6
+
+Peso: 6~                    
+
+@40026 = ~Katana +2, Tsu-O-Shi        
+
+Tsu-O-Shi, anche conosciuta come la Lama Agognata, fu forgiata in una nazione di Wa più di cinque secoli fa dal fabbro Murakaken Shinji, la cui abilità era talmente straordinaria che si diceva addirittura egli potesse risvegliare lo spirito del metallo. Tsu-O-Shi passò tra le mani dei diversi eredi della altrimenti anonima famiglia Kasune, finché il potente daimyo e noto amante delle spade Fushima Takagi vi posò gli occhi. Presto la spada diventò un'ossessione per Tagaki, che cercò invano, più volte, di acquistarla. Finalmente, assoldò un clan ninja affinché rubasse la lama per lui, coprendo la perdita con l'incendio della tenuta della famiglia Kasune. Quando il clan ninja consegnò la spada al suo mandante, essa fu usata per toglier loro la vita, cancellando così ogni collegamento tra Takagi e i legittimi possessori della spada. Takagi la nascose, recandosi sovente al nascondiglio, nei giorni seguenti, per ammirarne la bellezza e la perfezione. Quando morì, la sua anima si rifiutò di lasciare la terra separandosi dalla spada e decise di rimanervi accanto, diventando un tutt'uno con essa. Da quel giorno in avanti, chiunque brandisca la possente Tsu-O-Shi deve fare attenzione allo spirito di Fushima Takagi, che consuma l'essenza vitale di coloro che toccano l'arma per poter restare su Toril con l'oggetto del suo desiderio. Di conseguenza, la vita del portatore rischia di essere risucchiata ogni qualvolta egli, od ella, la impugna.
+
+STATISTICHE:                           
+
+Speciale:
+- Possibilità di risucchiare permanentemente vita o punteggi caratteristica al portatore.
+
+THAC0: +2
+Danno: 1d10+2 (tagliente)
+Fattore-velocità: 2
+Tipo di Competenza: Katana
+Tipo: A una mano
+
+Richiede:
+Forza 6
+
+Peso: 4~                     
+

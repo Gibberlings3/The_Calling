@@ -1,0 +1,7 @@
+IF
+  Global("CDCured","LOCALS",0)
+  !Range("melicamp",10)
+THEN 
+  RESPONSE #100
+    MoveToObject("melicamp")
+END

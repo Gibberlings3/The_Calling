@@ -1,0 +1,9 @@
+IF
+  Global("CDBracerQuest","GLOBAL",8)
+THEN
+  RESPONSE #100
+    SetGlobal("CDBracerQuest","GLOBAL",9)
+    CreateCreature("cdmeli",[1948.1370],4)
+    CreateCreature("cdminer1",[1989.1337],4)
+    CreateCreature("cdminer2",[1983.1408],4)
+END

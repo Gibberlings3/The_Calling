@@ -1,0 +1,583 @@
+BACKUP ~thecalling/backup~ // location to store files for
+SUPPORT ~http://gibberlings3.net/forums/index.php?showforum=201~ // forum url
+
+ALWAYS
+
+  ACTION_IF !GAME_IS ~tutu tutu_totsc bgt bgee eet~ THEN BEGIN FAIL @0 END
+
+  ACTION_IF ((FILE_EXISTS ~dlc/sod-dlc.zip~) OR (FILE_EXISTS ~sod-dlc.zip~)) THEN BEGIN FAIL @4 END // Modmerge check
+
+  ACTION_IF NOT VARIABLE_IS_SET tutu_var THEN BEGIN // just do this part once per install
+
+    // covers STATE_DEAD, STATE_ACID_DEATH, STATE_FLAME_DEATH, STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH
+    APPEND ~state.ids~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~^0x00000FC0[ %TAB]+STATE_REALLY_DEAD[ %TAB%%LNL%%MNL%%WNL%]~
+    // new state as shortcut for unavailable for dialogue; covers STATE_CONFUSED, STATE_FEEBLEMINDED, STATE_SILENCED, STATE_DEAD, STATE_ACID_DEATH, STATE_FLAME_DEATH,
+    // STATE_EXPLODING_DEATH, STATE_STONE_DEATH, STATE_FROZEN_DEATH, STATE_HELPLESS, STATE_STUNNED, STATE_PANIC, STATE_BERSERK, STATE_SLEEPING
+    APPEND ~state.ids~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~^0x80101FEF[ %TAB]+CD_STATE_NOTVALID[ %TAB%%LNL%%MNL%%WNL%]~
+
+    INCLUDE ~thecalling/lib/g3_cpmvars_master.tpa~
+    INCLUDE ~thecalling/lib/tob2soa.tpa~
+
+    ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+
+      ACTION_DEFINE_ARRAY cdreload BEGIN mage setup werewolf END // convert strings to UTF-8 for BGEE/EET
+      ACTION_DEFINE_ARRAY cdnoconvert BEGIN ee END // ee.tra is already in utf-8
+      LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR tra_path = ~thecalling/languages~ reload_array = cdreload noconvert_array = cdnoconvert END
+      
+      LOAD_TRA ~thecalling/languages/%LANGUAGE%/ee.tra~
+
+    END
+
+  END
+
+END
+
+VERSION ~Beta 1~
+README ~thecalling/languages/%LANGUAGE%/readme-thecalling.html~ ~thecalling/readme-thecalling.html~
+AUTO_TRA ~thecalling/languages/%s~
+
+LANGUAGE ~English~ ~english~ 
+  ~thecalling/languages/english/setup.tra~
+LANGUAGE ~Czech (Translation by Razfallow and Vlasák)~ ~czech~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/czech/setup.tra~
+LANGUAGE ~Francais (Translation by Anomaly, Elgaern the Dragon Slayer, Isaya and elminster)~ ~french~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/french/setup.tra~
+LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson, Caswallon und Jester)~ ~german~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/german/setup.tra~
+LANGUAGE ~Italiano (translation by Andrea Colombo and improb@bile)~ ~italian~
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/italian/setup.tra~
+LANGUAGE ~Korean (Translation by web2air)~ ~korean~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/korean/setup.tra~
+LANGUAGE ~Polski (Translation by yarpen, Artanis, dragionian, Evendur, Grjgori, and Neminus)~ ~polish~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/polish/setup.tra~
+LANGUAGE ~Russian (Translation by Creepin, Domi, Kulyok, Serdrick, and aerie.ru)~ ~russian~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/russian/setup.tra~
+LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/spanish/setup.tra~
+LANGUAGE ~Simplified Chinese (Translation from bg2_tweaks by Miranda, distance20 and c4_angel)~ ~schinese~ 
+  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/schinese/setup.tra~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @100
+REQUIRE_PREDICATE FILE_EXISTS ~thecalling/languages/%LANGUAGE%/mage.tra~ @5 // skip if translation doesn't exist
+
+/////                                                  \\\\\
+///// cheats?                                          \\\\\
+/////                                                  \\\\\
+
+//ACTION_IF MOD_IS_INSTALLED ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ ~1160~ BEGIN // Tweaks anthology, multiple strongholds, no restrictions
+
+  EXTEND_BOTTOM ~baldur.bcs~ ~thecalling/baf/cheat2.baf~
+
+//END
+
+//ACTION_IF MOD_IS_INSTALLED ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ ~1161~ BEGIN // Tweaks anthology, multiple strongholds, keep class restrictions
+
+//  EXTEND_BOTTOM ~baldur.bcs~ ~thecalling/baf/cheat1.baf~
+
+//END
+
+/////                                                  \\\\\
+///// the mage calling                                 \\\\\
+/////                                                  \\\\\
+/*
+
+*CDBracerQuest
+
+*1 quest accepted, promps meli cutscene
+*2 after cutscene
+*3 in thalantyr's post-cutscene dlg
+*4 one gem returned
+*5 two gems in
+*6 all three gems, go see taerom
+7 taerom met, go see grace at mines
+8 grace spoken with
+9 meli spawned in nashkel
+10 miners fixed, meli returning, go speak to taerom again
+11 device in progress
+*12 device ready
+13 melicamp-nashkel stuff skipped
+14 melicamp returns device
+15 thalantyr does divination
+*16 divination cutscene done
+17 go get bracers from halflings
+18 halfling cutscene, dialogue; goes to 19 or 80
+*19 halflings sent to high hedge
+20 incantation complete, go to cutscene
+*21 cutscene complete
+22 bracers removed badly, quest over
+23 bracers removed, take 'em to taerom
+24 spoken to taerom, start cutscene
+25 cutscene end, last taerom dialogue
+26 quest over, completed successfully
+
+98 refused quest
+99 melicamp gone on quest instead
+*/
+
+// extend scripts for areas
+EXTEND_BOTTOM ~%HighHedge_ThalanthyrsAbode_BCS%.bcs~   ~thecalling/baf/_ar3202.baf~ // thalantyr does stuff
+EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~thecalling/baf/_ar3301.baf~ // taerom cutscene
+EXTEND_BOTTOM ~%UlcasterRuins_BCS%.bcs~                ~thecalling/baf/_ar3901.baf~ // add note
+EXTEND_BOTTOM ~%Gullykin_House1_L1_BCS%.bcs~           ~thecalling/baf/_ar4005.baf~ // spawn irir & largo
+EXTEND_BOTTOM ~%NashkelMines_BCS%.bcs~                 ~thecalling/baf/_ar5400.baf~ // spawn grace
+EXTEND_BOTTOM ~%NashkelMines_L1_BCS%.bcs~              ~thecalling/baf/_ar5401.baf~ // spawn melicamp, miners
+
+STRING_SET  7133 @126 // pearl > white pearl
+STRING_SET 16380 @111 // add scrying stuff to descript of zircon
+
+// start with dupe dialogues for the halfling couple
+COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
+              ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
+
+ACTION_IF GAME_IS ~bgee eet bgt~ THEN BEGIN // for whatever reason, ee nukes a lot of the miner's true() states, so we append them:
+
+  COMPILE ~thecalling/dlg/mage_bgee.d~ // adds generic 'Leave us be, there is much work to be done.' state
+
+END
+
+COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
+                        ~thecalling/baf/cdiris.baf~
+                        ~thecalling/baf/cdlargo.baf~
+                        ~thecalling/baf/cdminer1.baf~
+
+EXTEND_TOP ~%tutu_scripts%irspell.bcs~ ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls
+EXTEND_TOP ~%tutu_var%sil.bcs~         ~thecalling/baf/_sil.baf~     EVALUATE_BUFFER // sil ALWAYS has a black pearl
+
+// melicamp needed for quests, so make sure he always survives anti-chickenator
+COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~Kill("melicamp")~ ~~
+  END
+  BUT_ONLY
+  
+ACTION_FOR_EACH bam IN cmisc5c cmisc5k cmisc7p imisc5k imisc5z imisc7p BEGIN
+
+  ACTION_IF NOT FILE_EXISTS_IN_GAME ~%bam%.bam~ THEN BEGIN // missing bams from bgee
+
+    COPY ~thecalling/bam/%bam%.bam~ ~override~
+  
+  END
+
+END
+
+// scrying device
+COPY ~thecalling/itm/cddevice.itm~ ~override~
+  SAY 0x08 @106
+  SAY 0x0c @106
+  SAY 0x50 @118
+  SAY 0x54 @118
+
+// taerom's ore
+COPY ~thecalling/itm/cdore.itm~ ~override~
+  SAY 0x08 @112
+  SAY 0x0c @112
+  SAY 0x54 @113
+
+// the note about zircons
+COPY ~thecalling/itm/cdzrnote.itm~ ~override~
+  SAY 0x08 @116
+  SAY 0x0c @116
+  SAY 0x50 @117
+  SAY 0x54 @117
+
+// amulet of acid resistance
+COPY ~thecalling/bam/cdamacid.bam~ ~override~
+COPY ~thecalling/itm/cdamacid.itm~ ~override~
+  SAY 0x0c @119
+  SAY 0x54 @120
+
+// amulet of constriction
+COPY ~thecalling/itm/cdamcons.itm~ ~override~
+  SAY 0x0c @121
+  SAY 0x54 @122
+
+// imbecile's amulet
+COPY ~thecalling/itm/cdamduh.itm~ ~override~
+  SAY 0x0c @123
+  SAY 0x54 @124
+
+// black pearls
+COPY ~thecalling/bam/cdbpearl.bam~ ~override~
+COPY_EXISTING ~misc36.itm~ ~override/cdbpearl.itm~
+  SAY 0x0c @125
+  SAY 0x54 @102
+  WRITE_LONG  0x34 300 // adjust price
+  WRITE_ASCII 0x3a ~cdbpearl~ // bam
+
+// magic powder
+COPY ~thecalling/bam/cdpowder.bam~ ~override~
+COPY ~thecalling/itm/cdpowder.itm~ ~override~
+  SAY 0x08 @109
+  SAY 0x0c @109
+  SAY 0x50 @110
+  SAY 0x54 @110
+  WRITE_LONG  0x34 300 // adjust price
+
+// the bracers
+COPY_EXISTING ~brac11.itm~ ~override/cdbracer.itm~
+  SAY 0x08 @114
+  SAY 0x0c @114
+  SAY 0x50 @115
+  SAY 0x54 @115
+  WRITE_LONG  0x1e 0xffffffff // unusable by all
+  WRITE_LONG  0x34  0 // price
+  WRITE_SHORT 0x42  0 // lore
+
+// taerom doesn't have a DV (!)
+COPY_EXISTING ~%tutu_var%taerom.cre~ ~override~
+  WRITE_ASCII 0x2cc ~taerom~ #32
+  BUT_ONLY
+
+// nashkel mines melicamp
+COPY_EXISTING ~%tutu_var%melica.cre~ ~override/cdmeli.cre~
+  WRITE_SHORT  0x28 20992 // human animation, not chicken
+  WRITE_ASCII 0x250 ~cdmeli~ #8 // class script
+  WRITE_ASCII 0x2cc ~cdmeli~ #8 // dialogue
+
+// miners, halflings
+COPY_EXISTING ~%tutu_var%minern.cre~ ~override/cdminer1.cre~
+              ~%tutu_var%minern.cre~ ~override/cdminer2.cre~
+              ~%tutu_var%halffg.cre~ ~override/cdiris.cre~
+              ~%tutu_var%halfgu.cre~ ~override/cdlargo.cre~
+  WRITE_ASCIIE 0x248 ~%DEST_RES%~       #8 // override script
+  WRITE_ASCIIE 0x250 ~%tutu_var%shout~  #8 // class script
+  WRITE_ASCIIE 0x280 ~%DEST_RES%~      #32 // DV
+  WRITE_ASCIIE 0x2cc ~%DEST_RES%~       #8 // dialogue
+
+COPY_EXISTING ~cdminer1.cre~ ~override~
+  SAY 0x08 @103
+  SAY 0x0c @103
+
+COPY_EXISTING ~cdminer2.cre~ ~override~
+  SAY 0x08 @104
+  SAY 0x0c @104
+  WRITE_ASCII 0x248 ~cdminer1~  #8 // override script
+
+COPY_EXISTING ~cdiris.cre~  ~override~
+  SAY 0x08 @107
+  SAY 0x0c @107
+
+COPY_EXISTING ~cdlargo.cre~ ~override~
+  SAY 0x08 @108
+  SAY 0x0c @108
+
+// copy laola's soundset for grace
+COPY_EXISTING ~%tutu_var%laola.cre~ ~override~
+  READ_ASCII 0xa4 "soundset" (396)
+  BUT_ONLY
+
+// grace
+COPY ~thecalling/cre/cdgrace.cre~ ~override~
+  SAY 0x08 @105
+  SAY 0x0c @105
+  WRITE_ASCIIE 0xa4 ~%soundset%~
+  WRITE_ASCIIE 0x268 ~%tutu_scriptw%tasight~ #8
+  ADD_CRE_ITEM ~%tutu_var%SW1H07~ #0 #0 #0 ~IDENTIFIED~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM ~%tutu_var%LEAT01~ #0 #0 #0 ~IDENTIFIED~ ~ARMOR~
+  ADD_CRE_ITEM ~%tutu_var%MISC16~ #0 #0 #0 ~IDENTIFIED~ ~GLOVES~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Expanded gnoll stronghold                        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+//BEGIN @10000 DESIGNATED 10 DEPRECATED @3
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Peaceful Kaishas resolution                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @20000 DESIGNATED 20
+REQUIRE_PREDICATE FILE_EXISTS ~thecalling/languages/%LANGUAGE%/werewolf.tra~ @5 // skip if translation doesn't exist
+REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~7060~ @1 // skip if already installed by scs
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @2 // totsc required
+
+EXTEND_BOTTOM ~%tutu_var%kaisha.bcs~      ~thecalling/baf/kaishas.baf~ EVALUATE_BUFFER USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~
+EXTEND_TOP    ~%IsleofBalduranN_BCS%.bcs~ ~thecalling/baf/werewolfadd.baf~ EVALUATE_BUFFER
+
+COPY_EXISTING ~%tutu_var%werewo.cre~ ~override/dw#wwolf.cre~
+  WRITE_ASCII 0x248 ~dw#hlpka~ #8
+  
+COPY_EXISTING ~%tutu_var%ship.bcs~ ~override~
+  DECOMPILE_AND_PATCH BEGIN
+    REPLACE_TEXTUALLY ~Dead("kaishwlf")~ ~OR(2)Dead("kaishwlf")Global("DMWWNoKillKaishas","GLOBAL",1)~
+  END
+  BUT_ONLY  
+
+COMPILE EVALUATE_BUFFER ~thecalling/dlg/werewolf.d~
+                        ~thecalling/baf/dw#hlpka.baf~
+                        ~thecalling/baf/dw#kcut1.baf~
+                        ~thecalling/baf/dw#kcut2.baf~
+                        ~thecalling/baf/dw#kcut3.baf~
+						
+ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~						
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Movanic Cult                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+//BEGIN @30000 DESIGNATED 30 DEPRECATED @3
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Items Pack                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @40000 DESIGNATED 40
+REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ ~1090~ @1 // skip if already installed by tweaks anthology
+
+OUTER_SET generic_kat_name  = 7523
+OUTER_SET generic_kat_desc  = 35963
+OUTER_SET generic_ioun_name = 8181
+OUTER_SET generic_ioun_desc = 5770
+
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN // BGEE, eet
+
+  ACTION_IF GAME_IS ~bgee~ THEN BEGIN // BGEE - different strrefs for unidentified ioun, katana strings
+  
+    OUTER_SET generic_kat_name  = 26711
+    OUTER_SET generic_kat_desc  = 34130
+    OUTER_SET generic_ioun_name = 30682
+    OUTER_SET generic_ioun_desc = 30683
+  
+  END
+  
+  // since adding tsu-o-shi to krumm overwrites his club +1, find new home for it
+  COPY_EXISTING ~caldo.cre~ ~override~ // move club +1 to krumm's companion
+    REPLACE_CRE_ITEM ~blun36~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+    // match proficiency for new weapon
+    READ_BYTE 0x72 prof_blunt
+    READ_BYTE 0x73 prof_spike
+    PATCH_IF prof_spike > prof_blunt BEGIN
+      WRITE_BYTE 0x72 prof_spike
+    END
+
+END
+
+COMPILE ~thecalling/dlg/exotic.d~ EVALUATE_BUFFER // fixes Gullykin cleric's dlg file to open new store
+
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~%tutu_var%tem4003.sto~ THEN BEGIN // if Gullykin does not have a store already
+
+  COPY_EXISTING ~%tutu_var%tem4802.sto~ ~override/%tutu_var%tem4003.sto~ // clones and renames Temple of Helm
+    SAY 0x0C @40022
+
+END
+
+// artwork
+COPY ~thecalling/bam/ccdioun1.bam~ ~override~
+     ~thecalling/bam/cdiammo.bam~  ~override~
+     ~thecalling/bam/cdipotbg.bam~ ~override~
+     ~thecalling/bam/cdpammo.bam~  ~override~
+     ~thecalling/bam/cdplbag1.bam~ ~override~
+     ~thecalling/bam/cdplbag2.bam~ ~override~
+     ~thecalling/bam/cdplqiv1.bam~ ~override~
+     ~thecalling/bam/cdplqiv2.bam~ ~override~
+     ~thecalling/bam/cdppotbg.bam~ ~override~
+     ~thecalling/bam/icdioun1.bam~ ~override~
+     ~thecalling/bam/icdioun2.bam~ ~override~
+
+
+// add and name items
+COPY ~thecalling/itm/cdplquiv.itm~ ~override~ // quiver of plenty +0
+  SAY 0x08 @40001
+  SAY 0x0c @40001
+  SAY 0x50 @40002
+  SAY 0x54 @40002
+
+COPY ~thecalling/itm/cdplcase.itm~ ~override~ // case of plenty +0
+  SAY 0x08 @40003
+  SAY 0x0c @40003
+  SAY 0x50 @40004
+  SAY 0x54 @40004
+
+COPY ~thecalling/itm/cdplbag.itm~ ~override~ // bag of plenty +0
+  SAY 0x08 @40005
+  SAY 0x0c @40005
+  SAY 0x50 @40006
+  SAY 0x54 @40006
+
+COPY ~thecalling/itm/cdioun1.itm~ ~override~  // Deep Purple Ioun Stone
+  SAY 0x0c @40007
+  SAY 0x54 @40008
+  WRITE_LONG 0x08 generic_ioun_name
+  WRITE_LONG 0x50 generic_ioun_desc
+
+COPY ~thecalling/itm/cdioun2.itm~ ~override~ // Flickering White Ioun Stone
+  SAY 0x0c @40009
+  SAY 0x54 @40010
+  WRITE_LONG 0x08 generic_ioun_name
+  WRITE_LONG 0x50 generic_ioun_desc
+
+COPY ~thecalling/itm/cdkat2.itm~ ~override~ // Katana +2
+  SAY 0x0c @40013
+  SAY 0x54 @40014
+  WRITE_LONG 0x08 generic_kat_name
+  WRITE_LONG 0x50 generic_kat_desc
+  SAY 0x19e @40015 // wisdom modification
+  SAY 0x1fe @40021 // strength modification
+  SAY 0x25e @40020 // intelligence modification
+  SAY 0x2be @40019 // hit point modification
+  SAY 0x31e @40017 // dexterity modification
+  SAY 0x37e @40016 // constitution modification
+  SAY 0x3de @40018 // charisma modification
+
+EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~           ~thecalling/baf/_ar1803.baf~ // adds Contagion scroll to Davaeorn's loot
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/_ar3601.baf~ // adds Ninja-To +0 to Sirine cave loot
+
+COPY_EXISTING ~%tutu_var%meilum.cre~ ~override~ // adds katana +0 to Meilum by replacing primary weapon
+  REPLACE_CRE_ITEM ~sw1h43~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+
+COPY_EXISTING ~%tutu_var%krumm.cre~  ~override~ // adds katana +2 to Krumm by replacing primary weapon
+  REPLACE_CRE_ITEM ~cdkat2~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  READ_BYTE 0x6e prof_lsword // proficiency update since weapon type changes
+  READ_BYTE 0x72 prof_blunt
+  PATCH_IF prof_blunt > prof_lsword BEGIN
+    WRITE_BYTE 0x6e prof_blunt
+  END
+
+COPY_EXISTING ~%tutu_var%davaeo.cre~ ~override~ // adds Flickering White Ioun stone to helmet slot
+  ADD_CRE_ITEM ~cdioun2~ #0 #0 #0 ~NONE~ ~HELMET~
+
+COPY_EXISTING ~%tutu_var%haseo.cre~  ~override~ // adds katana +1 to Haseo by moving primary weapon to offhand
+  REPLACE_CRE_ITEM ~sw1h44~           #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM     ~%tutu_var%sw1h05~ #0 #0 #0 ~NONE~ ~SHIELD~
+
+COPY_EXISTING ~%tutu_var%desret.cre~ ~override~ // adds wakizashi +1 to Desreta by moving primary weapon to offhand
+  REPLACE_CRE_ITEM ~sw1h47~           #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
+  ADD_CRE_ITEM     ~%tutu_var%sw1h05~ #0 #0 #0 ~NONE~ ~SHIELD~
+  READ_BYTE 0x6e prof_lsword // proficiency update since weapon type changes
+  READ_BYTE 0x6f prof_ssword
+  PATCH_IF prof_lsword > prof_ssword BEGIN
+    WRITE_BYTE 0x6f prof_lsword
+  END
+
+COPY_EXISTING ~%tutu_var%hakt.cre~   ~override~ // adds wakizashi +0 to Hakt by replacing primary melee weapon
+  REPLACE_CRE_ITEM ~sw1h46~ #0 #0 #0 ~NONE~ ~WEAPON2~
+  READ_BYTE 0x6e prof_lsword // proficiency update since weapon type changes
+  READ_BYTE 0x6f prof_ssword
+  PATCH_IF prof_lsword > prof_ssword BEGIN
+    WRITE_BYTE 0x6f prof_lsword
+  END
+
+COPY_EXISTING ~%tutu_var%maneir.cre~ ~override~ // adds scimitar +1 to Maneira by replacing primary melee weapon
+  REPLACE_CRE_ITEM ~%tutu_var%sw1h22~ #0 #0 #0 ~NONE~ ~WEAPON2~
+  READ_BYTE 0x6e prof_lsword // proficiency update since weapon type changes
+  READ_BYTE 0x6f prof_ssword
+  PATCH_IF prof_ssword > prof_lsword BEGIN
+    WRITE_BYTE 0x6e prof_ssword
+  END
+
+COPY_EXISTING ~%tutu_scriptbg%sendai%eet_var%.cre~ ~override~ // adds scimitar +1 to Sendai Argrim by replacing offhand weapon
+  REPLACE_CRE_ITEM ~%tutu_var%sw1h22~ #0 #0 #0 ~NONE~ ~SHIELD~
+
+COPY_EXISTING ~%tutu_scripts%toblack.sto~ ~override~  // adds Ninja-To +1 to Black Lily's store
+  ADD_STORE_ITEM ~sw1h49~ AFTER  ~sw1h07 _sw1h07~ #0 #0 #0 ~IDENTIFIED~ #1
+
+COPY_EXISTING ~%tutu_scripth%ighhedg.sto~ ~override~  // adds lev 1, 2 scrolls to High Hedge
+              ~%tutu_var%sto0703.sto~     ~override~  // adds lev 1, 2 scrolls to Sorcerous Sundries
+  ADD_STORE_ITEM ~scrl6d~ AFTER ~scrl70 _scrl70~ #0 #0 #0 ~IDENTIFIED~ #2 // find familiar
+  ADD_STORE_ITEM ~scrl5u~ AFTER ~scrl70 _scrl70~ #0 #0 #0 ~IDENTIFIED~ #2 // reflected image
+  ADD_STORE_ITEM ~scrla6~ AFTER ~scrl70 _scrl70~ #0 #0 #0 ~IDENTIFIED~ #2 // spook
+  ADD_STORE_ITEM ~scrl6e~ AFTER ~scrl89 _scrl89~ #0 #0 #0 ~IDENTIFIED~ #2 // pw: sleep
+
+COPY_EXISTING ~%tutu_var%sto0703.sto~ ~override~  // adds lev 3, 4 scrolls to Sorcerous Sundries
+  ADD_STORE_ITEM ~scrl6l~ AFTER ~scrl1k _scrl1k~ #0 #0 #0 ~IDENTIFIED~ #2 // hold undead
+  ADD_STORE_ITEM ~scrl6i~ AFTER ~scrl1k _scrl1k~ #0 #0 #0 ~IDENTIFIED~ #2 // protection from cold
+  ADD_STORE_ITEM ~scrla5~ AFTER ~scrl1k _scrl1k~ #0 #0 #0 ~IDENTIFIED~ #2 // MMM
+  ADD_STORE_ITEM ~scrl6r~ AFTER ~scrl5i _scrl5i~ #0 #0 #0 ~IDENTIFIED~ #2 // spider spawn
+
+COPY_EXISTING ~%tutu_scripth%ighhedg.sto~ ~override~ // High Hedge
+  ADD_STORE_ITEM ~cdioun1~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // purple ioun stone
+
+COPY_EXISTING ~%tutu_var%taerum.sto~    ~override~ // Thunderhammer Smithy
+  ADD_STORE_ITEM ~cdplcase~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // case of plenty
+
+COPY_EXISTING ~%tutu_var%sto4803.sto~ ~override~ // Nashkel General Store
+  ADD_STORE_ITEM ~cdplbag~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // bag of plenty
+
+COPY_EXISTING ~%tutu_var%sto4909.sto~   ~override~ // Carnival
+  ADD_STORE_ITEM ~cdplquiv~ LAST #0 #0 #0 ~IDENTIFIED~ #1 // quiver of plenty
+
+COPY_EXISTING_REGEXP GLOB ~^.+\.sto$~ ~override~  // adds generic scimitars to stores that sell short swords if not present already
+  READ_LONG 0x34 sale_off  ELSE 0
+  READ_LONG 0x38 sale_num  ELSE 0
+  READ_LONG 0x2c itm_off   ELSE 0
+  READ_LONG 0x4c drink_off ELSE 0
+  READ_LONG 0x70 cure_off  ELSE 0
+  SET scimitar_insert = 0
+  FOR (index = 0 ; index < sale_num ; ++index) BEGIN
+    READ_ASCII (sale_off +        (index * 0x1c)) item
+    PATCH_IF ("%item%" STRING_COMPARE_REGEXP "^_?[Ss][Ww]1[Hh]07$" = 0) BEGIN // short sword
+      READ_ASCII (sale_off +        (index * 0x1c)) clone (28) // read short sword entry
+      SET scimitar_insert = (index + 1) // sets right after as insert point
+    END ELSE
+    PATCH_IF ("%item%" STRING_COMPARE_REGEXP "^_?[Ss][Ww]1[Hh]20$" = 0) BEGIN // scimitar
+      SET scimitar_insert = 0 // scimitars are already present
+      SET index = sale_num    // kills loop
+    END
+  END
+  PATCH_IF (scimitar_insert > 0) BEGIN // short swords present but not scimitars
+    INSERT_BYTES   (sale_off + (scimitar_insert * 0x1c)) 28
+      WRITE_ASCIIE (sale_off + (scimitar_insert * 0x1c)) ~%clone%~              // clones short sword entry
+      WRITE_ASCIIE (sale_off + (scimitar_insert * 0x1c)) ~%tutu_var%sw1h20~ #8  // scimitar
+    // correcting offsets and such
+    WRITE_LONG 0x38 (sale_num + 1)
+    PATCH_FOR_EACH off IN 0x2c 0x4c 0x70 BEGIN // item, drink, cure offsets
+      READ_LONG off val                        // read offset
+      PATCH_IF val > sale_off BEGIN            // if after for-sale list...
+        WRITE_LONG off (THIS + 0x1c)           // push back for new scimitar
+      END
+    END
+  END
+  BUT_ONLY
+
+// if Ashes of Embers is installed, the katana and quivers should be usable by all
+ACTION_IF ((FILE_EXISTS_IN_GAME ~j#swsoa.txt~) OR                        // SoA version of AoE (for BGT)
+           (FILE_EXISTS_IN_GAME ~J#ToBAoE.txt~) OR                       // Tutu version of AoE
+           (FILE_EXISTS_IN_GAME ~j#sensibleweaponsmods.txt~)) THEN BEGIN // mod-only version of AoE
+
+  COPY_EXISTING ~cdplquiv.itm~ ~override~ // quiver of plenty +0
+                ~cdplcase.itm~ ~override~ // case of plenty +0
+                ~cdplbag.itm~  ~override~ // bag of plenty +0
+                ~cdkat2.itm~   ~override~ // katana +2
+    WRITE_LONG 0x1e 0 // remove all class/race/align unusabilities
+    WRITE_BYTE 0x29 0 // remove all kit unusabilities
+    WRITE_BYTE 0x2b 0 // remove all kit unusabilities
+    WRITE_BYTE 0x2d 0 // remove all kit unusabilities
+    WRITE_BYTE 0x2f 0 // remove all kit unusabilities
+
+  COPY_EXISTING ~cdkat2.itm~ ~override~   // katana +2
+    WRITE_BYTE 0x2b BIT1 // remove all kit unusabilities except for Beastmaster
+
+END

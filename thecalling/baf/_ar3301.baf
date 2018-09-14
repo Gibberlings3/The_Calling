@@ -1,0 +1,18 @@
+IF
+  Global("CDBracerQuest","GLOBAL",24)
+THEN
+  RESPONSE #100
+    StartCutSceneMode()
+    CutSceneId(Player1)
+    ActionOverride("taerom",MoveToPointNoInterrupt([321.397]))
+    Wait(2)
+    CreateVisualEffect("spcrtwpn",[401.348])
+    Wait(2)
+    Swing()
+    Wait(2)
+    ActionOverride("taerom",MoveToPointNoInterrupt([332.286]))
+    Wait(2)
+    SetGlobal("CDBracerQuest","GLOBAL",25)
+    EndCutSceneMode()
+    ActionOverride("taerom",StartDialogueNoSet(Player1))
+END

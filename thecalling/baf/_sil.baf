@@ -1,0 +1,9 @@
+IF
+  HasItem("%tutuvar%misc36",Myself)
+  Global("CDPearls","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("CDPearls","LOCALS",1)
+    TakeItemReplace("cdbpearl","%tutuvar%misc36",Myself)
+    Continue()
+END

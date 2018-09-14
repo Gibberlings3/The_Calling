@@ -1,0 +1,7 @@
+IF
+	Global("CDNinjaTo","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CDNinjaTo","MYAREA",1)
+		ActionOverride("Container1",CreateItem("SW1H48",0,0,0))
+END
