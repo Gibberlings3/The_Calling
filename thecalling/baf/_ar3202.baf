@@ -64,7 +64,7 @@ END
 
 IF
   Global("CDBracerQuest","GLOBAL",20)
-  Global("CDIncantationRight","FW3202",0)
+  Global("CDIncantationRight","MYAREA",0)
 THEN 
   RESPONSE #100
     StartCutSceneMode()
@@ -83,7 +83,7 @@ END
 
 IF
   Global("CDBracerQuest","GLOBAL",20)
-  GlobalGT("CDIncantationRight","FW3202",0)
+  GlobalGT("CDIncantationRight","MYAREA",0)
 THEN 
   RESPONSE #100
     StartCutSceneMode()
