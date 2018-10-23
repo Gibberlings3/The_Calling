@@ -453,7 +453,7 @@ COPY ~thecalling/itm/cdkat2.itm~ ~override~ // Katana +2
   SAY 0x3de @40018 // charisma modification
 
 EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~           ~thecalling/baf/_ar1803.baf~ // adds Contagion scroll to Davaeorn's loot
-EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/_ar3601.baf~ // adds Ninja-To +0 to Sirine cave loot
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~thecalling/baf/_ar3601.baf~ // adds Ninja-To +0 to Sirine cave loot
 
 COPY_EXISTING ~%tutu_var%meilum.cre~ ~override~ // adds katana +0 to Meilum by replacing primary weapon
   REPLACE_CRE_ITEM ~sw1h43~ #0 #0 #0 ~NONE~ ~WEAPON1~ EQUIP
