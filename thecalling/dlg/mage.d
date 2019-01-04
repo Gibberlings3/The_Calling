@@ -571,7 +571,7 @@ END
 
 APPEND ~%tutu_var%TAEROM~
 
-  IF ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
+  IF ~Global("CDBracerQuest","GLOBAL",24)~ THEN BEGIN BracersGone SAY @1303
     IF ~~ THEN GOTO FinallyDone
     IF ~Global("CDMakeBracers","MYAREA",1)~ THEN GOTO HeresItem
   END
@@ -586,15 +586,21 @@ APPEND ~%tutu_var%TAEROM~
   END
   
   IF ~~ THEN BEGIN FinallyDone SAY @1304 = @1305
-    IF ~~ THEN DO ~AddexperienceParty(1000)~ EXIT
+    IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",25)
+                   AddexperienceParty(1000)~ EXIT
   END
   
   IF ~~ THEN BEGIN HeresItem SAY @1306
-    IF ~RandomNum(1,5)~ THEN DO ~GiveItemCreate("amul16",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(2,5)~ THEN DO ~GiveItemCreate("amul24",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(3,5)~ THEN DO ~GiveItemCreate("cdamacid",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(4,5)~ THEN DO ~GiveItemCreate("cdamduh",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(5,5)~ THEN DO ~GiveItemCreate("cdamcons",LastTalkedToBy(Myself),1,0,0)~ EXIT
+    IF ~RandomNum(1,5)~ THEN DO ~GiveItemCreate("amul16",LastTalkedToBy(Myself),1,0,0)
+                                 SetGlobal("CDBracerQuest","GLOBAL",25)~ EXIT
+    IF ~RandomNum(2,5)~ THEN DO ~GiveItemCreate("amul24",LastTalkedToBy(Myself),1,0,0)
+                                 SetGlobal("CDBracerQuest","GLOBAL",25)~ EXIT
+    IF ~RandomNum(3,5)~ THEN DO ~GiveItemCreate("cdamacid",LastTalkedToBy(Myself),1,0,0)
+                                 SetGlobal("CDBracerQuest","GLOBAL",25)~ EXIT
+    IF ~RandomNum(4,5)~ THEN DO ~GiveItemCreate("cdamduh",LastTalkedToBy(Myself),1,0,0)
+                                 SetGlobal("CDBracerQuest","GLOBAL",25)~ EXIT
+    IF ~RandomNum(5,5)~ THEN DO ~GiveItemCreate("cdamcons",LastTalkedToBy(Myself),1,0,0)
+                                 SetGlobal("CDBracerQuest","GLOBAL",25)~ EXIT
   END
   
   IF ~~ THEN BEGIN WheresMeli SAY @1102 = @1103
