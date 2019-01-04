@@ -123,7 +123,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 0
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -134,7 +134,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 4
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -145,7 +145,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 6
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -156,7 +156,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 8
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -167,7 +167,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 12
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -178,7 +178,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 14
   IF ~Global("CDBracerQuest","GLOBAL",10)
       PartyHasItem("cdore")~ THEN REPLY @1180 GOTO MakeDevice
   IF ~Global("CDBracerQuest","GLOBAL",11)
-      !GlobalTimerExpired("CDTaeromMakingDevice","MYAREA")~ THEN REPLY @1188 GOTO DeviceInProgress
+      !GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN REPLY @1188 GOTO DeviceInProgress
   IF ~Global("CDBracerQuest","GLOBAL",23)
       PartyHasItem("cdbracer")
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
@@ -605,7 +605,7 @@ APPEND ~%tutu_var%TAEROM~
     IF ~~ THEN DO ~TakePartyItem("cdore")
                    DestroyItem("cdore")
                    SetGlobal("CDBracerQuest","GLOBAL",11)
-                   SetGlobalTimer("CDTaeromMakingDevice","MYAREA",TWO_DAYS)~ EXIT
+                   SetGlobalTimer("CDTaeromMakingDevice","GLOBAL",TWO_DAYS)~ EXIT
   END
   
   IF ~~ THEN BEGIN DeviceInProgress SAY @1184
