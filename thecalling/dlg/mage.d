@@ -571,12 +571,12 @@ END
 
 APPEND ~%tutu_var%TAEROM~
 
-  IF ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
+  IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
     IF ~~ THEN GOTO FinallyDone
     IF ~Global("CDMakeBracers","MYAREA",1)~ THEN GOTO HeresItem
   END
 
-  IF ~Global("CDBracerQuest","GLOBAL",11)
+  IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",11)
       GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN BEGIN DeviceDone SAY @1185
     IF ~~ THEN REPLY @1186 DO ~GiveItemCreate("cddevice",LastTalkedToBy(Myself),1,0,0)
                                SetGlobal("CDBracerQuest","GLOBAL",12)~ GOTO SeeYa
