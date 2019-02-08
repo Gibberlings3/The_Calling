@@ -210,8 +210,12 @@ EXIT
 // begin incantation
 CHAIN IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",19)~ THEN ~%tutu_var%THALAN~ IncantationChain @1245 = @1246 DO ~SetGlobal("CDBracerQuest","GLOBAL",20)~
 == ~%tutu_var%MELICA~ @1247
-== ~%tutu_var%THALAN~ @1248
-== CDLARGO @1249
+  IF ~~ THEN GOTO Incantation_nonmage
+  IF ~Class(Player1,MAGE_ALL)~ THEN GOTO Incantation_mage
+
+// thalantyr either says @1248 for mages, or @1321 for non-mages, then continues with Largo (see appends)
+
+CHAIN IF ~~ THEN CDLARGO Incantation_Cont @1249
 == ~%tutu_var%THALAN~ @1250
 END
   IF ~~ THEN REPLY @1251 GOTO IncantationQuestion
@@ -1028,6 +1032,14 @@ APPEND ~%tutu_var%THALAN~
   
   IF ~~ THEN BEGIN Behold SAY @1270 = @1271
     IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",20)~ EXIT
+  END
+  
+  IF ~~ THEN BEGIN Incantation_mage SAY @1248
+    IF ~~ THEN EXTERN CDLARGO Incantation_Cont EXIT
+  END
+  
+  IF ~~ THEN BEGIN Incantation_nonmage SAY @1321
+    IF ~~ THEN EXTERN CDLARGO Incantation_Cont EXIT
   END
 
   // round out in-progress dialogues
