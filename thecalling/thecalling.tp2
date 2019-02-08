@@ -146,12 +146,6 @@ STRING_SET 16380 @111 // add scrying stuff to descript of zircon
 COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
               ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
 
-ACTION_IF GAME_IS ~bgee eet bgt~ THEN BEGIN // for whatever reason, ee nukes a lot of the miner's true() states, so we append them:
-
-  COMPILE ~thecalling/dlg/mage_bgee.d~ // adds generic 'Leave us be, there is much work to be done.' state
-
-END
-
 COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
                         ~thecalling/baf/cdiris.baf~
                         ~thecalling/baf/cdlargo.baf~
@@ -159,7 +153,7 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
 
 // add some black pearls to the game
 EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
-EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER// guarantee a black pearl in sil's cave
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
 
 // melicamp needed for quests, so make sure he always survives anti-chickenator
 COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
@@ -229,7 +223,6 @@ COPY ~thecalling/itm/cdpowder.itm~ ~override~
   SAY 0x0c @109
   SAY 0x50 @110
   SAY 0x54 @110
-  WRITE_LONG  0x34 300 // adjust price
 
 // the bracers
 COPY_EXISTING ~brac11.itm~ ~override/cdbracer.itm~

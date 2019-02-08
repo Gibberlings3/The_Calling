@@ -13,39 +13,22 @@ REPLACE_ACTION_TEXT ~%tutu_var%LESLEY~ ~EscapeArea()~ ~~
 REPLACE_ACTION_TEXT ~%tutu_var%MARVIN~ ~EscapeArea()~ ~~
 REPLACE_ACTION_TEXT ~%tutu_var%RUFFIE~ ~EscapeArea()~ ~~
 
-// change branching on cory so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%BOB~ 4 ~!Global("CDMinerQuest","MYAREA",1)~
+// change branching on bob so questions can be asked
 EXTEND_BOTTOM ~%tutu_var%BOB~ 0
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO BobQuestion
 END
 
-EXTEND_BOTTOM ~%tutu_var%BOB~ 4
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO BobQuestion
-END
-
 // change branching on cory so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%CORY~ 6 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%CORY~ 0
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO CoryQuestion
 END
 
-EXTEND_BOTTOM ~%tutu_var%CORY~ 6
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO CoryQuestion
-END
-
 // change branching on Dilok so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%DILOK~ 3 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%DILOK~ 0
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO DilakQuestion
 END
 
-EXTEND_BOTTOM ~%tutu_var%DILOK~ 3
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO DilakQuestion
-END
-
 // change branching on dink so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%DINK~ 3 ~!Global("CDMinerQuest","MYAREA",1)~
-ADD_TRANS_TRIGGER ~%tutu_var%DINK~ 4 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%DINK~ 0
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO DinkQuestion
 END
@@ -54,17 +37,8 @@ EXTEND_BOTTOM ~%tutu_var%DINK~ 3
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO DinkQuestion
 END
 
-EXTEND_BOTTOM ~%tutu_var%DINK~ 4
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO DinkQuestion
-END
-
 // change branching on Gord so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%GORD~ 3 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%GORD~ 0
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO GordQuestion
-END
-
-EXTEND_BOTTOM ~%tutu_var%GORD~ 3
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO GordQuestion
 END
 
@@ -79,22 +53,12 @@ EXTEND_BOTTOM ~%tutu_var%KELDDA~ 0
 END
 
 // change branching on cory so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%LESLEY~ 2 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%LESLEY~ 0
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO LesleyQuestion
 END
 
-EXTEND_BOTTOM ~%tutu_var%LESLEY~ 2
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO LesleyQuestion
-END
-
 // change branching on marvin so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%MARVIN~ 4 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%MARVIN~ 0
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO MarvinQuestion
-END
-
-EXTEND_BOTTOM ~%tutu_var%MARVIN~ 4
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO MarvinQuestion
 END
 
@@ -107,12 +71,7 @@ EXTEND_BOTTOM ~%tutu_var%MELICA~ 24
 END
 
 // change branching on Ruffie so questions can be asked
-ADD_TRANS_TRIGGER ~%tutu_var%RUFFIE~ 3 ~!Global("CDMinerQuest","MYAREA",1)~
 EXTEND_BOTTOM ~%tutu_var%RUFFIE~ 0
-  IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO RuffieQuestion
-END
-
-EXTEND_BOTTOM ~%tutu_var%RUFFIE~ 3
   IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO RuffieQuestion
 END
 
@@ -423,6 +382,10 @@ END
 
 APPEND ~%tutu_var%BOB~
 
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~Global("CDMinerQuest","MYAREA",1)~ THEN REPLY @1142 GOTO BobQuestion
+  END
+
   IF ~~ THEN BEGIN BobQuestion SAY @1151 = @1152
     IF ~!Global("CDSal","MYAREA",0)~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
     IF ~Global("CDSal","MYAREA",0)~  THEN DO ~SetNumTimesTalkedTo(0)
@@ -432,6 +395,10 @@ APPEND ~%tutu_var%BOB~
 END
 
 APPEND ~%tutu_var%CORY~
+
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO CoryQuestion
+  END
 
   IF ~~ THEN BEGIN CoryQuestion SAY @1148
     IF ~!Global("CDJames","MYAREA",0)~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
@@ -443,6 +410,10 @@ END
 
 APPEND ~%tutu_var%DILOK~
 
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO DilakQuestion
+  END
+
   IF ~~ THEN BEGIN DilakQuestion SAY @1145
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
   END
@@ -451,6 +422,10 @@ END
 
 APPEND ~%tutu_var%DINK~
 
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO DinkQuestion
+  END
+
   IF ~~ THEN BEGIN DinkQuestion SAY @1150
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
   END
@@ -458,6 +433,10 @@ APPEND ~%tutu_var%DINK~
 END
 
 APPEND ~%tutu_var%GORD~
+
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO GordQuestion
+  END
 
   IF ~~ THEN BEGIN GordQuestion SAY @1143
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
@@ -592,6 +571,10 @@ END
 
 APPEND ~%tutu_var%LESLEY~
 
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO LesleyQuestion
+  END
+
   IF ~~ THEN BEGIN LesleyQuestion SAY @1149
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
   END
@@ -599,6 +582,10 @@ APPEND ~%tutu_var%LESLEY~
 END
 
 APPEND ~%tutu_var%MARVIN~
+
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO MarvinQuestion
+  END
 
   IF ~~ THEN BEGIN MarvinQuestion SAY @1146 = @1147
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
@@ -615,6 +602,10 @@ APPEND ~%tutu_var%MELICA~
 END
 
 APPEND ~%tutu_var%RUFFIE~
+
+  IF WEIGHT #-1 ~Global("CDMinerQuest","MYAREA",1) Dead("mulahey")~ THEN BEGIN cdTrue SAY #761
+    IF ~~ THEN REPLY @1142 GOTO RuffieQuestion
+  END
 
   IF ~~ THEN BEGIN RuffieQuestion SAY @1144
     IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
