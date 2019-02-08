@@ -32,7 +32,7 @@ ALWAYS
 
 END
 
-VERSION ~Beta 1~
+VERSION ~Beta 2~
 README ~thecalling/languages/%LANGUAGE%/readme-thecalling.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~thecalling/languages/%s~
 
@@ -135,7 +135,7 @@ REQUIRE_PREDICATE FILE_EXISTS ~thecalling/languages/%LANGUAGE%/mage.tra~ @5 // s
 EXTEND_BOTTOM ~%HighHedge_ThalanthyrsAbode_BCS%.bcs~   ~thecalling/baf/_ar3202.baf~ // thalantyr does stuff
 EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~thecalling/baf/_ar3301.baf~ // taerom cutscene
 EXTEND_BOTTOM ~%UlcasterRuins_BCS%.bcs~                ~thecalling/baf/_ar3901.baf~ // add note
-EXTEND_BOTTOM ~%Gullykin_House1_L1_BCS%.bcs~           ~thecalling/baf/_ar4005.baf~ // spawn irir & largo
+EXTEND_BOTTOM ~%Gullykin_House1_L1_BCS%.bcs~           ~thecalling/baf/_ar4005.baf~ // spawn iris & largo
 EXTEND_BOTTOM ~%NashkelMines_BCS%.bcs~                 ~thecalling/baf/_ar5400.baf~ // spawn grace
 EXTEND_BOTTOM ~%NashkelMines_L1_BCS%.bcs~              ~thecalling/baf/_ar5401.baf~ // spawn melicamp, miners
 
@@ -157,8 +157,9 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
                         ~thecalling/baf/cdlargo.baf~
                         ~thecalling/baf/cdminer1.baf~
 
-EXTEND_TOP ~%tutu_scripts%irspell.bcs~ ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls
-EXTEND_TOP ~%tutu_var%sil.bcs~         ~thecalling/baf/_sil.baf~     EVALUATE_BUFFER // sil ALWAYS has a black pearl
+// add some black pearls to the game
+EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER// guarantee a black pearl in sil's cave
 
 // melicamp needed for quests, so make sure he always survives anti-chickenator
 COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
