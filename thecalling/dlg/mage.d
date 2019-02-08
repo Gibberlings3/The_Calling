@@ -184,6 +184,54 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 14
       PartyHasItem("cdpowder")~ THEN REPLY @1289 GOTO DestroyBracers
 END
 
+// change all of thalantyr's top-level dialogue starts into extends for friendlier compatibility
+EXTEND_BOTTOM ~%tutu_var%THALAN~ 1 
+  IF ~GlobalGT("CDBracerQuest","GLOBAL",2)
+      GlobalLT("CDBracerQuest","GLOBAL",6)~ THEN REPLY @1035 GOTO ForkEmOver
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",6)
+      GlobalLT("CDBracerQuest","GLOBAL",10)~ THEN REPLY @1322 GOTO filler7
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",9)
+      GlobalGT("CDBracerQuest","GLOBAL",12)~ THEN REPLY @1322 GOTO filler10
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      Global("CDBracerQuest","GLOBAL",13)~ THEN REPLY @1322 GOTO filler13
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",16)
+      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDGemQuality","GLOBAL",5)~ THEN REPLY @1328 GOTO reminder_DiviningSucks
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",16)
+      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalGT("CDGemQuality","GLOBAL",4)~ THEN REPLY @1328 GOTO reminder_DiviningPoor
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",16)
+      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalGT("CDGemQuality","GLOBAL",8)~ THEN REPLY @1328 GOTO reminder_DiviningFair
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",16)
+      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalGT("CDGemQuality","GLOBAL",12)~ THEN REPLY @1328 GOTO reminder_DiviningGood
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",16)
+      GlobalGT("CDBracerQuest","GLOBAL",19)
+      Global("CDGemQuality","GLOBAL",15)~ THEN REPLY @1328 GOTO reminder_DiviningPerfect
+  IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
+      !Global("D0TaintedOreQuest","GLOBAL",2)
+      GlobalGT("CDBracerQuest","GLOBAL",22)
+      GlobalLT("CDBracerQuest","GLOBAL",26)~ THEN REPLY @1329 GOTO filler22
+END
+
+
+
 /////                                                  \\\\\
 ///// chains                                           \\\\\
 /////                                                  \\\\\
@@ -210,6 +258,7 @@ EXIT
 // begin incantation
 CHAIN IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",19)~ THEN ~%tutu_var%THALAN~ IncantationChain @1245 = @1246 DO ~SetGlobal("CDBracerQuest","GLOBAL",20)~
 == ~%tutu_var%MELICA~ @1247
+END
   IF ~~ THEN GOTO Incantation_nonmage
   IF ~Class(Player1,MAGE_ALL)~ THEN GOTO Incantation_mage
 
@@ -218,10 +267,10 @@ CHAIN IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",19)~ THEN ~%tutu_var%THALAN
 CHAIN IF ~~ THEN CDLARGO Incantation_Cont @1249
 == ~%tutu_var%THALAN~ @1250
 END
-  IF ~~ THEN REPLY @1251 GOTO IncantationQuestion
-  IF ~~ THEN REPLY @1252 GOTO BeginIncantation
-  IF ~~ THEN REPLY @1253 GOTO IncantationQuestion
-  IF ~~ THEN REPLY @1254 GOTO IncantationQuestion
+  IF ~~ THEN REPLY @1251 EXTERN ~%tutu_var%THALAN~ IncantationQuestion
+  IF ~~ THEN REPLY @1252 EXTERN ~%tutu_var%THALAN~  BeginIncantation
+  IF ~~ THEN REPLY @1253 EXTERN ~%tutu_var%THALAN~  IncantationQuestion
+  IF ~~ THEN REPLY @1254 EXTERN ~%tutu_var%THALAN~  IncantationQuestion
 
 // melicamp brings device to thalantyr
 CHAIN IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",13)~ THEN ~%tutu_var%MELICA~ MeliBringsDevice @1192
@@ -774,14 +823,14 @@ APPEND ~%tutu_var%THALAN~
   IF ~~ THEN BEGIN OffIGo SAY @1032
     IF ~~ THEN EXIT
   END
-  
+/*  now handled as a dialogue reply in state 1
   IF WEIGHT #-1 ~GlobalGT("CDBracerQuest","GLOBAL",2)
                  GlobalLT("CDBracerQuest","GLOBAL",6)~ THEN BEGIN GemsGemsGems SAY @1033
     IF ~~ THEN REPLY @1034 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
     IF ~~ THEN REPLY @1035 GOTO ForkEmOver
     IF ~~ THEN REPLY @1036 GOTO OffIGo
   END
-  
+*/  
   IF ~~ THEN BEGIN ForkEmOver SAY @1037
     IF ~Global("misc22","LOCALS",0)
         PartyHasItem("%tutu_var%misc22")~ THEN REPLY #7114 DO ~SetGlobal("misc22","LOCALS",1)
@@ -1035,55 +1084,56 @@ APPEND ~%tutu_var%THALAN~
   END
   
   IF ~~ THEN BEGIN Incantation_mage SAY @1248
-    IF ~~ THEN EXTERN CDLARGO Incantation_Cont EXIT
+    IF ~~ THEN EXTERN CDLARGO Incantation_Cont 
   END
   
   IF ~~ THEN BEGIN Incantation_nonmage SAY @1321
-    IF ~~ THEN EXTERN CDLARGO Incantation_Cont EXIT
+    IF ~~ THEN EXTERN CDLARGO Incantation_Cont 
   END
 
   // round out in-progress dialogues
-  IF ~~ THEN BEGIN BuzzOff SAY @1060
-    IF ~~ THEN EXIT
+  IF ~~ THEN BEGIN filler7 SAY @1307
+    IF ~~ THEN GOTO filler_finish
   END
   
-  IF WEIGHT #-1 ~!Global("D0TaintedOreQuest","GLOBAL",1)
-                 !Global("D0TaintedOreQuest","GLOBAL",2)
-                 GlobalGT("CDBracerQuest","GLOBAL",6)
-                 GlobalLT("CDBracerQuest","GLOBAL",10)~ THEN BEGIN filler7 SAY @1307
-    IF ~~ THEN REPLY @1308 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
-    IF ~~ THEN REPLY @1309 GOTO BuzzOff
+  IF ~~ THEN BEGIN filler10 SAY @1310
+    IF ~~ THEN GOTO filler_finish
   END
   
-  IF WEIGHT #-1 ~!Global("D0TaintedOreQuest","GLOBAL",1)
-                 !Global("D0TaintedOreQuest","GLOBAL",2)
-                 GlobalGT("CDBracerQuest","GLOBAL",9)
-                 GlobalGT("CDBracerQuest","GLOBAL",12)~ THEN BEGIN filler10 SAY @1310
-    IF ~~ THEN REPLY @1308 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
-    IF ~~ THEN REPLY @1309 GOTO BuzzOff
+  IF ~~ THEN BEGIN filler13 SAY @1311
+    IF ~~ THEN GOTO filler_finish
+  END
+
+  IF ~~ THEN BEGIN reminder_DiviningFinish SAY @1312
+    IF ~~ THEN GOTO filler_finish
   END
   
-  IF WEIGHT #-1 ~!Global("D0TaintedOreQuest","GLOBAL",1)
-                 !Global("D0TaintedOreQuest","GLOBAL",2)
-                 Global("CDBracerQuest","GLOBAL",13)~ THEN BEGIN filler13 SAY @1311
-    IF ~~ THEN REPLY @1308 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
-    IF ~~ THEN REPLY @1309 GOTO BuzzOff
+  IF ~~ THEN BEGIN reminder_DiviningSucks SAY @1323
+    IF ~~ THEN GOTO reminder_DiviningFinish
   END
   
-  IF WEIGHT #-1 ~!Global("D0TaintedOreQuest","GLOBAL",1)
-                 !Global("D0TaintedOreQuest","GLOBAL",2)
-                 GlobalGT("CDBracerQuest","GLOBAL",16)
-                 GlobalGT("CDBracerQuest","GLOBAL",19)~ THEN BEGIN filler17 SAY @1312
-    IF ~~ THEN REPLY @1308 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
-    IF ~~ THEN REPLY @1309 GOTO BuzzOff
+  IF ~~ THEN BEGIN reminder_DiviningPoor SAY @1324
+    IF ~~ THEN GOTO reminder_DiviningFinish
   END
   
-  IF WEIGHT #-1 ~!Global("D0TaintedOreQuest","GLOBAL",1)
-                 !Global("D0TaintedOreQuest","GLOBAL",2)
-                 GlobalGT("CDBracerQuest","GLOBAL",22)
-                 GlobalLT("CDBracerQuest","GLOBAL",26)~ THEN BEGIN filler22 SAY @1313
-    IF ~~ THEN REPLY @1308 DO ~StartStore("%tutu_scripth%IGHHEDG",LastTalkedToBy(Myself))~ EXIT
-    IF ~~ THEN REPLY @1309 GOTO BuzzOff
+  IF ~~ THEN BEGIN reminder_DiviningFair SAY @1325
+    IF ~~ THEN GOTO reminder_DiviningFinish
+  END
+  
+  IF ~~ THEN BEGIN reminder_DiviningGood SAY @1326
+    IF ~~ THEN GOTO reminder_DiviningFinish
+  END
+  
+  IF ~~ THEN BEGIN reminder_DiviningPerfect SAY @1327
+    IF ~~ THEN GOTO reminder_DiviningFinish
+  END
+  
+  IF ~~ THEN BEGIN filler22 SAY @1313 = @1330
+    IF ~~ THEN GOTO filler_finish
+  END
+  
+  IF ~~ THEN BEGIN filler_finish SAY @1330
+    COPY_TRANS ~%tutu_var%THALAN~ 1 
   END
 
 END
