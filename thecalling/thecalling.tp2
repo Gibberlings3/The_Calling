@@ -146,6 +146,8 @@ STRING_SET 16380 @111 // add scrying stuff to descript of zircon
 COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
               ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
 
+ACTION_IF GAME_IS ~bgt~ BEGIN OUTER_SPRINT thalan_states "1 35" END ELSE BEGIN OUTER_SPRINT thalan_states "1" END
+
 COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
                         ~thecalling/baf/cdiris.baf~
                         ~thecalling/baf/cdlargo.baf~

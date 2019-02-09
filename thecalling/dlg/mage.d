@@ -144,7 +144,7 @@ EXTEND_BOTTOM ~%tutu_var%TAEROM~ 14
 END
 
 // change all of thalantyr's top-level dialogue starts into extends for friendlier compatibility
-EXTEND_BOTTOM ~%tutu_var%THALAN~ 1 
+EXTEND_BOTTOM ~%tutu_var%THALAN~ %thalan_states% 
   IF ~GlobalGT("CDBracerQuest","GLOBAL",2)
       GlobalLT("CDBracerQuest","GLOBAL",6)~ THEN REPLY @1035 GOTO ForkEmOver
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
@@ -167,17 +167,20 @@ EXTEND_BOTTOM ~%tutu_var%THALAN~ 1
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
       GlobalGT("CDBracerQuest","GLOBAL",19)
-      GlobalGT("CDGemQuality","GLOBAL",4)~ THEN REPLY @1328 GOTO reminder_DiviningPoor
+      GlobalGT("CDGemQuality","GLOBAL",4)
+      GlobalLT("CDGemQuality","GLOBAL",9)~ THEN REPLY @1328 GOTO reminder_DiviningPoor
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
       GlobalGT("CDBracerQuest","GLOBAL",19)
-      GlobalGT("CDGemQuality","GLOBAL",8)~ THEN REPLY @1328 GOTO reminder_DiviningFair
+      GlobalGT("CDGemQuality","GLOBAL",8)
+      GlobalLT("CDGemQuality","GLOBAL",13)~ THEN REPLY @1328 GOTO reminder_DiviningFair
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
       GlobalGT("CDBracerQuest","GLOBAL",19)
-      GlobalGT("CDGemQuality","GLOBAL",12)~ THEN REPLY @1328 GOTO reminder_DiviningGood
+      GlobalGT("CDGemQuality","GLOBAL",12)
+      GlobalLT("CDGemQuality","GLOBAL",15)~ THEN REPLY @1328 GOTO reminder_DiviningGood
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
