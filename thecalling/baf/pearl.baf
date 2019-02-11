@@ -1,0 +1,7 @@
+IF
+	Global("cdbpearl","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("cdbpearl","MYAREA",1)
+		ActionOverride("Container1",CreateItem("cdbpearl",0,0,0))
+END
