@@ -155,7 +155,7 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
 
 // add some black pearls to the game
 EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
-EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
 
 // melicamp needed for quests, so make sure he always survives anti-chickenator
 COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
