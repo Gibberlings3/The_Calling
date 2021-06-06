@@ -155,7 +155,7 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
 
 // add some black pearls to the game
 EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
-EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS.bcs%~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
+EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
 
 // melicamp needed for quests, so make sure he always survives anti-chickenator
 COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
@@ -260,11 +260,13 @@ COPY_EXISTING ~%tutu_var%minern.cre~ ~override/cdminer1.cre~
 COPY_EXISTING ~cdminer1.cre~ ~override~
   SAY 0x08 @103
   SAY 0x0c @103
+  WRITE_ASCII SCRIPT_DEFAULT "wtrunsgt"
 
 COPY_EXISTING ~cdminer2.cre~ ~override~
   SAY 0x08 @104
   SAY 0x0c @104
-  WRITE_ASCII 0x248 ~cdminer1~  #8 // override script
+  WRITE_ASCII SCRIPT_OVERRIDE ~cdminer1~  #8 // override script
+  WRITE_ASCII SCRIPT_DEFAULT "wtrunsgt"
 
 COPY_EXISTING ~cdiris.cre~  ~override~
   SAY 0x08 @107

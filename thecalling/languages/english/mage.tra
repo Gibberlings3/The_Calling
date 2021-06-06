@@ -7,7 +7,7 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 @1000 = ~Good, though it was the greatest of luck you did not retain a wing for a limb.  You always were a bit cockeyed, but I suppose that doesn't count.~
-@1001 = ~We must endeavor to find those bracers, lest they curse some other unfortunate soul. <CHARNAME>, I will need all the help I can get, and you are a man of magic. Can you assist me?~
+@1001 = ~We must endeavor to find those bracers, lest they curse some other unfortunate soul. <CHARNAME>, I will need all the help I can get, and you are a <PRO_MANWOMAN> of magic. Can you assist me?~
 @1002 = ~Of course we'll help.~
 @1003 = ~What do you need from me?~
 @1004 = ~I have better ways to spend my time.~

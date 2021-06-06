@@ -390,9 +390,8 @@ APPEND ~%tutu_var%BOB~
   END
 
   IF ~~ THEN BEGIN BobQuestion SAY @1151 = @1152
-    IF ~!Global("CDSal","MYAREA",0)~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
-    IF ~Global("CDSal","MYAREA",0)~  THEN DO ~SetNumTimesTalkedTo(0)
-                                              SetGlobal("CDSal","MYAREA",1)~ EXIT
+    IF ~!Global("CDSal","MYAREA",0)~ THEN EXIT
+    IF ~Global("CDSal","MYAREA",0)~  THEN DO ~SetGlobal("CDSal","MYAREA",1)~ EXIT
   END
 
 END
@@ -404,9 +403,7 @@ APPEND ~%tutu_var%CORY~
   END
 
   IF ~~ THEN BEGIN CoryQuestion SAY @1148
-    IF ~!Global("CDJames","MYAREA",0)~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
-    IF ~Global("CDJames","MYAREA",0)~  THEN DO ~SetNumTimesTalkedTo(0)
-                                                SetGlobal("CDJames","MYAREA",1)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
@@ -418,7 +415,7 @@ APPEND ~%tutu_var%DILOK~
   END
 
   IF ~~ THEN BEGIN DilakQuestion SAY @1145
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
@@ -430,7 +427,7 @@ APPEND ~%tutu_var%DINK~
   END
 
   IF ~~ THEN BEGIN DinkQuestion SAY @1150
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
@@ -442,7 +439,7 @@ APPEND ~%tutu_var%GORD~
   END
 
   IF ~~ THEN BEGIN GordQuestion SAY @1143
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
@@ -579,7 +576,7 @@ APPEND ~%tutu_var%LESLEY~
   END
 
   IF ~~ THEN BEGIN LesleyQuestion SAY @1149
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
@@ -591,7 +588,8 @@ APPEND ~%tutu_var%MARVIN~
   END
 
   IF ~~ THEN BEGIN MarvinQuestion SAY @1146 = @1147
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~!Global("CDJames","MYAREA",0)~ THEN EXIT
+    IF ~Global("CDJames","MYAREA",0)~  THEN DO ~SetGlobal("CDJames","MYAREA",1)~ EXIT
   END
 
 END
@@ -611,19 +609,19 @@ APPEND ~%tutu_var%RUFFIE~
   END
 
   IF ~~ THEN BEGIN RuffieQuestion SAY @1144
-    IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+    IF ~~ THEN EXIT
   END
 
 END
 
 APPEND ~%tutu_var%TAEROM~
 
-  IF ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
+  IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
     IF ~~ THEN GOTO FinallyDone
     IF ~Global("CDMakeBracers","MYAREA",1)~ THEN GOTO HeresItem
   END
 
-  IF ~Global("CDBracerQuest","GLOBAL",11)
+  IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",11)
       GlobalTimerExpired("CDTaeromMakingDevice","GLOBAL")~ THEN BEGIN DeviceDone SAY @1185
     IF ~~ THEN REPLY @1186 DO ~GiveItemCreate("cddevice",LastTalkedToBy(Myself),1,0,0)
                                SetGlobal("CDBracerQuest","GLOBAL",12)~ GOTO SeeYa
@@ -648,7 +646,7 @@ APPEND ~%tutu_var%TAEROM~
     IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",7)~ EXIT
   END
   
-  IF ~~ THEN BEGIN MakeDevice SAY @1181 = @1183 = @1183
+  IF ~~ THEN BEGIN MakeDevice SAY @1181 = @1182 = @1183
     IF ~~ THEN DO ~TakePartyItem("cdore")
                    DestroyItem("cdore")
                    SetGlobal("CDBracerQuest","GLOBAL",11)
@@ -1259,7 +1257,7 @@ IF ~RandomNum(5,6)~ THEN BEGIN TalkingHeads5 SAY @1140
   IF ~Global("CDSal","MYAREA",1)~ THEN REPLY @1156 GOTO WrongAnswer
 END
 
-IF ~RandomNum(6,6)~ THEN BEGIN TalkingHeads6 SAY @1141
+IF ~True()~ THEN BEGIN TalkingHeads6 SAY @1141
   IF ~Global("CDSal","MYAREA",0)~ THEN EXIT
   IF ~Global("CDSal","MYAREA",1)~ THEN REPLY @1153 GOTO WrongAnswer
   IF ~Global("CDSal","MYAREA",1)~ THEN REPLY @1154 GOTO WrongAnswer
@@ -1321,7 +1319,7 @@ IF ~RandomNum(5,6)~ THEN BEGIN TalkingHeads5 SAY @1140
   IF ~Global("CDJames","MYAREA",1)~ THEN REPLY @1164 GOTO WrongAnswer
 END
 
-IF ~RandomNum(6,6)~ THEN BEGIN TalkingHeads6 SAY @1141
+IF ~True()~ THEN BEGIN TalkingHeads6 SAY @1141
   IF ~Global("CDJames","MYAREA",0)~ THEN EXIT
   IF ~Global("CDJames","MYAREA",1)~ THEN REPLY @1161 GOTO WrongAnswer
   IF ~Global("CDJames","MYAREA",1)~ THEN REPLY @1162 GOTO RightAnswer
