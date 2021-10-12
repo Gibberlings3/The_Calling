@@ -145,6 +145,21 @@ STRING_SET 16380 @111 // add scrying stuff to descript of zircon
 // start with dupe dialogues for the halfling couple
 COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
               ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
+              
+// melicamp needed for quests, so make sure he always survives anti-chickenator
+ACTION_IF GAME_IS ~bgee eet~ BEGIN // ees move the cutscene to the dialogue, so
+
+  COMPILE ~thecalling/dlg/melicamp_lives.d~
+
+END ELSE BEGIN
+
+  COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
+    DECOMPILE_AND_PATCH BEGIN
+      REPLACE_TEXTUALLY ~Kill("melicamp")~ ~~
+    END
+    BUT_ONLY
+
+END
 
 ACTION_IF GAME_IS ~bgt~ BEGIN OUTER_SPRINT thalan_states "1 35" END ELSE BEGIN OUTER_SPRINT thalan_states "1" END
 
@@ -156,14 +171,7 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
 // add some black pearls to the game
 EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
 EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~thecalling/baf/pearl.baf~    EVALUATE_BUFFER // guarantee a black pearl in sil's cave
-
-// melicamp needed for quests, so make sure he always survives anti-chickenator
-COPY_EXISTING ~%tutu_scriptt%halantr.bcs~ ~override~
-  DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY ~Kill("melicamp")~ ~~
-  END
-  BUT_ONLY
-  
+ 
 ACTION_FOR_EACH bam IN cmisc5c cmisc5k cmisc7p imisc5k imisc5z imisc7p BEGIN
 
   ACTION_IF NOT FILE_EXISTS_IN_GAME ~%bam%.bam~ THEN BEGIN // missing bams from bgee

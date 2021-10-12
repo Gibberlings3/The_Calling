@@ -1,0 +1,2 @@
+REPLACE_TRANS_TRIGGER thalan BEGIN 27 END BEGIN 0 END ~RandomNum(2,1)~ ~~
+ADD_TRANS_TRIGGER thalan 27 ~False()~ DO 1
