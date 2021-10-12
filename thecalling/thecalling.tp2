@@ -32,7 +32,7 @@ ALWAYS
 
 END
 
-VERSION ~Beta 2~
+VERSION ~Beta 3~
 README ~thecalling/languages/%LANGUAGE%/readme-thecalling.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~thecalling/languages/%s~
 
