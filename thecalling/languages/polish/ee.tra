@@ -1,10 +1,152 @@
 /*
 Translator note:
 
-Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGEE/EET.
+Since the EEs uses slightly different formatting and conventions than oBG2, this file allows you to override strings for *only* BGEE/EET.
 When The Calling is installed on non-EE games, only strings from setup.tra are used. On BGEE/EET, strings defined here will override the strings
 from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vanilla and EE games.
 This file is also formatted in utf-8 since it's only used on EE games. setup.tra will be converted on the fly for EE.
 
 This file can be left blank, but cannot be deleted. 
 */
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @102 = ~Perły złożone są z warstw aragonitu ułożonego wokół kawałeczka pyłku lub innej substancji drażniącej w ostrygach, lub innych mięczakach. Powstająca w ten sposób perła daje bogate, głębokie lśnienie. Większość pereł w tych królestwach jest koloru białego, ale to jest akurat jej rzadka czarna odmiana. Czarne perły są wysoko cenione, szczególnie przez mistrzów poznania, za swoje unikalne magiczne właściwości.
+
+PARAMETRY:
+
+Waga: 0~
+  @110 = ~Thalantyr poprosił o dostarczenie tego proszku do Taeroma Fuiruima. Po dosypaniu go do swojej kuźni, Taerom będzie w stanie w jej ogniu zniszczyć bransolety.
+
+PARAMETRY:
+
+Waga: 1~
+
+  @111 = ~Cyrkon jest brązowawym kryształem, występującym w skałach wulkanicznych. Znajduje często zastosowanie w narzędziach wróżebnych. Zazwyczaj nabiera jasnobłękitny odcień podczas podgrzewania i szlifowania (zazwyczaj w fasety).
+
+PARAMETRY:
+
+Waga: 0~
+  @113 = ~To ruda zebrana dla Taeroma w Kopalniach Nashkel przez Melicampa i Grację.
+
+PARAMETRY:
+
+Waga: 15~
+  @115 = ~To te, wreszcie odnalezione bransolety odpowiadają za przekleństwo Melicampa. Pomimo ich niezwykłego i interesującego charakteru Thalantyr uznał, że ryzyko płynące z ich zatrzymania, przewyższa wiedzę, którą można zdobyć podczas ich dalszych badań.
+
+Ponieważ nierozsądnie byłoby próbować ich używać, Thalantyr zaczarował je, by były zbyt małe, by je nosić.
+
+PARAMETRY:
+
+Waga: 1~
+  @118 = ~Taerom Fuiruim zbudował to urządzenie na zamówienie Thalantyra. Czarodziej zamierza dzięki niemu odnaleźć bransolety, które ściągnęły przekleństwo na Melicampa. W centralnej części urządzenia widoczne są trzy miejsca na kamienie szlachetne.
+
+PARAMETRY:
+
+Waga: 0~
+  @120 = ~Kwas, gdy tylko jest dostępny, stanowi skuteczną broń przeciw magom, często przerywając rzucane przez nich czary. Sinosta, pomniejszy mag z Waterdeep, zaprojektował ten amulet, aby uchronić się przed działaniem kwasu. Niestety amulet nie zdążył mu pomóc, gdyż Sinosta został zamordowany w ciemnej alejce po tym, jak naraził się lokalnej gildii złodziei.
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na kwas: +25%
+
+Waga: 1~
+  @122 = ~Ten pozornie niewinny naszyjnik po założeniu zaciska się wokół szyi. Oddychanie w nim jest wciąż możliwe, ale skomplikowane inkantacje konieczne do rzucania czarów już nie. Amuletów dławienia używano nie tylko w ramach żartów między studentami magii, ale także jako narzędzia ułatwiającego zabójstwa potężnych czarodziejów.
+
+PARAMETRY:
+
+Specjalne:
+– Szansa niepowodzenia czaru: 100%
+– Można zdjąć tylko po rzuceniu czaru Zdjęcie klątwy
+
+Waga: 1~
+  @124 = ~Takie amulety są bardzo popularne wśród pozbawionych skrupułów kupców. Te przedmioty wydają się ozdobnymi, drogimi naszyjnikami i często są wręczane jako prezenty potencjalnym klientom lub rywalom w interesach. Zostały zaprojektowane jedynie po to, by przytępić rozum ofiary, ale w niezbyt zauważalny sposób. Umożliwia to kupcowi uzyskanie i wykorzystanie przewagi podczas skomplikowanych negocjacji.
+
+PARAMETRY:
+
+Specjalne:
+– Inteligencja: -2
+– Mądrość: -2
+– Charyzma: -2
+– Można zdjąć tylko po rzuceniu czaru Zdjęcie klątwy
+
+Waga: 1~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40002 = ~Historia tego magicznego kołczanu dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców strzał podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieskończona ilość strzał
+
+Waga: 0~
+@40004 = ~Historia tego magicznego futerału dawno już poszła w zapomnienie, choć prawdopodobnie miała ona coś wspólnego z trudnym do wyjaśnienia, lecz dobrze udokumentowanym brakiem dobrych wytwórców bełtów podczas Czasu Niepokojów.
+
+PARAMETRY:
+
+Specjalne:
+– Nieskończona ilość bełtów
+
+Waga: 0~
+@40006 = ~Choć ta torba na pociski do procy jest teraz pusta, to wciąż otacza ją potężna magiczna aura.
+
+PARAMETRY:
+
+Specjalne:
+– Nieskończona ilość pocisków do procy
+
+Waga: 0~
+@40008 = ~Ten kamień o kolorze ciemnego fioletu pozwala noszącemu widzieć w ciemności.
+
+PARAMETRY:
+
+Specjalne:
+– Infrawizja na 20 metrów
+
+Waga: 2
+~
+@40010 = ~Ten kamień jest zimny w dotyku i promieniuje energią.
+
+PARAMETRY:
+
+Specjalne:
+– Odporność na zimno: +10%
+
+Waga: 2
+~
+@40013 = ~Tsu-O-Shi +2~
+@40014 = ~Tsu-O-Shi, zwana również „Ostrzem Pożądania”, wykuta została ponad pięć wieków temu, przez mistrza Murakakena Shinji, którego umiejętności były tak wielkie, że podobno był w stanie nadać duszę tworzonej broni. Tsu-O-Shi przez lata była w posiadaniu rodziny Kasune, do czasu, gdy ujrzał ją znany wielbiciel mieczy Fushima Takagi. Popadł w obsesję na jej punkcie i dążył wszelkimi sposobami do jej zdobycia. Ostatecznie wynajął wojownika ninja, aby ukradł dla niego katanę. Kiedy ninja dostarczył mu broń, Takagi użył jej, aby nikt nie mógł powiązać go z prawowitymi właścicielami. Takagi ukrył miecz. Często powracał do kryjówki, gdzie kontemplował jego piękno i doskonałość. W dniu śmierci Takagiego jego duch odmówił opuszczenia Torilu i pozostawienia miecza, stając się jednością z nim. Od tego dnia każdy, kto dzierży Tsu-O-Shi, musi wystrzegać się ducha Takagiego Fushimy, który, aby pozostać na Torilu z przedmiotem swego pragnienia, wysysa życie z władającego bronią.
+
+PARAMETRY:
+
+Specjalne:
+– Szansa na stałą utratę punktów życia lub cech przez używającego
+– Można zdjąć tylko po rzuceniu czaru Zdjęcie klątwy
+
+Obrażenia: 1k10 +2
+TraK0: +2
+Typ obrażeń: sieczne
+Opóźnienie: 2
+Rodzaj biegłości: katana
+Typ broni: 1-ręczna
+
+Wymagania: 
+– Siła: 6
+
+Waga:  4
+~
