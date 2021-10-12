@@ -74,8 +74,9 @@ LANGUAGE ~Simplified Chinese (Translation from bg2_tweaks by Miranda, distance20
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @100
+BEGIN @100 DESIGNATED 0
 REQUIRE_PREDICATE FILE_EXISTS ~thecalling/languages/%LANGUAGE%/mage.tra~ @5 // skip if translation doesn't exist
+LABEL ~cd_the_calling_mage~
 
 /////                                                  \\\\\
 ///// cheats?                                          \\\\\
@@ -308,6 +309,7 @@ COPY ~thecalling/cre/cdgrace.cre~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 //BEGIN @10000 DESIGNATED 10 DEPRECATED @3
+//LABEL ~cd_the_calling_expanded_gnoll_stronghold~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -321,6 +323,7 @@ BEGIN @20000 DESIGNATED 20
 REQUIRE_PREDICATE FILE_EXISTS ~thecalling/languages/%LANGUAGE%/werewolf.tra~ @5 // skip if translation doesn't exist
 REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~7060~ @1 // skip if already installed by scs
 REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @2 // totsc required
+LABEL ~cd_the_calling_peaceful_kaishas_resolution~
 
 EXTEND_BOTTOM ~%tutu_var%kaisha.bcs~      ~thecalling/baf/kaishas.baf~ EVALUATE_BUFFER USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~
 EXTEND_TOP    ~%IsleofBalduranN_BCS%.bcs~ ~thecalling/baf/werewolfadd.baf~ EVALUATE_BUFFER
@@ -351,6 +354,7 @@ ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecallin
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 //BEGIN @30000 DESIGNATED 30 DEPRECATED @3
+//LABEL ~cd_the_calling_movanic_cult~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -362,6 +366,7 @@ ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecallin
 
 BEGIN @40000 DESIGNATED 40
 REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ ~1090~ @1 // skip if already installed by tweaks anthology
+LABEL ~cd_the_calling_exotic_items~
 
 OUTER_SET generic_kat_name  = 7523
 OUTER_SET generic_kat_desc  = 35963
