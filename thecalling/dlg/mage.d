@@ -154,37 +154,37 @@ EXTEND_BOTTOM ~%tutu_var%THALAN~ %thalan_states%
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",9)
-      GlobalGT("CDBracerQuest","GLOBAL",12)~ THEN REPLY @1322 GOTO filler10
+      GlobalLT("CDBracerQuest","GLOBAL",12)~ THEN REPLY @1322 GOTO filler10
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       Global("CDBracerQuest","GLOBAL",13)~ THEN REPLY @1322 GOTO filler13
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
-      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDBracerQuest","GLOBAL",19)
       GlobalLT("CDGemQuality","GLOBAL",5)~ THEN REPLY @1328 GOTO reminder_DiviningSucks
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
-      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDBracerQuest","GLOBAL",19)
       GlobalGT("CDGemQuality","GLOBAL",4)
       GlobalLT("CDGemQuality","GLOBAL",9)~ THEN REPLY @1328 GOTO reminder_DiviningPoor
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
-      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDBracerQuest","GLOBAL",19)
       GlobalGT("CDGemQuality","GLOBAL",8)
       GlobalLT("CDGemQuality","GLOBAL",13)~ THEN REPLY @1328 GOTO reminder_DiviningFair
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
-      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDBracerQuest","GLOBAL",19)
       GlobalGT("CDGemQuality","GLOBAL",12)
       GlobalLT("CDGemQuality","GLOBAL",15)~ THEN REPLY @1328 GOTO reminder_DiviningGood
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
       GlobalGT("CDBracerQuest","GLOBAL",16)
-      GlobalGT("CDBracerQuest","GLOBAL",19)
+      GlobalLT("CDBracerQuest","GLOBAL",19)
       Global("CDGemQuality","GLOBAL",15)~ THEN REPLY @1328 GOTO reminder_DiviningPerfect
   IF ~!Global("D0TaintedOreQuest","GLOBAL",1)
       !Global("D0TaintedOreQuest","GLOBAL",2)
@@ -635,10 +635,10 @@ APPEND ~%tutu_var%TAEROM~
   END
   
   IF ~~ THEN BEGIN HeresItem SAY @1306
-    IF ~RandomNum(1,5)~ THEN DO ~GiveItemCreate("amul16",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(2,5)~ THEN DO ~GiveItemCreate("amul24",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(3,5)~ THEN DO ~GiveItemCreate("cdamacid",LastTalkedToBy(Myself),1,0,0)~ EXIT
-    IF ~RandomNum(4,5)~ THEN DO ~GiveItemCreate("cdamduh",LastTalkedToBy(Myself),1,0,0)~ EXIT
+    IF ~RandomNum(5,1)~ THEN DO ~GiveItemCreate("amul16",LastTalkedToBy(Myself),1,0,0)~ EXIT
+    IF ~RandomNum(5,2)~ THEN DO ~GiveItemCreate("amul24",LastTalkedToBy(Myself),1,0,0)~ EXIT
+    IF ~RandomNum(5,3)~ THEN DO ~GiveItemCreate("cdamacid",LastTalkedToBy(Myself),1,0,0)~ EXIT
+    IF ~RandomNum(5,4)~ THEN DO ~GiveItemCreate("cdamduh",LastTalkedToBy(Myself),1,0,0)~ EXIT
     IF ~RandomNum(5,5)~ THEN DO ~GiveItemCreate("cdamcons",LastTalkedToBy(Myself),1,0,0)~ EXIT
   END
   
@@ -679,7 +679,11 @@ APPEND ~%tutu_var%TAEROM~
   END
   
   IF ~~ THEN BEGIN GoneBabyGone SAY @1302
-    IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",24)~ EXIT
+    IF ~~ THEN DO ~TakePartyItem("cdbracer")
+                   DestroyItem("cdbracer") 
+                   TakePartyItem("cdpowder")
+                   DestroyItem("cdpowder")  
+                   SetGlobal("CDBracerQuest","GLOBAL",24)~ EXIT
   END
 
 END
@@ -1060,7 +1064,7 @@ APPEND ~%tutu_var%THALAN~
   END
   
   IF ~~ THEN BEGIN OffIGoToSeeTaerom SAY @1060
-    IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",7)~ EXIT
+    IF ~~ THEN EXIT
   END
 
   IF ~~ THEN BEGIN SkipMelicamp SAY @1099
