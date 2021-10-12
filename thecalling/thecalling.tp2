@@ -343,7 +343,16 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/werewolf.d~
                         ~thecalling/baf/dw#kcut2.baf~
                         ~thecalling/baf/dw#kcut3.baf~
 						
-ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~						
+ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~	
+
+ACTION_IF GAME_IS ~bgt~ BEGIN // bgt doesn't assign kaishas to kaish2
+
+  COPY_EXISTING ~kaish2.cre~ ~override~
+    WRITE_ASCII 0x250 ~kaisha~ #8
+    BUT_ONLY
+  
+END  
+					
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
