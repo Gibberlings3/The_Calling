@@ -1,4 +1,13 @@
 IF
+  OnCreation()
+  AreaCheck("%HighHedge_ThalanthyrsAbode%")
+  GlobalGT("CDBracerQuest","GLOBAL",20)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END   
+
+IF
   !AreaCheck("%Gullykin_House1_L1%")
   Global("CDScripts","LOCALS",0)
 THEN
