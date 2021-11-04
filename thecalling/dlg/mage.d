@@ -457,7 +457,7 @@ APPEND ~%tutu_var%KELDDA~
     COPY_TRANS ~%tutu_var%KELDDA~ 0
   END
 
-  IF ~~ THEN BEGIN KeldathPearls2 SAY @1062
+  IF ~~ THEN BEGIN KeldathPearls2 SAY @1067
     IF ~~ THEN REPLY @1068 GOTO Thalantyr
     IF ~~ THEN REPLY @1069 GOTO Hostile
     IF ~~ THEN REPLY @1070 GOTO Bribe
