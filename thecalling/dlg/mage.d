@@ -617,8 +617,8 @@ END
 APPEND ~%tutu_var%TAEROM~
 
   IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",25)~ THEN BEGIN BracersGone SAY @1303
-    IF ~~ THEN GOTO FinallyDone
-    IF ~Global("CDMakeBracers","MYAREA",1)~ THEN GOTO HeresItem
+    IF ~~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",26)~ GOTO FinallyDone
+    IF ~Global("CDMakeBracers","MYAREA",1)~ THEN DO ~SetGlobal("CDBracerQuest","GLOBAL",26)~ GOTO HeresItem
   END
 
   IF WEIGHT #-1 ~Global("CDBracerQuest","GLOBAL",11)
