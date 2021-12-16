@@ -1,5 +1,5 @@
 IF
-  HasItem("%tutuvar%misc36",Myself)
+  HasItem("%tutu_var%misc36",Myself)
   Global("CDPearls","LOCALS",0)
 THEN
   RESPONSE #95
@@ -7,6 +7,6 @@ THEN
     Continue()
   RESPONSE #5
     SetGlobal("CDPearls","LOCALS",1)
-    TakeItemReplace("cdbpearl","%tutuvar%misc36",Myself)
+    TakeItemReplace("cdbpearl","%tutu_var%misc36",Myself)
     Continue()
 END

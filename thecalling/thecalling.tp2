@@ -133,7 +133,7 @@ LABEL ~cd_the_calling_mage~
 */
 
 // extend scripts for areas
-EXTEND_BOTTOM ~%HighHedge_ThalanthyrsAbode_BCS%.bcs~   ~thecalling/baf/_ar3202.baf~ // thalantyr does stuff
+EXTEND_BOTTOM ~%HighHedge_ThalanthyrsAbode_BCS%.bcs~   ~thecalling/baf/_ar3202.baf~ EVALUATE_BUFFER // thalantyr does stuff
 EXTEND_BOTTOM ~%Beregost_ThunderhammerSmithy_BCS%.bcs~ ~thecalling/baf/_ar3301.baf~ // taerom cutscene
 EXTEND_BOTTOM ~%UlcasterRuins_BCS%.bcs~                ~thecalling/baf/_ar3901.baf~ // add note
 EXTEND_BOTTOM ~%Gullykin_House1_L1_BCS%.bcs~           ~thecalling/baf/_ar4005.baf~ // spawn iris & largo
