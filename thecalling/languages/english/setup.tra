@@ -47,7 +47,7 @@ As it would be unwise to try and use them, Thalantyr has charmed them to be too 
   @116 = ~Damaged Piece of Parchment~
   @117 = ~This parchment appears torn from a book, and is singed around the edges. Only a small portion of text is legible:
 
-Just about any crystal can be used for scrying when properly prepared, though some have a natural affinity. It is a common mistake of those studying magic to believe that expensive, difficult to obtain gems are needed as spell components, when a common zircon will often suffice. Even with a properly constructed device, the results are often unclear makng divination a particularly difficult branch of magic to study.~
+Just about any crystal can be used for scrying when properly prepared, though some have a natural affinity. It is a common mistake of those studying magic to believe that expensive, difficult to obtain gems are needed as spell components, when a common zircon will often suffice. Even with a properly constructed device, the results are often unclear making divination a particularly difficult branch of magic to study.~
   @118 = ~This device was commissioned by Thalantyr and built by Taerom of Beregost. Thalantyr hopes to use it to locate the bracers which cursed Melicamp. Near the center, you can see three settings for gemstones.~
   @119 = ~Amulet of Acid Resistance~
   @120 = ~Acid, when available, is an effective hindrance to mages, frequently interrupting their spellcasting. Sinosta, a minor mage of Waterdeep, designed this amulet to counteract the effects of acid. Unfortunately, it did little good for Sinosta, who was assassinated in a back alley after insulting the local thieves guild.
@@ -155,12 +155,12 @@ Tsu-O-Shi, also known as the Coveted Blade, was forged in the nation of Wa more 
 STATISTICS:
 
 THAC0: +2 bonus
-Damage:  1D10 + 2
-Damage type:  slashing
-Weight:  4
+Damage: 1D10 + 2
+Damage type: slashing
+Weight: 4
 Speed Factor: 2
 Proficiency Type: Katana
-Type:  1-handed
+Type: 1-handed
 Requires: 6 Strength
 
 Chance to permanently drain life or attributes from wielder when used

@@ -33,7 +33,7 @@ ALWAYS
 END
 
 VERSION ~Beta 3~
-README ~thecalling/languages/%LANGUAGE%/readme-thecalling.html~ ~thecalling/readme-thecalling.html~
+README ~thecalling/readme-thecalling-%LANGUAGE%.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~thecalling/languages/%s~
 
 LANGUAGE ~English~ ~english~ 
@@ -41,7 +41,7 @@ LANGUAGE ~English~ ~english~
 LANGUAGE ~Czech (Translation by Razfallow and Vlasák)~ ~czech~ 
   ~thecalling/languages/english/setup.tra~
   ~thecalling/languages/czech/setup.tra~
-LANGUAGE ~Francais (Translation by Anomaly, Elgaern the Dragon Slayer, Isaya and elminster)~ ~french~ 
+LANGUAGE ~Francais (Traduction : Anomaly, Elgaern the Dragon Slayer, Isaya, elminster and JohnBob)~ ~french~ 
   ~thecalling/languages/english/setup.tra~
   ~thecalling/languages/french/setup.tra~
 LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson, Caswallon und Jester)~ ~german~ 

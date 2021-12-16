@@ -6,5 +6,142 @@ When The Calling is installed on non-EE games, only strings from setup.tra are u
 from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vanilla and EE games.
 This file is also formatted in utf-8 since it's only used on EE games. setup.tra will be converted on the fly for EE.
 
-This file can be left blank, but cannot be deleted. 
+This file can be left blank, but cannot be deleted.
 */
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@102 = ~Une perle est constituée de couches superposées d'aragonite qui se forment lentement et laborieusement autour d'un grain de sable présent dans une huître ou un autre mollusque. Le résultat de ce processus a un bel aspect lustré. La plupart des perles des Royaumes sont blanches, mais celle-ci est noire, une variante beaucoup plus rare. Les perles noires sont très appréciées pour leurs propriétés magiques uniques, notamment par les devins.
+
+PARAMÈTRES :
+
+Poids : 0~
+@110 = ~Thalantyr vous a demandé de livrer ceci à Taërom Fuiruim. En le plongeant dans sa forge, Taërom pourra détruire les bracelets dans les flammes.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+@111 = ~Le zircon est un cristal tirant sur le marron que l'on trouve dans les roches ignées (volcaniques) et est utilisé par les appareils de scrutation. Le zircon acquiert ses nuances bleu pâle après avoir été exposé à la chaleur et taillé (en général taille à facettes).
+
+PARAMÈTRES :
+
+Poids : 0~
+@113 = ~Il s'agit d'un mélange de minerai pour Taërom, collecté par Mélicamp et Grace dans les mines de Nashkel.
+
+PARAMÈTRES :
+
+Poids : 15~
+@115 = ~Ce sont les bracelets responsables de la malédiction de Mélicamp, enfin retrouvés. Malgré leur nature inhabituelle et intéressante, Thalantyr a décidé que le risque de les garder est plus important que les connaissances apportées par leur étude approfondie.
+
+Comme il serait imprudent d'essayer de les utiliser, Thalantyr les a ensorcelés pour qu'ils soient trop petits pour être portés.
+
+PARAMÈTRES :
+
+Poids : 1~
+@118 = ~Cet appareil a été commandé par Thalantyr et construit par Taërom de Bérégost. Thalantyr espère l'utiliser pour retrouver les bracelets qui ont maudit Mélicamp. Près de son centre, on distingue trois emplacements destinés à recevoir des pierres précieuses.
+
+PARAMÈTRES :
+
+Poids : 0~
+@120 = ~L'acide peut constituer est une entrave efficace contre les mages, pouvant interrompre leurs incantations. Sinosta, un petit mage d'Eauprofonde, a conçu cette amulette pour contrer les effets de l'acide. Malheureusement, elle ne lui a guère servi, puisqu'il a été assassiné dans une ruelle après avoir insulté la guilde des voleurs locale.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance à l'acide : +25 %
+
+Poids : 1~
+@122 = ~Cette amulette, en apparence inoffensive, se resserre autour du cou. Il est possible de parler, mais à peine, et elle rend impossible les vocalisations complexes requises pour lancer des sorts. Les amulettes de constriction ont été utilisées pour à peu près tout, depuis les farces entre apprentis jusqu'à l'affaiblissement des archimages pour faciliter leur assassinat.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Neutralise les capacités d'incantation
+- Ne peut être ôtée qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Poids : 1~
+@124 = ~Ce type d'amulette est très populaire auprès des marchands sans scrupules. Ces objets ressemblent à des amulettes ornées et coûteuses et sont souvent offerts en cadeau à des clients potentiels, des rivaux ou d'autres contacts commerciaux. Elles sont conçues seulement pour endormir l'esprit, en toute discrétion ; ce qui permet au marchand de prendre l'avantage pendant des négociations complexes.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Intelligence: -2
+- Sagesse: -2
+- Charisme: -2
+- Ne peut être ôtée qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Poids : 1~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40002 = ~Les origines de ce carquois ont été oubliées depuis longtemps, mais on peut supposer sans trop de risques qu'il existe un lien entre lui et l'étrange pénurie de fabricants de flèches au cours du Temps des Troubles.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Quantité illimitée de flèches
+
+Poids : 0~
+@40004 = ~L'histoire de cet étui magique s'est perdue dans le brouillard du passé, mais elle doit sans aucun doute être liée à l'inexplicable pénurie de fabricants de carreaux au cours du Temps des Troubles.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Quantité illimitée de carreaux
+
+Poids : 0~
+@40006 = ~Cette petite poche de tissu est vide, mais cela ne l'empêche pas de rayonner d'une puissante aura magique.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Quantité illimitée de billes
+
+Poids : 0~
+@40008 = ~Cette pierre ionique, de couleur violette, autorise son porteur à voir dans l'obscurité.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Infravision sur 36 mètres
+
+Poids : 2~
+@40010 = ~Cette pierre ionique est froide au toucher et rayonne d'énergie.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance au froid : +10 %
+
+Poids : 2~
+@40013 = ~Tsu-O-Shi +2~
+@40014 = ~Tsu-O-Shi, aussi connue sous le nom de la Lame convoitée, a été forgée dans la nation de Wa il y a plus de cinq siècles par le forgeron Murakaken Shinji, dont le talent était si réputé qu'on le disait capable de réveiller l'esprit même du métal. Tsu-O-Shi est passée entre les mains des différents héritiers de la famille Kasune, par ailleurs tout à fait ordinaire, jusqu'à ce que le puissant daimyo et célèbre amateur de sabres, Fushima Takagi, la voie. Takagi devint obsédé par cette lame et fit plusieurs tentatives infructueuses pour l'acquérir. Finalement, il engagea un groupe de ninja pour la voler, compensant sa dépense en brûlant la propriété de la famille Kasune. Lorsque les ninja lui rapportèrent l'épée, il l'utilisa pour les découper en rondelles, supprimant à tout jamais tout lien entre lui et les propriétaires légitimes de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où il mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière lui, il resta donc avec Tsu-O-Shi, ne faisant plus qu'un avec elle. Depuis ce jour, tous ceux qui manient la puissante Tsu-O-Shi doivent se méfier de l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent l'arme, pour que son âme reste sur Toril avec l'objet de son désir. Par conséquent, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur à chaque coup porté.
+- Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+
+TAC0 : +2
+Dégâts : 1d10 +2 (tranchant)
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : katana
+Type : arme à une main
+Force nécessaire : 6
+
+Poids: 4~
