@@ -32,7 +32,7 @@ ALWAYS
 
 END
 
-VERSION ~v1~
+VERSION ~v2~
 README ~thecalling/readme-thecalling-%LANGUAGE%.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~thecalling/languages/%s~
 
