@@ -146,11 +146,23 @@ STRING_SET 16380 @111 // add scrying stuff to descript of zircon
 // start with dupe dialogues for the halfling couple
 COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
               ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
+
+ACTION_IF GAME_IS ~bgt~ BEGIN OUTER_SPRINT thalan_states "1 35" END ELSE BEGIN OUTER_SPRINT thalan_states "1" END
+
+COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
+                        ~thecalling/baf/cdiris.baf~
+                        ~thecalling/baf/cdlargo.baf~
+                        ~thecalling/baf/cdminer1.baf~
               
 // melicamp needed for quests, so make sure he always survives anti-chickenator
 ACTION_IF GAME_IS ~bgee eet~ BEGIN // ees move the cutscene to the dialogue, so
 
-  COMPILE ~thecalling/dlg/melicamp_lives.d~
+  OUTER_SET cd_journal1 = 27256
+  ACTION_IF GAME_IS ~eet~ BEGIN OUTER_SET cd_journal1 += 200000 END // bg strings in eet are +200000
+  OUTER_SET cd_journal2 = cd_journal1 + 1
+  OUTER_SET cd_journal3 = cd_journal1 + 2
+  
+  COMPILE ~thecalling/dlg/melicamp_lives.d~ EVALUATE_BUFFER
 
 END ELSE BEGIN
 
@@ -161,13 +173,6 @@ END ELSE BEGIN
     BUT_ONLY
 
 END
-
-ACTION_IF GAME_IS ~bgt~ BEGIN OUTER_SPRINT thalan_states "1 35" END ELSE BEGIN OUTER_SPRINT thalan_states "1" END
-
-COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
-                        ~thecalling/baf/cdiris.baf~
-                        ~thecalling/baf/cdlargo.baf~
-                        ~thecalling/baf/cdminer1.baf~
 
 // add some black pearls to the game
 EXTEND_TOP    ~%tutu_scripts%irspell.bcs~             ~thecalling/baf/_irspell.baf~ EVALUATE_BUFFER // give sirines a chance to have black pearls (including sil)
