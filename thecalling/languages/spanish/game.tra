@@ -1,0 +1,114 @@
+@40001 = ~Carcaj de Abundancia~
+@40002 = ~La historia de este carcaj hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+
+CARACTERÍSTICAS:
+
+Flechas Ilimitadas~
+@40003 = ~Caja de Abundancia~
+@40004 = ~La historia de esta caja hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+
+CARACTERÍSTICAS:
+
+Virotes Ilimitados~
+@40005 = ~Bolsa de Abundancia~
+@40006 = ~Aunque esta bolsita esté ahora vacía, tiene un aura mágica rodeándola.
+
+CARACTERÍSTICAS:
+
+Balas limitadas~
+@40007 = ~Piedra Ioun Púrpura Oscuro~
+@40008 = ~Piedra Ioun Púrpura Oscuro
+
+Esta piedra, púrpura oscura, permite a quien la lleva ver entre las sombras.
+
+CARACTERÍSTICAS:
+
+Habilidad Especial: 60' infravision
+Peso: 2 lbs~
+@40009 = ~Piedra Ioun Blanco Brillante~
+@40010 = ~Piedra Ioun Blanco Brillante
+
+Esta piedra es fría al tacto e irradia energía.
+
+CARACTERÍSTICAS:
+
+Especial: +10% resistencia al frío
+Peso: 2 lbs~
+@40011 = ~Katana~
+@40012 = ~Katana
+
+La katana es una espada delgada y curvada. Tal vez una de las espadas mas finas que se han hecho, los pasos para su creación son secretos, es mas arte que otra cosa. Esta espada es una fase importante de la cultura Kara-Tur. El tocar o llevar una katana es un gran insulto para un samurai. El que un forastero posea una es algo muy extraño. O es un gran amigo o ha matado a un samurai.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: cortante
+Peso: 6 lbs
+Factor de Velocidad: 4
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@40013 = ~Katana +2, Tsu-O-Shi~
+@40014 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi se forjó en la nación de Wa hace ya mas de cinco siglos, por el herrero Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que podía despertar el espíritu del metal. Tsu-O-Shi ha pasado por varias generaciones de la familia Kasune, hasta que el poderoso daimyo y amante de las espadas, Fushima Takagi, la vió. Takagi se obsesionó con esta espada, e intento apoderarse de ella muchas veces. Finalmente contrató un clan de ninjas para robarla. Takagi escondió la espada, muchas veces iba a su lugar escondido para admirarla en su perfección. El día de su muerte, su espíritu se negó a dejar este mundo, para quedarse con Tsu-O-Shi, uniéndose a ésta. Desde ese día, cualquiera que use a Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe de la esencia de quien toque el arma para poder quedarse en  Toril junto a ella. Como resultado, esta arma maldita puede beber de la vida de quien la lleve.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +2
+GAC0: +2 adicional
+Especial: Probabilidad de drenar la vida permanentemente de quien la usa
+Tipo de daño: cortante
+Peso: 4 lbs
+Factor de Velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Señor de las bestias~
+@40015 = ~Modificación de la Sabiduría~
+@40016 = ~Modificación de la Constitución~
+@40017 = ~Modificación de la Destreza~
+@40018 = ~Modificación del Carisma~
+@40019 = ~Modificación de los puntos de golpe~
+@40020 = ~Modificación de la Inteligencia~
+@40021 = ~Modificación de la Fuerza~
+@40022 = ~Templo Gullykin~
+@40025 = ~Katana
+
+La katana es una espada delgada y curvada. Tal vez una de las espadas mas finas que se han hecho, los pasos para su creación son secretos, es mas arte que otra cosa. Esta espada es una fase importante de la cultura Kara-Tur. El tocar o llevar una katana es un gran insulto para un samurai. El que un forastero posea una es algo muy extraño. O es un gran amigo o ha matado a un samurai.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10
+Tipo de daño: cortante
+Peso: 6 lbs
+Factor de Velocidad: 4
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+~
+@40026 = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi se forjó en la nación de Wa hace ya mas de cinco siglos, por el herrero Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que podía despertar el espíritu del metal. Tsu-O-Shi ha pasado por varias generaciones de la familia Kasune, hasta que el poderoso daimyo y amante de las espadas, Fushima Takagi, la vió. Takagi se obsesionó con esta espada, e intento apoderarse de ella muchas veces. Finalmente contrató un clan de ninjas para robarla. Takagi escondió la espada, muchas veces iba a su lugar escondido para admirarla en su perfección. El día de su muerte, su espíritu se negó a dejar este mundo, para quedarse con Tsu-O-Shi, uniéndose a ésta. Desde ese día, cualquiera que use a Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe de la esencia de quien toque el arma para poder quedarse en  Toril junto a ella. Como resultado, esta arma maldita puede beber de la vida de quien la lleve.
+
+CARACTERÍSTICAS:
+
+Daño: 1D10 +2
+GAC0: +2 adicional
+Especial: Probabilidad de drenar la vida permanentemente de quien la usa
+Tipo de daño: cortante
+Peso: 4 lbs
+Factor de Velocidad: 2
+Talento marcial: Katana
+Tipo: A una mano
+Requisitos: Fuerza 6
+~

@@ -1,0 +1,21 @@
+@0 = ~Aucun des composants de ce mod n'est disponible pour votre jeu.~
+@1 = ~Les fonctionnalites de ce composant sont deja incluses ou rendues obsoletes par un autre mod deja installe.~
+@2 = ~Tales of the Sword Coast est requis pour ce composant.~
+@3 = ~Ce composant n'est pas encore disponible.~
+@4 = ~DLC Merger est necessaire avant que les mods puissent etre installes sur ce jeu. Consultez le fichier readme pour plus d'informations et un lien pour telecharger DLC Merger.~
+@5 = ~Ce composant n'est pas encore disponible dans votre langue.~
+
+@100 = ~The Calling (L'appel)~
+@101 = ~Voulez-vous acceder aux composants de triche ?
+
+a) Pas de triche ; seulement un appel par jeu.
+b) Autoriser plusieurs appels, mais maintenir les restrictions de classe.
+c) Autoriser plusieurs appels, sans restriction de classe.~
+
+@10000 = ~Forteresse gnoll amelioree~
+
+@20000 = ~Resolution pacifique a l'ile des loups-garous~
+
+@30000 = ~Culte de Movanic~
+
+@40000 = ~Pack d'objets exotiques~

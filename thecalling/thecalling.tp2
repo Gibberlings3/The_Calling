@@ -1,4 +1,4 @@
-BACKUP ~thecalling/backup~ // location to store files for
+BACKUP ~weidu_external/thecalling/backup~ // location to store files for
 SUPPORT ~http://gibberlings3.net/forums/index.php?showforum=201~ // forum url
 
 ALWAYS
@@ -19,12 +19,21 @@ ALWAYS
     INCLUDE ~thecalling/lib/tob2soa.tpa~
 
     ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-
-      ACTION_DEFINE_ARRAY cdreload BEGIN mage setup werewolf END // convert strings to UTF-8 for BGEE/EET
-      ACTION_DEFINE_ARRAY cdnoconvert BEGIN ee END // ee.tra is already in utf-8
-      LAF HANDLE_CHARSETS INT_VAR infer_charset = 1 STR_VAR tra_path = ~thecalling/languages~ reload_array = cdreload noconvert_array = cdnoconvert END
       
+      OUTER_SPRINT ~tra_location~ ~thecalling/languages~      
       LOAD_TRA ~thecalling/languages/%LANGUAGE%/ee.tra~
+      OUTER_SET enhanced_edition = 1
+    
+   END ELSE BEGIN    
+      
+      OUTER_SPRINT ~tra_location~ ~weidu_external/thecalling/languages~
+      OUTER_SET enhanced_edition = 0
+
+      // convert strings from UTF-8 for originals  
+      ACTION_DEFINE_ARRAY cdnoconvert BEGIN weidu ee END // strings exclusively for the installer and EE, respectively
+      ACTION_DEFINE_ARRAY cdreload BEGIN game mage werewolf END // actual content strings
+      LAF HANDLE_CHARSETS INT_VAR from_utf8 = 1 infer_charsets = 1 
+                          STR_VAR default_language = ~english~ tra_path = ~thecalling/languages~ out_path = ~weidu_external/thecalling/languages~ noconvert_array = cdnoconvert reload_array = cdreload END
 
     END
 
@@ -34,37 +43,56 @@ END
 
 VERSION ~v2~
 README ~thecalling/readme-thecalling-%LANGUAGE%.html~ ~thecalling/readme-thecalling.html~
-AUTO_TRA ~thecalling/languages/%s~
+AUTO_TRA ~%tra_location%/%s~
 
 LANGUAGE ~English~ ~english~ 
-  ~thecalling/languages/english/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
 LANGUAGE ~Czech (Translation by Razfallow and Vlasák)~ ~czech~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/czech/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/czech/game.tra~
+  ~thecalling/languages/czech/weidu.tra~
 LANGUAGE ~Francais (Traduction : Anomaly, Elgaern the Dragon Slayer, Isaya, elminster and JohnBob)~ ~french~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/french/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/french/game.tra~
+  ~thecalling/languages/french/weidu.tra~
 LANGUAGE ~Deutsch (Uebersetzung von Leonardo Watson, Caswallon und Jester)~ ~german~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/german/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/german/game.tra~
+  ~thecalling/languages/german/weidu.tra~
 LANGUAGE ~Italiano (translation by Andrea Colombo and improb@bile)~ ~italian~
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/italian/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/italian/game.tra~
+  ~thecalling/languages/italian/weidu.tra~
 LANGUAGE ~Korean (Translation by web2air)~ ~korean~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/korean/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/korean/game.tra~
+  ~thecalling/languages/korean/weidu.tra~
 LANGUAGE ~Polski (Translation by memory, yarpen, Artanis, dragionian, Evendur, Grjgori, and Neminus)~ ~polish~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/polish/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/polish/game.tra~
+  ~thecalling/languages/polish/weidu.tra~
 LANGUAGE ~Russian (Translation by Creepin, Domi, Kulyok, Serdrick and aerie.ru; paladin84 and arcanecoast.ru)~ ~russian~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/russian/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/russian/game.tra~
+  ~thecalling/languages/russian/weidu.tra~
 LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/spanish/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/spanish/game.tra~
+  ~thecalling/languages/spanish/weidu.tra~
 LANGUAGE ~Simplified Chinese (Translation from bg2_tweaks by Miranda, distance20 and c4_angel)~ ~schinese~ 
-  ~thecalling/languages/english/setup.tra~
-  ~thecalling/languages/schinese/setup.tra~
+  ~thecalling/languages/english/game.tra~
+  ~thecalling/languages/english/weidu.tra~
+  ~thecalling/languages/schinese/game.tra~
+  ~thecalling/languages/schinese/weidu.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -330,7 +358,7 @@ REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~stratagems/setup-stratagems.tp2~ ~7060~ 
 REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @2 // totsc required
 LABEL ~cd_the_calling_peaceful_kaishas_resolution~
 
-EXTEND_BOTTOM ~%tutu_var%kaisha.bcs~      ~thecalling/baf/kaishas.baf~ EVALUATE_BUFFER USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~
+EXTEND_BOTTOM ~%tutu_var%kaisha.bcs~      ~thecalling/baf/kaishas.baf~ EVALUATE_BUFFER USING ~%tra_location%/%LANGUAGE%/werewolf.tra~
 EXTEND_TOP    ~%IsleofBalduranN_BCS%.bcs~ ~thecalling/baf/werewolfadd.baf~ EVALUATE_BUFFER
 
 COPY_EXISTING ~%tutu_var%werewo.cre~ ~override/dw#wwolf.cre~
@@ -348,7 +376,7 @@ COMPILE EVALUATE_BUFFER ~thecalling/dlg/werewolf.d~
                         ~thecalling/baf/dw#kcut2.baf~
                         ~thecalling/baf/dw#kcut3.baf~
 						
-ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~thecalling/languages/%LANGUAGE%/werewolf.tra~	
+ADD_JOURNAL EXISTING TITLE (#31414) @21614 @21648 @21637 @21638 USING ~%tra_location%/%LANGUAGE%/werewolf.tra~	
 
 ACTION_IF GAME_IS ~bgt~ BEGIN // bgt doesn't assign kaishas to kaish2
 

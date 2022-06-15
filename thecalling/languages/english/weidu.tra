@@ -1,0 +1,29 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// main tp2 strings                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+    @0 = ~None of the components of this mod are available for your game.~
+    @1 = ~The functionality of this component is either already included or superceded by one of your already installed mods.~
+    @2 = ~Tales of the Sword Coast is required for this component.~
+    @3 = ~This component is not available yet.~
+    @4 = ~DLC Merger is required before mods can be installed on this game. Check the readme for more information and a link to download DLC Merger.~
+    @5 = ~This component is not available in your language yet.~
+
+  @100 = ~The Calling~
+  @101 = ~Would you like to install cheats?
+
+  a) No cheats; keep it one calling per game
+  b) Allow multiple callings but keep class restrictions
+  c) Allow multiple callings with no class restrictions~
+
+@10000 = ~Expanded Gnoll Fortress~
+
+@20000 = ~Peaceful Werewolf Isle Resolution~
+
+@30000 = ~The Movanic Cult~
+
+@40000 = ~Exotic Item Pack~

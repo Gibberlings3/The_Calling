@@ -1,0 +1,256 @@
+
+
+@102 = ~Une perle est constituée de couches superposées d'aragonite qui se forment lentement et laborieusement autour d'un grain de sable présent dans une huître ou un autre mollusque. Le résultat de ce processus a un bel aspect lustré. La plupart des perles des Royaumes sont blanches, mais celle-ci est noire, une variante beaucoup plus rare. Les perles noires sont très appréciées pour leurs propriétés magiques uniques, notamment par les devins.~
+@103 = ~Mineur Sal~
+@104 = ~Mineur James~
+@105 = ~Grace~
+@106 = ~Dispositif de scrutation~
+@107 = ~Iris Cotton~
+@108 = ~Largo Cotton~
+@109 = ~Poudre magique~
+@110 = ~Thalantyr vous a demandé de livrer ceci à Taërom Fuiruim. En le plongeant dans sa forge, Taërom pourra détruire les bracelets dans les flammes.~
+@111 = ~Le zircon est un cristal tirant sur le marron que l'on trouve dans les roches ignées (volcaniques) et est utilisé par les appareils de scrutation. Le zircon acquiert ses nuances bleu pâle après avoir été exposé à la chaleur et taillé (en général taille à facettes).~
+@112 = ~Minerai pour Taërom~
+@113 = ~Il s'agit d'un mélange de minerai pour Taërom, collecté par Mélicamp et Grace dans les mines de Nashkel.~
+@114 = ~Bracelets maudits~
+@115 = ~Ce sont les bracelets responsables de la malédiction de Mélicamp, enfin retrouvés. Malgré leur nature inhabituelle et intéressante, Thalantyr a décidé que le risque de les garder est plus important que les connaissances apportées par leur étude approfondie.
+
+Comme il serait imprudent d'essayer de les utiliser, Thalantyr les a ensorcelés pour qu'ils soient trop petits pour être portés.~
+@116 = ~Fragment de parchemin endommagé~
+@117 = ~Ce parchemin semble avoir été arraché à un livre, et est brûlé sur les cotés. Seule une petite partie est lisible :
+
+Presque tous les cristaux peuvent être utilisés pour la scrutation lorsqu'ils sont correctement préparés, bien que certains aient une affinité naturelle. Ceux qui étudient la magie commettent l'erreur classique de croire que des pierres précieuses coûteuses et difficiles à obtenir sont nécessaires comme composants de sorts, alors qu'un simple zircon peut suffire. Même avec un dispositif correctement construit, les résultats sont souvent peu clairs, ce qui fait de la divination une spécialité magique particulièrement difficile à étudier.~
+@118 = ~Cet appareil a été commandé par Thalantyr et construit par Taërom de Bérégost. Thalantyr espère l'utiliser pour retrouver les bracelets qui ont maudit Mélicamp. Près de son centre, on distingue trois emplacements destinés à recevoir des pierres précieuses.~
+@119 = ~Amulette de résistance à l'acide~
+@120 = ~L'acide peut constituer est une entrave efficace contre les mages, pouvant interrompre leurs incantations. Sinosta, un petit mage d'Eauprofonde, a conçu cette amulette pour contrer les effets de l'acide. Malheureusement, elle ne lui a guère servi, puisqu'il a été assassiné dans une ruelle après avoir insulté la guilde des voleurs locale.
+
+PARAMÈTRES :
+
+- Résistance à l'acide : +25 %~
+@121 = ~Amulette de constriction~
+@122 = ~Cette amulette, en apparence inoffensive, se resserre autour du cou. Il est possible de parler, mais à peine, et elle rend impossible les vocalisations complexes requises pour lancer des sorts. Les amulettes de constriction ont été utilisées pour à peu près tout, depuis les farces entre apprentis jusqu'à l'affaiblissement des archimages pour faciliter leur assassinat.
+
+PARAMÈTRES :
+
+- Neutralise les capacités d'incantation~
+@123 = ~Amulette de l'imbécile~
+@124 = ~Ce type d'amulette est très populaire auprès des marchands sans scrupules. Ces objets ressemblent à des amulettes ornées et coûteuses et sont souvent offerts en cadeau à des clients potentiels, des rivaux ou d'autres contacts commerciaux. Elles sont conçues seulement pour endormir l'esprit, en toute discrétion ; ce qui permet au marchand de prendre l'avantage pendant des négociations complexes.
+
+PARAMÈTRES :
+
+- Réduit l'intelligence, la sagesse et le charisme de 2 points~
+@125 = ~Perle noire~
+@126 = ~Perle blanche~
+
+@30001 = ~Guide de Movanic~
+@30002 = ~Adepte de Movanic~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40001 = ~Carquois d'abondance~
+@40002 = ~Les origines de ce carquois ont été oubliées depuis longtemps, mais on peut supposer sans trop de risques qu'il existe un lien entre lui et l'étrange pénurie de fabricants de flèches au cours du Temps des Troubles.
+
+PARAMÈTRES :
+
+Quantité illimitée de flèches~
+@40003 = ~Étui d'abondance~
+@40004 = ~L'histoire de cet étui magique s'est perdue dans le brouillard du passé, mais elle doit sans aucun doute être liée à l'inexplicable pénurie de fabricants de carreaux au cours du Temps des Troubles.
+
+PARAMÈTRES :
+
+Quantité illimitée de carreaux~
+@40005 = ~Sac d'abondance~
+@40006 = ~Cette petite poche de tissu est vide, mais cela ne l'empêche pas de rayonner d'une puissante aura magique.
+
+PARAMÈTRES :
+
+- Quantité illimitée de billes~
+@40007 = ~Pierre ionique violette~
+@40008 = ~Cette pierre ionique, de couleur violette, autorise son porteur à voir dans l'obscurité.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Infravision sur 36 mètres
+
+Poids: 2~
+@40009 = ~Pierre ionique blanche scintillante~
+@40010 = ~Cette pierre ionique est froide au toucher et rayonne d'énergie.
+
+PARAMÈTRES :
+
+Capacité d'équipement :
+- Résistance au froid : +10 %
+
+Poids: 2~
+/*
+@40011 = ~Katana~
+@40012 = ~Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+
+PARAMÈTRES :
+
+Dégâts : 1d10
+Type de dégâts : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : katana
+Type : arme à 1 main
+Force nécessaire : 6
+Inutilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+*/
+@40013 = ~Katana +2, Tsu-O-Shi~
+@40014 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame convoitée, a été forgée dans la nation de Wa il y a plus de cinq siècles par le forgeron Murakaken Shinji, dont le talent était si réputé qu'on le disait capable de réveiller l'esprit même du métal. Tsu-O-Shi est passée entre les mains des différents héritiers de la famille Kasune, par ailleurs tout à fait ordinaire, jusqu'à ce que le puissant daimyo et célèbre amateur de sabres, Fushima Takagi, la voie. Takagi devint obsédé par cette lame et fit plusieurs tentatives infructueuses pour l'acquérir. Finalement, il engagea un groupe de ninja pour la voler, compensant sa dépense en brûlant la propriété de la famille Kasune. Lorsque les ninja lui rapportèrent l'épée, il l'utilisa pour les découper en rondelles, supprimant à tout jamais tout lien entre lui et les propriétaires légitimes de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où il mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière lui, il resta donc avec Tsu-O-Shi, ne faisant plus qu'un avec elle. Depuis ce jour, tous ceux qui manient la puissante Tsu-O-Shi doivent se méfier de l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent l'arme, pour que son âme reste sur Toril avec l'objet de son désir. Par conséquent, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+
+PARAMÈTRES :
+
+Capacité de combat :
+- Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur à chaque coup porté
+
+TAC0 : +2
+Dégâts : 1d10 +2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : katana
+Type : arme à 1 main
+Force nécessaire : 6
+Inutilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+@40015 = ~Modification de la sagesse~
+@40016 = ~Modification de la constitution~
+@40017 = ~Modification de la dextérité~
+@40018 = ~Modification du charisme~
+@40019 = ~Modification des points de vie~
+@40020 = ~Modification de l'intelligence~
+@40021 = ~Modification de la force~
+@40022 = ~Temple de Gullykin~
+
+/*
+@40023 = ~Pierre ionique~
+@40024 = ~Cette petite pierre flotte autour de la tête de son possesseur quand on la place dans son inventaire. Ces pierres évidemment magiques ont des propriétés différentes en fonction de leur couleur.~
+@40025 = ~Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+
+PARAMÈTRES :
+
+Dégâts : 1D10
+Type de dégât : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6~
+@40026 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame convoitée, fut forgée dans la nation de Wa il y a plus de cinq siècles, par le forgeron Murakaken Shinji, dont le talent était si réputé qu'on disait qu'il était capable de réveiller l'esprit même du métal. Tsu-O-Shi est passée entre les mains de différents héritiers de la famille Kasune (famille tout à fait ordinaire sinon), jusqu'à ce que le puissant daimyo et bien connu pour son amour des épées, Fushima Takagi, la vit. Takagi devint obsédé par cette lame et fit plusieurs tentatives frustrantes pour l'acquérir. Finalement, il engagea un groupe de ninja pour voler la lame pour lui, vengeant ses pertes en brûlant le quartier général de la famille Kasune. Lorsque le ninja présenta la lame à son employeur, elle fut utilisée pour les découper en morceaux, permettant ainsi de retirer définitivement tout lien entre Tagaki et les légitimes propriétaires de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où Tagaki mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière, donc il resta avec Tsu-O-Shi, faisant part intégrante avec elle. Depuis ce jour, toute personne qui utilise Tsu-O-Shi doit faire attention à l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent à l'arme, pour que son âme reste sur Toril avec l'objet de son désir. En résultat, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1D10 + 2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur lorsqu'elle est utilisée.~
+
+
+@109001 = ~Carquois d'abondance~
+@109002 = ~Les origines de ce carquois ont été oubliées depuis longtemps, mais on peut supposer sans trop de risques qu'il existe un lien entre lui et l'étrange pénurie de fabricants de flèches au cours du Temps des Troubles.
+PARAMETRES :
+Quantité illimitée de flèches~
+@109003 = ~Etui d'abondance~
+@109004 = ~L'histoire de cet étui magique s'est perdue dans le brouillard du passé, mais elle doit sans aucun doute être liée à l'inexplicable pénurie de fabricants de carreaux au cours du Temps des Troubles.
+PARAMETRES :
+Quantité illimitée de carreaux~
+@109005 = ~Sac d'abondance~
+@109006 = ~Cette petite poche de tissu est vide, mais cela ne l'empêche pas de rayonner d'une puissane aura magique.
+PARAMETRES :
+Quantité illimité de billes.~
+@109007 = ~Pierre ionique violette~
+@109008 = ~Pierre ionique violette
+Cette pierre ionique, de couleur violette, autorise son porteur à voir dans l'obscurité.
+PARAMETRES :
+Spécial : le porteur est doté du don d'infravision sur 36 mètres.
+Poids: 2~
+@109009 = ~Pierre ionique blanche scintillante~
+@109010 = ~Pierre ionique blanche scintillante
+Cette pierre ionique est froide au toucher et rayonne d'énergie.
+PARAMETRES :
+Bonus: +10% de résistance au froid
+Poids: 2~
+@109011 = ~Katana~
+@109012 = ~Katana
+Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+PARAMETRES :
+Dégâts : 1D10
+Type de dégât : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Inutilisable par :
+ Druide
+ Clerc
+ Mage
+ Belluaire~
+@109013 = ~Katana +2, Tsu-O-Shi~
+@109014 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame Convoitée, fut forgée dans la nation de Wa il y a plus de cinq siècles, par le forgeron Murakaken Shinji, dont le talent était si réputé que la rumeur disait qu'il était capable de réveiller l'esprit même du métal. Tsu-O-Shi est passé entre les mains de différents héritiers de la famille Kasune (famille tout à fait ordinaire sinon), jusqu'à ce que le puissant daimyo et bien connu pour son amour des épées, Fushima Takagi, la vit. Takagi devint obsédé par cette lame et fit plusieurs tentatives frustrantes pour l'acquérir. Finalement, il engagea un groupe de ninja pour voler la lame pour lui, vengeant ses pertes en brûlant le quartier général de la famille Kasune. Lorsque le ninja présenta la lame à son employeur, elle fut utilisée pour les découper en morceaux, permettant ainsi de retirer définitivement tout lien entre Tagaki et les légitimes propriétaires de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où Tagaki mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière, donc il resta avec Tsu-O-Shi, faisant part intégrante avec elle. Depuis ce jour, toute personne qui utilise Tsu-O-Shi doit faire attention à l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent à l'arme, pour que son âme reste sur Toril avec l'objet de son désir. En résultat, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+PARAMETRES :
+TAC0 : +2
+Dégâts : 1D10 + 2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur lorsqu'elle est utilisée.
+Inutilisable par :
+Druide
+Clerc
+Mage
+Belluaire~
+
+@109024 = ~Cette petite pierre flotte autour de la tête de son possesseur quand on la place dans son inventaire. Ces pierres évidemment magiques ont des propriétés différentes en fonction de leur couleur.~
+@109025 = ~Katana
+Le katana est une épée légèrement courbée à simple tranchant, dont la lame se termine en pointe. C'est probablement une des meilleures épées jamais conçues. Les étapes de sa fabrication constituent un procédé long et secret qui est considéré plus comme un art que comme une technique. Cette lame représente un aspect important de la culture de Kara-Tur. C'est faire insulte à un samouraï et provoquer sa colère que d'utiliser ou même de toucher son katana. Il est très rare pour un gaïjin, un étranger, de posséder une telle lame. Cela implique que le gaïjin soit l'ami estimé d'un personnage important, ou bien qu'il ait assassiné un samouraï.
+PARAMETRES :
+Dégâts : 1D10
+Type de dégât : tranchant
+Poids : 6
+Facteur de vitesse : 4
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+~
+@109026 = ~Katana +2, Tsu-O-Shi
+Tsu-O-Shi, aussi connue sous le nom de la Lame Convoitée, fut forgée dans la nation de Wa il y a plus de cinq siècles, par le forgeron Murakaken Shinji, dont le talent était si réputé que la rumeur disait qu'il était capable de réveiller l'esprit même du métal. Tsu-O-Shi est passé entre les mains de différents héritiers de la famille Kasune (famille tout à fait ordinaire sinon), jusqu'à ce que le puissant daimyo et bien connu pour son amour des épées, Fushima Takagi, la vit. Takagi devint obsédé par cette lame et fit plusieurs tentatives frustrantes pour l'acquérir. Finalement, il engagea un groupe de ninja pour voler la lame pour lui, vengeant ses pertes en brûlant le quartier général de la famille Kasune. Lorsque le ninja présenta la lame à son employeur, elle fut utilisée pour les découper en morceaux, permettant ainsi de retirer définitivement tout lien entre Tagaki et les légitimes propriétaires de l'épée. Tagaki cacha l'épée, la sortant souvent de sa cachette pour admirer sa beauté et sa perfection. Le jour où Tagaki mourut, son esprit refusa de quitter Toril et de laisser l'épée derrière, donc il resta avec Tsu-O-Shi, faisant part intégrante avec elle. Depuis ce jour, toute personne qui utilise Tsu-O-Shi doit faire attention à l'esprit de Fushima Tagaki, qui boit l'essence vitale de ceux qui touchent à l'arme, pour que son âme reste sur Toril avec l'objet de son désir. En résultat, cette lame maudite peut absorber l'énergie de son porteur à chaque fois qu'elle est utilisée.
+PARAMETRES :
+TAC0 : +2
+Dégâts : 1D10 + 2
+Type de dégâts : tranchant
+Poids : 4
+Facteur de vitesse : 2
+Type de compétence : Katana
+Type : arme à 1 main
+Force nécessaire : 6
+Possibilité d'absorber de manière permanente les points de vie ou les caractéristiques de son porteur lorsqu'elle est utilisée.
+~
+*/

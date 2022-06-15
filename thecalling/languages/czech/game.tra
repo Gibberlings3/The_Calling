@@ -1,0 +1,117 @@
+@40001  = ~Toulec hojnosti~
+@40002  = ~Historie tohoto magického toulce byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtleným, ale anály potrvzeným nedostatkem schopných výrobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné množství šípù~
+@40003  = ~Schránka hojnosti~
+@40004  = ~Historie této magické schránky byla dlouho zapomenuta, aèkoli má pravdìpodobnì nìco spoleèného s nevysvìtleným, ale anály potrvzeným nedostatkem schopných výrobcù šípù bìhem Doby nesnází.
+
+VLASTNOSTI:
+
+Nevyèerpatelné množství šipek~
+@40005  = ~Vak hojnosti~
+@40006  = ~Aèkoli tento váèek z jemného plátna prváì zeje prázdnotou, obklopuje ho stále silná aura magie.
+
+VLASTNOSTI:
+
+Nevyèerpatelné množství nábojù do praku~
+@40007  = ~Tmavì fialový Iounský kámen~
+@40008  = ~Tmavì fialový Iounský kámen
+
+Tento kámen tmavì fialového odstínu umožòuje svému nositeli jasnì vidìt i v temnotì
+
+VLASTNOSTI:
+
+Zvláštní schopnost: infravidìní do 20 metrù
+Váha: 2~
+@40009  = ~Mihotavì bílý Iounský kámen~
+@40010  = ~Mihotavì bílý Iounský kámen
+
+Tento kámen je chladný na dotek a oèividnì vyzaøuje nìjakou energii.
+
+VLASTNOSTI:
+
+Odolnost na chlad: +10%
+Váha: 2~
+@40011  = ~Katana~
+@40012  = ~Katana
+
+Katana je lehce zahnutý meè s jedním ostøím, se sraženým zakonèením. Katana je pravdìpodobnì jeden z nejlepších meèù, jaké kdy byly vyrobeny. Proces jeho zhotovení je dlouhý a tajemný, je víc umìní než cokoliv jiného. Tato èepel je dùležitou souèástí kultury Kara-Tur. Dotknout se nebo nést samurajovu katanu znamená urazit samuraje a vyprovokovat jeho hnìv. Vlastnictví takové èepele gaijinem, cizincem, je velmi neobvyklé. Buï je ten gaijin velmi ctìný pøítel nìjakého dùležitého pøedstavitele, nebo gaijin zavraždil samuraje.
+
+VLASTNOSTI:
+
+Zranìní:  1K10
+Druh zranìní:  seèné
+Váha:  6
+Rychlost: 4
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyžaduje: Síla 6
+Nemùže užívat:
+ Druid
+ Klerik
+ Mág
+ Pán šelem~
+@40013  = ~Katana +2, Tsu-O-Shi~
+@40014  = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, nìkdy také známá jako Vytoužená èepel, byla vyrobena pøed pìti staletími v zemi Wa. Jejím tvùrcem byl známý meèíø Murakaken Shinji, jehož dovednosti byly tak skvìlé, že o nich kolovaly dokonce povìry o vzívání samotných duchù kovu. Tsu-O-Shi prošla rukama mnoha dìdicùm jinak nièím vyjímeèné rodiny Kasunù. Až ji jednoho dne spatøil mocný daimyo a známý milovník meèù, Fushima Takagi. Takagi se stal meèem úplnì posedlý a podnikl mnoho pokusù o jeho získání. Nakonec najal nindžu, aby èepel ukradl a nechal na její ztrátu zapomenout zapálením rodinné usedlosti Kasunù. Když nindža meè pøinesl svému zamìstnavateli, byla mu jím sata hlava, èímž tak byla navždy odstarìna jakákoliv souvislost mezi Tagakim a legitimními vlastníky meèe. Tagaki meè skrýval. Èasto chodíval na místo, kde byl tento jeho poklad ukryt, a kochal se jeho krásou a dokonalostí. Takagi jednoho dne zemøel. Jeho duše však odmítla opustit zemi, a nechat tak meè o samotì. Proto zùstala s Tsu-O-Shi a stala se její souèástí. Od té doby se musí kdokoliv, kdo chce být majitelem mocné Tsu-O-Shi, mít na pozoru pøed duchem Fushima Takagiho, který se živí esencí tìch, kdož se dotknou zbranì, aby mohl nadále zùstat na Torilu s pøedmìtem své touhy. Výsledkem toho je šance, že tato prokletá èepel oslabí svého nositele, kdykoli je použita.
+
+VLASTNOSTI:
+
+THAC0: +2 bonus
+Zranìní:  1K10 + 2
+Druh zranìní:  seèné
+Váha:  4
+Rychlost: 2
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyžaduje: Síla 6
+
+Šance na trvalé vysátí životù èi vlastností nositele kdykoli je použita
+
+Nemùže užívat:
+Druid
+Klerik
+Mág
+Pán šelem~
+@40015  = ~Úprava moudrosti~
+@40016  = ~Úprava odolnosti~
+@40017  = ~Úprava obratnosti~
+@40018  = ~Úprava charisma~
+@40019  = ~Úprava životù~
+@40020  = ~Úprava inteligence~
+@40021  = ~Úprava síly~
+@40022  = ~Gullykinský chrám~
+@40025  = ~Katana
+
+Katana je lehce zahnutý meè s jedním ostøím, se sraženým zakonèením. Katana je pravdìpodobnì jeden z nejlepších meèù, jaké kdy byly vyrobeny. Proces jeho zhotovení je dlouhý a tajemný, je víc umìní než cokoliv jiného. Tato èepel je dùležitou souèástí kultury Kara-Tur. Dotknout se nebo nést samurajovu katanu znamená urazit samuraje a vyprovokovat jeho hnìv. Vlastnictví takové èepele gaijinem, cizincem, je velmi neobvyklé. Buï je ten gaijin velmi ctìný pøítel nìjakého dùležitého pøedstavitele, nebo gaijin zavraždil samuraje.
+
+VLASTNOSTI:
+
+Zranìní:  1K10
+Druh zranìní:  seèné
+Váha:  6
+Rychlost: 4
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyžaduje: Síla 6
+~
+@40026  = ~Katana +2, Tsu-O-Shi
+
+Tsu-O-Shi, nìkdy také známá jako Vytoužená èepel, byla vyrobena pøed pìti staletími v zemi Wa. Jejím tvùrcem byl známý meèíø Murakaken Shinji, jehož dovednosti byly tak skvìlé, že o nich kolovaly dokonce povìry o vzívání samotných duchù kovu. Tsu-O-Shi prošla rukama mnoha dìdicùm jinak nièím vyjímeèné rodiny Kasunù. Až ji jednoho dne spatøil mocný daimyo a známý milovník meèù, Fushima Takagi. Takagi se stal meèem úplnì posedlý a podnikl mnoho pokusù o jeho získání. Nakonec najal nindžu, aby èepel ukradl a nechal na její ztrátu zapomenout zapálením rodinné usedlosti Kasunù. Když nindža meè pøinesl svému zamìstnavateli, byla mu jím sata hlava, èímž tak byla navždy odstarìna jakákoliv souvislost mezi Tagakim a legitimními vlastníky meèe. Tagaki meè skrýval. Èasto chodíval na místo, kde byl tento jeho poklad ukryt, a kochal se jeho krásou a dokonalostí. Takagi jednoho dne zemøel. Jeho duše však odmítla opustit zemi, a nechat tak meè o samotì. Proto zùstala s Tsu-O-Shi a stala se její souèástí. Od té doby se musí kdokoliv, kdo chce být majitelem mocné Tsu-O-Shi, mít na pozoru pøed duchem Fushima Takagiho, který se živí esencí tìch, kdož se dotknou zbranì, aby mohl nadále zùstat na Torilu s pøedmìtem své touhy. Výsledkem toho je šance, že tato prokletá èepel oslabí svého nositele, kdykoli je použita.
+
+VLASTNOSTI:
+
+THAC0: +2 bonus
+Zranìní:  1K10 + 2
+Druh zranìní:  seèné
+Váha:  4
+Rychlost: 2
+Druh dovednosti: Katana
+Druh:  jednoruèní
+Vyžaduje: Síla 6
+
+Šance na trvalé vysátí životù èi vlastností nositele kdykoli je použita
+~

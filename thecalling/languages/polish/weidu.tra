@@ -1,0 +1,29 @@
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// main tp2 strings                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+    @0 = ~Zaden z komponentow tego moda nie jest dostepny dla twojej gry.~
+    @1 = ~Funkcje tego komponentu sa juz zawarte w twojej grze.~
+    @2 = ~Ten komponent wymaga Opowiesci z Wybrzeza Mieczy.~
+    @3 = ~Ten komponent nie jest jeszcze dostepny.~
+    @4 = ~Modmerge lub DLC Merger jest konieczny, by instalowac mody na tej grze. Sprawdz plik readme, by znalezc dodatkowe informacje i linki do pobierania tych narzedzi.~
+    @5 = ~Ten komponent nie jest jeszcze dostepny w Twoim jezyku.~
+
+  @100 = ~Misja~
+  @101 = ~Chcesz zainstalowac oszustwa?
+
+  a) Bez oszustw; tylko jedna misja w kazdej grze
+  b) Pozwol na wiele misji, ale z ograniczeniami klasowymi
+  c) Pozwol na wiele misji bez ograniczen klasowych~
+
+@10000 = ~Rozszerzona Twierdza Gnolli~
+
+@20000 = ~Pokojowe rozwiazanie przygody na Wyspie Baldurana~
+
+@30000 = ~Kult mowaniczny~
+
+@40000 = ~Zestaw egzotycznych przedmiotow~
