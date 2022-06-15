@@ -410,21 +410,7 @@ BEGIN @40000 DESIGNATED 40
 REQUIRE_PREDICATE NOT MOD_IS_INSTALLED ~CDTWEAKS/SETUP-CDTWEAKS.TP2~ ~1090~ @1 // skip if already installed by tweaks anthology
 LABEL ~cd_the_calling_exotic_items~
 
-OUTER_SET generic_kat_name  = 7523
-OUTER_SET generic_kat_desc  = 35963
-OUTER_SET generic_ioun_name = 8181
-OUTER_SET generic_ioun_desc = 5770
-
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN // BGEE, eet
-
-  ACTION_IF GAME_IS ~bgee~ THEN BEGIN // BGEE - different strrefs for unidentified ioun, katana strings
-  
-    OUTER_SET generic_kat_name  = 26711
-    OUTER_SET generic_kat_desc  = 34130
-    OUTER_SET generic_ioun_name = 30682
-    OUTER_SET generic_ioun_desc = 30683
-  
-  END
   
   // since adding tsu-o-shi to krumm overwrites his club +1, find new home for it
   COPY_EXISTING ~caldo.cre~ ~override~ // move club +1 to krumm's companion
@@ -443,7 +429,7 @@ COMPILE ~thecalling/dlg/exotic.d~ EVALUATE_BUFFER // fixes Gullykin cleric's dlg
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~%tutu_var%tem4003.sto~ THEN BEGIN // if Gullykin does not have a store already
 
   COPY_EXISTING ~%tutu_var%tem4802.sto~ ~override/%tutu_var%tem4003.sto~ // clones and renames Temple of Helm
-    SAY 0x0C @40022
+    SAY 0x0c @40022
 
 END
 
@@ -459,51 +445,63 @@ COPY ~thecalling/bam/ccdioun1.bam~ ~override~
      ~thecalling/bam/cdppotbg.bam~ ~override~
      ~thecalling/bam/icdioun1.bam~ ~override~
      ~thecalling/bam/icdioun2.bam~ ~override~
-
+     ~thecalling/bam/icdkat2.bam~  ~override~
 
 // add and name items
-COPY ~thecalling/itm/cdplquiv.itm~ ~override~ // quiver of plenty +0
-  SAY 0x08 @40001
-  SAY 0x0c @40001
-  SAY 0x50 @40002
-  SAY 0x54 @40002
-
-COPY ~thecalling/itm/cdplcase.itm~ ~override~ // case of plenty +0
-  SAY 0x08 @40003
-  SAY 0x0c @40003
-  SAY 0x50 @40004
-  SAY 0x54 @40004
-
-COPY ~thecalling/itm/cdplbag.itm~ ~override~ // bag of plenty +0
-  SAY 0x08 @40005
-  SAY 0x0c @40005
-  SAY 0x50 @40006
-  SAY 0x54 @40006
-
-COPY ~thecalling/itm/cdioun1.itm~ ~override~  // Deep Purple Ioun Stone
+INCLUDE ~thecalling/lib/cd_functions.tpa~
+LAF cd_make_bag_from_ammo INT_VAR name = RESOLVE_STR_REF(@40001) desc = RESOLVE_STR_REF(@40002)                                  // create quiver of plenty +0 
+                          STR_VAR source = EVAL ~%tutu_var%arow01~ output = cdplquiv icon_i = ~cdplqiv1~ icon_c = ~cdplqiv2~ END // from basic arrows
+LAF cd_make_bag_from_ammo INT_VAR name = RESOLVE_STR_REF(@40003) desc = RESOLVE_STR_REF(@40004)                                  // create case of plenty +0
+                          STR_VAR source = EVAL ~%tutu_var%bolt01~ output = cdplcase icon_i = ~cdplqiv1~ icon_c = ~cdplqiv2~ END // from basic bolts
+LAF cd_make_bag_from_ammo INT_VAR name = RESOLVE_STR_REF(@40005) desc = RESOLVE_STR_REF(@40006)                                  // create bag of plenty +0
+                          STR_VAR source = EVAL ~%tutu_var%bull01~ output = cdplbag  icon_i = ~cdplbag2~ icon_c = ~cdplbag1~ END // from basic bullets
+ 
+COPY_EXISTING ~helm18.itm~ ~override/cdioun1.itm~ // create ioun stones from existing stone
+              ~helm18.itm~ ~override/cdioun2.itm~
+  WRITE_ASCIIE 0x3a ~i%DEST_RES%~ #8 // icon, inventory
+  WRITE_ASCII  0x58 ~ccdioun1~    #8 // icon, description
+  WRITE_LONG   0x4c 2                // weight  
+  LPF DELETE_EFFECT END // delete all effects
+  
+COPY_EXISTING ~cdioun1.itm~ ~override~  // Deep Purple Ioun Stone
   SAY 0x0c @40007
   SAY 0x54 @40008
-  WRITE_LONG 0x08 generic_ioun_name
-  WRITE_LONG 0x50 generic_ioun_desc
-
-COPY ~thecalling/itm/cdioun2.itm~ ~override~ // Flickering White Ioun Stone
+  WRITE_LONG 0x34 600 // price
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 63 target = 1 timing = 2 END // add infravision
+  
+COPY_EXISTING ~cdioun2.itm~ ~override~  // Flickering White Ioun Stone
   SAY 0x0c @40009
   SAY 0x54 @40010
-  WRITE_LONG 0x08 generic_ioun_name
-  WRITE_LONG 0x50 generic_ioun_desc
+  WRITE_LONG 0x34 1200 // price
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode =  28 target = 1 parameter1 = 10 timing = 2 END // add cold resistance
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 25 timing = 2 END // add cold resistance portrait icon
 
-COPY ~thecalling/itm/cdkat2.itm~ ~override~ // Katana +2
+COPY_EXISTING ~sw1h55.itm~ ~override/cdkat2.itm~ // create tsu-o-shi from generic katana +2
   SAY 0x0c @40013
   SAY 0x54 @40014
-  WRITE_LONG 0x08 generic_kat_name
-  WRITE_LONG 0x50 generic_kat_desc
-  SAY 0x19e @40015 // wisdom modification
-  SAY 0x1fe @40021 // strength modification
-  SAY 0x25e @40020 // intelligence modification
-  SAY 0x2be @40019 // hit point modification
-  SAY 0x31e @40017 // dexterity modification
-  SAY 0x37e @40016 // constitution modification
-  SAY 0x3de @40018 // charisma modification
+  WRITE_LONG  0x18 (THIS BOR BIT4) // adds cursed flag
+  WRITE_LONG  0x34 1               // price
+  WRITE_SHORT 0x42 100             // lore
+  WRITE_ASCII 0x3a ~icdkat2~ #8    // icon, inventory
+  LPF ALTER_HEADER STR_VAR icon = icdkat2 END // icon, ability headers
+  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 7 match_parameter2 = 16 parameter1 = 45 END // color: head/blade/staff major
+  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 7 match_parameter2 = 20 parameter1 = 44 END // color: grip/staff minor
+  LPF ALTER_EFFECT INT_VAR silent = 1 check_headers = 0 match_opcode = 7 match_parameter2 = 21 parameter1 = 64 END // color: head/blade minor
+  LPF ADD_ITEM_EQEFFECT INT_VAR opcode = 142 target = 1 parameter2 = 35 timing = 2 insert_point = 999 END // display cursed portrait icon
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40018) timing = 1 probability1 =  4 probability2 =  0 END // charisma modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =   6 target = 1 parameter1 = "-1"                    timing = 1 probability1 =  4 probability2 =  0 END // charisma modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40016) timing = 1 probability1 =  9 probability2 =  5 END // constitution modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  10 target = 1 parameter1 = "-1"                    timing = 1 probability1 =  9 probability2 =  5 END // constitution modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40017) timing = 1 probability1 = 14 probability2 = 10 END // dexterity modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  15 target = 1 parameter1 = "-1"                    timing = 1 probability1 = 14 probability2 = 10 END // dexterity modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40020) timing = 1 probability1 = 19 probability2 = 15 END // intelligence modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  19 target = 1 parameter1 = "-1"                    timing = 1 probability1 = 19 probability2 = 15 END // intelligence modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40021) timing = 1 probability1 = 24 probability2 = 20 END // strength modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  44 target = 1 parameter1 = "-1"                    timing = 1 probability1 = 24 probability2 = 20 END // strength modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40015) timing = 1 probability1 = 29 probability2 = 25 END // wisdom modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  49 target = 1 parameter1 = "-1"                    timing = 1 probability1 = 29 probability2 = 25 END // wisdom modification
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode = 139 target = 1 parameter1 = RESOLVE_STR_REF(@40019) timing = 1 probability1 = 34 probability2 = 30 END // hit point modification string
+  LPF ADD_ITEM_EFFECT INT_VAR type = 1 opcode =  18 target = 1 parameter1 = "-5"                    timing = 1 probability1 = 34 probability2 = 30 END // hit point modification
 
 EXTEND_BOTTOM ~%CloakwoodMines_L4_BCS%.bcs~           ~thecalling/baf/_ar1803.baf~ // adds Contagion scroll to Davaeorn's loot
 EXTEND_BOTTOM ~%Lighthouse_BlackAlaricsCave_BCS%.bcs~ ~thecalling/baf/_ar3601.baf~ // adds Ninja-To +0 to Sirine cave loot
