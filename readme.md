@@ -2,7 +2,6 @@
 ![GitHub (Pre-)Release Date](https://img.shields.io/github/release-date-pre/Gibberlings3/The_Calling?color=gold)
 ![Platform](https://img.shields.io/static/v1?label=platform&message=windows%20%7C%20macOS%20%7C%20linux%20%7C%20Project%20Infinity&color=informational)
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Chinese%20%7C%20Czech%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Korean%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
-
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGT%20%7C%20BGEE%20%7C%20EET%20%7C%20Tutu&color=dodgerblue)
 
 ![The G3 Logo](https://gibberlings3.github.io/Documentation/readmes/style/g3_logo_2018.gif)
