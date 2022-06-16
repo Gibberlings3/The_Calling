@@ -41,7 +41,7 @@ ALWAYS
 
 END
 
-VERSION ~v2~
+VERSION ~v3~
 README ~thecalling/readme-thecalling-%LANGUAGE%.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~%tra_location%/%s~
 
