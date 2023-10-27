@@ -6,7 +6,8 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-  @102 = ~Pearls consist of layers of aragonite agonizingly formed around a bit of grit or other irritant inside oysters and other mollusks.  The resulting pearl has a rich, deep luster.  Most of the pearls in the realms are white, however, this is a rare black variant. Black pearls are highly valued for their unique magical properties, particularly by diviners.~
+// @102 mirrors the description of the black pearls from the Balduran's Seatower mod, @547 there, minus the last sentence from BST
+  @102 = ~Pearls consist of layers of aragonite agonizingly formed around a bit of grit or other irritant inside oysters and other mollusks.  The resulting pearl has a rich, deep luster.  Most of the pearls in the realms are white, however there are rarer varieties such as rainbow and black. This pearl is black, a highly valued variant for their unique magical properties, particularly by diviners.~
   @103 = ~Miner Sal~
   @104 = ~Miner James~
   @105 = ~Grace~
@@ -47,6 +48,8 @@ STATISTICS:
 Reduces intelligence, wisdom, and charisma by two while worn~
   @125 = ~Black Pearl~
   @126 = ~White Pearl~
+  @127 = ~Enshelled Black Pearl~ // Black pearl from Balduran's Seatower, @546 in that mod
+  @128 = ~~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\

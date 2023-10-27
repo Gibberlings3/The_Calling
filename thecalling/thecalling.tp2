@@ -176,6 +176,16 @@ COPY_EXISTING ~%tutu_var%halffg.dlg~ ~override/cdiris.dlg~
               ~%tutu_var%halfgu.dlg~ ~override/cdlargo.dlg~
 
 ACTION_IF GAME_IS ~bgt~ BEGIN OUTER_SPRINT thalan_states "1 35" END ELSE BEGIN OUTER_SPRINT thalan_states "1" END
+              
+ACTION_IF GAME_IS ~bgee eet~ BEGIN // on EEs, have Thalantyr identify the Black Pearl before giving it to player in case Anthology's 'gems require ID is installed'
+
+  OUTER_SPRINT give_pearl ~CreateItem("cdbpearl",1,0,0) SetItemFlags("cdbpearl",IDENTIFIED,TRUE) GiveItem("cdbpearl",LastTalkedToBy(Myself))~
+
+END ELSE BEGIN
+
+  OUTER_SPRINT give_pearl ~GiveItemCreate("cdbpearl",LastTalkedToBy(Myself),1,0,0)~
+
+END
 
 COMPILE EVALUATE_BUFFER ~thecalling/dlg/mage.d~
                         ~thecalling/baf/cdiris.baf~

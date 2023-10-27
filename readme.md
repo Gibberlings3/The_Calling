@@ -4,7 +4,7 @@
 ![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20Chinese%20%7C%20Czech%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Korean%20%7C%20Polish%20%7C%20Russian%20%7C%20Spanish&color=limegreen)
 ![Supported games](https://img.shields.io/static/v1?label=supported%20games&message=BGT%20%7C%20BGEE%20%7C%20EET%20%7C%20Tutu&color=dodgerblue)
 
-![The G3 Logo](https://gibberlings3.github.io/Documentation/readmes/style/g3_logo_2018.gif)
+![The G3 Logo](https://raw.githubusercontent.com/Gibberlings3/.github/master/profile/g3_neutral.png)
 
 # The Calling
 
@@ -20,5 +20,4 @@ The Calling really started as a collection of random questions from BG--why didn
 
 ## 
 
-[![Created Badge](https://badges.pufler.dev/created/Gibberlings3/The_Calling?style=plastic&label=Created)](https://badges.pufler.dev)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Gibberlings3/The_Calling?style=plastic&label=repo%20size)

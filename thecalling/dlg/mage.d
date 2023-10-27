@@ -504,7 +504,7 @@ APPEND ~%tutu_var%KELDDA~
     IF ~PartyGoldGT(499)~ THEN REPLY @1083 DO ~TakePartyGold(500)
                                                DestroyGold(500)
                                                SetGlobal("CDBlackPearls","GLOBAL",3)
-                                               GiveItemCreate("cdbpearl",LastTalkedToBy(Myself),1,0,0)~ GOTO Bribed
+                                               %give_pearl%~ GOTO Bribed
     IF ~~ THEN REPLY @1081 DO ~~ GOTO BribeNoDeal
     IF ~~ THEN REPLY @1082 DO ~~ GOTO BribeNoDeal
   END
@@ -533,7 +533,7 @@ APPEND ~%tutu_var%KELDDA~
   
   IF ~~ THEN BEGIN HaveIt SAY @1090
     IF ~~ THEN DO ~SetGlobal("CDBlackPearls","GLOBAL",2) 
-                   GiveItemCreate("cdbpearl",LastTalkedToBy(Myself),1,0,0)~ EXIT
+                   %give_pearl%~ EXIT
   END
   
   IF ~~ THEN BEGIN Thalantyr SAY @1091
@@ -842,6 +842,9 @@ APPEND ~%tutu_var%THALAN~
                                                       DestroyItem("%tutu_var%misc33")
                                                       IncrementGlobal("CDGemQuality","GLOBAL",2)~ GOTO GemQ2 // aquamarine
     IF ~Global("cdbpearl","LOCALS",0)
+        Global("cd_bsblkprl_check","LOCALS",0)
+        PartyHasItem("bsblkprl")~ THEN REPLY @127 DO ~SetGlobal("cd_bsblkprl_check","LOCALS",1)~ GOTO WrongPearl // Enshelled Black Pearl from Balduran's Seatower
+    IF ~Global("cdbpearl","LOCALS",0)
         PartyHasItem("cdbpearl")~ THEN REPLY @125 DO ~SetGlobal("cdbpearl","LOCALS",1)
                                                       TakePartyItem("cdbpearl")
                                                       DestroyItem("cdbpearl")
@@ -1133,6 +1136,10 @@ APPEND ~%tutu_var%THALAN~
   
   IF ~~ THEN BEGIN filler_finish SAY @1330
     COPY_TRANS ~%tutu_var%THALAN~ 1 
+  END
+
+  IF ~~ THEN BEGIN WrongPearl SAY @1331 = @1332
+    IF ~~ THEN GOTO MoreGems
   END
 
 END
