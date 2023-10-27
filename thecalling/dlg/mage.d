@@ -48,7 +48,10 @@ EXTEND_BOTTOM ~%tutu_var%KELDDA~ 0
       Global("CDSpokePearls","LOCALS",0)~ THEN REPLY @1061 DO ~SetGlobal("CDSpokePearls","LOCALS",1)~ GOTO KeldathPearls
   IF ~Global("CDBlackPearls","GLOBAL",1)
       Global("CDSpokePearls","LOCALS",1)~ THEN REPLY @1085 GOTO KeldathPearlsReturnTrip
-  IF ~Global("CDBlackPearls","GLOBAL",2)~ THEN REPLY @1078 DO ~ReputationInc(1)
+  IF ~Global("CDBlackPearls","GLOBAL",2)
+      PartyHasItem("cdbpearl")~           THEN REPLY @1078 DO ~TakePartyItemNum("cdbpearl",1)
+                                                               DestroyItem("cdbpearl")
+                                                               ReputationInc(1)
                                                                SetGlobal("CDBlackPearls","GLOBAL",3)~ GOTO KeldathReturnPearl
 END
 
