@@ -1,6 +1,6 @@
 
 
-@102 = ~Une perle est constituée de couches superposées d'aragonite qui se forment lentement et laborieusement autour d'un grain de sable présent dans une huître ou un autre mollusque. Le résultat de ce processus a un bel aspect lustré. La plupart des perles des Royaumes sont blanches, mais celle-ci est noire, une variante beaucoup plus rare. Les perles noires sont très appréciées pour leurs propriétés magiques uniques, notamment par les devins.~
+@102 = ~Une perle est constituée de couches superposées d'aragonite qui se forment lentement et laborieusement autour d'un grain de sable présent dans une huître ou un autre mollusque. Le résultat de ce processus a un bel aspect lustré. La majorité des perles des Royaumes sont blanches, bien qu'il en existe des spécimens plus rares de couleur noire ou même arc-en-ciel. Cette perle est d'un noir profond, une caractéristique très appréciée pour ses propriétés magiques particulières, notamment par les devins.~
 @103 = ~Mineur Sal~
 @104 = ~Mineur James~
 @105 = ~Grace~
@@ -41,6 +41,7 @@ PARAMÈTRES :
 - Réduit l'intelligence, la sagesse et le charisme de 2 points~
 @125 = ~Perle noire~
 @126 = ~Perle blanche~
+@127 = ~Une perle noire dans son coquillage~ 
 
 @30001 = ~Guide de Movanic~
 @30002 = ~Adepte de Movanic~
