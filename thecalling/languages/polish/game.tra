@@ -1,5 +1,5 @@
 
-  @102 = ~Perły złożone są z warstw aragonitu ułożonego wokół kawałeczka pyłku lub innej substancji drażniącej w ostrygach, lub innych mięczakach. Powstająca w ten sposób perła daje bogate, głębokie lśnienie. Większość pereł w tych królestwach jest koloru białego, ale to jest akurat jej rzadka czarna odmiana. Czarne perły są wysoko cenione, szczególnie przez mistrzów poznania, za swoje unikalne magiczne właściwości.~
+@102 = ~Perły złożone są z warstw aragonitu odkładającego się wokół ziarenka piasku czy innych drażniących zanieczyszczeń, które utkną w muszlach ostryg lub innych małży. Powstały w ten sposób klejnot posiada bogaty, głęboki poblask. Większość występujących w krainach pereł jest koloru białego, ale zdarzają się też rzadsze odmiany, tęczowe czy czarne. Ta właśnie jest barwy czarnej, cenionej szczególnie przez mistrzów poznania, za swoje unikalne magiczne właściwości.~
   @103 = ~Górnik Sal~
   @104 = ~Górnik James~
   @105 = ~Gracja~
@@ -40,6 +40,7 @@ PARAMETRY:
 Po założeniu obniża o dwa Inteligencję, Mądrość i Charyzmę~
   @125 = ~Czarna perła~
   @126 = ~Biała perła~
+@127 = ~Niewyłuskana czarna perła~
 
 @30001 = ~Przywódca Kultu mowanicznego~
 @30002 = ~Mowaniczny kultysta~
