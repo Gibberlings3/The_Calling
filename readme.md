@@ -10,7 +10,7 @@
 
 ## Overview
 
-The Calling really started as a collection of random questions from BG--why didn't anyone take over the gnoll stronghold, considering the two bordering nations are on the brink of war? How come the only class-specific quests in the game are with Narlen Darkwalk? Why isn't Melicamp used more? While the original idea was more along the lines of a stronghold mod for BG, it grew into a planned collection of class-specific quests. Many others were also eager to contribute their quest ideas as well.
+The Calling really started as a collection of random questions from BG--why didn't anyone take over the gnoll stronghold, considering the two bordering nations are on the brink of war? Why are the only class-specific quests in the game with Narlen Darkwalk? Why isn't Melicamp used more? While the original idea was more along the lines of a stronghold mod for BG, it grew into a planned collection of class-specific quests. Many others were also eager to contribute their quest ideas as well.
 
 ## More Information
 
