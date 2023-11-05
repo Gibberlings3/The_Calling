@@ -1,10 +1,150 @@
 /*
 Translator note:
 
-Since BGIIEE uses slightly different formatting and conventions than vBG2, this file allows you to override strings for *only* BGEE/EET.
+Since the EEs uses slightly different formatting and conventions than oBG2, this file allows you to override strings for *only* BGEE/EET.
 When The Calling is installed on non-EE games, only strings from setup.tra are used. On BGEE/EET, strings defined here will override the strings
 from setup.tra. This does not need to be a complete copy of setup.tra, ONLY for the strings that are different between vanilla and EE games.
 This file is also formatted in utf-8 since it's only used on EE games. setup.tra will be converted on the fly for EE.
 
 This file can be left blank, but cannot be deleted. 
 */
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+  @102 = ~Las perlas están formadas por capas de aragonito formadas agónicamente alrededor de un poco de arenilla u otro irritante en el interior de ostras y otros moluscos.  El resultado de este proceso es un bello aspecto lustroso. La mayoría de las perlas de los Reinos son blancas, aunque algunos ejemplares más raros son negros o incluso del color del arco iris. Esta perla es de un negro intenso, una característica muy apreciada por sus especiales propiedades mágicas, sobre todo por los adivinos.
+
+ESTADÍSTICAS:
+
+Peso: 0~
+  @110 = ~Thalantyr te ha pedido que le entregues esto a Taerom Fuirium. Añadiendo esto a su forja, Taerom será capaz de destruir los brazales en las llamas.
+
+ESTADÍSTICAS:
+
+Peso: 1~
+
+  @111 = ~El circón es un cristal de color marrón parduzco que se encuentra en rocas ígneas (volcánicas) y se utiliza en dispositivos de exploración. El circón adquiere sus tonalidades azul pálido tras ser expuesto al calor y tallado (normalmente en facetas).
+
+ESTADÍSTICAS:
+
+Peso: 0~
+  @113 = ~Esta es una mezcla de mineral para Taerom, recogida por Melicamp y Grace en las minas de Nashkel.
+
+ESTADÍSTICAS:
+
+Peso: 15~
+  @115 = ~Estos son los brazaletes responsables de maldecir a Melicamp, recuperado al fin. A pesar de su naturaleza inusual e interesante, Thalantyr ha decidido que el riesgo de conservar los brazaletes es mayor que el conocimiento que podría obtenerse en un estudio más profundo de estos mismos.
+
+Como sería imprudente intentar usarlos, Thalantyr los ha encantado para que sean demasiado pequeños para llevarlos.
+
+ESTADÍSTICAS:
+
+Peso: 1~
+  @118 = ~Este dispositivo fue encargado por Thalantyr y construido por Taerom de Beregost. Thalantyr espera utilizarlo para localizar los brazales que maldijeron a Melicamp. Cerca del centro, se pueden ver tres ranuras para piedras preciosas.
+
+ESTADÍSTICAS:
+
+Peso: 0~
+  @120 = ~El ácido, cuando está disponible, es un obstáculo eficaz para los magos, interrumpiendo con frecuencia sus hechizos. Sinosta, un mago menor de Aguas Profundas, diseñó este amuleto para contrarrestar los efectos del ácido. Por desgracia, de poco le sirvió a Sinosta, que fue asesinado en un callejón tras insultar a un miembro del gremio de ladrones local.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al ácido: +25%
+
+Peso: 1~
+  @122 = ~Este amuleto aparentemente inofensivo se ciñe firmemente alrededor del cuello. Permite hablar, aunque a duras penas, e imposibilita las complejas vocalizaciones necesarias para lanzar hechizos. Los amuletos constrictores se han utilizado para todo, desde bromas entre aprendices hasta debilitar a archimagos para facilitar su asesinato.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Fallo de lanzamiento: 100%.
+- Sólo puede eliminarse con un hechizo Eliminar maldición
+
+Weight: 1~
+  @124 = ~Este tipo de amuletos son muy populares entre los comerciantes sin escrúpulos. Estos objetos parecen amuletos ornamentados y caros, y suelen regalarse a clientes potenciales, rivales u otros posibles contactos comerciales. Están diseñados simplemente para embotar el ingenio, sin que se note excesivamente, lo que permite al mercader presionar su ventaja durante negociaciones complejas.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Inteligencia: -2
+- Sabiduría: -2
+- Carisma: -2
+- Sólo puede eliminarse con un hechizo Eliminar maldición
+
+Peso: 1~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40002 = ~La historia de este carcaj mágico se ha olvidado hace mucho tiempo, aunque es probable que tuviera algo que ver con la inexplicable pero bien documentada escasez de flecheros competentes durante la Era de los Trastornos.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Flechas ilimitadas
+
+Peso: 0~
+@40004 = ~La historia de este caso mágico se ha olvidado hace mucho tiempo, aunque es probable que tuviera algo que ver con la inexplicable, pero bien documentada, escasez de martilleros competentes durante la Era de los Trastornos.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Pernos ilimitados
+
+Peso: 0~
+@40006 = ~Aunque esta bolsa de tela suave está vacía en este momento, todavía hay una poderosa aura de la magia que lo rodea.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Balas de honda ilimitadas
+
+Peso: 0~
+@40008 = ~Esta piedra, de color púrpura intenso, permite ver en las sombras de la oscuridad.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Infravisión hasta 60 pies.
+
+Peso: 2
+~
+@40010 = ~Esta piedra es fría al tacto e irradia energía.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al frío: +10%
+
+Peso: 2
+~
+@40013 = ~Tsu-O-Shi +2~
+@40014 = ~Tsu-O-Shi, también conocida como la Hoja Codiciada, fue forjada en la nación de Wa hace más de cinco siglos por el herrero de espadas Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que era capaz de despertar el espíritu mismo del metal. Tsu-O-Shi pasó por las manos de los distintos herederos de la familia Kasune, por lo demás poco notable, hasta que el poderoso daimyo y conocido amante de las espadas Fushima Takagi la vio. Takagi se obsesionó con la espada e hizo muchos intentos frustrados por hacerse con ella. Finalmente, contrató a un clan de ninjas para que se la robaran, cubriendo su pérdida con el incendio del complejo de la familia Kasune. Cuando los ninjas presentaron la espada a su empleador, la utilizaron para acabar con ellos, eliminando para siempre cualquier vínculo entre Takagi y los legítimos propietarios de la espada. Takagi ocultó la espada, retirándose a menudo a su escondite para contemplar su belleza y perfección. El día que Takagi murió, su espíritu se negó a abandonar la tierra y dejar atrás la espada, por lo que se quedó con Tsu-O-Shi, convirtiéndose en uno con ella. Desde ese día, cualquiera que empuñe la poderosa Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe la esencia vital de aquellos que tocan el arma, para permanecer en Toril con el objeto de su deseo. Como resultado, esta espada maldita tiene la posibilidad de drenar al portador cada vez que se usa.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Probabilidad de drenar permanentemente la vida o los atributos del portador cuando se usa.
+- Sólo puede eliminarse con un hechizo Eliminar maldición
+
+THAC0: +2
+Daño: 1d10+2 (cortante)
+Factor de velocidad: 2
+Tipo de competencia: Katana
+Tipo:  A una mano
+Requiere: 
+ 6 Fuerza
+
+Peso: 4
+~

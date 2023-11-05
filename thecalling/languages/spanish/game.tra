@@ -1,19 +1,90 @@
-@40001 = ~Carcaj de Abundancia~
-@40002 = ~La historia de este carcaj hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-CARACTERÍSTICAS:
+// @102 mirrors the description of the black pearls from the Balduran's Seatower mod, @547 there, minus the last sentence from BST
+  @102 = ~Las perlas están formadas por capas de aragonito formadas agónicamente alrededor de un poco de arenilla u otro irritante en el interior de ostras y otros moluscos.  El resultado de este proceso es un bello aspecto lustroso. La mayoría de las perlas de los Reinos son blancas, aunque algunos ejemplares más raros son negros o incluso del color del arco iris. Esta perla es de un negro intenso, una característica muy apreciada por sus especiales propiedades mágicas, sobre todo por los adivinos.~
+  @103 = ~Minero Sal~
+  @104 = ~Minero James~
+  @105 = ~Grace~
+  @106 = ~Dispositivo de adivinación~
+  @107 = ~Iris Algodónes~
+  @108 = ~Largo Algodónes~
+  @109 = ~Polvo mágico~
+  @110 = ~Thalantyr te ha pedido que le entregues esto a Taerom Fuirium. Añadiendo esto a su forja, Taerom será capaz de destruir los brazales en las llamas.~
+  @111 = ~El circón es un cristal de color marrón parduzco que se encuentra en rocas ígneas (volcánicas) y se utiliza en dispositivos de exploración. El circón adquiere sus tonalidades azul pálido tras ser expuesto al calor y tallado (normalmente en facetas).~
+  @112 = ~Mineral de Taerom~
+  @113 = ~Esta es una mezcla de mineral para Taerom, recogida por Melicamp y Grace en las minas de Nashkel.~
+  @114 = ~Brazaletes malditos~
+  @115 = ~Estos son los brazaletes responsables de la maldición de Mélicamp, recuperados al fin. A pesar de su carácter inusual e interesante, Thalantyr ha decidido que el riesgo de conservarlos es mayor que los conocimientos adquiridos al estudiarlos en profundidad.
+
+Como sería imprudente intentar usarlos, Thalantyr los ha encantado para que sean demasiado pequeños para llevarlos.~
+  @116 = ~Fragmento de pergamino dañado~
+  @117 = ~Este pergamino parece arrancado de un libro y tiene los bordes chamuscados. Sólo una pequeña parte del texto es legible:
+
+Casi cualquier cristal puede utilizarse para adivinar si se prepara adecuadamente, aunque algunos tienen una afinidad natural. Es un error común de aquellos que estudian magia creer que se necesitan gemas caras y difíciles de obtener como componentes de hechizos, cuando un circón común a menudo será suficiente. Incluso con un dispositivo correctamente construido, los resultados son a menudo confusos, haciendo de la adivinación una rama de la magia particularmente difícil de estudiar.~
+  @118 = ~Este artefacto fue encargado por Thalantyr y construido por Taërom de Bérégost. Thalantyr espera utilizarlo para encontrar los brazaletes que han maldecido Mélicamp. Cerca de su centro, hay tres ranuras diseñadas para sostener piedras preciosas.~
+  @119 = ~Amuleto de resistencia al ácido~
+  @120 = ~El ácido, cuando está disponible, es un obstáculo eficaz para los magos, interrumpiendo con frecuencia sus hechizos. Sinosta, un mago menor de Aguas Profundas, diseñó este amuleto para contrarrestar los efectos del ácido. Por desgracia, de poco le sirvió a Sinosta, que fue asesinado en un callejón tras insultar al gremio de ladrones local.
+
+ESTADÍSTICAS:
+
++25% de resistencia al ácido~
+  @121 = ~Amuleto de la constricción~
+  @122 = ~Este amuleto aparentemente inofensivo se ciñe firmemente alrededor del cuello. Permite hablar, aunque a duras penas, e imposibilita las complejas vocalizaciones necesarias para lanzar hechizos. Los amuletos constrictores se han utilizado para todo, desde bromas entre aprendices hasta debilitar a archimagos para facilitar su asesinato.
+
+ESTADÍSTICAS:
+
+Desactiva el lanzamiento de hechizos~
+  @123 = ~El amuleto del imbécil~
+  @124 = ~Este tipo de amuletos son muy populares entre los comerciantes sin escrúpulos. Estos objetos parecen amuletos ornamentados y caros, y suelen regalarse a clientes potenciales, rivales u otros posibles contactos comerciales. Están diseñados simplemente para embotar el ingenio, sin ser excesivamente notorios, permitiendo al mercader presionar su ventaja durante negociaciones complejas.
+
+ESTADÍSTICAS:
+
+Reduce la inteligencia, la sabiduría y el carisma en dos mientras se lleva~
+  @125 = ~Perla negra~
+  @126 = ~Perla blanca~
+  @127 = ~Perla negra sin concha~ // Black pearl from Balduran's Seatower, @546 in that mod
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Movanic Cult                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@30001 = ~Líder de la secta Movanic~
+@30002 = ~Cultista de Movanic~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40001 = ~Carcaj de Abundancia~
+@40002 = ~La historia de este carcaj hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en la Era de los Trastornos.
+
+ESTADÍSTICAS:
 
 Flechas Ilimitadas~
 @40003 = ~Caja de Abundancia~
-@40004 = ~La historia de esta caja hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en los Tiempos de los Problemas.
+@40004 = ~La historia de esta caja hace mucho que fué olvidada, aunque lo mas probable es que hubiese tenido mucho que ver con la falta de arqueros competentes en la Era de los Trastornos.
 
-CARACTERÍSTICAS:
+ESTADÍSTICAS:
 
 Virotes Ilimitados~
 @40005 = ~Bolsa de Abundancia~
 @40006 = ~Aunque esta bolsita esté ahora vacía, tiene un aura mágica rodeándola.
 
-CARACTERÍSTICAS:
+ESTADÍSTICAS:
 
 Balas limitadas~
 @40007 = ~Piedra Ioun Púrpura Oscuro~
@@ -21,7 +92,7 @@ Balas limitadas~
 
 Esta piedra, púrpura oscura, permite a quien la lleva ver entre las sombras.
 
-CARACTERÍSTICAS:
+ESTADÍSTICAS:
 
 Habilidad Especial: 60' infravision
 Peso: 2 lbs~
@@ -30,45 +101,28 @@ Peso: 2 lbs~
 
 Esta piedra es fría al tacto e irradia energía.
 
-CARACTERÍSTICAS:
+ESTADÍSTICAS:
 
 Especial: +10% resistencia al frío
-Peso: 2 lbs~
-@40011 = ~Katana~
-@40012 = ~Katana
-
-La katana es una espada delgada y curvada. Tal vez una de las espadas mas finas que se han hecho, los pasos para su creación son secretos, es mas arte que otra cosa. Esta espada es una fase importante de la cultura Kara-Tur. El tocar o llevar una katana es un gran insulto para un samurai. El que un forastero posea una es algo muy extraño. O es un gran amigo o ha matado a un samurai.
-
-CARACTERÍSTICAS:
-
-Daño: 1D10
-Tipo de daño: cortante
-Peso: 6 lbs
-Factor de Velocidad: 4
-Talento marcial: Katana
-Tipo: A una mano
-Requisitos: Fuerza 6
-No permitido a:
- Druida
- Clérigo
- Mago
- Señor de las bestias~
+Peso: 2~
 @40013 = ~Katana +2, Tsu-O-Shi~
 @40014 = ~Katana +2, Tsu-O-Shi
 
 Tsu-O-Shi se forjó en la nación de Wa hace ya mas de cinco siglos, por el herrero Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que podía despertar el espíritu del metal. Tsu-O-Shi ha pasado por varias generaciones de la familia Kasune, hasta que el poderoso daimyo y amante de las espadas, Fushima Takagi, la vió. Takagi se obsesionó con esta espada, e intento apoderarse de ella muchas veces. Finalmente contrató un clan de ninjas para robarla. Takagi escondió la espada, muchas veces iba a su lugar escondido para admirarla en su perfección. El día de su muerte, su espíritu se negó a dejar este mundo, para quedarse con Tsu-O-Shi, uniéndose a ésta. Desde ese día, cualquiera que use a Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe de la esencia de quien toque el arma para poder quedarse en  Toril junto a ella. Como resultado, esta arma maldita puede beber de la vida de quien la lleve.
 
-CARACTERÍSTICAS:
+ESTADÍSTICAS:
 
 Daño: 1D10 +2
 GAC0: +2 adicional
-Especial: Probabilidad de drenar la vida permanentemente de quien la usa
 Tipo de daño: cortante
 Peso: 4 lbs
 Factor de Velocidad: 2
 Talento marcial: Katana
 Tipo: A una mano
 Requisitos: Fuerza 6
+
+Probabilidad de drenar la vida permanentemente de quien la usa
+
 No permitido a:
  Druida
  Clérigo
@@ -81,34 +135,4 @@ No permitido a:
 @40019 = ~Modificación de los puntos de golpe~
 @40020 = ~Modificación de la Inteligencia~
 @40021 = ~Modificación de la Fuerza~
-@40022 = ~Templo Gullykin~
-@40025 = ~Katana
-
-La katana es una espada delgada y curvada. Tal vez una de las espadas mas finas que se han hecho, los pasos para su creación son secretos, es mas arte que otra cosa. Esta espada es una fase importante de la cultura Kara-Tur. El tocar o llevar una katana es un gran insulto para un samurai. El que un forastero posea una es algo muy extraño. O es un gran amigo o ha matado a un samurai.
-
-CARACTERÍSTICAS:
-
-Daño: 1D10
-Tipo de daño: cortante
-Peso: 6 lbs
-Factor de Velocidad: 4
-Talento marcial: Katana
-Tipo: A una mano
-Requisitos: Fuerza 6
-~
-@40026 = ~Katana +2, Tsu-O-Shi
-
-Tsu-O-Shi se forjó en la nación de Wa hace ya mas de cinco siglos, por el herrero Murakaken Shinji, cuya habilidad era tan grande que se rumoreaba que podía despertar el espíritu del metal. Tsu-O-Shi ha pasado por varias generaciones de la familia Kasune, hasta que el poderoso daimyo y amante de las espadas, Fushima Takagi, la vió. Takagi se obsesionó con esta espada, e intento apoderarse de ella muchas veces. Finalmente contrató un clan de ninjas para robarla. Takagi escondió la espada, muchas veces iba a su lugar escondido para admirarla en su perfección. El día de su muerte, su espíritu se negó a dejar este mundo, para quedarse con Tsu-O-Shi, uniéndose a ésta. Desde ese día, cualquiera que use a Tsu-O-Shi debe tener cuidado con el espíritu de Fushima Takagi, que bebe de la esencia de quien toque el arma para poder quedarse en  Toril junto a ella. Como resultado, esta arma maldita puede beber de la vida de quien la lleve.
-
-CARACTERÍSTICAS:
-
-Daño: 1D10 +2
-GAC0: +2 adicional
-Especial: Probabilidad de drenar la vida permanentemente de quien la usa
-Tipo de daño: cortante
-Peso: 4 lbs
-Factor de Velocidad: 2
-Talento marcial: Katana
-Tipo: A una mano
-Requisitos: Fuerza 6
-~
+@40022 = ~Templo de Gullykin~

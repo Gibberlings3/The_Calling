@@ -1,1 +1,29 @@
-@40000 = ~Exotic Item Pack~
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// main tp2 strings                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+    @0 = ~Ninguno de los componentes de este mod está disponible para tu juego.~
+    @1 = ~La funcionalidad de este componente ya está incluida o ha sido sustituida por uno de los mods ya instalados..~
+    @2 = ~Cuentos de la Costa de la Espada es necesario para este componente.~
+    @3 = ~Este componente aún no está disponible.~
+    @4 = ~DLC Merger es necesario para poder instalar mods en este juego. Consulta el archivo Léame para obtener más información y un enlace para descargar DLC Merger.~
+    @5 = ~Este componente aún no está disponible en tu idioma.~
+
+  @100 = ~The Calling~
+  @101 = ~¿Quieres acceder a los componentes de trucos?
+
+  a) Sin trampas; sólo una llamada por partido
+  b) Autorizar varias llamadas, pero mantener las restricciones de clase
+  c) Autorizar varias llamadas, sin restricción de clase~
+
+@10000 = ~Fortaleza de los gnolls ampliada~
+
+@20000 = ~Resolución pacífica de la Isla de los Hombres Lobo~
+
+@30000 = ~El culto movanic~
+
+@40000 = ~Paquete de objetos exóticos~
