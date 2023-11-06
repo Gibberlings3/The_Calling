@@ -41,7 +41,7 @@ ALWAYS
 
 END
 
-VERSION ~v4~
+VERSION ~v5~
 README ~thecalling/readme-thecalling-%LANGUAGE%.html~ ~thecalling/readme-thecalling.html~
 AUTO_TRA ~%tra_location%/%s~
 
@@ -83,7 +83,7 @@ LANGUAGE ~Russian (Translation by Creepin, Domi, Kulyok, Serdrick and aerie.ru; 
   ~thecalling/languages/english/weidu.tra~
   ~thecalling/languages/russian/game.tra~
   ~thecalling/languages/russian/weidu.tra~
-LANGUAGE ~Espanol (traducido por Clan DLAN)~ ~spanish~ 
+LANGUAGE ~Espanol (traducido por Clan DLAN and alaisFcZ)~ ~spanish~ 
   ~thecalling/languages/english/game.tra~
   ~thecalling/languages/english/weidu.tra~
   ~thecalling/languages/spanish/game.tra~
