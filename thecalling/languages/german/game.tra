@@ -14,6 +14,176 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+@10000 = ~Erweiterte Gnollfestung~
+@10001 = ~Argh, ich habe Euch kommen sehen ... Nun werde ich Euch fallen sehen! Argh! Auuu!~
+@10002 = ~Gnoll-Schwächling~
+@10003 = ~Schamane Sirkhr~
+@10004 = ~Siechender Gnoll~
+@10005 = ~Häuptling Hvalanya~
+@10006 = ~Wachhund Purkht~
+@10007 = ~Hauptmann Stilind~
+@10008 = ~Amnischer Soldat~
+@10009 = ~Amnischer Späher Manlytoe~
+@10010 = ~Kalvranalan~
+@10011 = ~Stab der ätzenden Gedanken +1~
+@10012 = ~Gürtel der Vorzeichen~
+@10013 = ~Dieser ungewöhnliche Gürtel wurde für einen Assassinen namens Mudbone gefertigt. Er war auf die Tötung von Priestern spezialisiert, insbesondere solcher, die jenen als Hindernis galten, die wenig Respekt vor gläubigen Menschen hatten. Der Gürtel sieht gut verarbeitet aus. Er muss aus hochwertigen Materialien gefertigt worden sein.
+
+EIGENSCHAFTEN:
+
+Schaden: +2 Bonus gegen Kleriker
+Magieresistenz: 2%
+
+Gewicht: 2~
+@10015 = ~Kettenhemd des primitiven Respekts +1~
+@10016 = ~An diesem Kettenpanzer ist etwas wirklich Rohes und Primitives, doch Ihr spürt magische Energie in seinen Gliedern. Er sollte seinen Träger im Kampf schützen können, und die Magie könnte sich in der Wildnis als nützlich erweisen. Allerdings hat die Rüstung einen seltsamen Geruch, der Euch an Hundefell erinnert.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten: Rüstungsklasse gegen Tiere: +2
+Ausgerüstete Fähigkeiten: -1 Charisma
+Rüstungsklasse: 4
+Gewicht: 20
+Benötigt: Stärke 8
+Kann nicht verwendet werden von:
+ Druide 
+ Magier 
+ Dieb~
+@10017 = ~Schlupfwinkel~
+@10018 = ~Umhang der Formstabilität~
+@10019 = ~Dieser Umhang wurde aus verzaubertem Stoff gefertigt, der sich als recht nützlich erweisen dürfte, wenn man Gegner wie Basilisken bekämpft, da er seinen Träger vor deren tödlichem Blick schützt.
+
+EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten: +4 Bonus auf alle Rettungswürfe gegen Verwandlung~
+@10020 = ~Torbogen~
+@10021 = ~Amulett des dunklen Unglücks~
+@10022 = ~Dieses Amulett wurde mit dunkler Magie verflucht. Wer es trägt, wird von Unglück verfolgt, und auf Reisen oder im Abenteuer ... kann Glück über Leben und Tod entscheiden.
+
+EIGENSCHAFTEN:
+
+Glück: um 1 verringert
+Speziell: kann nur durch den Zauber 'Fluch brechen' entfernt werden~
+@10023 = ~Tempel des Biests der Metzelei~
+@10024 = ~Pfeil des zerbrochenen Geistes +1~
+@10025 = ~Dieser Pfeil sieht zerbrochen aus, doch selbst wenn Ihr eine Hälfte haltet, schwebt die andere direkt daneben. Auch wenn er nicht wirklich mächtig ist, kann er nützlich sein, wenn einem Abenteurer die normalen Pfeile ausgehen.
+
+EIGENSCHAFTEN:
+
+Kehrt zum Träger zurück, wenn abgeschossen
+
+Speziell: Schlägt als +1-Waffe zu
+Schaden: 1
+Schadensart: Geschoss (Stich)
+Gewicht: 0
+Abschussgerät: Bogen
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier~
+@10026 = ~Innenbereich der Gnollfestung~
+@10027 = ~Dieser Stab wurde früher von einem Gnoll-Schamanen aus der Gnollfestung an der Schwertküste benutzt.
+
+Es ist schwer zu sagen, wer ihn erschaffen hat. Er fühlt sich recht roh an, und obwohl seine Macht nicht die größte ist, gibt es sicherlich Situationen, in denen er verwendet werden kann.
+
+EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten: Kann einmal pro Tag Melfs Säurepfeil wirken
+ETW0: +1
+Schaden: 1W6+1
+Schadensart: Wucht
+Initiativefaktor: 3
+Fertigkeit: Stab
+Typ: 2-händig
+Benötigt: Stärke 5~
+@10029 = ~Umhang des Regenten-Kriegers~
+@10030 = ~Dieser purpurne Umhang hat eine recht majestätische Aura, und man glaubt, dass er für einen König geschaffen wurde, aber ... die Legende verrät nicht, für welchen. Er soll nicht nur seinen Träger schützen, sondern auch alle um ihn herum glauben lassen, dass jedes seiner Worte wahr ist, und sie dazu bringen, ihn zu verehren.
+
+Ihr habt diesen Umhang als Zeichen des Vertrauens und der Dankbarkeit für die Sicherung der Gnollfestung erhalten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +1 Bonus
+Rettungswurf: +1 Bonus
+ETW0: +1 gegen Kämpfer, Mönche, Paladine, Waldläufer
+Schaden: +1 gegen Kämpfer, Mönche, Paladine, Waldläufer
+Charisma: Einmal pro Tag 1W4 Charisma für zehn Runden (nur Kämpfer)
+Gewicht: 3~
+@10031 = ~Ritualbuch der Gnollen~
+@10032 = ~Dieses Buch beschreibt Rituale: einige, um die natürliche Energie zu zähmen, und einige, um Yeenoghu, das Biest der Metzelei, zu erfreuen. Ein Ritual ist besonders morbide und beschreibt die Verbrennung menschlicher Schädel.~
+@10033 = ~Medizinische Vorräte~
+@10034 = ~Diese Tasche ist mit medizinischen Vorräten gefüllt.~
+@10035 = ~Fleisch~
+@10036 = ~Yeenoghus brennendes Fleisch~
+@10037 = ~Dieses brennende Fleisch ist tatsächlich Yeenoghus brennendes Fleisch. Wer es verzehrt, mag den besonderen Segen des Prinzen der Gnollen erhalten, doch er hat seinen Preis.
+
+EIGENSCHAFTEN:
+
+Speziell: Senkt bei Verzehr das Charisma um 1, gewährt aber +2 Schaden gegen gute Kreaturen. Der Bonus ist dauerhaft.
+
+Gewicht: 2~
+@10038 = ~Primitiver Schlüssel~
+@10039 = ~Ihr habt diesen primitiven Schlüssel in der Gnollfestung gefunden. Er muss dort etwas öffnen.~
+@10040 = ~Ich wurde gebeten, Euch auszurichten, dass "die Hoffnung durch die Straßen Athkatlas wandelt".~
+@10041 = ~Ahh, kühne Abenteurer an unserer Tür. Helm schützt die gesamten Reiche, und seine Diener stehen zu Eurer Verfügung. Der Wachsame ist bereit, Euren Gebrechen Abhilfe zu schaffen und somit den unnachgiebigen Blick des Großen Anführers abzulenken – natürlich für eine angemessene Gabe. Wir wollen uns doch gegenseitig unseren guten Willen beweisen, Ihr versteht schon.~
+@10042 = ~Welche Art von Diensten bietet Ihr an?~
+@10043 = ~Ich brauche im Moment nichts von Euch. Auf Wiedersehen.~
+@10044 = ~Hmm? Ich verstehe, dass Ihr das nicht ohne Grund sagt. Ihr seid wegen der Vorräte hier, die ich für den Notfall vorbereiten sollte, richtig?~
+@10045 = ~Ja.~
+@10046 = ~Nun, was glaubt Ihr?~
+@10047 = ~Es ist nicht meine Aufgabe, Euch zu befragen, sondern Euch dies zu geben. Nehmt diese Truhe und bringt sie zu denen, die sie brauchen.~
+@10048 = ~Wisset, dass Helm über Euch wachen wird.~
+@10049 = ~Argh! Wir ... haben Gäste ... Grr! Törichte Dinger! Ihr wisst, dass man Häuptling Hvalanya nicht stört?!~
+@10050 = ~Nein, ich glaube nicht, dass das auf meinem Weg hierher jemand erwähnt hat. Aber sie waren alle damit beschäftigt, tot zu sein.~
+@10051 = ~Es tut mir leid, Hvalanya, aber ich kann nicht zulassen, dass Ihr die Leute der Schwertküste angreift. Ich bin hier, um Euch aufzuhalten.~
+@10052 = ~Hahahaha! Ihr seid ein lustiges kleines Ding! Ich und meine Jungs werden Euch zeigen, dass man Häuptling Hvalanya nicht einfach anbellt und erwartet, hier heil herauszukommen! Auuu!~
+@10053 = ~Ich grüße Euch, Freund.~
+@10054 = ~Ihr! Argh, Euresgleichen weiß nicht, wann man Gnolle in Ruhe lassen sollte ...! Böse Alte, verhasst von den starken Gnollen, sogar vom Häuptling.~
+@10055 = ~Wer seid Ihr?~
+@10056 = ~Na, na. Das ist ja eine ganz schöne Sammlung, die Ihr da habt. Beeindruckend für jemanden Euresgleichen.~
+@10057 = ~Jetzt fragt Ihr ...?! Nachdem Ihr alte Gnolle getötet oder verletzt habt? Argh!~
+@10058 = ~Das ist alles mein ...!~
+@10059 = ~Alte Gnolle verdienen Respekt und wir ... haben diesen Ort eingenommen. Und diesen Raum, in dem ein alter Priester lebte. Jetzt ist er tot. Jetzt nutze ich diesen Ort.~
+@10060 = ~Viele der anderen Gnolle behandeln mich und die alten und schwächeren Gnolle wie kranke Hunde! Sie lachen! Pinkeln uns an! Aber obwohl wir unter ihrem Heim leben, kennen wir unseren Wert ... Wir kennen unsere Stärke!~
+@10061 = ~Wir preisen Yeenoghu! Und wir töten. Und wir essen. Selbst wenn wir unsere eigenen essen müssen ... aber Ihr ...~
+@10062 = ~Ihr seid vielleicht viel leckerer ... Wir werden heute schmausen.~
+@10063 = ~Seid vorsichtig, Abenteurer. Das ist ein gefährlicher Ort ... Ich ... ich habe die meisten meiner Leute an Monster verloren, die die nahe gelegene Festung besetzen. Ihr seht aus wie ein guter Krieger, <PRO_RACE>, aber diese Kreaturen hier sind wild!~
+@10064 = ~Was ist mit den Leuten geschehen, von denen Ihr sprecht? Sind sie tot?~
+@10065 = ~Sie müssen schwach gewesen sein, wenn sie wegen irgendwelcher rohen Kreaturen gestorben sind.~
+@10066 = ~Es waren gute Männer und Frauen ... Wir kamen hierher, um diesen Ort zu beanspruchen. Er sollte der amnischen Armee gehören, nicht diesen Kreaturen. Wir wurden von Athkatla hierher geschickt, um den Ort zu erkunden und zu sehen, ob eine kleine Gruppe die Gnolle still und leise ausschalten und ihn zu einem Operationspunkt machen könnte.~
+@10067 = ~Wir gerieten in eine Falle. Sie warfen Felsbrocken auf uns, andere wurden mit ihren Hellebarden und Klingen getötet.~
+@10068 = ~Minsk fürchtet diese Kreaturen nicht. Sie sind böse, und dem Bösen wird irgendwann immer ordentlich der Hintern versohlt! Höchstwahrscheinlich von Minsk und Boo. *Quiek*~
+@10069 = ~Nun, natürlich scheitern die Unvorbereiteten immer. (Deshalb braucht man immer einen ordentlichen Plan. Und ein paar Trottel, die als Kanonenfutter dienen können.)~
+@10070 = ~A-arme Leute. Ich k-kann mir nur vorstellen, wie schwer es sich anfühlt, v-vertraute Freunde zu verlieren ...~
+@10071 = ~Ich bin der Einzige, der das überlebt hat. Aber ... Ihr seht stark aus. Vielleicht könntet Ihr tatsächlich überleben.~
+@10072 = ~Vielleicht können wir doch noch etwas dagegen tun. Da wir schon hier sind, können wir Euch vielleicht helfen und Eure Leute rächen.~
+@10073 = ~Nun, Ihr Armen. Ich nehme an, Ihr solltet nach Hause zurückkehren und dem Gott, dem Ihr dient, dafür danken, dass er Euch Euer erbärmliches Leben geschenkt hat. Und nun entschuldigt mich, ich muss gehen.~
+@10074 = ~Ihr wollt mir helfen? Das ... das wäre wirklich wunderbar.~
+@10075 = ~Was ich herausgefunden habe, ist, dass es hier zwei Gruppen gibt. Die schwächeren Gnolle, die alten, und die, die verletzt wurden und nicht mehr so nützlich sind wie früher. Sie werden von einem Schamanen angeführt.~
+@10076 = ~Aber es gibt auch eine andere Gruppe der jüngeren, stärkeren Gnolle. Sie werden von ihrem Häuptling angeführt. Einem weiblichen Gnoll. Sie nennen sie "Häuptling Hvalanya". Sie soll recht grausam sein. Zumindest haben wir das daraus geschlossen, wie sie über sie sprechen.~
+@10077 = ~Beide müssen gestoppt werden, wenn wir diesen Ort übernehmen wollen. Aber es gibt noch einen Dritten, der ebenfalls gestoppt werden sollte ...~
+@10078 = ~Einen Dritten?~
+@10079 = ~Wer ist der Dritte? Sagt es mir endlich!~
+@10080 = ~Der Dritte ist nicht gerade ein Anführer, sondern eine Art ... Wachhund. Er steht normalerweise auf einem der Türme. Ich bin mir allerdings nicht sicher, auf welchem.~
+@10081 = ~Hmm, aber es wäre vielleicht eine gute Idee, ihn ebenfalls zu erledigen. Also, zwei Anführer und ein Wachhund.~
+@10082 = ~Das ist alles? Hah! Die sind tot, bevor Ihr "meine ganze Truppe ist gestorben" sagen könnt.~
+@10083 = ~Genau.~
+@10084 = ~Im Ernst? Ihr Tod ist eine Tragödie. Macht Euch nicht darüber lustig.~
+@10085 = ~Wenn diese drei Gnolle getötet werden, sollten die anderen fliehen oder sich verstecken. Ohne die wichtigsten Mitglieder ihres Rudels oder Clans oder wie auch immer sie sich nennen, sind sie keine echte Bedrohung mehr!~
+@10086 = ~Seid Ihr sicher, dass Ihr das bewältigen könnt? Ihr seht stark aus, aber ich muss Euch das einfach fragen. Es sind verdammt viele.~
+@10087 = ~Keine Sorge. Ich weiß, was ich tue.~
+@10088 = ~Das werden wir erst wissen, wenn ich es versucht habe.~
+@10089 = ~Wenn ich entscheide, dass es zu viele sind, laufe ich einfach weg.~
+@10090 = ~Richtig. Wenn Ihr glaubt, eine Chance gegen sie zu haben, und wenn Ihr es schafft, diese drei zu töten, dann kommt bitte zu mir zurück und lasst mich wissen, dass das Leben meiner Freunde nicht umsonst geopfert wurde.~
+@10091 = ~Ihr seid ein grausamer Mensch. Vielleicht werdet Ihr mit der Zeit verstehen, dass ... dass dieser Ort vom Einfluss dieser Kreaturen befreit werden muss. Wenn ja, kommt dann zu mir zurück.~
+@10092 = ~Ihr schon wieder? Seid Ihr hier, um Euch über mich und meine toten Freunde lustig zu machen.~
+@10093 = ~Erinnert mich: Was ist mit Euren Freunden geschehen?~
+@10094 = ~Ihr und sie sind mir gleichgültig. Auf Wiedersehen.~
+@10095 = ~Ah, Ihr kommt zurück. Habt Ihr es geschafft, die Gnoll-Anführer und den Wachhund zu erledigen?~
+@10096 = ~Ja. Sie sind alle tot. Es sieht so aus, als wären die Gnolle größtenteils verschwunden, aber hier und da könnte noch der eine oder andere sein. Ohne Anführer sollten sie leichte Ziele sein.~
+@10097 = ~Ich arbeite noch daran.~
+@10098 = ~Ihr ... Ihr habt es wirklich geschafft! Ich wünschte, meine Freunde wären hier, um das zu hören. Aber ich möchte glauben, dass sie Teil davon sind. Teil dieses Sieges. Doch die Arbeit ist noch nicht getan. Es gibt noch viel zu tun.~
+@10099 = ~Lasst uns tiefer in der Festung treffen, am oberen Ende der Treppe. Dort sollten wir unsere Mission fortsetzen. Wenn Ihr interessiert seid. Aber lasst mich Euch sagen, es wird Eure Zeit wert sein, mein Kriegerfreund.~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
