@@ -1250,7 +1250,8 @@ BEGIN @60001 DESIGNATED 60 // dialogue from the Heart of Dream *appears like thi
 SUBCOMPONENT @60000 
 GROUP @8
 REQUIRE_PREDICATE GAME_IS ~bgee eet~ @7 // shaman not available on originals
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) @5 // skip if translation doesn't exist
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) OR 
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "german" = 0)) @5 // skip if translation doesn't exist
 LABEL ~cd_the_calling_shaman_normal_text~
 
 OUTER_SPRINT text_pre  ~*~
@@ -1265,7 +1266,8 @@ BEGIN @60002 DESIGNATED 61 // dialogue from the Heart of Dream is gold-colored
 SUBCOMPONENT @60000 
 GROUP @8
 REQUIRE_PREDICATE GAME_IS ~bgee eet~ @7 // shaman not available on originals
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) @5 // skip if translation doesn't exist
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) OR 
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "german" = 0)) @5 // skip if translation doesn't exist
 LABEL ~cd_the_calling_shaman_golden_text~
 
 OUTER_SPRINT text_pre  ~^0xFF00DFFF~
