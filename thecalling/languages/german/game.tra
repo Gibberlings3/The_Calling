@@ -180,3 +180,42 @@ Fertigkeit: Katana
 Typ: 1-händig
 Mindeststärke: 6
 ~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Replace Bandit Scalps with Badges                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+// new name/descript for bandit scalps
+@100001 = ~Bronzeabzeichen~
+@100002 = ~Dieses kleine Bronzeabzeichen hängt an einer kleinen, feinen Kette. Es wurde der Leiche eines Räubers abgenommen und ist für den richtigen Käufer vielleicht von Wert.~
+// bgee strref 19466
+@100003 = ~Die Überfälle sind seit Eurer Rückkehr aus Nashkell schlimmer geworden. Früher dachte ich, dass es sich dabei nur um gewöhnliche Räuber handelt, die schnell etwas Geld verdienen möchten, aber heute sehe ich das anders. Die stehen bestimmt in jemandes Auftrag … Verdammt, das ist ja ein schönes Durcheinander, nicht wahr? Auf jeden Fall muss ich meine Truppen nach Baldurs Tor zurückbringen! Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Einige der Händler in der Region haben sich ebenfalls entschlossen, Geld für die Räuberabzeichen beizusteuern, aber ich zahle Euch den besten Preis. Ich will dieses ganze Gebiet gesäubert haben, und ich möchte wissen, was bei den Neun Höllen hier eigentlich vorgeht …~
+// bgee strref 19469
+@100004 = ~Ich habe zwei Gesetze, die sich auf Euren wertvollen persönlichen Freiraum ausdehnen, <CHARNAME>: Haltet mir keine Moralpredigten, und sprecht mir nicht von Mitleid … Also, fangen wir noch einmal an, und diesmal will ich eine Sprache verwenden, die sogar Euch verständlich ist. Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Ich will dieses Gebiet gesäubert haben, bevor der Winter beginnt und alles noch schlimmer wird, verstanden? Gut. Jetzt geht mir aus den Augen.~
+// bgee strref 19470
+@100005 = ~Meine Truppe und ich sind von Baldurs Tor abgeschnitten. Wir haben schon seit fast einer Woche keine neuen Befehle erhalten und, ehrlich gesagt, gefällt mir das Ganze gar nicht. Die Überfälle sind seit Eurer Rückkehr aus Nashkell schlimmer geworden. Früher dachte ich, dass es sich dabei nur um gewöhnliche Räuber handelt, die schnell etwas Geld verdienen möchten, aber heute sehe ich das anders. Die stehen bestimmt in jemandes Auftrag … Auf jeden Fall muss ich meine Truppen nach Baldurs Tor zurückbringen! Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Ich will dieses ganze Gebiet gesäubert haben, bevor der Winter beginnt.~
+// bgee strref 19472
+@100006 = ~Ich sehe schon, dass Ihr fleißig wart. Also, weiter so. Je mehr bronzene Abzeichen ich bekomme, desto reicher werdet Ihr. Ich nehme Euch die Abzeichen eben ab.~
+// bgee strref 19703
+@100007 = ~Ich hoffe, dass Eure Reise erfolgreich war, <CHARNAME>. Denkt daran, dass Ihr mir die Abzeichen der toten Räuber bringen müsst, wenn Ihr die Belohnung möchtet. Ein Beweisstück muss ich haben.~
+// bgee strref 27501
+@100008 = ~Auf der Suche nach Räuberabzeichen.
+Offizierin Jessa Vai von der Flammenden Faust sitzt mit ihrem Kontingent in Beregost fest. In ihrer Verzweiflung hat sie mir für jedes Räuberabzeichen, das ich ihr bringe, 50 Goldmünzen geboten. Sie hat sich im Windigen Schwindler einquartiert.~
+// bgt from chloe's dialogue
+@100009 = ~Auf der Suche nach Räuberabzeichen.
+
+Ein Mädchen namens Chloe hat uns erzählt, dass eine Offizierin namens Vai im Windigen Schwindler in Beregost auf ein Gespräch mit uns wartet.~
+// bgt final quest entry
+@100010 = ~Auf der Suche nach Räuberabzeichen.
+
+Wir machten gute Geschäfte damit, Räuberabzeichen an Offizierin Jessa Vai von der Flammenden Faust zu verkaufen, doch sie hat aus dem Hauptquartier in Baldurs Tor den Befehl erhalten, dorthin zurückzukehren und Bericht über die Beseitigung der Räuberplage zu erstatten.~
+
+// sotsc compat
+@100011 = ~Hmm, nur wenn Ihr Euch um ein paar ... Unkräuter kümmert. Ich gebe Euch für je fünf bronze Abzeichen, die Ihr diesen groben Räubern abnehmt, eine Blume.~
+@100012 = ~Ich habe die Abzeichen hier.~
+@100013 = ~In Ordnung. Fünf Abzeichen für eine meiner wunderschönen Blumen. Passt gut darauf auf.~
+@100014 = ~...hmm, vielleicht sollte ich diese Abzeichen für etwas Kompost verkaufen.~
