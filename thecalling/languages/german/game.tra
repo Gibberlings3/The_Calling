@@ -6,6 +6,51 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+@102 = ~Perlen bestehen aus Aragonitschichten, die sich im Inneren von Austern und anderen Weichtieren mühsam um ein Stückchen Sand oder einen anderen Reizstoff gebildet haben. Die so entstandene Perle hat einen reichen, tiefen Glanz. Die meisten Perlen in der Welt sind weiß, es gibt aber auch seltenere Sorten wie Regenbogen- und schwarze Perlen. Diese Perle ist schwarz und wird wegen ihrer einzigartigen magischen Eigenschaften vor allem von Wahrsagern sehr geschätzt.~
+@103 = ~Bergmann Sal~
+@104 = ~Bergmann James~
+@105 = ~Grace~
+@106 = ~Wahrsagungsgerät~
+@107 = ~Iris Cotton~
+@108 = ~Largo Cotton~
+@109 = ~Magisches Pulver~
+@110 = ~Thalantyr hat Euch gebeten, dies Taerom Fuiruim zu überbringen. Wenn Taerom es seiner Schmiede beimischt, kann er die Armschützer in den Flammen zerstören.~
+@111 = ~Zirkon ist ein bräunlicher Kristall, der in magmatischem (vulkanischem) Gestein zu finden ist und in Wahrsagungsgeräten verwendet wird. Durch Erhitzen und Schleifen (üblicherweise Facettenschliff) erhält Zirkon seinen blassblauen Farbton.~
+@112 = ~Taeroms Erz~
+@113 = ~Dies ist eine Erzmischung für Taerom, gesammelt von Melicamp und Grace in den Minen von Nashkell.~
+@114 = ~Verfluchte Armschützer~
+@115 = ~Dies sind die Armschützer, die für Melicamps Verfluchung verantwortlich sind, nun endlich wiedergefunden. Trotz ihrer ungewöhnlichen und interessanten Natur hat Thalantyr entschieden, dass das Risiko, die Armschützer zu behalten, das Wissen überwiegt, das durch weiteres Studium gewonnen werden könnte.
+
+Da es unklug wäre, sie zu benutzen, hat Thalantyr sie verzaubert, sodass sie zu klein zum Tragen sind.~
+@116 = ~Beschädigtes Stück Pergament~
+@117 = ~Dieses Pergament scheint aus einem Buch gerissen worden zu sein und ist an den Rändern versengt. Nur ein kleiner Teil des Textes ist lesbar:
+
+Nahezu jeder Kristall kann zur Wahrsagung verwendet werden, wenn er richtig vorbereitet wird, auch wenn einige eine natürliche Affinität besitzen. Es ist ein verbreiteter Irrtum unter jenen, die Magie studieren, zu glauben, dass teure, schwer beschaffbare Edelsteine als Zauberkomponenten nötig seien, wo doch ein gewöhnlicher Zirkon oft genügt. Selbst mit einem fachgerecht gebauten Gerät sind die Ergebnisse oft unklar, was die Wahrsagung zu einem besonders schwierigen Zweig der Magie macht.~
+@118 = ~Dieses Gerät wurde von Thalantyr in Auftrag gegeben und von Taerom aus Beregost gebaut. Thalantyr hofft, damit die Armschützer ausfindig zu machen, die Melicamp verflucht haben. Nahe der Mitte sind drei Fassungen für Edelsteine zu sehen.~
+@119 = ~Amulett der Säureresistenz~
+@120 = ~Säure ist, sofern verfügbar, ein wirksames Hindernis für Magier, da sie deren Zaubern häufig unterbricht. Sinosta, ein unbedeutender Magier aus Tiefwasser, entwarf dieses Amulett, um den Wirkungen von Säure entgegenzuwirken. Unglücklicherweise nützte es Sinosta wenig: Er wurde in einer Hintergasse ermordet, nachdem er die örtliche Diebesgilde beleidigt hatte.
+
+EIGENSCHAFTEN:
+
+Säureresistenz: +25%~
+@121 = ~Amulett der Einschnürung~
+@122 = ~Dieses scheinbar harmlose Amulett schnürt sich eng um den Hals. Sprechen ist möglich, wenn auch kaum, und es macht die komplexen Lautäußerungen unmöglich, die zum Zaubern nötig sind. Einschnürungsamulette wurden für alles Mögliche verwendet, von Streichen zwischen Lehrlingen bis hin zur Schwächung von Erzmagiern, um ein Attentat zu erleichtern.
+
+EIGENSCHAFTEN:
+
+Verhindert das Zaubern
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
+@123 = ~Amulett des Schwachkopfs~
+@124 = ~Solche Amulette sind bei skrupellosen Händlern sehr beliebt. Diese Gegenstände wirken wie verzierte, teure Amulette und werden oft als Geschenke an potenzielle Kunden, Rivalen oder andere potenzielle Geschäftskontakte gegeben. Sie sind lediglich dazu gedacht, den Verstand zu trüben, ohne übermäßig aufzufallen, sodass der Händler seinen Vorteil bei komplexen Verhandlungen ausspielen kann.
+
+EIGENSCHAFTEN:
+
+Verringert Intelligenz, Weisheit und Charisma um 2, solange es getragen wird
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
+@125 = ~Schwarze Perle~
+@126 = ~Weiße Perle~
+@127 = ~Schwarze Perle mit Schale~
+
 @1000 = ~Gut, obwohl es größtes Glück war, dass Ihr nicht einen Flügel als Gliedmaße behalten habt. Ihr hattet schon immer einen kleinen Vogel, aber ich nehme an, das zählt nicht.~
 @1001 = ~Wir müssen uns bemühen, diese Armschützer zu finden, bevor sie eine andere unglückliche Seele verfluchen. <CHARNAME>, ich werde jede Hilfe brauchen, die ich bekommen kann, und Ihr versteht Euch auf Magie. Könnt Ihr mir helfen?~
 @1002 = ~Natürlich helfen wir.~
@@ -65,7 +110,7 @@
 @1059 = ~Sicher, aber können wir zuerst etwas einkaufen?~
 @1060 = ~Lebt wohl.~
 @1061 = ~Wisst Ihr etwas über schwarze Perlen?~
-@1062 = ~Sie werden von Sirinen sehr geschätzt, und die Priesterschaft hier im Tempel hat sie gelegentlich als Opfergaben für den Morgenherrn zu besonderen Anlässen dargebracht.~
+@1062 = ~Sie werden von Sirinen sehr geschätzt, und die Priesterschaft hier im Tempel hat sie gelegentlich als Opfergaben für den Morgenfürsten zu besonderen Anlässen dargebracht.~
 @1063 = ~Können wir eine haben?~
 @1064 = ~Gebt uns eine!~
 @1065 = ~Was würde es kosten, eine von Euch zu bekommen?~
@@ -93,7 +138,7 @@
 @1087 = ~Wir haben darüber gesprochen, dem Tempel Gold im Austausch für eine schwarze Perle zu spenden.~
 @1088 = ~Stimmt, Ihr habt dem Tempel in der Vergangenheit geholfen~
 @1089 = ~Ich höre von den Stadtbewohnern nichts als Gutes über Eure Taten.~
-@1090 = ~Dann könnt Ihr die Perle haben, mit dem Segen des Morgenherrn. Es wird ein Verlust für den Tempel sein, aber es ist besser, sie für das Gute einzusetzen, als sie in einer Vitrine liegen zu lassen.~
+@1090 = ~Dann könnt Ihr die Perle haben, mit dem Segen des Morgenfürsten. Es wird ein Verlust für den Tempel sein, aber es ist besser, sie für das Gute einzusetzen, als sie in einer Vitrine liegen zu lassen.~
 @1091 = ~Thalantyr, der Bewohner der Hohen Hecke? Was habt Ihr mit ihm zu schaffen?~
 @1092 = ~Sein Lehrling wurde verflucht, und wir versuchen, den Gegenstand zu zerstören, der ihn verflucht hat.~
 @1093 = ~Ich habe mit Thalantyr zu tun.~
@@ -686,10 +731,10 @@ Gewicht: 2~
 Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er wollte Hilfe bei irgendeinem Unsinn und ich lehnte ab.~
 @10175 = ~Die Gnollfestung sichern
 
-Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er ist der letzte Rest einer Truppe, die von Athkatla ausgeschickt wurde, um die Gnollfestung zu sichern. Er bat mich um Hilfe beim Kampf gegen ihren Anführer, Häuptling Hvalanya, sowie gegen einen Schamanen einer rivalisierenden Gruppe. Außerdem muss ein Gnoll besiegt werden, der von einem der Türme aus Wache hält.~
+Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er ist der letzte Rest einer Truppe, die von Athkatla ausgeschickt wurde, um die Gnollfestung zu sichern. Er bat mich um Hilfe beim Kampf gegen ihre Anführerin, Häuptling Hvalanya, sowie gegen einen Schamanen einer rivalisierenden Gruppe. Außerdem muss ein Gnoll besiegt werden, der von einem der Türme aus Wache hält.~
 @10176 = ~Die Gnollfestung sichern
 
-Wir haben den Gnoll-Anführer Häuptling Hvalanya besiegt.~
+Wir haben die Gnoll-Anführerin, Häuptling Hvalanya, besiegt.~
 @10177 = ~Die Gnollfestung sichern
 
 Schamane Sirkhr, der Anführer der rivalisierenden Gnoll-Fraktion, wurde in einem alten Tempel unter der Festung besiegt.~
@@ -756,16 +801,17 @@ Kann nicht verwendet werden von:
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 @21604 = ~Warum müssen wir kämpfen? Kann Euch nicht mit all diesem Wissen gehen lassen. Wir hätten friedlich existieren können, aber nun habt Ihr gekämpft und werdet es niemals akzeptieren. Andere werden kommen und töten oder erobern. Abenteurer wie Ihr kommen doch immer, oder? Nein, ich muss kämpfen und Ihr müsst sterben! Es gibt vielleicht noch Hoffnung, wenn Selaad zurückkehrt, aber Ihr könnt nicht mehr helfen.~
-@21605 = ~Kaishas, wir haben nur gekämpft, weil wir dazu gezwungen wurden. Es war nicht unsere Tuen, sondern Eures und es gibt keinen Grund, warum das fortgesetzt werden muss.~
-@21606 = ~Wir wurden dazu gezwungen zu kämpfen, Kaishas, und wir haben gut gekämpft - glaubt Ihr wirklich, dass Ihr uns aufhalten könnt, indem Ihr dieses Schiff entert?~
+@21605 = ~Kaishas, wir haben nur gekämpft, weil wir dazu gezwungen wurden. Es war nicht unser Tun, sondern Eures und es gibt keinen Grund, warum das fortgesetzt werden muss.~
+@21606 = ~Wir wurden dazu gezwungen zu kämpfen, Kaishas, und wir haben gut gekämpft - glaubt Ihr wirklich, dass Ihr uns davon abhalten könnt, dieses Schiff zu entern?~
 @21607 = ~Euer Dorf und die Tunnel darunter sind nun angefüllt mit den Kadavern der Eurigen. Falls Ihr wirklich kämpfen wollt, dann sei dem so, aber Ihr macht einen Fehler.~
-@21608 = ~Sterbt, - wenn Ihr ein Monster seid, sollte ich Euch als solches behandeln.~
-@21609 = ~Welch Großzügigkeit, aber falls Ihr geht, werdet Ihr ohnehin ausrotten. Andere werden kommen, andere Narren nur um das "Böse" zu bekämpfen, das wir sind. Nein, wir müssen nun hier alleine zurückbleiben und selbiges müsst Ihr. Sterbt und schlaft und Ihr werdet die Einsamkeit nicht kennen. Falls Selaad zurückkehrt, werden wir es vielleicht wieder versuchen. Bis dahin bleiben wir.~
+@21608 = ~Dann sterbt - wenn Ihr ein Monster seid, werde ich Euch als eines behandeln.~
+@21609 = ~Welch Großzügigkeit, aber falls Ihr geht, werdet Ihr uns ohnehin ausrotten. Andere werden kommen, andere Narren nur um das "Böse" zu bekämpfen, das wir sind. Nein, wir müssen nun hier alleine zurückbleiben und selbiges müsst Ihr. Sterbt und schlaft und Ihr werdet die Einsamkeit nicht kennen. Falls Selaad zurückkehrt, werden wir es vielleicht wieder versuchen. Bis dahin bleiben wir.~
 @21610 = ~Kaishas, es gibt keinen Grund hierfür. Ich will es nicht tun, aber wir werden Euch töten, wenn wir müssen. Glaubt Ihr wirklich Ihr könnt uns aufhalten, obwohl Karoug und Daese es nicht konnten?~
-@21611 = ~Ich... fürchte, dass wir es nicht können. Aber wir sollten es versuchen. Uns bleibt keine Wahl.~
+@21611 = ~Ich... fürchte, dass wir es nicht können. Aber wir werden es versuchen. Uns bleibt keine Wahl.~
 @21612 = ~Kaishas, das ist Wahnsinn. Ihr werdet in den Tod gehen und ich will Euch nicht einmal töten!~
 @21613 = ~Vielleicht nicht. Aber Ihr seid verwundet und müde und die Meute ist dicht hinter Euch. Selbst Abenteurer können nur so lange kämpfen. Ungeachtet dessen, es muss so sein. Es tut mir wahrlich leid.~
-@21614 = ~Ich habe nur ungern mit Kaishas gekämpft. Sie schien zu denken, dass es keinen anderen Weg geben würde. Sie hat erwähnt, dass es eine zweite Chance geben könnte, falls Selaad eines Tages zurückkehrt. Er ist der vermisste Häuptling, wenn ich mich richtig erinnere.~
+@21614 = ~Die mysteriöse Insel
+Ich habe nur ungern mit Kaishas gekämpft. Sie schien zu denken, dass es keinen anderen Weg geben würde. Sie hat erwähnt, dass es eine zweite Chance geben könnte, falls Selaad eines Tages zurückkehrt. Er ist der vermisste Häuptling, wenn ich mich richtig erinnere.~
 @21615 = ~Vielleicht sind wir Monster. Aber wir tun, was wir müssen, um zu überleben.~
 @21616 = ~Ihr erinnert mich nur daran, dass dies sein muss. Zu viel ist zwischen uns geschehen. Ich weiß nicht, ob wir Euch aufhalten können oder nicht, aber die Antwort wird schnell bekannt sein.~
 @21617 = ~Welche Wahl gibt es? Falls die Wahrheit bekannt ist, wird Verderben über uns kommen!~
@@ -773,50 +819,51 @@ Kann nicht verwendet werden von:
 @21619 = ~Ihr könnt uns vertrauen. Wir werden niemand von Eurem Volk erzählen - es wird sein, als wären wir nie an diesen Ort gekommen.~
 @21620 = ~Sterbt gut... es tut mir wahrlich leid, dass es auf diese Weise enden muss.~
 @21621 = ~Wie gerne würde ich Euch glauben! Aber versteht genau, die Zukunft meines Volkes steht hier auf dem Spiel. Ich kann kein Risiko eingehen.~
-@21622 = ~Wir haben unser Leben jeden Tag, seit dem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tuen, um Euch zu überzeugen? Wieviele Babies müssen wir noch vor den Wolfweren retten? ~
-@21623 = ~Wir haben unser Leben jeden Tag, seit dem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tuen, um Euch zu überzeugen?~
-@21624 = ~Ihr könnt nichts tun. Es tut mir wahrlich Leid.~
+@21622 = ~Wir haben unser Leben jeden Tag, seitdem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tun, um Euch zu überzeugen? Wie viele Babys müssen wir noch vor den Wolfwere retten? ~
+@21623 = ~Wir haben unser Leben jeden Tag, seitdem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tun, um Euch zu überzeugen?~
+@21624 = ~Ihr könnt nichts tun. Es tut mir wahrlich leid.~
 @21625 = ~Ihr... könnt nichts tun. Maralee wird für Eure Tat für immer dankbar sein.... genauso wie ich. Aber obwohl es tapfer war, habt Ihr es getan ohne unsere wahre Natur zu erkennen.~
 @21626 = ~Und nun erkenne ich sie. Macht Euch bereit, Kaishas - dies endet nun.~
 @21627 = ~Langsam wird es lächerlich. Eure Undankbarkeit macht mich krank - ich hatte gehofft, dass ich Euch nicht als Monster sehen muss, aber es sieht aus, als wäre ich da falsch gelegen.~
-@21628 = ~Kaishas, haltet Ihr mich für einen Narren? Ich wusste, dass Ihr Werewölfe seit, selbst bevor ich mit Karoug gesprochen hatte... offen gesagt war ich fünf Minuten nachdem ich Euer Dorf betreten hatte Euch gegenüber misstrauisch! Falls Ihr versucht uns zu töten, dann fahrt damit fort, aber um Aos Willen, zollt uns etwas Anerkennung für unsere Intelligenz!~
-@21629 = ~Ich zolle Euch große Anerkennung, sowohl für Intelligenz als auch für Tapferkeit. Dennoch ist dies alles die Pflicht einer Anfühererin. Ich kann es nicht riskieren, dass Ihr lügt.~
+@21628 = ~Kaishas, haltet Ihr mich für einen Narren? Ich wusste, dass Ihr Werwölfe wart, selbst bevor ich mit Karoug gesprochen hatte... offen gesagt war ich fünf Minuten nachdem ich Euer Dorf betreten hatte Euch gegenüber misstrauisch! Falls Ihr versucht uns zu töten, dann fahrt damit fort, aber um Aos Willen, zollt uns etwas Anerkennung für unsere Intelligenz!~
+@21629 = ~Ich zolle Euch große Anerkennung, sowohl für Intelligenz als auch für Tapferkeit. Dennoch ist dies alles die Pflicht einer Anführerin. Ich kann es nicht riskieren, dass Ihr lügt.~
 @21630 = ~Kaishas, bitte, wartet! <CHARNAME> lügt nicht! <PRO_HESHE> und ich haben eine Verbindung gefunden... lange nachdem <PRO_HESHE> die Wahrheit über uns erkannt haben muss! Verschont <PRO_HIMHER> - <PRO_HESHE> mag unsere wahre Natur kennen, aber <PRO_HESHE> wird das Geheimnis für sich behalten.~
 @21631 = ~Ich...~
 @21632 = ~Kaishas, mein Peladan ist wegen diesen Außenstehenden immer noch am Leben. Soll ich ihn aufwachsen lassen, in dem Wissen, dass wir Peladans Retter abgeschlachtet haben? Dass wir in Wahrheit genauso wie in unserer äußeren Form Monster sind?~
-@21633 = ~Ich... ich war ein Narr. Vergebt mir, <CHARNAME>, dass ich uns an der Rand der Verwandtschaft mit wilden Tieren gebracht habe. Aber wir sind besser als Karoug... danke, dass Ihr das gewusst habt, selbst als ich es vergessen hatte.~
-@21634 = ~Geht, in Frieden. Ich weiß nicht, was sich ereignen wird, wenn Ihr meinen Ehemann gegenübertretet. Ich fürchte sehr um ihn, aber hat sein Schicksal selbst in der Hand. Falls er das Geschenk nicht bereitwillig zurücknimmt... dann müsst Ihr tun, was Ihr tun müsst.~
+@21633 = ~Ich... ich war ein Narr. Vergebt mir, <CHARNAME>, dass ich uns an den Rand der Verwandtschaft mit wilden Tieren gebracht habe. Aber wir sind besser als Karoug... danke, dass Ihr das gewusst habt, selbst als ich es vergessen hatte.~
+@21634 = ~Geht, in Frieden. Ich weiß nicht, was sich ereignen wird, wenn Ihr meinen Ehemann gegenübertretet. Ich fürchte sehr um ihn, aber er bringt sein Schicksal selbst über sich. Falls er das Geschenk nicht bereitwillig zurücknimmt... dann müsst Ihr tun, was Ihr tun müsst.~
 @21635 = ~Eines Tages, hoffe ich, wird Peladan ein Geschwisterchen haben. <PRO_HISHER> Name wird "<CHARNAME>" sein.~
 @21636 = ~Wir werden uns nie wieder treffen, <CHARNAME>. Das... bekümmert mich. Erinnert Euch an mich, selbst wenn Ihr alles andere über unser Volk vergesst.~
 @21637 = ~Ich habe es geschafft Kaishas Gan davon zu überzeugen, uns in Frieden gehen zu lassen... mit ein bisschen Hilfe von Delainy. Ein reizendes Mädchen, aber manche Dinge sollen nicht sein, nehme ich an.~
 @21638 = ~Ich habe es geschafft Kaishas Gan davon zu überzeugen, uns in Frieden gehen zu lassen... mit ein bisschen Hilfe von Durlyle. Es gab etwas besonderes zwischen uns... aber manche Dinge sollen nicht sein, nehme ich an.~
 @21639 = ~Das tut es in der Tat. Wahrlich, es tut mir leid.~
-@21640 = ~Ihr beschämt mich, Außenstehender. Groß ist unsere Schuld Euch gegenüber. Dennoch ist dies alles die Pflicht einer Anfühererin. Ich kann es nicht riskieren, dass Ihr lügt.~
-@21641 = ~Ihr seid zurückgekehrt! Und Ihr seid im Rudel... ich rieche es an Euch. Aber wo ist Kaishas? Wo ist mein Gefährte?~
+@21640 = ~Ihr beschämt mich, Außenstehender. Groß ist unsere Schuld Euch gegenüber. Dennoch ist dies alles die Pflicht einer Anführerin. Ich kann es nicht riskieren, dass Ihr lügt.~
+@21641 = ~Ihr seid zurückgekehrt! Und Ihr seid im Rudel... ich rieche es an Euch. Aber wo ist Kaishas? Wo ist meine Gefährtin?~
 @21642 = ~Warum habt Ihr uns geschickt? Was sollte auf dieser Insel passieren?~
-@21643 = ~Sie ist auf der Insel zurückgeblieben. Euer Gefährtin hätte uns beinahe getötet, als wir den Fluch ablehnten, den sie auf uns gelegt hat... aber zuletzt ist sie weise geworden. Erlöst uns von dem "Geschenk" und kehrt zurück zu ihr, "Mendas". Es gibt hier nichts für Euch.~
-@21644 = ~Das Logbuch war nichts! Balduran war nichts! Er hatte das Geschenk abgelehnt, dass die Großväter ihm angeboten haben. Ihr solltet nur Kaishas die Seekarten geben und Karoug töten, damit er ihr nicht folgen kann. Kaishas hätte das Rudel hierher gebracht, wo ich alles vorbereitet habe. Erbärmlich! Ihr konntet solch einfache Aufgaben nicht erfüllen? Stattdessen lasst Ihr meine Familie im Stich und stehlt das Boot um Euer grausames Leben zu retten?~
+@21643 = ~Sie ist auf der Insel zurückgeblieben. Eure Gefährtin hätte uns getötet, als wir den Fluch ablehnten, den sie auf uns gelegt hat... aber zuletzt ist sie weise geworden. Erlöst uns von dem "Geschenk" und kehrt zurück zu ihr, "Mendas". Es gibt hier nichts für Euch.~
+@21644 = ~Das Logbuch war nichts! Balduran war nichts! Er hatte das Geschenk abgelehnt, das die Großväter ihm angeboten haben. Ihr solltet nur Kaishas die Seekarten geben und Karoug töten, damit er ihr nicht folgen kann. Kaishas hätte das Rudel hierher gebracht, wo ich alles vorbereitet habe. Erbärmlich! Ihr konntet solch einfache Aufgaben nicht erfüllen? Stattdessen lasst Ihr meine Familie im Stich und stehlt das Boot um Euer grausames Leben zu retten?~
 @21645 = ~Nun ist es Zeit, dieses Wortgeplänkel zu beenden, Mendas. Es ist Zeit, dass Ihr für Eure Lügen und Eure Bosheit zahlt. Bereitet Euch vor zu sterben.~
-@21646 = ~Dies endet hier. Erlöst uns von dem "Geschenk" und kehrt zu Eurem Gefährten zurück, Mendas. Es gibt hier nichts für Euch.~
+@21646 = ~Dies endet hier. Erlöst uns von dem "Geschenk" und kehrt zu Eurer Gefährtin zurück, Mendas. Es gibt hier nichts für Euch.~
 @21647 = ~Hunde! Ihr seid es nicht wert, durch meine Hand zu sterben, aber sterben sollt Ihr! Zu mir, Baresh! Eine blutige Abrechnung steht bevor!~
-@21648 = ~Das Rätsel dieser Insel ist klar geworden. Mendas/Selaad hat uns unter dem falschen Vorwand, wir sollen Beweise in dem, was für Baldurans Schiffswrack gehalten wird, aufspüren, auf die Insel geschickt. Es war in der Tat das Schiff des Abenteurers, obgleich sein persönliches Schicksal immernoch ein Geheimnis bleibt. Baldurans Mannschaft wurde irgendwann während dieser schicksalhaften Reise mit Lycanthrophie infiziert. Das Schiff wurde auf Grund gesetzt und abgewrackt, wodurch die zwei Stämme der Lycanthropen, Werwölfe und Wolfwere, zurückblieben und gegeneinander um das Überleben kämpfen mussten. Die besser organisierten Werwölfen haben ein Dorf gebaut, in dessen Nähe wir kürzlich auf unsere eigenen schicksalhaften Reise Schiffbruch erlitten. Die chaotischen Wolfwere bezogen Ihr Quartier in den Ruinen von Baldurans Schiff und beide Rudel überlebten seitdem in einer unruhigen Koexstistenz. Mendas/Selaad ist letztlich das Risiko eingegangen zum Festland zu segeln. Irgendwie hat er es geschafft und sich eine plausible Geschichte ausgedacht, da er entdeckt hatte, dass jemand schließlich die Insel gefunden hatte. Zunächst hat er uns die Seekarten stehlen und später zu der Insel reisen lassen, um sie in die Hände seiner Werwolf-Gefährtin zu übergeben. Sie hat uns die Wolfwere töten lassen und dann unsere Gruppe mit Lycanthrophie angesteckt, in der Absicht, dass wir uns dem Rudel anschließen oder im Kampf sterben. Aber wir konnten sie davon überzeugen, uns in Frieden gehen zu lassen. Wir sind schlussendlich nach Hause gesegelt, um die Wahrheit über Mendas Doppelzüngigkeit herauszufinden. Das Schicksal scheint es zu genießen, mit mir zu spielen.~
-@21649 = ~Ich bin verwundert, Mendas, oder sollte ich sagen Selaad. Da Ihr der Anführer der Werwölfe seid, warum segelt Ihr nicht selbst zur Insel zurück?~
-@21650 = ~Ich bin kein Seefahrer. Ich bleibe, um diesen Ort für mein Volk vorzubereiten. Für Generationen waren wir auf der Insel gefangen. Es ist Zeit, dass wir in das Land unserer Großväter heimkehren. Sie haben Karten gebraucht und ich Abenteurer, die nicht viele Fragen stellen. Dennoch seid Ihr gescheitert. Ich frage nochmal - wo ist Kaishas?~
-@21651 = ~"Erlösen"? Meine närrische Gefährtin, was habt Ihr ihnen erzählt? Das ist kein Fluch, den man aufheben muss - es ist ein Geschenk, das man auskosten muss! Er kann nur "geheilt" werden, indem man den Häuptling der Werwölfe tötet. Ich bin der Häuptling und ich befinde Euch für unwürdig, mit meine Rudel umherzuziehen. Ihr werdet heute hier sterben. Zu mir Baresh! Eine blutige Abrechnung steht bevor!~
-@21652 = ~Selaad Gan ist der Anführer des wahren Volkes. Er erwartet die Rückkehr seiner Gefährtin Kaishas. Warum seid Ihr nicht mit Ihr zurückgekehrt?~
-@21653 = ~Es ist nicht an Euch, mit Fragen zu stellen. Welche Rolle habt Ihr hierbei gespielt?~
-@21654 = ~Es scheint, dass Ihr in die Irre geführt wurdet. Kaishas ist tot und ihre mörderische Art ist mit ihr gestorben.~
+@21648 = ~Die mysteriöse Insel
+Das Rätsel dieser Insel ist klar geworden. Mendas/Selaad hat uns unter dem falschen Vorwand, wir sollten Beweise in dem, was für Baldurans Schiffswrack gehalten wird, aufspüren, auf die Insel geschickt. Es war in der Tat das Schiff des Abenteurers, obgleich sein persönliches Schicksal immer noch ein Geheimnis bleibt. Baldurans Mannschaft wurde irgendwann während dieser schicksalhaften Reise mit Lykanthropie infiziert. Das Schiff wurde auf Grund gesetzt und abgewrackt, wodurch die zwei Stämme der Lykanthropen, Werwölfe und Wolfwere, zurückblieben und gegeneinander um das Überleben kämpfen mussten. Die besser organisierten Werwölfe haben ein Dorf gebaut, in dessen Nähe wir kürzlich auf unserer eigenen schicksalhaften Reise Schiffbruch erlitten. Die chaotischen Wolfwere bezogen ihr Quartier in den Ruinen von Baldurans Schiff und beide Rudel überlebten seitdem in einer unruhigen Koexistenz. Mendas/Selaad ist letztlich das Risiko eingegangen zum Festland zu segeln. Irgendwie hat er es geschafft und sich eine plausible Geschichte ausgedacht, da er entdeckt hatte, dass jemand schließlich die Insel gefunden hatte. Zunächst hat er uns die Seekarten stehlen und später zu der Insel reisen lassen, um sie in die Hände seiner Werwolf-Gefährtin zu übergeben. Sie hat uns die Wolfwere töten lassen und dann unsere Gruppe mit Lykanthropie angesteckt, in der Absicht, dass wir uns dem Rudel anschließen oder im Kampf sterben. Aber wir konnten sie davon überzeugen, uns in Frieden gehen zu lassen. Wir sind schlussendlich nach Hause gesegelt, um die Wahrheit über Mendas Doppelzüngigkeit herauszufinden. Das Schicksal scheint es zu genießen, mit mir zu spielen.~
+@21649 = ~Ich bin verwundert, Mendas, oder sollte ich sagen Selaad. Da Ihr der Anführer der Werwölfe seid, warum seid Ihr nicht selbst zur Insel zurückgesegelt?~
+@21650 = ~Ich bin kein Seefahrer. Ich bleibe, um diesen Ort für mein Volk vorzubereiten. Für Generationen waren wir auf der Insel gefangen. Es ist Zeit, dass wir in das Land unserer Großväter heimkehren. Sie haben Karten gebraucht und ich Abenteurer, die nicht viele Fragen stellen. Dennoch seid Ihr gescheitert. Ich frage noch einmal - wo ist Kaishas?~
+@21651 = ~"Erlösen"? Meine närrische Gefährtin, was habt Ihr ihnen erzählt? Das ist kein Fluch, den man aufheben muss - es ist ein Geschenk, das man auskosten muss! Er kann nur "geheilt" werden, indem man den Häuptling der Werwölfe tötet. Ich bin der Häuptling und ich befinde Euch für unwürdig, mit meinem Rudel umherzuziehen. Ihr werdet heute hier sterben. Zu mir, Baresh! Eine blutige Abrechnung steht bevor!~
+@21652 = ~Selaad Gan ist der Anführer des wahren Volkes. Er erwartet die Rückkehr seiner Gefährtin Kaishas. Warum seid Ihr nicht mit ihr zurückgekehrt?~
+@21653 = ~Es ist nicht an Euch, mir Fragen zu stellen. Welche Rolle habt Ihr hierbei gespielt?~
+@21654 = ~Es scheint, dass wir getäuscht wurden. Kaishas ist tot, und ihr mörderisches Gesindel ist mit ihr gestorben.~
 @21655 = ~Wir wurden angeheuert, um Baldurans Logbuch wieder zu finden. Wir haben es hierher gebracht und nun erwarten wir Bezahlung.~
-@21656 = ~Es scheint, dass Ihr in die Irre geführt wurdet. Kaishas bleibt auf der Insel. Wir müssen Selaad gegenübertreten und ihn den Fluch aufheben lassen, den uns seine Gefährtin närrischer Weiser beschert hat.~
+@21656 = ~Es scheint, dass wir getäuscht wurden. Kaishas bleibt auf der Insel. Wir müssen Selaad gegenübertreten und ihn den Fluch aufheben lassen, den uns seine Gefährtin närrischerweise beschert hat.~
 @21657 = ~Der Meister wünscht seine Frau, Kaishas Gan, zu sehen. Ist sie immer noch auf dem Schiff?~
 @21658 = ~Das geht Euch nichts an. Tretet beiseite.~
 @21659 = ~Wer ist Euer Meister? Wir arbeiten für Mendas von Tiefwasser.~
 @21660 = ~Ich bin Baresh. Ich bin von der wahren Rasse, nicht so wie Ihr. Der Meister wünscht seine Frau, Kaishas Gan, zu sehen. Ist sie immer noch auf dem Schiff?~
-@21661 = ~Das Buch ist nicht! Eure Aufgabe war es, die Sippe des Meisters zu retten. Wo ist die Gefährtin des Meisters, Kaishas?~
+@21661 = ~Das Buch ist nichts! Eure Aufgabe war es, die Sippe des Meisters zu retten. Wo ist die Gefährtin des Meisters, Kaishas?~
 @21662 = ~Eure Aufgabe war klar. Reist zu der Inselheimat und rettet die Sippe des Meisters. Da Ihr dabei gescheitert seid, sollte Kaishas die Seekarten von Euch nehmen. Unnütze Menschlinge! Selaad duldet Versagen nicht wirklich gut.~
 @21663 = ~Idiot! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Kaishas hat uns angegriffen und wir waren gezwungen, uns selbst zu verteidigen. Mendas wurde von seiner eigenen Gerissenheit betrogen.~
-@21664 = ~Mendas hat uns getäuscht. Er ist der, dem wir gegenübertreten müssen. Ihr seid kaum ein Lakai.~
-@21665 = ~Idioten! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Bringt uns nun zu Selaad!~
+@21664 = ~Mendas hat uns getäuscht. Er ist der, dem wir gegenübertreten müssen. Ihr seid nur ein Lakai.~
+@21665 = ~Idiot! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Bringt uns nun zu Selaad!~
 @21666 = ~Nutzloser Schuft! Dafür wird der Meister Euch das Mark aus den Knochen saugen!~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -850,7 +897,7 @@ Der Stoffbeutel enthält eine unbegrenzte Anzahl von Schleuderkugeln.~
 @40007 = ~Dunkler Purpurner Ionenstein~
 @40008 = ~Mit diesem Stein, von dunkler purpurner Farbe, kann der Träger in die Schatten der Dunkelheit sehen.
 EIGENSCHAFTEN:
-Infravision (bis zu 30 m)
+Infravision (bis zu 18 m)
 Gewicht: 2~
 @40009 = ~Flimmernd Weißer Ionenstein~
 @40010 = ~Der Stein fühlt sich kalt an und strahlt Energie aus.
@@ -949,7 +996,7 @@ Verwendbar von:
 @70013 = ~Saiai no Hito~
 @70014 = ~Dieses Schwert ist als Saiai no Hito bekannt. Es wurde von Ne Kurosuna geschaffen, einem ehemaligen Mitglied des Saku-Klosters. Er war eines der ursprünglichen Mitglieder des Klosters und trainierte dort jahrelang. Er war für seinen scharfen Verstand und seine anmutigen Techniken bekannt. Er war auch recht stark, wahrscheinlich einer der stärksten Mönche unter den anderen Mitgliedern des Saku-Klosters, solange er noch dort war.
 
-Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seine frühere Geliebte an Räuber verloren hatte, die sie töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seiner früheren Geliebten?
+Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seinen früheren Geliebten an Räuber verloren hatte, die ihn töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seinem früheren Geliebten?
 
 Nach einigen Monaten beschloss er, dass er, wenn er diese Gefühle verstehen und entscheiden wollte, was zu tun sei, das Kloster verlassen und in Einsamkeit nachdenken und um Antworten und Erleuchtung beten musste. Da er gern durch Arbeit meditierte, begann er, Schwerter zu schmieden. Schließlich führte ihn das zur Erschaffung dieses Schwertes: Saiai no Hito. Es sollte ein Geschenk an Shiroume sein, da Ne beschlossen hatte, dass Frieden nur durch Ehrlichkeit erreicht werden kann. Er hoffte, dass ... Meister Yakuchi vielleicht verstehen, ihnen eine Chance geben oder zumindest helfen würde, Freunde zu bleiben. Ne beschloss, dass das ein Verrat an seiner früheren Liebe wäre. Er respektierte seine Vergangenheit noch immer. Er erinnerte sich noch immer daran.
 
@@ -993,7 +1040,7 @@ Rüstungsklassenbonus: +1 gegen Wuchtwaffen~
 @70023 = ~Ich bin aus den fernen Ländern von Kara-Tur hierhergekommen. Um genau zu sein, aus Kozakura. Ich kam mit einer Mission hierher, doch ich muss zugeben, dass ich mich recht verloren fühle. Diese ... Schwertküste ist ganz anders als meine Heimat, daher nimmt die Arbeit, die mich hierherbrachte, mehr Zeit in Anspruch, als ich erwartet hatte.~
 @70024 = ~Welche Art von Arbeit hat Euch hierhergebracht, Inoshishi? Was ist diese Mission, von der Ihr sprecht?~
 @70025 = ~Hört zu, Ihr und Eure Mission sind mir gleichgültig. Ich bin selbst beschäftigt genug. Seid so freundlich und geht mir aus dem Weg.~
-@70026 = ~Ich kam hierher auf der Suche nach einer mächtigen Klinge. Einem Katana namens Saiai no Hito. Es wurde von einem der ersten, ursprünglichen Mitglieder unseres Klosters geschmiedet, einem Mann namens Ne Kurosuna. Wenn unsere Dokumente stimmen, trat er von seiner Stellung zurück und verließ unsere Bruderschaft. Manche sagen, es geschah, als er sich in einen anderen Bruder verliebte, Shiroume Yakuchi. Wir wissen, dass ihre Beziehung Ne unruhig machte, da er seine Geliebte zuvor an eine Gruppe Räuber verloren hatte ...~
+@70026 = ~Ich kam hierher auf der Suche nach einer mächtigen Klinge. Einem Katana namens Saiai no Hito. Es wurde von einem der ersten, ursprünglichen Mitglieder unseres Klosters geschmiedet, einem Mann namens Ne Kurosuna. Wenn unsere Dokumente stimmen, trat er von seiner Stellung zurück und verließ unsere Bruderschaft. Manche sagen, es geschah, als er sich in einen anderen Bruder verliebte, Shiroume Yakuchi. Wir wissen, dass ihre Beziehung Ne unruhig machte, da er seinen Geliebten zuvor an eine Gruppe Räuber verloren hatte ...~
 @70027 = ~Soweit wir verstehen, wollte er über seine Vergangenheit, Gegenwart und Zukunft meditieren. Wir glauben, er fühlte sich auf die Gefühle, die zu ihm zurückkehrten, nicht vorbereitet, und es war ihm, als verrate er die Erinnerung an seine längst verlorene Liebe. Wir fanden sein Tagebuch und erfuhren, dass er sich zwischen verschiedenen Lieben und verschiedenen Wegen hin- und hergerissen fühlte.~
 @70028 = ~Dieses Gefühl muss ihn recht zerrissen haben, wenn man bedenkt, dass es ihn dazu brachte, das Kloster zu verlassen.~
 @70029 = ~Hah! Es ist gut zu wissen, dass auch Männer sich mit ihren Ideen und Gefühlen verwirren können und nicht immer wir es sind, die verwirrt zurückbleiben! Hmpf!~
@@ -1435,7 +1482,7 @@ Gewicht: 0~
 @80074 = ~Dient mir, kleines Wesen, nur noch eine Weile, und ich erledige, was Eurem Herzen und Eurem Geist gerade nicht recht ist!~
 @80075 = ~Lasst mich in Eure Brust und Euren Schädel sehen und schauen ...! Mhm!~
 @80076 = ~Ich ...~
-@80077 = ~Ihr wollt, dass es aufhört zu jucken! Hahaha! Gut! Ich kann dabei helfen! Der Juckreiz Eures ... Zweigs wird in einem Augenblick enden! In meinem Auge natürlich, hahahaha!~
+@80077 = ~Ihr wollt, dass es aufhört zu jucken! Hahaha! Gut! Ich kann dabei helfen! Der Juckreiz Eures ... Zweigs wird im Zwinkern eines Auges enden! Meines Auges, natürlich, hahahaha!~
 @80078 = ~Wir haben eine Abmachung.~
 @80079 = ~Im Ernst? Ihr habt mich einfach verkauft und zugestimmt, mich zu ergreifen, damit Eure Privatteile aufhören zu jucken? Das ist wirklich erbärmlich.~
 @80080 = ~Wenn Ihr glaubt, Ihr könntet mich aufhalten oder mir auch nur nahe kommen, seid Ihr noch dümmer, als ich dachte.~
@@ -1581,7 +1628,7 @@ Ein Mädchen namens Chloe hat uns erzählt, dass eine Offizierin namens Vai im W
 Wir machten gute Geschäfte damit, Räuberabzeichen an Offizierin Jessa Vai von der Flammenden Faust zu verkaufen, doch sie hat aus dem Hauptquartier in Baldurs Tor den Befehl erhalten, dorthin zurückzukehren und Bericht über die Beseitigung der Räuberplage zu erstatten.~
 
 // sotsc compat
-@100011 = ~Hmm, nur wenn Ihr Euch um ein paar ... Unkräuter kümmert. Ich gebe Euch für je fünf bronze Abzeichen, die Ihr diesen groben Räubern abnehmt, eine Blume.~
+@100011 = ~Hmm, nur wenn Ihr Euch um ein paar ... Unkräuter kümmert. Ich gebe Euch für je fünf bronzene Abzeichen, die Ihr diesen groben Räubern abnehmt, eine Blume.~
 @100012 = ~Ich habe die Abzeichen hier.~
 @100013 = ~In Ordnung. Fünf Abzeichen für eine meiner wunderschönen Blumen. Passt gut darauf auf.~
 @100014 = ~...hmm, vielleicht sollte ich diese Abzeichen für etwas Kompost verkaufen.~
