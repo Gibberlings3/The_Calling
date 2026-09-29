@@ -150,3 +150,77 @@ Benötigt:
  13 Stärke
 
 Gewicht: 14~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Monk - Restoring Saiai no Hito                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@70006 = ~Dieses Amulett wäre normalerweise in einem Griff eines Katanas verborgen, direkt unter der Lederwicklung. Genau dieses Amulett sieht wirklich alt aus.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@70008 = ~Dies sieht aus wie der Griff eines zerbrochenen Katanas. Es könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald seine Klinge gefunden ist.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@70010 = ~Dies sieht aus wie die Klinge eines zerbrochenen Katanas. Sie könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald sein Griff gefunden ist.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+@70012 = ~Diese Armschienen wurden in Kozakura geschaffen. Sie sind warm bei Berührung, und obwohl sie recht leicht sind, wirken sie ziemlich robust. Von einer mächtigen Priesterin namens Ume nach der süßesten aller kozakuranischen Früchte verzaubert, mögen sie helfen, den Geist klar und im Gleichgewicht zu halten, selbst wenn der Zorn versucht, die Kontrolle über den Mönch zu übernehmen. Sie können dem Träger dieser Armschienen im Kampf auch helfen, indem sie seine Schläge lenken.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Nahkampf-ETW0: +2
+– Schutz vor Berserkerwut
+
+Gewicht: 1~
+@70014 = ~Dieses Schwert ist als Saiai no Hito bekannt. Es wurde von Ne Kurosuna geschaffen, einem ehemaligen Mitglied des Saku-Klosters. Er war eines der ursprünglichen Mitglieder des Klosters und trainierte dort jahrelang. Er war für seinen scharfen Verstand und seine anmutigen Techniken bekannt. Er war auch recht stark, wahrscheinlich einer der stärksten Mönche unter den anderen Mitgliedern des Saku-Klosters, solange er noch dort war.
+
+Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seine frühere Geliebte an Räuber verloren hatte, die sie töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seiner früheren Geliebten?
+
+Nach einigen Monaten beschloss er, dass er, wenn er diese Gefühle verstehen und entscheiden wollte, was zu tun sei, das Kloster verlassen und in Einsamkeit nachdenken und um Antworten und Erleuchtung beten musste. Da er gern durch Arbeit meditierte, begann er, Schwerter zu schmieden. Schließlich führte ihn das zur Erschaffung dieses Schwertes: Saiai no Hito. Es sollte ein Geschenk an Shiroume sein, da Ne beschlossen hatte, dass Frieden nur durch Ehrlichkeit erreicht werden kann. Er hoffte, dass ... Meister Yakuchi vielleicht verstehen, ihnen eine Chance geben oder zumindest helfen würde, Freunde zu bleiben. Ne beschloss, dass das ein Verrat an seiner früheren Liebe wäre. Er respektierte seine Vergangenheit noch immer. Er erinnerte sich noch immer daran.
+
+Saiai no Hito sollte ein Symbol der Liebe, der Verbundenheit und der Erleuchtung sein. Doch Ne Kurosuna wurde auf dem Weg zum Kloster getötet. Die Klinge ging daraufhin verloren, und es ist schwer zu sagen, wie sie ... oder vielmehr ihre Teile an die Schwertküste gelangten, doch dort ist es, wo die Klinge neu geschmiedet und in ihren früheren Glanz zurückversetzt wurde.
+
+Die Magie dieses Schwertes sollte denen helfen, die es führen, indem sie einen großen Vorteil im Kampf gewährt. Wenn man den Erzählungen glauben darf, sollte es auch das Herz des Mönchs davor schützen, jemals zermalmt oder gebrochen zu werden.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Wuchtschadensresistenz: +10% (nur Mönch)
+– Angriffe pro Runde: +1/2 (nur Mönch)
+
+Kampffähigkeiten:
+– Schlägt als +3-Waffe zu
+
+ETW0: +2
+Schaden: 1W10+1, +1 Feuer
+Schadensart: Hieb
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: 1-händig
+Benötigt:
+ 6 Stärke
+
+Gewicht: 5~
+@70016 = ~Dieser Ring ist als Inoshishis Mähne bekannt. Wer mit der kozakuranischen Sprache vertraut ist, weiß, dass Inoshishi "Wildschwein" bedeutet.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse gegen Wucht: +1
+
+Gewicht: 0~

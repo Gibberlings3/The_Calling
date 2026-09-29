@@ -1283,7 +1283,8 @@ INCLUDE ~thecalling/lib/shaman.tpa~
 BEGIN @70000 DESIGNATED 70
 GROUP @8
 REQUIRE_PREDICATE GAME_IS ~bgee tutu tutu_totsc bgt eet~ @0
-REQUIRE_PREDICATE ("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) @5 // skip if translation doesn't exist
+REQUIRE_PREDICATE (("%LANGUAGE%" STRING_COMPARE_CASE "english" = 0) OR 
+                   ("%LANGUAGE%" STRING_COMPARE_CASE "german" = 0)) @5 // skip if translation doesn't exist
 LABEL ~cd_the_calling_monk~
 
 /* CDMonkCalling
