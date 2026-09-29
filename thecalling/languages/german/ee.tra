@@ -224,3 +224,102 @@ Ausgerüstete Fähigkeiten:
 – Rüstungsklasse gegen Wucht: +1
 
 Gewicht: 0~
+
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Calling - Thief's Quest                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@80009 = ~Dieser magische Knüppel fühlt sich kalt an. Er wurde offensichtlich verzaubert, um zusätzlichen Schaden zu verursachen und Erfrierungen hervorzurufen. In das Holz ist ein kleines eingeritztes Herz geschnitzt, samt einer kleinen Notiz: Lulu + Grong (ebenfalls eingeritzt). Vielleicht wurde die Waffe aus einem Zweig gefertigt, der ein Zeichen der Liebe sein sollte, aber ... diese Liebe hielt nicht.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Jeder erfolgreiche Treffer hat eine 75%ige Chance, zusätzlich 1 Kälteschaden zu verursachen
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Knüppel
+Typ: 1-händig
+Benötigt:
+ 5 Stärke
+
+Gewicht: 2~
+@80012 = ~Dieses Amulett sieht einem anderen Amulett, das als "Das verlorene Geschenk" bekannt ist, ein wenig ähnlich. Während beide dem Benutzer helfen können, mächtige feurige Geschosse zu schleudern, ist dieses hier außerdem ... verflucht und macht es dem Benutzer schwerer, sich zu konzentrieren und einem vollkommen klaren Gespräch zu folgen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Intelligenz: -2
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Aufladungsfähigkeit:
+– Geschoss
+  Schaden: 6W6 Feuer (Rettungswurf gegen Zauber halbiert)
+  Reichweite: 15 m
+  Wirkungsbereich: 4,5 m Radius
+
+Gewicht: 1~
+@80015 = ~Lachende alte Pflaume wurde von einer grünen Hexe von der Schwertküste geschaffen. Es ist eine mächtige Waffe, sehr scharf, sehr gefährlich, doch wer sie im Kampf benutzt, muss sich auch an ihre launische Natur gewöhnen. Die Klinge kann ihren Träger zwar schützen, doch haltet sie falsch, seid nicht sanft genug, und sie nimmt sich einen Teil dieses Schutzes oder schwächt Euch sogar, wenn es nichts anderes zu nehmen gibt.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Magieresistenz: +6%
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Kampffähigkeiten:
+– Jeder erfolgreiche Treffer hat eine 10%ige Chance, Eure Magieresistenz für 3 Runden um 2% zu senken. Dieser bösartige Fluch ist dieser Waffe höchst amüsant, also wird sie Euch jedes Mal auslachen, wenn das geschieht ... was ebenfalls recht nervig und, offen gesagt, wirklich unhöflich sein kann
+
+ETW0: +2
+Schaden: 1W4+2 (Stich)
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig
+Benötigt:
+ 3 Stärke
+
+Gewicht: 1~
+@80018 = ~Dieser verfluchte Ring ist als Ring der stinkenden Füße bekannt. Er wurde von einem sembischen Barden geschaffen, der seinem Freund einen Streich spielen wollte. Er gab ihm den Ring, aber ... aus irgendeinem Grund trug der Freund ihn weiter und sagte, er gefalle ihm recht gut. Ein seltsamer Geselle, ohne Zweifel.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Charisma: -1
+– Im Schatten verstecken: -5%
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 0~
+@80020 = ~Bdharlan,
+
+ich verstehe, dass Ihr unserer Gruppe beitreten wollt. Wer weiß, vielleicht passt Ihr hinein. Ich schätze jedoch, Narlen wird prüfen wollen, ob Ihr die richtige Ergänzung wärt. Der Kerl will sichergehen, dass die Neuen nicht kneifen und ihm den Rücken freihalten.
+
+Denkt aber daran! Wenn er sich Euch nähert, hinterfragt NIEMALS seine Art zu sprechen. Wir haben uns daran gewöhnt, aber er ist wirklich empfindlich, was das betrifft. Wenn Ihr beide zusammenarbeitet, bekommt Ihr vielleicht Eure erste Gelegenheit, eine Münze oder zwei zu verdienen.
+
+Mit Grüßen,
+Freund~
+@80023 = ~Dieses Set magischer Dietriche kann sicher allen helfen, die ein Schloss so schnell wie möglich knacken und verschwinden wollen ... wo auch immer der Raub gerade stattfindet.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+– Kann einmal pro Tag Klopfen wirken
+
+Ausgerüstete Fähigkeiten:
+– Schlösser öffnen: +10%
+
+Gewicht: 0~
+
+// badges - EE overrides
+@100002 = ~Dieses kleine Bronzeabzeichen hängt an einer kleinen, feinen Kette. Es wurde der Leiche eines Räubers abgenommen und ist für den richtigen Käufer vielleicht von Wert.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@100008 = ~Vais Kopfgeld auf die Räuber
+Offizierin Jessa Vai von der Flammenden Faust sitzt mit ihrem Kontingent in Beregost fest. In ihrer Verzweiflung hat sie mir für jedes Räuberabzeichen, das ich ihr bringe, 50 Goldmünzen geboten. Sie hat sich im Windigen Schwindler einquartiert.~
