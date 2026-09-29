@@ -8,3 +8,136 @@ This file is also formatted in utf-8 since it's only used on EE games. setup.tra
 
 This file can be left blank, but cannot be deleted. 
 */
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// expanded gnoll stronghold                        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@10013 = ~Dieser ungewöhnliche Gürtel wurde für einen Assassinen namens Mudbone gefertigt. Er war auf die Tötung von Priestern spezialisiert, insbesondere solcher, die jenen als Hindernis galten, die wenig Respekt vor gläubigen Menschen hatten. Der Gürtel sieht gut verarbeitet aus. Er muss aus hochwertigen Materialien gefertigt worden sein.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Magieresistenz: +2%
+
+Kampffähigkeiten:
+– Schaden gegen Kleriker: +2
+
+Gewicht: 2~
+@10016 = ~An diesem Kettenpanzer ist etwas wirklich Rohes und Primitives, doch Ihr spürt magische Energie in seinen Gliedern. Er sollte seinen Träger im Kampf schützen können, und die Magie könnte sich in der Wildnis als nützlich erweisen. Allerdings hat die Rüstung einen seltsamen Geruch, der Euch an Hundefell erinnert.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse gegen Tiere: +2
+– Charisma: -1
+
+Rüstungsklasse: 4 (2 gegen Hieb, 6 gegen Wucht)
+Benötigt:
+ 8 Stärke
+
+Gewicht: 20~
+@10019 = ~Dieser Umhang wurde aus verzaubertem Stoff gefertigt, der sich als recht nützlich erweisen dürfte, wenn man Gegner wie Basilisken bekämpft. Er sollte seinen Träger vor deren tödlichem Blick schützen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rettungswurf gegen Versteinerung/Verwandlung: +4
+
+Gewicht: 3~
+@10022 = ~Dieses Amulett wurde mit dunkler Magie verflucht. Wer es trägt, wird von Unglück verfolgt, und auf Reisen oder im Abenteuer ... kann Glück über Leben und Tod entscheiden.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Glück: -1
+– Kann nur durch den Zauber „Fluch brechen“ entfernt werden
+
+Gewicht: 1~
+@10025 = ~Dieser Pfeil sieht zerbrochen aus, doch selbst wenn Ihr eine Hälfte haltet, schwebt die andere direkt daneben. Auch wenn er nicht wirklich mächtig ist, kann er nützlich sein, wenn einem Abenteurer die normalen Pfeile ausgehen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Schlägt als +1-Waffe zu
+– Kehrt zum Träger zurück, wenn abgeschossen
+
+Schaden: 1 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+@10028 = ~Dieser Stab wurde früher von einem Gnoll-Schamanen aus der Gnollfestung an der Schwertküste benutzt.
+
+Es ist schwer zu sagen, wer ihn erschaffen hat. Er fühlt sich recht roh an, und obwohl seine Macht nicht die größte ist, gibt es sicherlich Situationen, in denen er verwendet werden kann. Man glaubt, dass er die Macht besitzt, jede Säure tödlicher zu machen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Jeglicher vom Träger verursachte Säureschaden wird um 20% erhöht
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Kampfstab
+Typ: 2-händig
+Benötigt:
+ 5 Stärke
+
+Gewicht: 4~
+@10030 = ~Dieser purpurne Umhang hat eine recht majestätische Aura, und man glaubt, dass er für einen König geschaffen wurde, aber ... die Legende verrät nicht, für welchen. Er soll nicht nur seinen Träger schützen, sondern auch alle um ihn herum glauben lassen, dass jedes seiner Worte wahr ist, und sie dazu bringen, ihn zu verehren.
+
+Ihr habt diesen Umhang als Zeichen des Vertrauens und der Dankbarkeit für die Sicherung der Gnollfestung erhalten.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse: +1
+– Rettungswürfe: +1
+– +1 auf Angriffs- und Schadenswürfe gegen Kämpfer, Mönche, Paladine, Waldläufer
+– +1 Charisma (nur Kämpfer, Finstere Streiter)
+
+Gewicht: 3~
+@10032 = ~Dieses Buch beschreibt Rituale, einige, um die natürliche Energie zu zähmen, und einige, um Yeenoghu, das Biest der Metzelei, zu erfreuen. Eines ist besonders morbide und beschreibt die Verbrennung menschlicher Schädel.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+@10034 = ~Diese Tasche ist mit medizinischen Vorräten gefüllt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 15~
+@10037 = ~Dieses brennende Fleisch ist tatsächlich Yeenoghus brennendes Fleisch. Wer es verzehrt, mag den besonderen Segen des Prinzen der Gnollen erhalten, doch er hat seinen Preis.
+
+EIGENSCHAFTEN:
+
+Speziell: Senkt bei Verzehr das Charisma um 1, gewährt aber +2 Schaden gegen gute Kreaturen. Der Bonus ist dauerhaft.
+
+Gewicht: 2~
+@10039 = ~Ihr habt diesen primitiven Schlüssel in der Gnollfestung gefunden. Er muss dort etwas öffnen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@10103 = ~In der Nähe gibt es eine Bergbaustadt. Nashkell ist ihr Name. Dort gibt es einen Tempel, und ich möchte, dass Ihr dorthin geht und mir einige medizinische Vorräte bringt. Der Priester wurde informiert, dass wir möglicherweise Hilfe brauchen könnten, wenn ich mich nicht irre. Schade, dass wir nicht vorher mit ihm gesprochen haben, bevor ich meine Freunde verlor, vielleicht hätten diese etwas genützt – nein. Das hätte die Tragödie auch nicht verhindert. Es tut mir leid, sie sind mir immer noch im Kopf.~
+@10188 = ~Wie andere ihrer Art besteht diese Hellebarde aus einer beilartigen Axtklinge, die auf einem etwa zwei Meter langen Schaft sitzt. Entlang ihres Griffes verläuft eine Reihe von Runen, die es dem Träger ermöglichen, seinen Schlägen zusätzlichen Schaden durch Elektrizität, Kälte oder Feuer nach Wahl zu verleihen. Gelegentlich entlädt sie bei einem einzigen Schlag einen Stoß aller drei Elemente.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– 1% Chance pro Treffer, dass das Ziel zusätzlich je 3 Punkte Kälte-, Elektrizitäts- und Feuerschaden erleidet
+
+ETW0: +1
+Schaden: 1W10+1, +1 Kälte-, Elektrizitäts- oder Feuerschaden (nach Wahl des Trägers)
+Schadensart: Hieb oder Stich, je nachdem, was besser ist
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+Benötigt:
+ 13 Stärke
+
+Gewicht: 14~
