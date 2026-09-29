@@ -1286,6 +1286,163 @@ Der Rüstungshändler am Karneval in Nashkell hat einen Sternenfall-Wetzstein, a
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
+///// The Calling - Thief's Quest                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@80001 = ~Bdharlan der Einfältige~
+@80002 = ~Pelerlertiana~
+@80003 = ~Sporenkolonie~
+@80004 = ~Mysteriöse Frau~
+@80005 = ~Mallandrea~
+@80006 = ~Xamm~
+@80007 = ~Pelerlertianas Lichtung~
+@80008 = ~Kalter Lümmel +1~
+@80009 = ~Dieser magische Knüppel fühlt sich kalt an. Er wurde offensichtlich verzaubert, um zusätzlichen Schaden zu verursachen und Erfrierungen hervorzurufen. In das Holz ist ein kleines eingeritztes Herz geschnitzt, samt einer kleinen Notiz: Lulu + Grong (ebenfalls eingeritzt). Vielleicht wurde die Waffe aus einem Zweig gefertigt, der ein Zeichen der Liebe sein sollte, aber ... diese Liebe hielt nicht.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+- Jeder erfolgreiche Treffer hat eine 75%ige Chance, zusätzlich 1 Kälteschaden zu verursachen
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Knüppel
+Typ: 1-händig
+Benötigt: Stärke 5
+
+Gewicht: 2~
+@80011 = ~Dieses eine dumme Geschenk~
+@80012 = ~Dieses Amulett sieht einem anderen Amulett, das als "Das verlorene Geschenk" bekannt ist, ein wenig ähnlich. Während beide dem Benutzer helfen können, mächtige feurige Geschosse zu schleudern, ist dieses hier außerdem ... verflucht und macht es dem Benutzer schwerer, sich zu konzentrieren und einem vollkommen klaren Gespräch zu folgen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Intelligenz: -2
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Aufladungsfähigkeit:
+- Geschoss
+  Schaden: 6W6 Feuer (Rettungswurf gegen Zauber halbiert)
+  Reichweite: 15 m
+  Wirkungsbereich: 4,5 m Radius
+
+Gewicht: 1~
+@80014 = ~Lachende alte Pflaume +2~
+@80015 = ~Lachende alte Pflaume wurde von einer grünen Hexe von der Schwertküste geschaffen. Es ist eine mächtige Waffe, sehr scharf, sehr gefährlich, doch wer sie im Kampf benutzt, muss sich auch an ihre launische Natur gewöhnen. Die Klinge kann ihren Träger zwar schützen, doch haltet sie falsch, seid nicht sanft genug, und sie nimmt sich einen Teil dieses Schutzes oder schwächt Euch sogar, wenn es nichts anderes zu nehmen gibt.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Magieresistenz: +6%
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Kampffähigkeiten:
+- Jeder erfolgreiche Treffer hat eine 10%ige Chance, Eure Magieresistenz für 3 Runden um 2% zu senken. Dieser bösartige Fluch ist dieser Waffe höchst amüsant, also wird sie Euch jedes Mal auslachen, wenn das geschieht ... was ebenfalls recht nervig und, offen gesagt, wirklich unhöflich sein kann
+
+ETW0: +2
+Schaden: 1W4+2 (Stich)
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Benötigt: Stärke 3
+
+Gewicht: 1~
+@80017 = ~Ring der stinkenden Füße~
+@80018 = ~Dieser verfluchte Ring ist als Ring der stinkenden Füße bekannt. Er wurde von einem sembischen Barden geschaffen, der seinem Freund einen Streich spielen wollte. Er gab ihm den Ring, aber ... aus irgendeinem Grund trug der Freund ihn weiter und sagte, er gefalle ihm recht gut. Ein seltsamer Geselle, ohne Zweifel.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Charisma: -1
+- Im Schatten verstecken: -5%
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 0~
+@80020 = ~Bdharlan,
+
+ich verstehe, dass Ihr unserer Gruppe beitreten wollt. Wer weiß, vielleicht passt Ihr hinein. Ich schätze jedoch, Narlen wird prüfen wollen, ob Ihr die richtige Ergänzung wärt. Der Kerl will sichergehen, dass die Neuen nicht kneifen und ihm den Rücken freihalten.
+
+Denkt aber daran! Wenn er sich Euch nähert, hinterfragt NIEMALS seine Art zu sprechen. Wir haben uns daran gewöhnt, aber er ist wirklich empfindlich, was das betrifft. Wenn Ihr beide zusammenarbeitet, bekommt Ihr vielleicht Eure erste Gelegenheit, eine Münze oder zwei zu verdienen.
+
+Mit Grüßen,
+Freund~
+@80021 = ~Dietriche~
+@80022 = ~Dietriche von Masks Kumpel~
+@80023 = ~Dieses Set magischer Dietriche kann sicher allen helfen, die ein Schloss so schnell wie möglich knacken und verschwinden wollen ... wo auch immer der Raub gerade stattfindet.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+- Kann einmal pro Tag Klopfen wirken
+
+Ausgerüstete Fähigkeiten:
+- Schlösser öffnen: +10%
+
+Gewicht: 0~
+@80024 = ~Nehmt das, ihr dummen Ameisen! Haha!~
+@80025 = ~Verdammt! Es ist auf meinem Stiefel! Na ja ... hehehe.~
+@80026 = ~Hahaha! Schaut, wer zurückgekommen ist!~
+@80027 = ~Nun, es sieht so aus, als gäbe es mehr wie mich, Glückspilze, die versuchen, in die Stadt Baldurs Tor zu gelangen! Ich hörte, das ist ein Ort, um ein neues Leben zu beginnen! Und eine Münze oder zwei zu verdienen. Und ich denke, Ihr wisst, was ich mit "verdienen" meine.~
+@80028 = ~Vielleicht weiß ich das. Aber warum wollt Ihr ein neues Leben beginnen?~
+@80029 = ~Ich habe keine Ahnung, wovon Ihr sprecht. Und ich glaube nicht, dass ich Zeit für irgendein Geplauder habe, also ... auf Wiedersehen.~
+@80030 = ~Sagen wir einfach, ich weiß, was es bedeutet, ein oder zwei Tage mit leerem Magen herumzulaufen.~
+@80031 = ~Aber ich hörte, dass es in der Stadt eine Gruppe gibt! Eine Gilde, und ich dachte, dass das vielleicht genau das ist, was ich brauche! Eine Gruppe, die mir den Rücken freihält, wenn ich tue, was ich am besten kann! Aber es gibt ein kleines Problem, das ich lösen muss. Einen Fall, den ich abschließen möchte, bevor ich diese Brücke überqueren und mein neues Leben genießen kann!~
+@80032 = ~Was genau steht zwischen Eurem jetzigen Leben und Eurem neuen Leben?~
+@80033 = ~Was auch immer. Hört zu, ich habe keine Zeit für solches Geplauder und ... ich muss gehen.~
+@80034 = ~Wartet! Es gibt Gold. Es gibt so viel Gold, und es kann Eures sein. Helft mir nur ... etwas zu Ende zu bringen!~
+@80035 = ~Und welche Art von Hilfe erhofft Ihr Euch, hmm? Was ist dieser "Fall", von dem Ihr sprecht?~
+@80036 = ~Ich bin nicht interessiert. Nun geht mir aus dem Weg, oder sie finden Euren Leichnam unter der Brücke dort.~
+@80037 = ~Seht Ihr, ich ... begegnete dieser Frau und versuchte, ihr etwas wegzunehmen. Etwas Essen ...~
+@80038 = ~... und einen Zauberstab, er sah teuer aus ...~
+@80039 = ~... und da war dieses Amulett ...~
+@80040 = ~... es lag direkt neben den Goldmünzen, die sie neben ihrem Kissen hatte ...~
+@80041 = ~... und ich brauchte nur noch ein paar Dinge von ihr, wie das Kissen selbst ...~
+@80042 = ~... einen neuen Wasserschlauch ...~
+@80043 = ~... einen Heiltrank ...~
+@80044 = ~... etwas Salbe, ich habe diesen üblen Juckreiz ... da unten ...~
+@80045 = ~... einen neuen Kamm, ich will ordentlich aussehen, sobald ich in Baldurs Tor bin ...~
+@80046 = ~... eine Schere, ich muss wirklich meine Fingernägel schneiden ...~
+@80047 = ~... ich hoffte, vielleicht etwas Parfüm zu finden ...~
+@80048 = ~... und ich brauchte wirklich ein frisches Paar Socken! Meine sind so klebrig, als wäre ich in Honig oder Baumsaft getreten.~
+@80049 = ~Das ist ... eine ziemlich lange Liste!~
+@80050 = ~Socken? Im Ernst? Und im Ernst ... Igitt.~
+@80051 = ~Wenn Ihr auch diese Unterwäsche von jemand anderem gestohlen habt, ist es kein Wunder, dass Ihr jetzt diesen Ausschlag habt.~
+@80052 = ~Ich habe keine Zeit für solchen Unsinn. Tut mir leid, aber ich muss gehen.~
+@80053 = ~Hey! Stellt mich nicht bloß! Ich lebe schon eine ganze Weile in der Wildnis und ... und ich hatte keine andere Wahl! Im Ernst!~
+@80054 = ~Ich weiß, ich habe versucht, viel zu nehmen, aber Ihr wisst, wie das ist. Wenn man hungert, will man einfach alles nehmen, was man kriegen kann, nur für den Fall, dass wieder etwas schiefgeht. Man will sich auf das Schlimmste vorbereiten.~
+@80055 = ~Wie auch immer, ich musste fliehen. Und ich habe meine Tasche nahe dem Zelt dieser Frau zurückgelassen, und ich brauche sie. Wirklich. Also hoffte ich, dass ich hier vielleicht jemanden treffe, jemanden, der bereit ist zu helfen. Oder jemanden wie mich, nur ... heimlicher.~
+@80056 = ~Eh, schön. Wenn Ihr wollt, kann ich Euch helfen. Zeigt mir nur den Weg.~
+@80057 = ~Ich habe keine Zeit für solchen Unsinn. Nun muss ich gehen.~
+@80058 = ~Ihr helft mir? Oh, das ist wunderbar!~
+@80059 = ~Lasst mich meine Sachen nehmen, gebt mir einen Moment, um ... nun ja, Wasser zu lassen, und ... kommt gleich wieder zu mir. Und schaut weg, ja? Ich glaube nicht, dass ich bei so etwas Gesellschaft brauche.~
+@80060 = ~Verdammt! Dann muss ich mich nach jemand anderem umsehen.~
+@80061 = ~Lasst mich in Frieden Wasser lassen, hmm? Wenn Ihr zuschauen wollt, dann tut es mir leid, aber ich stehe nicht auf so etwas.~
+@80062 = ~Aaah, meine Blase ist leer, also können wir weitermachen.~
+@80063 = ~Zeigt mir den Weg.~
+@80064 = ~Ich brauche einen Moment. Wartet hier auf mich.~
+@80065 = ~Mhm! Folgt mir.~
+@80066 = ~Ooo, haha! Schaut Euch nur das Gesicht von diesem da an! Schöner als das, was ich seit Tagen gesehen habe!~
+@80067 = ~Oh, das reimt sich sogar! Das ist sogar noch besser! Mmm!~
+@80068 = ~Wir hatten eine Abmachung, also ... überreiche ich Euch Euer Geschenk, Hexe. Ich hoffe, Ihr nehmt es an.~
+@80069 = ~Es sieht nett aus, mhm. Aber ich sollte mir wohl auch <PRO_HISHER> Zähne ansehen, schlechte Zähne und stinkender Atem sind wirklich nicht appetitlich! Hahaha!~
+@80070 = ~Nö. Ich denke, sie sollten in Ordnung sein.~
+@80071 = ~Nun, ich habe Euch etwas im Austausch für meine eigene Freiheit gebracht. Also befreit mich. Ich verspreche, ich werde nie wieder versuchen, Euch zu bestehlen.~
+@80072 = ~Hmm. Vielleicht sollte ich ... wenn Ihr mir helft, diesen da hier zu ergreifen.~
+@80073 = ~Hey! Ich sollte nur jemanden herbringen, nicht gegen ihn kämpfen!~
+@80074 = ~Dient mir, kleines Wesen, nur noch eine Weile, und ich erledige, was Eurem Herzen und Eurem Geist gerade nicht recht ist!~
+@80075 = ~Lasst mich in Eure Brust und Euren Schädel sehen und schauen ...! Mhm!~
+@80076 = ~Ich ...~
+@80077 = ~Ihr wollt, dass es aufhört zu jucken! Hahaha! Gut! Ich kann dabei helfen! Der Juckreiz Eures ... Zweigs wird in einem Augenblick enden! In meinem Auge natürlich, hahahaha!~
+@80078 = ~Wir haben eine Abmachung.~
+@80079 = ~Im Ernst? Ihr habt mich einfach verkauft und zugestimmt, mich zu ergreifen, damit Eure Privatteile aufhören zu jucken? Das ist wirklich erbärmlich.~
+@80080 = ~Wenn Ihr glaubt, Ihr könntet mich aufhalten oder mir auch nur nahe kommen, seid Ihr noch dümmer, als ich dachte.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
 ///// Replace Bandit Scalps with Badges                \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
