@@ -154,6 +154,135 @@ Gewicht: 14~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
+///// shaman - Dreamheart                              \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@60003 = ~Vampirwolf - Rudelführer~
+@60004 = ~Zombiewolf~
+@60005 = ~Manifestation der Verderbnis~
+@60006 = ~Furcht vor der Stasis~
+@60007 = ~Ringfliegen~
+@60008 = ~Kopf des Vampirwolfs~
+@60009 = ~Dies ist der Kopf eines Vampirwolfs, der ein Rudel untoter Wölfe anführte. Das Rudel schändete die Höhle, die, wie Ihr herausgefunden habt, ein Ort großer geistiger Macht ist.
+
+Er kann als Beweis dienen, dass Ihr mit dem Rudel abgerechnet habt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 3~
+@60010 = ~Herzfigur~
+@60011 = ~Diese Figur ist nicht viel größer als ein Kieselstein und sieht aus wie ein seltsames kleines Herz. Sie ist recht warm bei Berührung. Wenn Ihr sie haltet, fühlt es sich fast an, als würde sie schlagen. Es ist schwer zu sagen, ob es nur Eure Einbildung, Euer eigener Puls oder etwas anderes ist, aber es ist sicherlich eine faszinierende Empfindung.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@60012 = ~Seelenherz-Kraut~
+@60013 = ~Diese Pflanze hat leuchtende bläuliche Blätter. Das Kraut selbst hat außerdem einen süßen Duft, der Euch an Weintrauben erinnert.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@60015 = ~Schicksalsspindel +2~
+@60016 = ~Dieser Kurzbogen wurde einst von einem mächtigen Schamanen von der Schwertküste benutzt: Zaznya. Wenn man den Erzählungen glauben darf, war Zaznya eine geschickte Bogenschützin, beschützt von einer Armee von Geistern. Sie beschützte Orte der Macht vor denen, die sich wenig um ihre Vergangenheit kümmerten ... und um ihre Zukunft. Manche sagen, einige der Geister griffen mit ihr nach der Sehne des Bogens und halfen, ihre Pfeile mit großer Präzision zu lenken.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Kann zwei zusätzliche Zauber der 1. Stufe pro Tag wirken (nur Schamane)
+- Elektrizitätsresistenz: +10%
+
+ETW0: +2
+Schaden: +2
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+Benötigt:
+ 3 Stärke
+
+Gewicht: 2~
+@60017 = ~Archäologische Ausgrabungsstätte, inneres Grabmal (Schamane)~
+@60018 = ~(Ihr habt ein seltsames, traumartiges Reich betreten. Und Ihr seid nicht allein.)~
+@60019 = ~(Was einst ein Freudenfeuer war, ist nun ein Strudel aus wirbelnden Glutresten und Asche geworden. Etwas daran ist einladend.)~
+@60020 = ~(Werdet Ihr es wagen, hineinzutreten, Schamane?)~
+@60021 = ~Ich sehe, Ihr habt meinen Ruf vernommen. Willkommen, Schamane.~
+@60022 = ~Wow. Das ist ... ein seltsamer Ort. Wartet - träumen wir? Und ist das da ein schwebendes Herz?~
+@60023 = ~Agh. Ich habe das Gefühl, Ihr habt uns in eine sinnlose Abschweifung geführt. Wisset, dass mir nicht gefällt, was ich sehe, <CHARNAME>.~
+@60024 = ~Ist das ein Traum, <CHARNAME>? Träumen wir? Es dünkt mich ein seltsamer Traum, das gestehe ich Euch, Anführer.~
+@60025 = ~Hmm? Wabernde Strudel ...? Wirre Visionen? Was ist das? Was für eine vage, wirre Reise ist das?~
+@60026 = ~Ich bin froh, dass Ihr mich gehört habt. Dass die Glut meines eigenen Traums Euch erreicht und hierher zurückgeführt hat. Sorgt Euch nicht, denn ich will Euch nichts zuleide tun.~
+@60027 = ~Wo bin ich? Wer seid Ihr?~
+@60028 = ~Das ist alles schön und gut, aber Eure Beweggründe kümmern mich wenig. Ich verlange Antworten. Was für ein boshafter Ort ist das, hmm?~
+@60029 = ~Ah. Ihr seid es. Seid Ihr hier, weil Ihr Eure Meinung geändert habt? Wollt Ihr mir helfen?~
+@60030 = ~Ich bin nicht sicher, ob ich verstehe, was Ihr seid und was Ihr von mir wollt. Ihr wart nicht gerade klar mit Euren Erklärungen.~
+@60031 = ~Nein. Ich glaube, ich gehe jetzt einfach.~
+@60032 = ~Ich nahm an, es würde Euch hier gefallen. Ihr habt diesen Ort gesehen. Nun, die dumpfe Inkarnation davon. Eine, die von Kozah genutzt wurde. Eine, die von den Archäologen untersucht wurde, diesen groben Ausgräbern.~
+@60033 = ~Was sie über diesen Ort wussten, war wahr. Aber sie wussten nicht, dass er bereits lebendig war, bevor sie diese Stätte fanden, ja sogar bevor Kozah und seine Leute diese Höhle betraten. Und dass ich, das Traumherz, hier schon eine ganze Weile schlage.~
+@60034 = ~Ich brauche vielleicht mehr Informationen als das. Was seid Ihr?~
+@60035 = ~Nichts, was Ihr sagt, ergibt irgendeinen Sinn, Kreatur. Es ist recht nervig, und ich habe wenig Geduld für Rätsel.~
+@60036 = ~Ich versuche es erneut: Ich bin das Traumherz. Ein Wesen, das aus den Hoffnungen und Kräften dieses alten Ortes geboren wurde und von all den Männern, Frauen, Tieren und Kreaturen genährt wurde, die diese Höhle betraten. Ich nährte mich von ihren Hoffnungen. Und während ihre Verstände, Herzen und Seelen heller wurden, von neuen Ideen angesteckt, während sie an die Wände malten, ihr Essen aßen, tanzten, wurde ich immer lebendiger.~
+@60037 = ~Das ist ein Ort großer Macht. Als diese Welt weit weniger fortgeschritten war, nannten sie diesen Ort die Grotte des Schlummergolds. Ein Ort der Geister und der Erde. Ein Ort, an dem Leute wie Ihr kamen und meditierten. Antworten fanden. Inspiration. Hoffnung. Freude. Und in jüngster Zeit wurde er verdorben.~
+@60038 = ~Sprecht Ihr von der Ausgrabung? Ich glaube nicht, dass diese Leute versucht haben, diesem Ort zu schaden.~
+@60039 = ~Ich bin nicht sicher, ob ich verstehe, wovon Ihr sprecht, aber es klingt, als wäre etwas wirklich Ernstes geschehen.~
+@60040 = ~Zur Sache, Kreatur.~
+@60041 = ~Diese Leute? Nein. Was in den wahren Kern dieses Ortes eindrang, war etwas Dunkleres.~
+@60042 = ~Nachdem die Ausgräber fort waren und den Eingang unversiegelt zurückließen, drangen verderbte Dinge in die Höhle ein. Während sie es nie schafften, den wahren Kern des Ortes zu erreichen, das wahre Schlummergold, gelang es ihnen, die von den Archäologen freigelegten Kammern zu schänden.~
+@60043 = ~Diese Kreaturen waren Tiere, oder vielmehr ihre Kadaver, berührt von den dunklen Fingern des Untodes. Ein Rudel untoter Wölfe, das das Freudenfeuer, die Wände und den Boden mit ihrem üblen Speichel, ihrem Gestank, ihrer Aura befleckte.~
+@60044 = ~Untote Wölfe? Diese armen Kreaturen müssen eine Schlacht gegen ein anderes untotes Wesen verloren haben. Solche Monster sollten nicht durch die Wildnis streifen. Wir sollten ihrem Elend ein Ende setzen, <CHARNAME>.~
+@60045 = ~Ich bemitleide die, die einem solchen Rudel von Kreaturen begegnen mögen.~
+@60046 = ~Das kann nicht ignoriert werden. Und deshalb brauche ich Euch.~
+@60047 = ~Wofür? Sie sind fort, nicht wahr?~
+@60048 = ~Hört zu, ich habe keine Zeit dafür. Ich gehe einfach. Es gibt ernstere Angelegenheiten, die meine Aufmerksamkeit brauchen.~
+@60049 = ~Sie sind nicht hier, aber sie sind nicht fort.~
+@60050 = ~Ich kann sie in der Nähe spüren. Und ich fürchte, sie könnten zurückkehren. Und das darf niemals geschehen.~
+@60051 = ~Diese Wände sind ein Heim goldener Träume. Der Erinnerungen. Wie ich Euch schon sagte, kamen die Leute hierher für Antworten. Um Frieden zu finden. Um zu trauern. Andere kamen für andere Arten von Ritualen. Die der Fruchtbarkeit. Sie lagen auf den Altären, während sie ihre Lüste, ihr Fleisch und ihre Freuden erforschten. Und das hat mich nie gestört. Lust kann ebenso stark sein wie Furcht und Hoffnung, wenn man ihr eine richtige Chance gibt.~
+@60052 = ~Diese Kreaturen brachten nicht nur Dunkelheit, sondern schwächten jahrhundertealte Erinnerungen. Unzählige Momente, die das Leben anderer bereicherten ... und mein eigenes.~
+@60053 = ~... und sie könnten immer noch zurückkehren. Sie kennen diesen Ort nun. Sie müssen seine Macht gespürt haben. Meine Kräfte. Und die all der Erinnerungen, die in diese Wände eingraviert sind. Wir können nicht riskieren, dass sie wieder hierherkommen. Noch mehr Schaden anrichten.~
+@60054 = ~Deshalb will ich, dass Ihr sie findet und tötet. Das ist doch, was Ihr tut, nicht wahr? Ich erkenne, dass Euch solche Kämpfe nicht fremd sind. Und Ihr seid außerdem ein Schamane. Wie die, die vor Euch hierherkamen.~
+@60055 = ~Ich helfe Euch. Ich möchte nicht, dass diese Kreaturen diesen Ort weiter verderben.~
+@60056 = ~Ich bezweifle, dass Ihr tatsächlich erkennen könnt, was ich gesehen habe oder was ich durchgemacht habe. Aber schön. Ich nehme an, ich kann Euch helfen.~
+@60057 = ~Ich habe keine Zeit dafür. Lockt einen anderen Narren, aber ich werde nicht Euer Hund oder Euer Diener sein.~
+@60058 = ~Wunderbar! Sie sind noch hier, irgendwo in der Nähe. Findet sie. Das Rudel war nicht groß, es waren fünf ... und sie alle verdienen es, zur Ruhe gebettet zu werden.~
+@60059 = ~Bitte kehrt zu mir zurück, wenn sie alle getötet sind.~
+@60060 = ~Das ist ... enttäuschend. Kehrt jedoch zu mir zurück, wenn Ihr Eure Meinung ändert.~
+@60061 = ~Habt Ihr diese Kreaturen gefunden? Sind sie tot?~
+@60062 = ~Das Rudel wird Euch keine Probleme mehr bereiten, noch wird es diesen Ort weiter verderben. Hier ist der Kopf des Rudelführers als Beweis.~
+@60063 = ~Noch nicht. Auf Wiedersehen.~
+@60064 = ~Also? Habt Ihr Eure Meinung geändert? Möchtet Ihr mir weiterhin helfen?~
+@60065 = ~Sagt mir einfach, was Ihr braucht. Vielleicht kann ich Euch doch helfen.~
+@60066 = ~Nein, eigentlich nicht.~
+@60067 = ~Ah! Nun, ich nehme an, dies kann als ein Zeichen des Sieges gesehen werden. Danke. Ihr habt gute Arbeit geleistet, Schamane.~
+@60068 = ~Ich habe mich gefragt, wie mächtig und einfallsreich Ihr sein könnt. Ihr seid nicht wie die, die nur über das Universum nachsinnen, sondern jemand, der die Wirklichkeit verändern kann. Und der einige Träume wahr werden lassen kann. Selbst wenn einige davon recht ... blutig sein mögen.~
+@60069 = ~Als Ihr in meine kleine goldene Welt tratet, spürte ich, dass etwas Besonderes an Euch ist. Und ich sehe, ich habe mich nicht geirrt. Ich kann nicht genau benennen, welcher Teil von Euch das ist, aber ... es ist sicherlich etwas an Euch, das Euch recht interessant macht.~
+@60070 = ~Danke. Nehme ich an.~
+@60071 = ~Natürlich bin ich besonders. Ich wurde mit der Gabe geistiger Stärke geboren. Nun, nicht nur geistiger.~
+@60072 = ~Gern geschehen.~
+@60073 = ~Und Ihr seid sicherlich nicht bescheiden. Aber das stört mich nicht.~
+@60074 = ~Ihr fasziniert mich. Euer Geist, Euer Fleisch, Euer Blut und Schweiß - sie alle spiegeln Zeichen von Erfahrung und starkem Willen wider. Das lässt mich fragen ... Ja, ich könnte Eure Hilfe noch gebrauchen.~
+@60075 = ~Ich habe einen Vorschlag. Helft mir weiter. Es gibt noch etwas, das Ihr für mich tun könntet. Wenn Ihr es tut, werde ich etwas mit Euch teilen. Eine Waffe, die ein anderer Schamane hinterlassen hat. Etwas, das Ihr in den kommenden Schlachten gebrauchen könntet.~
+@60076 = ~Und wenn ich solche Schlachten lieber vermeiden würde?~
+@60077 = ~Ich kann Euch helfen. Ich finde diesen Ort interessant und es wert, beschützt zu werden.~
+@60078 = ~Ich kann Euch helfen. Es sieht so aus, als gäbe es Leute, die mich tot sehen wollen. Ich könnte jede Ressource gebrauchen, die ich bekommen kann.~
+@60079 = ~Ich bin nicht interessiert. Tut mir leid, aber ich habe genug Zeit mit diesen Wölfen verschwendet. Ich muss gehen.~
+@60080 = ~Haha! Nun, es tut mir leid, das sagen zu müssen, aber ich fürchte, manche Schlachten und manche Eurer Feinde kümmern sich wenig darum, was Ihr bevorzugt. Und eine Waffe zu führen bedeutet nicht, dass man damit töten muss, oder?~
+@60081 = ~Nun, ich nehme an, ich kann mir zumindest anhören, was Ihr braucht.~
+@60082 = ~Ich glaube nicht, dass ich noch mehr Zeit mit Euch verschwenden kann. Tut mir leid, aber ich muss gehen.~
+@60083 = ~Ich freue mich, das zu hören.~
+@60084 = ~Diese Kreaturen, die Ihr getötet habt: ihre üble Gegenwart hatte eine Wirkung auf diesen Ort, wie ich Euch schon sagte. Aber der Fleck kann noch getilgt werden, wenn ein richtiges Ritual durchgeführt wird.~
+@60085 = ~Hier. Nehmt diese Figur und platziert sie dort, wo die Anhänger Kozahs ihr Idol zu platzieren pflegten, auf dem Altar, wo die Erinnerung an Kozah die Kontrolle über diese armen Ausgräber übernahm. Sie wird mich mit der weltlichen Inkarnation der Grotte verbinden, der äußeren Hülle des wahren Schlummergolds. Sobald es getan ist, kehrt zu mir zurück, denn das ist nicht das Einzige, worum ich Euch bitten werde.~
+@60086 = ~Ich tue, worum Ihr bittet.~
+@60087 = ~Ich habe keine Zeit dafür.~
+@60088 = ~Dann erwarte ich Eure Rückkehr.~
+@60089 = ~Schade. Aber Ihr wisst, wo Ihr mich findet, wenn Ihr Eure Meinung ändert.~
+@60090 = ~Bringt die Herzfigur, die ich Euch gab, dorthin, wo die Anhänger Kozahs ihr Idol aufstellten. Ich warte hier auf Euch.~
+@60091 = ~Ich kann fühlen, dass Ihr die Figur auf dem Altar platziert habt. Danke, Ihr habt gute Arbeit geleistet. Dank Euch wird die Verderbnis eingedämmt und wird sich nicht ausbreiten. Sie ist noch da, aber eingeschlossen. Stellt Euch einen geistigen Kolben vor, der sie nicht wachsen oder sich auf andere Teile des felsigen Fleisches ausbreiten lässt, das die Grotte bildet.~
+@60092 = ~Nun werden wir ein besonderes Kraut brauchen, um die Verderbnis aus der Grotte zu ziehen: das Seelenherz-Kraut. Das Problem ist, dass dies eine seltene Pflanze ist.~
+@60093 = ~Ihr würdet wohl am ehesten denken, sie wächst im Wald, aber nein. Sie findet sich gewöhnlich am Berghang, in felsigen Gegenden. Also, während ich weiß, dass es keine leichte Aufgabe ist: Wenn Ihr mir helfen wollt, müsst Ihr diese Pflanze finden.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
 ///// Monk - Restoring Saiai no Hito                   \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
