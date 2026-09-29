@@ -917,6 +917,151 @@ Mindeststärke: 6
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
+///// Monk - Restoring Saiai no Hito                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@70001 = ~Inoshishi~
+@70002 = ~Vaxffee der Gierige~
+@70003 = ~Aasfresser Tymothy~
+@70004 = ~Stöhnender Troll~
+@70005 = ~Klingenamulett~
+@70006 = ~Dieses Amulett wäre normalerweise in einem Griff eines Katanas verborgen, direkt unter der Lederwicklung. Genau dieses Amulett sieht wirklich alt aus.~
+@70007 = ~Schwertgriff~
+@70008 = ~Dies sieht aus wie der Griff eines zerbrochenen Katanas. Es könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald seine Klinge gefunden ist.~
+@70009 = ~Schwertklinge~
+@70010 = ~Dies sieht aus wie die Klinge eines zerbrochenen Katanas. Sie könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald sein Griff gefunden ist.~
+@70011 = ~Kin no Kemono~
+@70012 = ~Diese Armschienen wurden in Kozakura geschaffen. Sie sind warm bei Berührung, und obwohl sie recht leicht sind, wirken sie ziemlich robust. Von einer mächtigen Priesterin namens Ume nach der süßesten aller kozakuranischen Früchte verzaubert, mögen sie helfen, den Geist klar und im Gleichgewicht zu halten, selbst wenn der Zorn versucht, die Kontrolle über den Mönch zu übernehmen. Sie können dem Träger dieser Armschienen im Kampf auch helfen, indem sie seine Schläge lenken.
+
+EIGENSCHAFTEN:
+
+Nahkampf-ETW0: +2
+Schutz vor Berserkerwut
+Gewicht: 1
+Verwendbar von:
+ Mönche~
+@70013 = ~Saiai no Hito~
+@70014 = ~Dieses Schwert ist als Saiai no Hito bekannt. Es wurde von Ne Kurosuna geschaffen, einem ehemaligen Mitglied des Saku-Klosters. Er war eines der ursprünglichen Mitglieder des Klosters und trainierte dort jahrelang. Er war für seinen scharfen Verstand und seine anmutigen Techniken bekannt. Er war auch recht stark, wahrscheinlich einer der stärksten Mönche unter den anderen Mitgliedern des Saku-Klosters, solange er noch dort war.
+
+Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seine frühere Geliebte an Räuber verloren hatte, die sie töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seiner früheren Geliebten?
+
+Nach einigen Monaten beschloss er, dass er, wenn er diese Gefühle verstehen und entscheiden wollte, was zu tun sei, das Kloster verlassen und in Einsamkeit nachdenken und um Antworten und Erleuchtung beten musste. Da er gern durch Arbeit meditierte, begann er, Schwerter zu schmieden. Schließlich führte ihn das zur Erschaffung dieses Schwertes: Saiai no Hito. Es sollte ein Geschenk an Shiroume sein, da Ne beschlossen hatte, dass Frieden nur durch Ehrlichkeit erreicht werden kann. Er hoffte, dass ... Meister Yakuchi vielleicht verstehen, ihnen eine Chance geben oder zumindest helfen würde, Freunde zu bleiben. Ne beschloss, dass das ein Verrat an seiner früheren Liebe wäre. Er respektierte seine Vergangenheit noch immer. Er erinnerte sich noch immer daran.
+
+Saiai no Hito sollte ein Symbol der Liebe, der Verbundenheit und der Erleuchtung sein. Doch Ne Kurosuna wurde auf dem Weg zum Kloster getötet. Die Klinge ging daraufhin verloren, und es ist schwer zu sagen, wie sie ... oder vielmehr ihre Teile an die Schwertküste gelangten, doch dort ist es, wo die Klinge neu geschmiedet und in ihren früheren Glanz zurückversetzt wurde.
+
+Die Magie dieses Schwertes sollte denen helfen, die es führen, indem sie einen großen Vorteil im Kampf gewährt. Wenn man den Erzählungen glauben darf, sollte es auch das Herz des Mönchs davor schützen, jemals zermalmt oder gebrochen zu werden.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+– Einmal pro Tag, wenn aktiviert und von einem Mönch gehalten, erhält die Figur +1 Angriff pro Runde sowie +10% Wuchtresistenz für die nächsten 3 Runden.
+
+Kampffähigkeiten:
+– Schlägt als +3-Waffe zu
+
+ETW0: +1 Bonus
+Schaden: 1W10+1
+Speziell: +1 Feuerschaden
+Schadensart: Hieb
+Gewicht: 5
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: 1-händig
+Benötigt: Stärke 6
+Kann nicht verwendet werden von:
+ Druide
+ Kleriker
+ Magier~
+@70015 = ~Inoshishis Mähne~
+@70016 = ~Dieser Ring ist als Inoshishis Mähne bekannt. Wer mit der kozakuranischen Sprache vertraut ist, weiß, dass Inoshishi "Wildschwein" bedeutet.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassenbonus: +1 gegen Wuchtwaffen~
+@70017 = ~Abenteurer! Es ist gut, hier jemanden wie mich zu sehen: jemanden, der den Weg der Disziplin kennt. Ich bin Inoshishi. Inoshishi von Dojyu. Ein Mitglied des Saku-Klosters.~
+@70018 = ~Jemanden wie Euch?~
+@70019 = ~Woher wisst Ihr, dass wir etwas gemeinsam haben, Inoshishi?~
+@70020 = ~Freut mich, Euch kennenzulernen, Inoshishi.~
+@70021 = ~Jemanden, der die Stärke kennt, die aus Gleichgewicht und Disziplin kommt. Ich folge schon eine ganze Weile dem Weg des waffenlosen Kampfes, ebenso wie der Kontrolle über meine Muskeln und meine Kraft. Ich weiß nicht, ob wir alle dieselben Eigenschaften teilen, aber es gibt Anzeichen dafür, dass Ihr die Disziplin kennt, von der ich spreche.~
+@70022 = ~Ganz ebenso. Und die Tatsache, dass Ihr zu wissen scheint, von welcher Art Disziplin ich spreche, lässt mein Herz wärmer werden. Sie zu erlernen, den waffenlosen Kampf zu üben und meinen Geist wach und ruhig zu halten, ist ein wichtiger Teil meines Lebens.~
+@70023 = ~Ich bin aus den fernen Ländern von Kara-Tur hierhergekommen. Um genau zu sein, aus Kozakura. Ich kam mit einer Mission hierher, doch ich muss zugeben, dass ich mich recht verloren fühle. Diese ... Schwertküste ist ganz anders als meine Heimat, daher nimmt die Arbeit, die mich hierherbrachte, mehr Zeit in Anspruch, als ich erwartet hatte.~
+@70024 = ~Welche Art von Arbeit hat Euch hierhergebracht, Inoshishi? Was ist diese Mission, von der Ihr sprecht?~
+@70025 = ~Hört zu, Ihr und Eure Mission sind mir gleichgültig. Ich bin selbst beschäftigt genug. Seid so freundlich und geht mir aus dem Weg.~
+@70026 = ~Ich kam hierher auf der Suche nach einer mächtigen Klinge. Einem Katana namens Saiai no Hito. Es wurde von einem der ersten, ursprünglichen Mitglieder unseres Klosters geschmiedet, einem Mann namens Ne Kurosuna. Wenn unsere Dokumente stimmen, trat er von seiner Stellung zurück und verließ unsere Bruderschaft. Manche sagen, es geschah, als er sich in einen anderen Bruder verliebte, Shiroume Yakuchi. Wir wissen, dass ihre Beziehung Ne unruhig machte, da er seine Geliebte zuvor an eine Gruppe Räuber verloren hatte ...~
+@70027 = ~Soweit wir verstehen, wollte er über seine Vergangenheit, Gegenwart und Zukunft meditieren. Wir glauben, er fühlte sich auf die Gefühle, die zu ihm zurückkehrten, nicht vorbereitet, und es war ihm, als verrate er die Erinnerung an seine längst verlorene Liebe. Wir fanden sein Tagebuch und erfuhren, dass er sich zwischen verschiedenen Lieben und verschiedenen Wegen hin- und hergerissen fühlte.~
+@70028 = ~Dieses Gefühl muss ihn recht zerrissen haben, wenn man bedenkt, dass es ihn dazu brachte, das Kloster zu verlassen.~
+@70029 = ~Hah! Es ist gut zu wissen, dass auch Männer sich mit ihren Ideen und Gefühlen verwirren können und nicht immer wir es sind, die verwirrt zurückbleiben! Hmpf!~
+@70030 = ~Ah, sowohl das Herz als auch die Angst können uns an die seltsamsten Orte führen, nicht wahr? Heh.~
+@70031 = ~Ich k-kann mit ihm und dem Bedürfnis mitfühlen, z-zu verstehen, was in einem vorgeht. Besonders, wenn s-solche Gefühle im Spiel sind und wir e-entscheiden müssen, w-was wir damit tun. Ob wir sie gestehen wollen.~
+@70032 = ~Manchmal ist es recht leicht, den Weg zu verlieren, wenn Leidenschaft im Spiel ist. Deshalb ist es immer am besten, sich vor Augen zu halten, was man genau will. Und wie sehr man es wirklich braucht, natürlich.~
+@70033 = ~Seine Meditation geschah oft durch Arbeit. Er baute eine Schmiede und wurde ein Schwertschmied. Manche sagen, er wollte seine Fragen, Zweifel und Hoffnungen in die Schwerter einprägen, die er schuf. Das führte ihn zur Erschaffung von Saiai no Hito, der Klinge, von der ich Euch erzählte.~
+@70034 = ~Ihr fragt Euch sicher, warum ich Euch all das erzähle.~
+@70035 = ~Ich glaube, Ihr habt einen Grund, diese Geschichte mit mir zu teilen.~
+@70036 = ~In der Tat frage ich mich, worauf Ihr mit dieser ... etwas langweiligen Geschichte hinauswollt.~
+@70037 = ~Hört zu. Diese Klinge, Eure Geschichte und der Grund, warum Ihr hier seid, sind mir gleichgültig. Geht und belästigt jemand anderen, ja? Ich muss gehen.~
+@70038 = ~Seht Ihr, diese Geschichte war recht lange verloren, und wir haben irgendwie ... darüber nachgedacht, was mit der Geschichte von Bruder Ne zu tun sei. Wir beschlossen, dass wir die Klinge finden und unter die Artefakte unseres Klosters einreihen sollten, unter andere Symbole der Hingabe. Sie verdient es, dort zu sein. Sie sollte dort sein. Bruder Ne hat sich dem Verständnis seiner Hoffnungen, seiner Liebe gewidmet.~
+@70039 = ~Das Problem ist, dass er längst dahingegangen ist. Und ebenso seine Schmiede. Mehr noch, wir fanden heraus, dass jemand irgendwann die Klinge gestohlen hat, die ein Geschenk an den werden sollte, den er liebte. Wir versuchten, ihre Geschichte zurückzuverfolgen, herauszufinden, wo sie sein könnte. Wir fanden heraus, dass sie Kozakura und Kara-Tur verließ und hierhergebracht wurde, an die Schwertküste.~
+@70040 = ~Das muss eine ganz schöne Reise gewesen sein. Ich verstehe einigermaßen, welche Schwierigkeiten damit verbunden gewesen sein mögen.~
+@70041 = ~Aber ... Kozakura ist sooo weit weg! Ist es das nicht? Ich bin mir nicht sicher, wie JEMAND so weit hätte reisen können. Es sei denn, er wusste, wie man ein Portal öffnet, vielleicht? Das wäre VIEL bequemer. Nun, er muss gewusst haben, wie man eines öffnet; nur so ergibt das alles einen Sinn!~
+@70042 = ~So viel Gerede! Und es geht nicht einmal um Tiax! Macht es kurz, sagt einfach, was Ihr braucht, und lasst uns ihm die Hilfe verweigern, die er braucht!~
+@70043 = ~*seufz* Wird er uns wirklich bitten, diese Klinge zu finden? Es klingt nach etwas ziemlich Unmöglichem.~
+@70044 = ~Das ist meine Mission. Die Klinge zu finden und mit ihr zurück zum Saku-Kloster zu reisen.~
+@70045 = ~Das klingt nach einer schwierigen Mission.~
+@70046 = ~Hah! Viel Glück damit! Es klingt nach etwas Unmöglichem!~
+@70047 = ~Tut, was Ihr tun müsst, es betrifft mich nicht. Eigentlich habe ich schon zu viel Zeit mit Euch und Euren Geschichten verbracht. Ich muss gehen. Auf Wiedersehen.~
+@70048 = ~Das ist es. Aber ich glaube wirklich, dass ich diese Klinge wiederherstellen kann.~
+@70049 = ~Es mag nach etwas Unmöglichem klingen, aber ich glaube, ich kann es schaffen, wenn ich wachsam und achtsam bleibe.~
+@70050 = ~Aber ... nun, da ich darüber nachdenke, heißt das nicht, dass ich es allein tun muss. Würdet Ihr mir bei meiner Mission helfen? Ich verspreche Euch eine Belohnung dafür. Für Eure Hilfe.~
+@70051 = ~Ah, "Belohnung". Das ist das Schlüsselwort, auf das ich gewartet habe.~
+@70052 = ~Denkt nur darüber nach. Vielleicht könnten wir beide davon profitieren?~
+@70053 = ~Es klingt nach einer wichtigen Mission. Wie Ihr sagtet, teilen wir einige ähnliche Eigenschaften, und Euch ohne jede Hilfe zu lassen, würde sich falsch anfühlen. Sagt mir, was zu tun ist. Was braucht Ihr von mir?~
+@70054 = ~Ihr, Euer Gold, Eure Traditionen und irgendeine dumme Klinge sind mir gleichgültig. Tut mir leid, aber Ihr seid auf Euch allein gestellt. Außerdem muss ich wirklich gehen. Auf Wiedersehen.~
+@70055 = ~Oh, danke! Habt vielen Dank!~
+@70056 = ~Seht Ihr, ich bin nicht ohne Grund zum Freundlichen Arm gekommen. Vor nicht allzu langer Zeit wurde ich von einer Frau angegriffen, einer Schlägerin. Sie nahm einige meiner Habseligkeiten mit. Ich muss einen Teil meiner Vorräte auffrischen. Außerdem hörte ich, dass es hier einen Tempel gibt, einen, der der Weisheit gewidmet ist. Ich dachte, ich schaue, ob die Person, die dort arbeitet, helfen kann.~
+@70057 = ~Nun, da wir unsere Kräfte bündeln sollen, denke ich, wir sollten gemeinsam mit dieser Person sprechen. Treffen wir uns also im Tempel und sehen wir, ob es uns hilft, mehr darüber zu erfahren, wo wir das Katana suchen sollten.~
+@70058 = ~Ich warte im Tempel auf Euch. Bitte kommt dorthin.~
+@70059 = ~Verstehe. Ihr seid einer von den Selbstsüchtigen. Gut. Ich werde Euch nicht weiter belästigen.~
+@70060 = ~Ah, Ihr seid da! Gut. Sehen wir, ob wir etwas über den Verbleib des Schwertes herausfinden können.~
+@70061 = ~Nun, mit ein paar Gleichgesinnten können wir vielleicht einen Hinweis bekommen. Es ist offensichtlich von großer Bedeutung für unseren neuen Freund.~
+@70062 = ~Bleiben wir optimistisch. Was verloren ist, kann immer gefunden werden! Oder ... zumindest meistens!~
+@70063 = ~Weisheit! Ah, es ist immer am besten, sie direkt aus dem Schädel zu graben! Aber ich sehe keine Schädel zum Graben. Schade, das könnte nett sein. Netter als das hier. Ha!~
+@70064 = ~Hmm, diese Klinge muss wirklich wichtig für ihn sein, nicht wahr? Ich habe nach drei Tagen aufgegeben, als Ihr mir vor zwei Jahren mein Buch verlegt habt! Wie auch immer, sehen wir, ob wir etwas Nützliches herausfinden, ja?~
+@70065 = ~Entschuldigt, Priesterin. Ich brauche Eure Führung.~
+@70066 = ~Führung, hmm? Erzählt mir mehr, junger Mann, und wer weiß, vielleicht werde ich Euch ein ehrliches Wort oder zwei anbieten.~
+@70067 = ~Ich kam hierher auf der Suche nach einem alten Schwert, Saiai no Hito. Leider ohne Erfolg. Die Schwertküste ist kein kleiner Ort, und ich brauche vielleicht etwas Hilfe. Ich habe ein weiteres Paar Augen bei mir, aber wir müssten wissen, in welche Richtung wir suchen sollten. Ich hoffte, dass vielleicht jemand vom Tempel der Weisheit uns helfen könnte, dieses entscheidende Detail zu finden.~
+@70068 = ~Wenn ich Euch so ansehe, habt Ihr sicher schon einiges bereist, nicht wahr, Junge?~
+@70069 = ~Lasst Gellana Euch ein wenig helfen. Ich benötige zweihundert Goldmünzen und etwas, das mir helfen würde, eine Verbindung zu diesem Schwert herzustellen, das Ihr sucht. Habt Ihr so etwas?~
+@70070 = ~Ich ...~
+@70071 = ~Habt Ihr?~
+@70072 = ~Sagt mir nicht, dass Ihr nichts habt, das helfen würde ...~
+@70073 = ~Ich erwähnte, dass ich bestohlen wurde. Ich hatte ein Amulett, von dem meine Brüder und Schwestern glauben, dass es einst im Griff des Schwertes steckte. Aber dieses Amulett war eines der Dinge, die mir genommen wurden.~
+@70074 = ~Es tut mir leid, aber ich brauche dieses Teil, um den Zauber für Euch zu wirken, Junge.~
+@70075 = ~Ich ... ich verstehe. Aber vielleicht ist es nicht zu spät. Vielleicht ist diese Schlägerin noch zu finden. Ich habe noch etwas Gold, mein Freund, ich kann für den Zauber bezahlen, es kommt also nur noch darauf an, die Person zu finden, die mich angegriffen hat.~
+@70076 = ~Aber genau das würde ich auch "den schwierigen Teil" nennen, Inoshishi.~
+@70077 = ~Nun ... wir können versuchen, sie zu finden, aber ich weiß nicht, ob wir Erfolg haben werden ...~
+@70078 = ~Das ist lächerlich. Wisst Ihr was? Ihr seid auf Euch allein gestellt. Geht und sucht diese Frau selbst. Ich mache nicht mehr mit.~
+@70079 = ~Ihr habt darin offensichtlich mehr Erfahrung. Könntet Ihr versuchen, dieses Amulett zu bekommen? Bitte.~
+@70080 = ~Ich versuche es.~
+@70081 = ~Argh ... Schön ...~
+@70082 = ~Nein. Ich habe keine Zeit dafür.~
+@70083 = ~Wisst Ihr was? Ich glaube, ich habe einen Fehler gemacht. Ihr seid auf Euch allein gestellt. Auf Wiedersehen.~
+@70084 = ~Danke, mein Freund.~
+@70085 = ~Ich wurde auf dem Weg hierher von der Stadt südlich davon ausgeraubt. Ich glaube, sie nennen sie ... Beregost ...?~
+@70086 = ~Vielleicht ist das ihr übliches "Jagdgebiet". Vielleicht ist sie noch irgendwo dort?~
+@70087 = ~Bitte prüft das für mich und lasst mich wissen, was Ihr findet.~
+@70088 = ~Ich dachte, Ihr würdet mir wirklich helfen, aber es sieht so aus, als hätte ich mich geirrt.~
+@70089 = ~Na, na, na! Wen haben wir denn da! Die Leute nehmen gewöhnlich den Weg dort unten, und ich beobachte sie wirklich gern. Wisst Ihr, manchmal, wenn ihre Taschen zu schwer sind, kann ich ihnen helfen, indem ich ihnen etwas von dieser "Bürde" abnehme, hahaha!~
+@70090 = ~Ihr müsst diejenige sein, die Inoshishi angegriffen hat.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
 ///// Replace Bandit Scalps with Badges                \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
