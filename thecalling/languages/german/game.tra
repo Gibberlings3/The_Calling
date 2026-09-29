@@ -184,6 +184,146 @@ Gewicht: 2~
 @10097 = ~Ich arbeite noch daran.~
 @10098 = ~Ihr ... Ihr habt es wirklich geschafft! Ich wünschte, meine Freunde wären hier, um das zu hören. Aber ich möchte glauben, dass sie Teil davon sind. Teil dieses Sieges. Doch die Arbeit ist noch nicht getan. Es gibt noch viel zu tun.~
 @10099 = ~Lasst uns tiefer in der Festung treffen, am oberen Ende der Treppe. Dort sollten wir unsere Mission fortsetzen. Wenn Ihr interessiert seid. Aber lasst mich Euch sagen, es wird Eure Zeit wert sein, mein Kriegerfreund.~
+@10100 = ~Hmm. Alles sieht gut aus ... Nun, ich habe es geschafft, von dem Turm aus ein Signal zu senden, wie ich es den Spähern südlich von hier angekündigt hatte. Ich denke, sie werden mir ein paar weitere Leute schicken, aber ich will nicht, dass wieder etwas schiefgeht.~
+@10101 = ~Und ich nehme an, Ihr braucht meine Hilfe, um zu verhindern, dass so etwas noch einmal geschieht, richtig? Sagt mir, wie ich helfen kann.~
+@10102 = ~Tut mir leid, aber ich habe keine Zeit, Euch zu helfen.~
+@10103 = ~In der Nähe gibt es eine Bergbaustadt. Nashkell ist ihr Name. Dort gibt es einen Tempel, und ich möchte, dass Ihr dorthin geht und mir einige medizinische Vorräte bringt. Der Priester wurde informiert, dass wir möglicherweise Hilfe brauchen könnten, wenn ich mich nicht irre. Schade, dass wir nicht vorher mit ihm gesprochen haben, bevor ich meine Freunde verlor, vielleicht hätten diese etwas genützt – nein. Das hätte die Tragödie auch nicht verhindert. Es tut mir leid, sie sind mir immer noch im Kopf.~
+@10104 = ~Jetzt könnten wir diese Vorräte brauchen. Die Festung ist vielleicht gesäubert, aber wer weiß, vielleicht streifen noch mehr dieser Kreaturen durch diese Berge und Pfade. Während wir also darauf warten, dass mehr Männer und Frauen hierher kommen, um mir zu helfen, könntet Ihr nach Nashkell gehen und den Priester um die Vorräte bitten.~
+@10105 = ~Und wird der Kleriker mir einfach glauben, dass Ihr mich geschickt habt?~
+@10106 = ~Das klingt nach einer leichten Aufgabe. Ich weiß, wo Nashkell liegt.~
+@10107 = ~Tut mir leid, aber nein. Ich habe keine Zeit dafür. Eigentlich muss ich gehen. Auf Wiedersehen.~
+@10108 = ~Ihr müsst nur sagen: "Die Hoffnung wandelt durch die Straßen Athkatlas." Dann weiß er, dass Ihr wegen der Vorräte geschickt wurdet.~
+@10109 = ~Klingt einfach.~
+@10110 = ~Klingt einfach. Könnt Ihr das nicht selbst erledigen?~
+@10111 = ~Es klingt langweilig und ... ich habe keine Zeit dafür. Auf Wiedersehen.~
+@10112 = ~Das ist es auch.~
+@10113 = ~Ich muss auf die Verstärkung warten. Außerdem muss jemand hier bleiben.~
+@10114 = ~Der schwierige Teil ist vielleicht, Nashkell zu erreichen, aber wenn Ihr den Weg kennt, wird es für Euch einfacher sein. Einfacher, als wenn ich selbst dorthin ginge.~
+@10115 = ~Helft mir bei der Aufgabe, bitte. Ich brauche wirklich Eure Hilfe.~
+@10116 = ~Sobald Ihr die Vorräte habt, kommt einfach hierher. Und ich werde darüber nachdenken, wie ich Euch belohnen kann, wenn die ganze Situation völlig unter Kontrolle ist.~
+@10117 = ~Ihr seid zurück, wie ich sehe. Habt Ihr die Vorräte?~
+@10118 = ~Ich habe die Vorräte hier.~
+@10119 = ~Ich arbeite noch daran. Ich lasse es Euch wissen, sobald ich sie habe.~
+@10120 = ~Prächtig! Gerade rechtzeitig! Schaut! Die Verstärkung ist da!~
+@10121 = ~Manlytoe! Hier!~
+@10122 = ~Es ist gut, Euch lebendig zu sehen, Stilind! Wo sind die anderen?~
+@10123 = ~Sie sind ...~
+@10124 = ~...~
+@10125 = ~Es tut mir wirklich leid, Stilind. Wirklich. War Mandar bei ihnen? Ich weiß, dass Ihr zwei unzertrennlich wart.~
+@10126 = ~Ja. Er ... er ist auch fort ...~
+@10127 = ~Bei den Göttern, seine Familie wird am Boden zerstört sein.~
+@10128 = ~Ich werde es ihnen sagen. Sobald ich zurück bin. Sobald unsere Mission vorbei ist.~
+@10129 = ~Konzentrieren wir uns ... auf das, was ansteht. Bitte.~
+@10130 = ~Natürlich. Wie ist die Lage?~
+@10131 = ~Die Festung ist gesichert. Ich habe Hilfe von diesem tapferen Kämpfer hier bekommen.~
+@10132 = ~Nun ... gern geschehen.~
+@10133 = ~Ich tue es für eine Belohnung. Ich hoffe, das ist klar.~
+@10134 = ~Ihr müsst recht stark sein. Gute Arbeit.~
+@10135 = ~Verstehe. Das ist ... gut zu wissen.~
+@10136 = ~Es muss schwierig gewesen sein, sich all diesen Kreaturen zu stellen.~
+@10137 = ~Ja ... Für den Fall, dass es wieder schiefgeht, hat unser Freund hier die medizinischen Vorräte für uns geholt. Die aus Nashkell.~
+@10138 = ~Gut. Aber hoffen wir, dass wir sie nicht brauchen.~
+@10139 = ~Richtig.~
+@10140 = ~Ihr und Eure Leute solltet Euch jetzt ausruhen und diese Hallen und Wände selbst überprüfen. Es könnte sich als nützlich erweisen. In der Zwischenzeit gibt es noch einen letzten Gefallen, um den ich unseren Helfer bitten muss. Sprecht mich an, wenn Ihr bereit seid.~
+@10141 = ~Ihr habt uns sehr geholfen, mein Freund. Aber es gibt noch einen letzten Gefallen, um den ich Euch bitten muss.~
+@10142 = ~Was ist es?~
+@10143 = ~Tut mir leid, aber ich habe keine Zeit dafür. Ich sollte gehen.~
+@10144 = ~Seht Ihr, als Ihr nach Nashkell aufgebrochen seid, habe ich herausgefunden, dass sich in dem Turm dort eine seltsame Kreatur befindet. Es gibt einen Riss in der Wand und ... dieser Turm scheint von einem bizarren Geist heimgesucht zu werden.~
+@10145 = ~Ich bin mir nicht sicher, ob einer dieser Männer und Frauen Erfahrung im Kampf gegen Geister hat, daher hoffte ich, dass Ihr ihn vielleicht für uns erledigen könntet. Ich verspreche, dass dies der letzte Gefallen sein wird, um den ich Euch je bitten werde. Und wenn es vorbei ist, bekommt Ihr etwas von mir.~
+@10146 = ~Ihr habt uns sehr geholfen, da wäre das nur fair.~
+@10147 = ~Also ... ein Geist, sagt Ihr ...~
+@10148 = ~Nein. Ich bin fertig damit, Euch zu helfen. Ich muss jetzt gehen. Auf Wiedersehen.~
+@10149 = ~Ja. Helft uns, bitte. Ich verspreche, dass das, was ich für Euch habe, wirklich seinen Wert hat.~
+@10150 = ~Hallo, Freund! Habt Ihr es geschafft, den Geist zu erledigen, von dem ich Euch erzählt habe?~
+@10151 = ~Ja. Er wird Euch keinen Kummer mehr bereiten.~
+@10152 = ~Nein, noch nicht. Auf Wiedersehen.~
+@10153 = ~Bei den Göttern! Ihr seid wahrlich einer der mächtigsten Krieger, die ich je getroffen habe.~
+@10154 = ~Diese Mission ist dank Euch kein Fehlschlag. Wir werden diesen Ort nutzen, um sicherzustellen, dass Reisen von Athkatla nach Nashkell von nun an sicherer sind.~
+@10155 = ~Wie ich versprochen habe, habe ich etwas für Euch. Einen besonderen Umhang, der Euch schützen wird. Ich hoffe, er wird Euch gute Dienste leisten. Außerdem nehmt diese paar Münzen. Sechshundert Goldmünzen. Ich weiß, es ist nicht viel, aber ... mehr kann ich nicht bieten.~
+@10156 = ~Danke für alles, was Ihr für uns getan habt. Seid versichert, dass Euer Name für uns alle hier zum Inbegriff eines furchtlosen Kriegers werden wird.~
+@10157 = ~Ich freue mich immer, Euch zu sehen, mein Freund.~
+@10158 = ~Ich sollte wohl später mein Schwert reinigen.~
+@10159 = ~Bei den Göttern, ich hoffe wirklich, dass wir hier nicht sterben.~
+@10160 = ~Ich mache noch ein paar Liegestütze vor dem Schlafengehen.~
+@10161 = ~Der Weg hierher war gefährlich, aber ich glaube wirklich, dass wir hier gute Arbeit leisten können.~
+@10162 = ~Innenbereich der Gnollfestung - Zweite Ebene~
+@10163 = ~Gnollfestung - Unheimlicher Raum~
+@10164 = ~Gnollfestung - Westlicher Lagerraum~
+@10165 = ~Gnollfestung - Östlicher Lagerraum~
+@10166 = ~Nun, der Ort ist nicht in Bestform, aber ich glaube, dass er sich mit einigen Ressourcen wieder herrichten lässt. Wände kann man ausbessern. Das wird etwas Gold erfordern, aber ... nichts davon ist unmöglich. Ich habe einige Waren hierher gebracht, falls wir Waffen oder Tränke brauchen.~
+@10167 = ~Es ist gut, Euch wiederzusehen.~
+@10168 = ~Wenn Ihr etwas braucht, kann ich Euch zeigen, was ich habe.~
+@10169 = ~Zeigt mir Eure Waren.~
+@10170 = ~Ich glaube, ich habe alles, was ich brauche. Auf Wiedersehen.~
+@10171 = ~Lebt wohl.~
+@10172 = ~Quartiermeister~
+@10173 = ~Die Gnollfestung sichern~
+@10174 = ~Die Gnollfestung sichern
+
+Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er wollte Hilfe bei irgendeinem Unsinn und ich lehnte ab.~
+@10175 = ~Die Gnollfestung sichern
+
+Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er ist der letzte Rest einer Truppe, die von Athkatla ausgeschickt wurde, um die Gnollfestung zu sichern. Er bat mich um Hilfe beim Kampf gegen ihren Anführer, Häuptling Hvalanya, sowie gegen einen Schamanen einer rivalisierenden Gruppe. Außerdem muss ein Gnoll besiegt werden, der von einem der Türme aus Wache hält.~
+@10176 = ~Die Gnollfestung sichern
+
+Wir haben den Gnoll-Anführer Häuptling Hvalanya besiegt.~
+@10177 = ~Die Gnollfestung sichern
+
+Schamane Sirkhr, der Anführer der rivalisierenden Gnoll-Fraktion, wurde in einem alten Tempel unter der Festung besiegt.~
+@10178 = ~Die Gnollfestung sichern
+
+Der Wächter von den Türmen, Purkht, wurde getötet.~
+@10179 = ~Die Gnollfestung sichern
+
+Ich habe die drei Gnolle wie von Hauptmann Stilind gefordert besiegt. Ich sollte ihm am Eingang der Festung Bericht erstatten.~
+@10180 = ~Die Gnollfestung sichern
+
+Hauptmann Stilind ist zuversichtlich, dass die übrigen Gnolle sich zerstreuen werden, da ihre Anführer fort sind. Er hat mich gebeten, ihn tiefer in der Festung zu treffen.~
+@10181 = ~Die Gnollfestung sichern
+
+Stilind hat mich gebeten, medizinische Vorräte zu holen, während er auf Verstärkung aus Athkatla wartet. Ich sollte zum Tempel des Helm in Nashkell reisen und dem Priester sagen: "Die Hoffnung wandelt durch die Straßen Athkatlas".~
+@10182 = ~Die Gnollfestung sichern
+
+Ich sollte mit den medizinischen Vorräten von Nalin zu Hauptmann Stilind in die Gnollfestung zurückkehren.~
+@10183 = ~Die Gnollfestung sichern
+
+Mit seinen medizinischen Vorräten in der Hand und Verstärkung im Rücken hat Hauptmann Stilind nun die feste Kontrolle über die Gnollfestung. Er möchte später mit mir über eine weitere Aufgabe sprechen.~
+@10184 = ~Die Gnollfestung sichern
+
+Hauptmann Stilind hat mich gebeten, einen Geist zu untersuchen, der in einem Riss in der Wand auf der nächsten Ebene lauert.~
+@10185 = ~Die Gnollfestung sichern
+
+Der Geist, den Hauptmann Stilind erwähnte, ist besiegt. Ich sollte meinen Erfolg melden.~
+@10186 = ~Die Gnollfestung sichern
+
+Die Gnollfestung ist nun dank meiner Bemühungen eine Festung von Amn. Ich wurde von Hauptmann Stilind für meine Arbeit gut belohnt.~
+@10187 = ~Hellebarde der Chimäre~
+@10188 = ~Wie andere ihrer Art besteht diese Hellebarde aus einer beilartigen Axtklinge, die auf einem etwa zwei Meter langen Schaft sitzt. Entlang ihres Griffes verläuft eine Reihe von Runen, die es dem Träger ermöglichen, seinen Schlägen zusätzlichen Schaden durch Elektrizität, Kälte oder Feuer nach Wahl zu verleihen. Gelegentlich entlädt sie bei einem einzigen Schlag einen Stoß aller drei Elemente.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+   1% Chance pro Treffer, dass das Ziel zusätzlich je 3 Punkte Kälte-, Elektrizitäts- und Feuerschaden erleidet
+
+ETW0: +1
+Schaden: 1W10+1
+Schadensart: Stich
+Speziell: +1 Kälte-, Elektrizitäts- oder Feuerschaden (nach Wahl des Trägers)
+Gewicht: 14
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+Benötigt: Stärke 13
+Kann nicht verwendet werden von:
+ Druide
+ Kleriker
+ Magier
+ Dieb~
+@10189 = ~Elektrizität~
+@10190 = ~Kälte~
+@10191 = ~Feuer~
+@10192 = ~Die Spannungen mit Baldurs Tor wachsen, und diese Festung kontrolliert einen guten Abschnitt der Küste. Wir wollten nach getaner Arbeit hier zu den Minen von Nashkell weiterziehen. Aber wir wurden bemerkt.~
+@10193 = ~Es mag ein gewaltiger Gegner sein, und Ihr seid der Aufgabe im Moment vielleicht nicht gewachsen. Wir können einige einfache Schutzsiegel errichten, um den Geist festzuhalten, bis Ihr bereit seid.~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
