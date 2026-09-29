@@ -1148,6 +1148,140 @@ Rüstungsklassenbonus: +1 gegen Wuchtwaffen~
 @70178 = ~Ich habe magische Armschienen für Euch, aber ... Ihr habt mir auch geholfen, die Reparatur des Schwertes zu bezahlen, also habe ich beschlossen, Euch zusätzlich meinen Siegelring zu geben. Er ist nicht mächtig, aber vielleicht wird er Euch nützlich sein.~
 @70179 = ~Ich habe magische Armschienen für Euch. Sie sind recht mächtig, und vielleicht werden sie Euch auf Euren Abenteuern helfen.~
 @70180 = ~Ihr wart eine große Hilfe bei dieser Mission, also lasst mich das noch einmal sagen: Danke.~
+@70181 = ~Ich bin wahrlich dankbar dafür. Bringt die Klinge zu Eurem Kloster und lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70182 = ~Ich verstehe, dass dieses Schwert Teil der Vergangenheit Eures Klosters ist, aber ich werde es brauchen, wenn ich meine eigene Mission erfüllen soll. Gorion, der Mann, der sich um mich gekümmert hat, ist tot. Aber ich werde mich nicht zu ihm gesellen, und ich weiß, dass es Leute gibt, die versuchen werden, mich zu vernichten.~
+@70183 = ~Tut mir leid, aber es gab einen anderen Grund, warum ich Euch geholfen habe. Ich werde dieses Schwert nehmen. Selbst wenn ich Euch dafür töten muss.~
+@70184 = ~Das ist der Plan.~
+@70185 = ~Danke für alles. Ich werde nie vergessen, was Ihr getan habt und wie Ihr mir geholfen habt, <PRO_BROTHERSISTER>.~
+@70186 = ~Ich ... was? Ich ... es tut mir leid, aber ich kann Euch dieses Schwert nicht einfach geben.~
+@70187 = ~Ne war ein Mann der Leidenschaft. Der Hoffnung. Und ich brauche gerade jetzt Hoffnung. Ich verspreche, ich werde dieses Schwert mit Respekt führen. Ich werde es so führen, wie Shiroume Yakuchi es führen würde. Es geht um Leben und Tod, also ... bitte. Lasst dieses Schwert ein Symbol nicht nur der Liebe sein, sondern auch der Hoffnung.~
+@70188 = ~Ich verstehe. Und ich nehme an, Ihr habt recht, ich kann es nicht einfach so nehmen. Bitte, bringt es zu Eurem Kloster. Lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70189 = ~Es tut mir leid, aber ich brauche dieses Katana. Ich werde dieses Schwert nehmen. Selbst wenn ich Euch dafür töten muss.~
+@70190 = ~Ich ... Bei den Göttern, das ist wirklich ernst, nicht wahr? Ihr braucht dieses Schwert wirklich, um das hier zu überleben? Ich weiß nicht, warum, aber wenn ich Euch ansehe, fühle ich ... ich fühle, dass das, was Ihr sagt, die Wahrheit ist.~
+@70191 = ~Nehmt es. Ich werde meine Brüder und Schwestern belügen, aber ich möchte, dass Ihr es gut einsetzt. Lasst seine Geschichte leben. Lasst die Geschichte von Ne Kurosuna mit Euch leben, durch Eure Geschichten, durch dieses Schwert.~
+@70192 = ~Bitte versprecht mir das.~
+@70193 = ~Ich verspreche es.~
+@70194 = ~Ich glaube, ich töte Euch einfach und nehme das Schwert von Eurem Leichnam.~
+@70195 = ~...~
+@70196 = ~Hier. Aber brecht dieses Versprechen niemals. Und lasst dieses Schwert nie wieder zerbrechen.~
+@70197 = ~Ihr ... Ihr macht Witze, richtig? Hah! Ihr hättet mich fast erwischt.~
+@70198 = ~Natürlich mache ich Witze. Bitte, bringt es zu Eurem Kloster. Lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70199 = ~Ich mache keine Witze. Ich brauche diese Klinge. Ich glaube, ich töte Euch einfach und nehme das Schwert von Eurem Leichnam.~
+@70200 = ~Es tut mir leid, aber das kann ich nicht zulassen!~
+@70201 = ~Die Wiederherstellung von Saiai no Hito~
+@70202 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich wurde am Freundlichen Arm von einem zerlumpten Fremden angegangen und habe ihn prompt fortgeschickt.~
+@70203 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe zugestimmt, Inoshishi zu helfen, einem Reisenden an der Schwertküste, der Saiai no Hito zurückgewinnen will, eine Klinge von einiger Bedeutung für seinen Orden.~
+@70204 = ~Die Wiederherstellung von Saiai no Hito
+
+Inoshishi wurde irgendwo zwischen hier und Beregost ein Amulett geraubt. Er hat uns gebeten, den Banditen aufzuspüren und ihm sein Amulett im Tempel der Weisheit zurückzubringen.~
+@70205 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishis Banditin gefunden und sein Amulett zurückgeholt. Ich sollte zu ihm in den Tempel der Weisheit zurückkehren.~
+@70206 = ~Die Wiederherstellung von Saiai no Hito
+
+Inoshishis Aufgaben kamen nicht voran, und ich habe Besseres zu tun. Ich habe ihm das gesagt, und nun kann ich meine Zeit produktiveren Zwecken widmen.~
+@70207 = ~Die Wiederherstellung von Saiai no Hito
+
+Gellanas Wahrsagung hat ergeben, dass die Klinge in zwei Teile zerbrochen wurde. Einer ist nahe einem Leuchtturm, der andere im Bauch eines Biests in einer felsigen Gegend.~
+@70208 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe den Schwertgriff von einem Aasfresser in Ulgoths Bart zurückgeholt. Ich muss noch den anderen Teil finden, der im Bauch eines Biests in einer felsigen Gegend steckt.~
+@70209 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe die Schwertklinge aus dem Bauch eines Trolls geborgen. Ich muss noch den anderen Teil finden, der nahe einem Leuchtturm ist.~
+@70210 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe beide Teile der Klinge geborgen. Ich sollte zu Inoshishi zurückkehren, der draußen vor dem Tempel der Weisheit auf mich wartet.~
+@70211 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe beide Teile der Klinge geborgen und sie Inoshishi gegeben. Er ist bereits nach Beregost vorausgegangen, wo er an der Donnerhammer-Schmiede warten wird. Ich muss zum Karneval in Nashkell reisen und einen Sternenfall-Wetzstein finden.~
+@70212 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich traf Inoshishi, aber die Schmiede war geschlossen. Ich kehre zurück, wenn sie geöffnet ist.~
+@70213 = ~Die Wiederherstellung von Saiai no Hito
+
+Taerom hat den Auftrag angenommen, Saiai no Hito neu zu schmieden, obwohl Inoshishi seinen Siegelring dazugeben musste, um dafür zu bezahlen. Ich sollte in vier Tagen zurückkehren, wenn es fertig ist.~
+@70214 = ~Die Wiederherstellung von Saiai no Hito
+
+Taerom hat den Auftrag angenommen, Saiai no Hito neu zu schmieden, obwohl wir helfen mussten, dafür zu bezahlen. Ich sollte in vier Tagen zurückkehren, wenn es fertig ist.~
+@70215 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich ging zu Inoshishi, um die neu geschmiedete Klinge zu sehen, aber die Schmiede war geschlossen. Ich kehre zurück, wenn sie geöffnet ist.~
+@70216 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Er hat mich für meine Hilfe belohnt und ist in seine Heimat aufgebrochen.~
+@70217 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Ich habe ihn überzeugt, dass wir die Klinge brauchen, um Frieden an der Schwertküste wiederherzustellen, und versprochen, die Klinge eines Tages zurückzubringen.~
+@70218 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Er versuchte, mich mit kümmerlichen Kleinodien zu entlohnen, aber ich verlangte die Klinge selbst.~
+@70219 = ~Und er half immer seinen anderen Brüdern. Dann verliebte er sich in einen von uns, und obwohl ich nicht verstehe, wie es sich angefühlt haben muss, zwischen alter und neu empfundener Liebe hin- und hergerissen zu sein, und angesichts der Fragen, ob seine Gefühle erwidert würden, habe ich die Dokumente gelesen und weiß, dass er ein ehrlicher und starker Mann war, und man sollte ihn in Erinnerung behalten, ebenso wie seine Liebe bei ihm sein sollte.~
+@70220 = ~Sternenfall-Wetzstein~
+@70221 = ~Der Sternenfall-Wetzstein ist eine ungewöhnliche alchemistische Verbindung, bekannt für ihre verblüffende azurblaue Farbe.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5~
+@70222 = ~Ich suche etwas: einen Sternenfall-Wetzstein. Ich hörte, jemand hier könnte ihn haben.~
+@70223 = ~Tut mir leid, aber ich bin es nicht. Ihr müsst wohl woanders suchen.~
+@70224 = ~Ich habe ihn schon einmal gesehen, aber damals in Athkatla. Tut mir leid, aber ich habe nichts dergleichen.~
+@70225 = ~Das ist eine seltene Sache! Vielleicht hat jemand hier so einen Wetzstein, aber ich bin es nicht, tut mir leid.~
+@70226 = ~Ich hörte, jemand hier hat Ankheg-Panzer bestellt! Ich habe sie hier.~
+@70227 = ~Nun, ich habe so einen Wetzstein, wenn Ihr ihn braucht, aber ich brauche etwas im Austausch dafür.~
+@70228 = ~Seht Ihr, ich hörte von diesen Rüstungen aus Ankhegs. Und ich dachte, ich versuche mich selbst an solch einer Rüstung, wenn der Karneval vorbei ist und ich wieder zu Hause bin. Nun, mit etwas Hilfe von meinem vertrauten Schmied Cromwell.~
+@70229 = ~Aber ich brauche etwas Material dafür. Fünf Ankheg-Panzer. Bringt mir die, und ich gebe Euch den Wetzstein dafür. Das ist ein faires Angebot, vertraut mir. Sternenfall-Erz ist wirklich selten!~
+@70230 = ~Ihr habt sie wirklich? Ihr versteht es wahrlich, andere zu überraschen. Im positiven Sinne natürlich!~
+@70231 = ~Hier, der Wetzstein, den Ihr braucht. Und ich nehme diese Panzer. Und ... nun muss ich herausfinden, wie in den Neun Höllen ich sie wieder nach Süden bekomme.~
+@70232 = ~Danke dafür! Denkt daran, ich brauche fünf davon.~
+@70233 = ~Ich bin sicher, er wird einen Sternenfall-Wetzstein brauchen. Während Ihr die Teile des Schwertes zurückgeholt habt, habe ich mich umgehört, und ich glaube, es gibt einen am Karneval in Nashkell.~
+@70234 = ~Ich habe auch diesen seltenen Sternenfall-Wetzstein für Euch besorgt, den Ihr verwenden könnt.~
+@70235 = ~Die Wiederherstellung von Saiai no Hito
+
+Der Rüstungshändler am Karneval in Nashkell hat einen Sternenfall-Wetzstein, aber er möchte sich daran versuchen, eine Rüstung aus Ankheg-Panzern herzustellen. Er ist bereit, den Wetzstein gegen fünf Panzer zu tauschen.~
+@70236 = ~Nun müssen wir größtenteils nur noch warten. Bevor Ihr geht, möchte ich Euch etwas anbieten.~
+@70237 = ~Es ist eine Weile her, dass ich mit meinen Brüdern und Schwestern trainiert habe. Das ließ mich erkennen, dass Ihr vielleicht, bevor Ihr zu Euren anderen Missionen zurückkehrt, Lust hättet, mit mir zu trainieren, <PRO_BROTHERSISTER>?~
+@70238 = ~Ich könnte wohl eine gute Trainingseinheit gebrauchen. Ja. Ich glaube, das kann ich tun, Inoshishi.~
+@70239 = ~Tut mir leid, aber ich habe keine Zeit dafür. Wir sehen uns wieder, sobald die Klinge repariert ist. Bis dahin.~
+@70240 = ~Ich freue mich! Nun, suchen wir den richtigen Ort dafür.~
+@70241 = ~Ich verstehe, natürlich. Es sieht so aus, als hättet Ihr viel zu tun. Wir treffen uns hier, wenn die Klinge wieder ein Ganzes ist.~
+@70242 = ~Dies sieht nach dem richtigen Ort dafür aus. Also, <PRO_BROTHERSISTER>, wenn Ihr bereit seid, sollten wir beginnen!~
+@70243 = ~Nun ... ich ... ich glaube, das war eine ganz schöne Einheit! Ihr müsst viele Schlachten geschlagen haben ...! Eure Kampftechnik ist recht ... bemerkenswert! Entschuldigt, ich glaube, ich muss erst einmal zu Atem kommen!~
+@70244 = ~Es ist gut, dass ich meinen Wasserschlauch hier habe. Ihr könnt etwas haben, wenn Ihr durstig seid.~
+@70245 = ~Wo seid Ihr noch gleich aufgewachsen? Auf einem Schlachtfeld, heh?~
+@70246 = ~Es war eigentlich eher wie eine ... Bibliothek.~
+@70247 = ~Nein, nicht wirklich. Aber ich hatte immer das Gefühl, dass ich auf alles vorbereitet sein muss. Und dass ich sowohl meine Kräfte als auch meine Schwächen beherrschen will.~
+@70248 = ~Das geht Euch nichts an. Wir sollten trainieren, nicht persönliche Informationen austauschen.~
+@70249 = ~Eine Bibliothek? Das ist kaum zu glauben! Aber andererseits habt Ihr keinen Grund zu lügen. Ach, und ich dachte, Inoshishi wäre für sein Alter und die Zeit, die er auf sein Gleichgewicht und seine Stärke verwandte, immer recht gut!~
+@70250 = ~Ihr wisst offensichtlich, was Ihr tut. Ach, und ich dachte, Inoshishi wäre für sein Alter und die Zeit, die er auf sein Gleichgewicht und seine Stärke verwandte, immer recht gut!~
+@70251 = ~Richtig. Es tut mir leid, ich wollte nicht neugierig sein.~
+@70252 = ~Diese Einheit erinnerte mich daran, wie es sich im Saku-Kloster anfühlte. Die Trainingseinheiten, die Meditationen. Ich vermisse sie genauso sehr wie die Luft, den Weihrauch und die Abende nach einem schönen Tag, an denen man meditiert, während die Sonne die Horizontlinie überquert und der Mond aufsteigt.~
+@70253 = ~Viele mögen denken, dass das Leben in einem Kloster langweilig ist, doch es bringt viel Freude und Zuversicht und das Gefühl von Bestimmung mit sich.~
+@70254 = ~Was meint Ihr?~
+@70255 = ~Hört zu, das ist alles sehr nett, aber ich muss gehen. Danke für diese Trainingseinheit. Wir sehen uns wieder an der Schmiede, wenn die Klinge repariert ist, in ein paar Tagen.~
+@70256 = ~Ich hörte einmal, wie manche Leute sagten, wir verschwendeten unsere Zeit mit sinnloser Kontemplation und Disziplin, während wir unser Leben wirklich genießen könnten, indem wir frei sind. Aber unser Leben im Kloster ist das, was ich als Freiheit betrachte. Dort wurde ich auf diese Mission vorbereitet. Dort verstand ich mich selbst besser. Und dort wurde mir beigebracht, mich zu verteidigen, falls etwas schiefgeht.~
+@70257 = ~Das ist eine Art von Freiheit. Oder zumindest ein Weg, der mich zu ihr führen mag.~
+@70258 = ~Ich nehme an, jeder muss seinen eigenen Weg zur Freiheit finden. Und es klingt wirklich so, als hättet Ihr Euren Weg gefunden, mein Freund.~
+@70259 = ~Ihr sagtet, Ihr wurdet dort auf Eure Mission vorbereitet, doch ich bin derjenige, der die meiste Arbeit macht. Nein, wovon Ihr sprecht, ist keine Freiheit. Es ist ein Käfig. Einer aus Gold und Frieden, aber dennoch ein Käfig.~
+@70260 = ~Ich kenne Euer Kloster nicht, und ich glaube nicht, dass mich solche Gespräche interessieren. Eigentlich ist es Zeit für mich, weiterzuziehen. Wir sehen uns wieder an der Schmiede, wenn die Klinge repariert ist, in ein paar Tagen.~
+@70261 = ~Diese Leute, von denen Ihr hörtet: Sie wandeln einfach einen anderen Pfad. Sie folgen einem anderen Ruf.~
+@70262 = ~Ich nehme an, das habe ich.~
+@70263 = ~Ich glaube nicht, dass ich zustimme, aber ich werde sicher über das nachdenken, was Ihr gesagt habt, meine Freunde. Und sei es nur, um zu verstehen, WARUM Ihr es gesagt habt. Danke.~
+@70264 = ~Mmm. Ich nehme an, Ihr habt recht. Ich sollte deswegen nicht zornig sein, und vielleicht lässt mich das, was Ihr gesagt habt, ihre Worte hinter mir lassen.~
+@70265 = ~...~
+@70266 = ~Ich glaube, wir wandeln einen interessanten Pfad, Ihr und ich. Einen, der Disziplin erfordert, und ... und die Bereitschaft, Fragen ins Auge zu sehen, die unseren Geist und unsere Seele herausfordern mögen. Mir wurde meine Aufgabe gestellt, und das lässt mich fragen, ob Euch Eure bereits gestellt wurde. Oder ob es nur ein Vorspiel zu etwas Größerem ist, diese Dinge, mit denen Ihr Euch gerade auseinandersetzt. Aber ...~
+@70267 = ~... es tut mir leid. Manchmal stelle ich zu viele Fragen oder rede zu viele Worte, wenn jemand anderes nur einen Moment ausruhen musste, heh. Nun, das hat mir Sakurachi gesagt, eine meiner Freundinnen. Hmm, ich vermisse sie tatsächlich ziemlich.~
+@70268 = ~Es ist Zeit aufzustehen, und ... agh. Hah! Ihr habt mir hier wahrlich eine Lektion erteilt, mit all diesen Bewegungen, mit denen ich nicht gerechnet hatte und denen ich nicht auszuweichen wusste! Es ist gut, dass ich so zäh bin, wie mein Name vermuten lässt, hahaha!~
+@70269 = ~Ich bin nicht sicher, ob ich verstehe.~
+@70270 = ~Wartet, "Inoshishi" bedeutet ...~
+@70271 = ~Heh, Inoshishi bedeutet nichts anderes als "Wildschwein". Und ich hatte immer eine Schwäche für diese Tiere. Man hält sie für stark und widerstandsfähig. Und recht haarig, hah! Was soll ich sagen, es liegt mir einfach in den Genen.~
+@70272 = ~Ich danke Euch für dieses Training, mein Freund. Ich habe bereits genug von Eurer Zeit beansprucht. Wisset, dass ich auch für dieses Gespräch dankbar bin. Ihr habt vieles gesagt, das mich wirklich zum Nachdenken brachte.~
+@70273 = ~Es ist Zeit für etwas Meditation. Wir sehen uns bald, <PRO_BROTHERSISTER>, an der Schmiede, wenn die Klinge repariert und bereit für ihre Rückkehr nach Hause ist.~
+@70274 = ~Ich ... verstehe. Nun, dann nehme ich nicht noch mehr von Eurer Zeit in Anspruch. Wir sehen uns bald, an der Schmiede, wenn die Klinge repariert und bereit für ihre Rückkehr nach Hause ist.~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
