@@ -293,6 +293,142 @@
 @1287 = ~<CHARNAME>, mit diesem Pulver sollte Taeroms Schmiede heiß genug brennen, um sie endlich zu zerstören.~
 @1288 = ~Danke für Eure Hilfe.~
 @1289 = ~Thalantyr hat uns hierher geschickt, um in Eurer Schmiede einige verfluchte Armschützer zu zerstören.~
+@1290 = ~Was redet er da? Er weiß doch, dass dies nur eine gewöhnliche Schmiede ist.~
+@1291 = ~Er hat uns diese Pulver gegeben. Er sagte, es würde Eure Schmiede heiß genug machen, um die Armschützer zu zerstören.~
+@1292 = ~Mit diesem Pulver sollte Eure Schmiede heiß genug sein, um den Fluch zu brechen.~
+@1293 = ~Nun, bei solchen Dingen hat er gewöhnlich recht. Doch da kommt mir eine Idee ...~
+@1294 = ~<CHARNAME>, vielleicht kann ich etwas Neues schmieden, sobald die Armschützer schmelzen. Einmal durchdrungen, behalten Materialien manchmal ihre Kräfte, wenn auch in schwächerer oder veränderter Form, selbst nachdem der Gegenstand zerbrochen oder ausgelaugt ist.~
+@1295 = ~Ich kann wirklich nicht vorhersagen, welche magischen Eigenschaften er haben mag, falls überhaupt welche. Er könnte sogar verflucht bleiben.~
+@1296 = ~Wenn Ihr das Risiko nicht eingehen wollt, streuen wir die Überreste einfach auf die Kohlen und lassen sie verbrennen.~
+@1297 = ~Nach all der Arbeit, sie zu zerstören, gehe ich nicht das Risiko ein, nun einfach einen neuen verfluchten Gegenstand zu schmieden.~
+@1298 = ~Was könntet Ihr herstellen?~
+@1299 = ~Nein, zerstört sie. Aus ihren Überresten kann nichts Gutes entstehen, egal wie oft sie neu geschmiedet werden.~
+@1300 = ~Wir werden das meiste Metall im Feuer der Schmiede und durch Thalantyrs Pulver verlieren, doch ich nehme an, wir werden genug für ein Schmuckstück haben. Ein Amulett vielleicht.~
+@1301 = ~Sicher, wir gehen das Risiko ein.~
+@1302 = ~Dann feuern wir die Schmiede an.~
+@1303 = ~Thalantyrs Pulver hat wie ein Zauber gewirkt!~
+@1304 = ~Nun, wir halten diese Schmiede schön heiß, bis wir so viel von diesen Armschützern wie möglich verbrannt haben.~
+@1305 = ~Bis dahin benutzen wir die anderen Schmieden, nur für den Fall.~
+@1306 = ~Und das hier ist für Euch. Nur für den Fall: Ich würde dringend empfehlen, es zu identifizieren, bevor Ihr es benutzt.~
+@1307 = ~Wir können nicht weiter vorgehen, bis Ihr Melicamp findet. Ich habe ihn zu Taerom in die Donnerhammer-Schmiede geschickt.~
+@1310 = ~Ich bin froh, dass Melicamp zurückgekehrt ist. Jetzt brauchen wir nur noch Taerom, damit er das mechanische Gerät fertigstellt.~
+@1311 = ~Wir können fortfahren, sobald Melicamp aus der Donnerhammer-Schmiede zurückkehrt.~
+@1312 = ~Ihr müsst diese Armschützer finden und hierherbringen.~
+@1313 = ~Bringt diese Armschützer und das Pulver zu Taerom, damit wir endlich fertig werden.~
+@1314 = ~Also ... war es das?~
+@1315 = ~Ja, fürchte ich.~
+@1316 = ~Oh, Ihr schon wieder. Alvanhendar, das waren die Abenteurer, die ich erwähnt habe.~
+@1317 = ~Ich habe alles versucht, was ich kenne. Euer Magierfreund ist jetzt vielleicht ihre einzige Hoffnung.~
+@1318 = ~Wir treffen Euch dann an der Hohen Hecke.~
+@1319 = ~Thalantyr sollte alles vorbereitet haben. Machen wir uns auf den Weg.~
+@1320 = ~Wir müssen uns bemühen, diese Armschützer zu finden, bevor sie eine andere unglückliche Seele verfluchen. <CHARNAME>, ich werde jede Hilfe brauchen, die ich bekommen kann, und Ihr seid Abenteurer. Könnt Ihr mir helfen?~
+@1321 = ~Die Beschwörung erfordert jedoch drei Personen, also brauchen wir Eure Hilfe. Herr Cotton, seid Ihr und Eure Frau bereit?~
+@1322 = ~Was müssen wir als Nächstes für die Armschützer tun?~
+@1323 = ~Die Armschützer sind noch in der Region, aber ich konnte es nur auf ein Gebiet nördlich von Feuerwein eingrenzen.~
+@1324 = ~Die Armschützer sind noch in der Region; sucht nach einer Blume nördlich von Feuerwein.~
+@1325 = ~Die Armschützer sind, soweit ich es bestimmen kann, in Gullykin.~
+@1326 = ~Die Armschützer sind in Gullykin, an einer Halblingsfrau.~
+@1327 = ~Ich konnte die Armschützer klar an einer "Iris Cotton" in Gullykin erkennen.~
+@1328 = ~Wo habt Ihr gesagt, waren die Armschützer noch gleich?~
+@1329 = ~Was soll ich jetzt mit den Armschützern tun?~
+@1330 = ~Gibt es sonst noch etwas?~
+@1331 = ~Das ist eine prächtige Perle, aber ich fürchte, sie ist für unsere Zwecke noch zu unreif. Ich wäre erfreut, wenn Ihr eine andere findet.~
+@1332 = ~Schwarze Perlen müssen ein wenig reifen, bevor sie auf solche Weise verwendet werden können.~
+@1333 = ~Wir werden jedoch auf Melicamps Rückkehr warten müssen, bevor wir mit der Wahrsagung beginnen.~
+@1334 = ~Wenn man vom Teufel spricht, dann erscheint er. Fangen wir an.~
+@1335 = ~Zerstört die verfluchten Armschützer~
+@1336 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben, aber ich lehnte ab.~
+@1337 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben. Thalantyr hat uns mit der Konstruktion eines Wahrsagungsgeräts beauftragt. Während Melicamp nach Beregost geht, um mit Taerom zu arbeiten, muss ich drei verschiedene Edelsteine sammeln, um das Gerät mit Energie zu versorgen. Ich muss aufmerksam sein und nach eigenem Ermessen handeln.~
+@1338 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben. Thalantyr hat uns mit der Konstruktion eines Wahrsagungsgeräts beauftragt. Während Melicamp nach Beregost geht, um mit Taerom zu arbeiten, muss ich drei Edelsteine sammeln, um das Gerät mit Energie zu versorgen. Thalantyr erwähnte, dass schwarze Perlen nützlich sind, aber ansonsten muss ich aufmerksam sein und nach eigenem Ermessen handeln.~
+@1339 = ~Zerstört die verfluchten Armschützer
+
+Ich habe Thalantyr drei Edelsteine geliefert, um das Wahrsagungsgerät mit Energie zu versorgen. Melicamp ist jedoch noch nicht von seinem Besuch bei Taerom in Beregost zurückgekehrt, und Thalantyr hat mich gebeten, nach seinem Fortschritt zu sehen.~
+@1340 = ~Zerstört die verfluchten Armschützer
+
+Ich habe Thalantyr drei Edelsteine geliefert, um das Wahrsagungsgerät mit Energie zu versorgen. Melicamp ist noch nicht von seinem Besuch bei Taerom in Beregost zurückgekehrt, aber ich kann keine Zeit verschwenden, um nach ihm zu sehen. Er wird irgendwann zurückkehren.~
+@1341 = ~Zerstört die verfluchten Armschützer
+
+Taerom hatte das benötigte Erz für das Wahrsagungsgerät nicht, also schickte er Melicamp zu seinem Kontakt Grace in die Minen von Nashkell. Ich sollte dort nach ihm sehen.~
+@1342 = ~Zerstört die verfluchten Armschützer
+
+Grace stattete Melicamp mit einem Teil des benötigten Erzes aus. Es war nicht genug, also ist Melicamp in die Mine hinabgestiegen, um mehr zu finden.~
+@1343 = ~Zerstört die verfluchten Armschützer
+
+Melicamps Magie ist nach hinten losgegangen und hat die Erinnerungen zweier Bergleute zerstört. Ich weigerte mich, seinen Schlamassel auszubügeln, also ging er mit den Bergleuten fort, um zu versuchen, ihnen zu helfen. Ich bin sicher, er wird irgendwann den Weg zurück zu Thalantyr finden.~
+@1344 = ~Zerstört die verfluchten Armschützer
+
+Melicamps Magie ist nach hinten losgegangen und hat die Erinnerungen zweier Bergleute beschädigt, Sal und James. Melicamp schlägt vor, mit den anderen Bergleuten zu sprechen. Wenn wir einige Einzelheiten über sie erfahren können, können wir vielleicht ihr Gedächtnis auffrischen und wiederherstellen, was fehlt.~
+@1345 = ~Zerstört die verfluchten Armschützer
+
+Ich habe dem Bergmann Sal geholfen, indem ich ihn an seine Zwillingsjungen erinnerte.~
+@1346 = ~Zerstört die verfluchten Armschützer
+
+Ich habe dem Bergmann James geholfen, indem ich ihn an seine Liebste in Beregost erinnerte.~
+@1347 = ~Zerstört die verfluchten Armschützer
+
+Die Bergleute wurden gerettet, und Melicamp hat mir das benötigte Erz gegeben. Während er sich auf den Rückweg zu Thalantyr macht, bringe ich das Erz zu Taerom, damit er das Wahrsagungsgerät schmieden kann.~
+@1348 = ~Zerstört die verfluchten Armschützer
+
+Ich habe das Erz Taerom gegeben, damit er das Gerät schmiedet. Er sagt, es wird in zwei Tagen fertig sein.~
+@1349 = ~Zerstört die verfluchten Armschützer
+
+Taerom hat das Wahrsagungsgerät erfolgreich geschmiedet und es mir gegeben. Ich sollte zur Hohen Hecke zurückkehren, damit Thalantyr nach den Armschützern suchen kann.~
+@1350 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war jedoch so schlecht, dass wir ihren Aufenthaltsort nur auf ein Gebiet nördlich von Feuerwein eingrenzen konnten.~
+@1351 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war jedoch schlecht, und wir konnten ihren Aufenthaltsort nur auf ein Gebiet nördlich von Feuerwein eingrenzen. Thalantyr sagt, wir sollen nach einer Blume suchen.~
+@1352 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war ausreichend, und wir konnten den Aufenthaltsort auf Gullykin eingrenzen.~
+@1353 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war gut, und wir konnten die Armschützer an einer in Gullykin lebenden Halblingsfrau ausfindig machen.~
+@1354 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war ausgezeichnet, und wir konnten die Armschützer an einer in Gullykin lebenden Halblingsfrau namens Iris Cotton ausfindig machen.~
+@1355 = ~Zerstört die verfluchten Armschützer
+
+Ich habe die verfluchten Armschützer endlich gefunden! Wir trafen Largo Cotton in Gullykin und entdeckten, dass seine Frau Iris in ein Eichhörnchen verwandelt wurde. Largo möchte sehen, ob der örtliche Priester Alvanhendar helfen kann, bevor sie zur Hohen Hecke reisen. Ich sollte sie am örtlichen Tempel hier in Gullykin treffen.~
+@1356 = ~Zerstört die verfluchten Armschützer
+
+Ich habe die verfluchten Armschützer endlich gefunden! Wir trafen Largo Cotton in Gullykin und entdeckten, dass seine Frau Iris in ein Eichhörnchen verwandelt wurde. Ich habe Largo überzeugt, zur Hohen Hecke zu reisen und mit Thalantyr zu sprechen. Ich sollte ebenfalls dorthin reisen.~
+@1357 = ~Zerstört die verfluchten Armschützer
+
+Leider konnte der örtliche Kleriker Alvanhendar Iris Cotton bei dem Fluch der Armschützer nicht helfen. Die Cottons reisen zur Hohen Hecke, um Thalantyr zu treffen. Ich sollte ebenfalls dorthin reisen.~
+@1358 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Leider habe ich meinen Teil der Beschwörung nicht richtig hinbekommen: Iris wurde verletzt, und die Armschützer sind verschwunden.
+
+Thalantyr hat mir für meine Bemühungen gedankt, und mein Teil daran ist getan. Thalantyr und Melicamp werden versuchen, die Armschützer ohne mich zu finden.~
+@1359 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Ich habe einen Teil der Beschwörung verpatzt, doch Iris hat es mit nur leichten Beschwerden überstanden, die Armschützer sind jedoch verschwunden.
+
+Thalantyr hat mir für meine Bemühungen gedankt, und mein Teil daran ist getan. Thalantyr und Melicamp werden versuchen, die Armschützer ohne mich zu finden.~
+@1360 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Die Beschwörung war gut genug, dass Iris ohne Nebenwirkungen davonkam.
+
+Ich sollte die Armschützer zusammen mit einem besonderen Pulver, das Thalantyr bereitgestellt hat, zu Taerom nach Beregost bringen. Das Pulver wird dafür sorgen, dass seine Schmiede heiß genug brennt, um die Armschützer ein für alle Mal zu zerstören.~
+@1361 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton mit einer perfekten Beschwörung von den verfluchten Armschützern befreien.
+
+Ich sollte die Armschützer zusammen mit einem besonderen Pulver, das Thalantyr bereitgestellt hat, zu Taerom nach Beregost bringen. Das Pulver wird dafür sorgen, dass seine Schmiede heiß genug brennt, um die Armschützer ein für alle Mal zu zerstören.~
+@1362 = ~Zerstört die verfluchten Armschützer
+
+Die Armschützer sind endlich zerstört und in der magisch verstärkten Hitze von Taeroms Schmiede zu Schlacke geschmolzen. Taerom bot an, zu versuchen, die Überreste zu einem neuen magischen Gegenstand zu schmieden, aber da sie aus verfluchtem Material stammen, wollte ich das Risiko nicht eingehen.~
+@1363 = ~Zerstört die verfluchten Armschützer
+
+Die Armschützer sind endlich zerstört. Die magisch verstärkte Hitze von Taeroms Schmiede hat sie vernichtet, und Taerom konnte aus ihren Überresten einen neuen Gegenstand schmieden. Ob der neue Gegenstand einen Teil ihrer ursprünglichen verfluchten Energie behält oder stattdessen nützlich ist, bleibt abzuwarten.~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
