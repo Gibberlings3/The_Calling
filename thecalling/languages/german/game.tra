@@ -63,7 +63,7 @@ Spezielle Fähigkeiten: +4 Bonus auf alle Rettungswürfe gegen Verwandlung~
 EIGENSCHAFTEN:
 
 Glück: um 1 verringert
-Speziell: kann nur durch den Zauber 'Fluch brechen' entfernt werden~
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
 @10023 = ~Tempel des Biests der Metzelei~
 @10024 = ~Pfeil des zerbrochenen Geistes +1~
 @10025 = ~Dieser Pfeil sieht zerbrochen aus, doch selbst wenn Ihr eine Hälfte haltet, schwebt die andere direkt daneben. Auch wenn er nicht wirklich mächtig ist, kann er nützlich sein, wenn einem Abenteurer die normalen Pfeile ausgehen.
@@ -76,7 +76,7 @@ Speziell: Schlägt als +1-Waffe zu
 Schaden: 1
 Schadensart: Geschoss (Stich)
 Gewicht: 0
-Abschussgerät: Bogen
+Schusswaffe: Bogen
 Kann nicht verwendet werden von:
  Kleriker
  Druide
@@ -93,7 +93,7 @@ ETW0: +1
 Schaden: 1W6+1
 Schadensart: Wucht
 Initiativefaktor: 3
-Fertigkeit: Stab
+Fertigkeit: Kampfstab
 Typ: 2-händig
 Benötigt: Stärke 5~
 @10029 = ~Umhang des Regenten-Kriegers~
