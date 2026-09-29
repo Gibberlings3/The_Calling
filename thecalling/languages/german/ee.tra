@@ -279,6 +279,150 @@ Gewicht: 2~
 @60091 = ~Ich kann fühlen, dass Ihr die Figur auf dem Altar platziert habt. Danke, Ihr habt gute Arbeit geleistet. Dank Euch wird die Verderbnis eingedämmt und wird sich nicht ausbreiten. Sie ist noch da, aber eingeschlossen. Stellt Euch einen geistigen Kolben vor, der sie nicht wachsen oder sich auf andere Teile des felsigen Fleisches ausbreiten lässt, das die Grotte bildet.~
 @60092 = ~Nun werden wir ein besonderes Kraut brauchen, um die Verderbnis aus der Grotte zu ziehen: das Seelenherz-Kraut. Das Problem ist, dass dies eine seltene Pflanze ist.~
 @60093 = ~Ihr würdet wohl am ehesten denken, sie wächst im Wald, aber nein. Sie findet sich gewöhnlich am Berghang, in felsigen Gegenden. Also, während ich weiß, dass es keine leichte Aufgabe ist: Wenn Ihr mir helfen wollt, müsst Ihr diese Pflanze finden.~
+@60094 = ~Ihr habt recht, das ist nicht sehr ... konkret. Wo in den Neun Höllen soll ich dieses Kraut finden?~
+@60095 = ~Ich kann Euch nicht versprechen, dass ich es finden werde, aber ich halte die Augen offen.~
+@60096 = ~Wie *sehr* konkret. Hmpf! Nun, es wird ein Wunder sein, wenn ich es finde.~
+@60097 = ~Dieser Ort ist mein Fleisch und meine ganze Welt. Ich weiß nicht, wo genau Ihr es finden werdet. Wäre ich an Eurer Stelle, würde ich jedoch in der Nähe der felsigen Gegenden suchen. Geht vielleicht nach Osten, fort von der salzigen Brise, und seht, ob Ihr etwas findet, wo die Berge das Land beherrschen.~
+@60098 = ~Ich glaube wirklich, dass Ihr Erfolg haben könntet. Ihr seht aus wie ein glücklicher <PRO_RACE>.~
+@60099 = ~Findet das Seelenherz-Kraut, bitte. Sucht dort, wo Berge aufragen und nach dem Himmel über Euch greifen.~
+@60100 = ~Ich kann den süßen Duft des Seelenherz-Krauts spüren! Ihr habt es gefunden. Oh, das ist wirklich aufregend!~
+@60101 = ~Nun bringt es zum Altar, auf dem Ihr die Figur platziert habt, und legt auch dieses Kraut darauf. Ich werde meine Kraft bündeln und sie nutzen, um das Untote herauszuziehen, das wir mit der Figur eingeschlossen haben. Denkt jedoch daran, dass dies bedeutet, dass die Verderbnis aus diesen Wänden gesogen wird, und Ihr Euch ihr stellen müsst. Bitte sterbt nicht, wenn das geschieht.~
+@60102 = ~Geht und legt das Kraut auf den Altar. Dorthin, wo Ihr die Herzfigur platziert habt und wo Ihr einst von den Ausgräbern angegriffen wurdet, die vom Zorn Kozahs verdorben waren.~
+@60103 = ~Ich kann spüren, dass die Manifestation der Verderbnis nicht tot ist. Tötet sie!~
+@60104 = ~Ihr seid wahrlich ein wunderbares Ding, Schamane. Mmm. Ihr seid wahrlich eine wunderbare Speise.~
+@60105 = ~Wartet - was meint Ihr?~
+@60106 = ~Mmm. Ich habe ein schlechtes Gefühl bei all dem.~
+@60107 = ~Ihr habt mir sehr geholfen, aber ... Tatsache, dass nichts davon für Euch wirklich eine Herausforderung ist, überkommt mich wieder die Langeweile.~
+@60108 = ~Warum dieser Tonwechsel? Sprecht!~
+@60109 = ~Ich weiß nicht, wovon Ihr sprecht. Helft mir zu verstehen, was vorgeht.~
+@60110 = ~Ich habe es Euch gesagt. Ich nähre mich von Erfahrung. Von Hoffnung. Von Träumen. Aber auch von Ängsten. Nervenkitzel. Lust. Und vielen anderen Empfindungen. Als diese Ausgräber mich weckten, fühlte ich mich hungrig. Daher versuchte ich, Euch zu kontaktieren. Ich spürte Euch damals, als Ihr unter den Ausgräbern tötetet. Ihr fühltet Euch ... stärker. Und ich fand Euch interessant.~
+@60111 = ~Diese Aufgaben von Euch drehten sich nicht nur um die Reinigung. Das auch, aber - ich war hungrig nach Empfindungen. Ich war ...~
+@60112 = ~... gelangweilt. Aber Ihr seid wie eine feine Erfrischung. Doch nun, nach einem weiteren Sieg von Euch, fühle ich, dass eine Veränderung nötig ist. Ich will mehr, als ich gesehen habe. Es tut mir leid, aber wir alle müssen etwas essen, und so sättige ich mich eben.~
+@60113 = ~War also alles ein Trick?~
+@60114 = ~Geister können wirklich trickreich sein. Bereitet Euch vor, ich fühle, wohin das alles führt, <CHARNAME>.~
+@60115 = ~Was um aller Geister willen soll das bedeuten? <CHARNAME>, seid vorsichtig. Ich fühle eine Veränderung in der Luft.~
+@60116 = ~Es sieht so aus, als hätte man mit uns gespielt.~
+@60117 = ~Boo findet, dieses Herz klingt jetzt anders. *Quiek*~
+@60118 = ~Was ist es dann? Eine Falle? Xsa nindol k'lar!~
+@60119 = ~Wenn mir langweilig ist, werden die Träume stumpf, und ich beginne, mehr Empfindungen zu suchen. Und ich will mehr davon von Euch. Ich will mehr und mehr und mehr und ...~
+@60120 = ~... ich brauche es einfach. Es tut mir leid, das ist nichts Persönliches, aber ich bin noch so hungrig.~
+@60121 = ~Das reicht. Ich bin unsterblich. Und Ihr seid stark. Und Ihr habt diese kleinen Dinge besiegt, die ich erschuf. Ich ... respektiere Euch. Ich sollte wohl nicht jemanden quälen, der versucht hat, mir zu helfen. Der kleine Rausch hat mir geholfen, und ich werde versuchen, den Drang zu schmausen zu beherrschen.~
+@60122 = ~Ich hoffe, Ihr werdet mir vergeben.~
+@60123 = ~Ich versuche es.~
+@60124 = ~Ihr habt gerade versucht, mich zu töten!~
+@60125 = ~Bei den Göttern, was seid Ihr? Ihr seid schlimmer als Kozah!~
+@60126 = ~Danke. Ihr seid sehr verständnisvoll.~
+@60127 = ~Und dafür entschuldige ich mich. Und ich muss zugeben, Ihr seid nicht leicht zu verspeisen.~
+@60128 = ~Eigentlich habe ich mich an den Träumen von Kozah gesättigt, also ... Aber ich bin nicht er. Und ich hätte mich daran erinnern sollen, bevor ich versuchte, Euch zu töten.~
+@60129 = ~Wie Ihr vielleicht bemerkt habt, könnt Ihr mich nicht töten, also lasst uns das einfach ... vergessen. Ich lasse Euch gehen. Ihr habt eine ganze Weile versucht, mir zu helfen. Ich weiß das zu schätzen. Und ich habe Euch etwas versprochen. Ihr findet es auf dem Altar, in dieser Inkarnation des Schlummergolds.~
+@60130 = ~Ich hoffe, Ihr werdet eines Tages Frieden finden und Euren Hunger sättigen. Ich werde es jedoch nicht sehen, denn ich bin am Ende.~
+@60131 = ~Euer Hunger muss wahrlich groß sein, wenn Ihr mich angegriffen habt. Aber ich nehme an, das ist recht normal. Ihr habt wahrscheinlich viele Jahre geschlafen und seid ... hungrig aufgewacht.~
+@60132 = ~Das stimmt. Ich nähre mich von Geschichten und Versprechen und Fantasien. Als ich zuerst erwachte, spürte ich einen dieser Ausgräber draußen. Er las etwas ... ein Buch. Und es ließ mich erkennen, wie leer ich mich fühle. Wie sehr ich meinen Körper mit etwas füllen will. Mit irgendetwas. Furcht. Hoffnung. Glaube. Visionen von Zorn und Feier und Sex und Intrigen! Wie in diesem Buch. Schade, dass der Mann tot ist und seine Sachen von irgendwelchen Schlägern genommen wurden. Denn ich frage mich, wie das Buch endete.~
+@60133 = ~Ich weiß, es klingt vielleicht albern, aber was, wenn ich Euch das Buch bringe? Erinnert Ihr Euch an den Titel?~
+@60134 = ~Was Ihr wollt und wie Ihr Euch fühlt, ist mir gleichgültig. Ich bin fertig. Ich nehme meine Belohnung und gehe.~
+@60135 = ~Ihr würdet das für mich tun? Das wäre etwas ... Neues.~
+@60136 = ~Ich glaube, es war eine Geschichte der ... Toten Drei. Ich würde sie liebend gern lesen. Ich habe nie ein eigenes Buch besessen.~
+@60137 = ~Ich wäre Euch dankbar, wenn Ihr mir dieses Buch brächtet.~
+@60138 = ~Natürlich. Lasst mich Euch etwas sagen, Schamane. Ich glaube, es gibt einen Teil von Euch, der für große Dinge gemacht ist. Behaltet das im Kopf, wenn Ihr den Pfad Eurer eigenen Geschichte wandelt.~
+@60139 = ~Und ich entschuldige mich für all die Feindseligkeit.~
+@60140 = ~Glaubt mir oder nicht, aber es ist gut, Euch lebendig zu sehen.~
+@60141 = ~Richtig. Tut mir leid, aber ich muss gehen.~
+@60142 = ~Ich habe das Buch, das Ihr erwähnt habt. Hier. Ich lasse es auf diesem Felsen.~
+@60143 = ~Ihr ... Ihr habt mir wirklich ein Buch gebracht? Ihr steckt voller Überraschungen, Schamane.~
+@60144 = ~Ich habe Euch bereits gesagt, dass Ihr den Bogen nehmen könnt, aber lasst mich etwas von meiner Erfahrung mit Euch teilen. Ich lasse Euch Einblicke in das sehen, was ich einst sah ...~
+@60145 = ~Und lasst mich Euch sagen, dass ich glaube, es gibt einen Teil von Euch, der ... Euch genauso überraschen kann, wie Ihr mich heute überrascht habt. Ihr seid für große Dinge gemacht. Denkt daran.~
+@60146 = ~Eure üblichen Träume werden aus irgendeinem Grund etwas anderes. Eine Vision einer Höhle voller ungewöhnlicher Malereien. Sie wirken lebendig und ein wenig bezaubernd. Ihr seid Euch nicht sicher, wie das möglich ist, aber sie hallen in Eurem Geist, Eurem Herzen und Eurer Seele wider, und dann ... werden sie zu einer Stimme. Einer, die Euch zurück zu einem Ort lockt, den Ihr vor einiger Zeit gesehen habt. Die archäologische Ausgrabungsstätte. Es ist schwer zu sagen, ob das alles eine Art Trick ist, den Euer Geist Euch spielt, oder etwas anderes. Der Traum wird immer lebendiger. Die Bilder werden Worte. Die Worte werden eine Stimme, und sie ist ganz anders als alles, was Ihr je gehört habt. Und sie wiederholt immer und immer wieder nur einen Satz: "Tretet in die Asche und träumt, was einst geträumt ... und verloren wurde."~
+@60147 = ~Traumherz~
+@60148 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis, und das Traumherz hat ein neues Buch zum Verschlingen. Die Sache ist geregelt, und der Geist ruht zufrieden in seiner Höhle.~
+@60149 = ~Traumherz
+
+Ich hatte einen prophetischen Traum, der eine fantastische Version der Höhle in der archäologischen Ausgrabung zeigte. Ich fühle mich gedrängt, zurückzukehren und das zu untersuchen.~
+@60150 = ~Traumherz
+
+Ich begegnete dem Traumherz, einem Geist, der in der Höhle lebt. Es wollte mich zu einer Aufgabe bewegen, die ich nicht übernehmen wollte.~
+@60151 = ~Traumherz
+
+Ich begegnete dem Traumherz, einem Geist, der in der Höhle lebt, und der mich beauftragt hat, ihm zu helfen, die Verderbnis aus der Höhle zu tilgen. Ich muss ein Rudel untoter Wölfe in der Nähe ausfindig machen und töten.~
+@60152 = ~Traumherz
+
+Die Wölfe wurden besiegt, und ich habe den Kopf des Rudelführers als Beweis. Ich sollte zurückkehren und mit dem Traumherz sprechen.~
+@60153 = ~Traumherz
+
+Das Traumherz hat mich gebeten, ein besonderes Seelenherz-Kraut zu finden. Es konnte nicht genau sagen, wo es wächst, schlug aber vor, dass ich in bergigen Gegenden suchen sollte, möglicherweise östlich von hier.~
+@60154 = ~Traumherz
+
+Ich habe das Seelenherz-Kraut gefunden. Nun kann ich zurückkehren und mit dem Traumherz sprechen und endlich die Verderbnis aus der Höhle tilgen.~
+@60155 = ~Traumherz
+
+Die Aufgaben des Traumherzens sind endlos. Ich erschuf den Wächter, und die jüngste Bitte war, eine Figur auf den Altar zu legen. Ich lehnte ab.~
+@60156 = ~Traumherz
+
+Nachdem der Wächter errichtet ist, hat mich das Traumherz gebeten, eine Figur auf den Altar zu legen.~
+@60157 = ~Traumherz
+
+Ich habe die Verderbnis besiegt, die sich manifestierte, nachdem ich das Seelenherz-Kraut auf den Altar gelegt hatte. Ich sollte zurückkehren und mit dem Geist sprechen.~
+@60158 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis. Das Traumherz wollte mehr von den Lebenden erleben und beschloss, dies in einem Kampf als Prüfung zu tun. Die Sache ist geregelt, und der Geist ruht getrost und zufrieden in seiner Höhle.~
+@60159 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis. Das Traumherz wollte mehr von den Lebenden erfahren und beschloss, dies in einer Prüfung des Kampfes zu tun. Wir haben den Kampf bestanden, und der Geist hat Interesse an einem Buch über die Toten Drei bekundet.~
+@60160 = ~Irdenes Gefäß~
+@60161 = ~Dieses einfache Terrakottagefäß ist mit einer gleichmäßigen, klaren Glasur überzogen. Es ist derzeit leer.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5~
+@60162 = ~Gefülltes irdenes Gefäß~
+@60163 = ~Dieses einfache Terrakottagefäß ist mit einer gleichmäßigen, klaren Glasur überzogen. Ihr habt es mit Wasser aus dem Wasserfall gefüllt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 25~
+@60164 = ~Wächter-Samen~
+@60165 = ~Dieser besondere Samen wurde Euch vom Traumherz anvertraut. Man hat Euch gebeten, ihn draußen vor der Höhle des Traumherzens in die Erde zu setzen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@60166 = ~Ihr füllt das irdene Gefäß mit Wasser aus dem Wasserfall.~
+@60167 = ~Ihr findet eine weiche Stelle mit freiliegender Erde und pflanzt den Samen. Ihr gießt ihn außerdem mit dem irdenen Gefäß.~
+@60168 = ~Ihr sorgt wahrlich gut dafür, dass dieser Ort gedeiht, Schamane ... Also, da diese üblen Wölfe tot sind und die Höhle von der Verderbnis gereinigt wurde, sollten wir auch sicherstellen, dass keine Kreaturen wie sie unser schönes Heiligtum belästigen. Deshalb möchte ich einen Wächter für mich erschaffen.~
+@60169 = ~Einen Wächter?~
+@60170 = ~Eh, natürlich gibt es mehr zu tun. Es fühlt sich fast an, als wolltet Ihr mich hierbehalten.~
+@60171 = ~Ich bin fertig damit, für Euch zu arbeiten. Nein. Das nimmt zu viel meiner kostbaren Zeit in Anspruch.~
+@60172 = ~Ja. Einen Wächter.~
+@60173 = ~Ich möchte diesen Ort vor allem sicher und in perfektem Zustand halten, Schamane. Genau das verdient er. Was wir verdienen.~
+@60174 = ~Hier. Ich habe hier einen besonderen Samen. Ich möchte, dass Ihr ihn vor dem Eingang platziert, wo Ihr zuerst den Ausgräbern begegnet seid. Dort ist ein perfekter Platz dafür, zwischen dem Eingang und dem alten Eingang, der gerade nicht wirklich ... funktionsfähig ist.~
+@60175 = ~Dann gießt ihn. Ihr braucht das frischestmögliche Wasser. Irgendwo gibt es ein Gefäß ... ah! Hier! Es gibt einen Ort, an dem Ihr solches Wasser bekommen könnt. In der Nähe ist ein Wasserfall. Stellt das Gefäß darunter, lasst sie sich füllen und gießt dann das Wasser über den Samen und lasst die Wunder geschehen!~
+@60176 = ~Ihr habt wunderbare Arbeit mit Euren anderen Aufgaben geleistet, bitte gebt noch nicht auf. Wir sind fast fertig.~
+@60177 = ~Wir sind fast da. Bitte denkt darüber nach. Atmet vielleicht tief frische Luft ein und kehrt zu mir zurück. Wir sollten unsere Zusammenarbeit noch nicht beenden, Schamane. Es wäre so schade ...~
+@60178 = ~Ich kann schon spüren, wie die Wurzeln des Wächters ihren Weg tiefer in die weiche Erde suchen. Danke, Schamane.~
+@60179 = ~Willkommen zurück, Schamane. Habt Ihr es Euch überlegt, mir einen Wächter zu erschaffen?~
+@60180 = ~Nein, habe ich nicht.~
+@60181 = ~Ich nehme an, ich kann mir anhören, was Ihr zu sagen habt.~
+@60182 = ~Willkommen zurück, Schamane. Habt Ihr den Wasserfall gefunden?~
+@60183 = ~Noch nicht, aber ich kehre zurück, sobald ich ihn gefunden habe.~
+@60184 = ~Ich habe Schwierigkeiten, ihn zu finden.~
+@60185 = ~Ich erwarte Eure Rückkehr.~
+@60186 = ~Sucht im Südosten, dann findet Ihr ihn. Eine Dryade und ihr Baum sind in der Nähe.~
+@60187 = ~Schöpft einfach Wasser am oberen Ende des Wasserfalls.~
+@60188 = ~Traumherz
+
+Das Wolfsrudel ist bereits besiegt, doch wie eine Marionette an Fäden wünscht das Traumherz, dass ich tanze. Das Traumherz wird warten müssen.~
+@60189 = ~Traumherz
+
+Nachdem das Wolfsrudel besiegt ist, bat mich das Traumherz, vor der Höhle einen Wächter zu erschaffen. Ich habe einen Samen, muss aber das irdene Gefäß mit Wasser aus einem Wasserfall im Südosten füllen.~
+@60190 = ~Traumherz
+
+Ich habe den Wasserfall gefunden und das irdene Gefäß mit klarem Quellwasser gefüllt. Ich sollte zur Ausgrabungsstätte zurückkehren.~
+@60191 = ~Traumherz
+
+Der Samen wurde gepflanzt und gegossen. Ich sollte zum Traumherz zurückkehren.~
+@60192 = ~Der Wächter des Traumherzens~
+@60193 = ~Am oberen Ende des Wasserfalls ist klares Wasser. Ihr solltet das irdene Gefäß hier füllen.~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
