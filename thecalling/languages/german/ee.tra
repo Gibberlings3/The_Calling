@@ -8,3 +8,721 @@ This file is also formatted in utf-8 since it's only used on EE games. setup.tra
 
 This file can be left blank, but cannot be deleted. 
 */
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// the calling                                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@102 = ~Perlen bestehen aus Aragonitschichten, die sich im Inneren von Austern und anderen Weichtieren mühsam um ein Stückchen Sand oder einen anderen Reizstoff gebildet haben. Die so entstandene Perle hat einen reichen, tiefen Glanz. Die meisten Perlen in der Welt sind weiß, es gibt aber auch seltenere Sorten wie Regenbogen- und schwarze Perlen. Diese Perle ist schwarz und wird wegen ihrer einzigartigen magischen Eigenschaften vor allem von Wahrsagern sehr geschätzt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+@110 = ~Thalantyr hat Euch gebeten, dies Taerom Fuiruim zu überbringen. Wenn Taerom es seiner Schmiede beimischt, kann er die Armschützer in den Flammen zerstören.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+
+@111 = ~Zirkon ist ein bräunlicher Kristall, der in magmatischem (vulkanischem) Gestein zu finden ist und in Wahrsagungsgeräten verwendet wird. Durch Erhitzen und Schleifen (üblicherweise Facettenschliff) erhält Zirkon seinen blassblauen Farbton.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@113 = ~Dies ist eine Erzmischung für Taerom, gesammelt von Melicamp und Grace in den Minen von Nashkell.
+
+EIGENSCHAFTEN:
+
+Gewicht: 15~
+@115 = ~Dies sind die Armschützer, die für Melicamps Verfluchung verantwortlich sind, nun endlich wiedergefunden. Trotz ihrer ungewöhnlichen und interessanten Natur hat Thalantyr entschieden, dass das Risiko, die Armschützer zu behalten, das Wissen überwiegt, das durch weiteres Studium gewonnen werden könnte.
+
+Da es unklug wäre, sie zu benutzen, hat Thalantyr sie verzaubert, sodass sie zu klein zum Tragen sind.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@118 = ~Dieses Gerät wurde von Thalantyr in Auftrag gegeben und von Taerom aus Beregost gebaut. Thalantyr hofft, damit die Armschützer ausfindig zu machen, die Melicamp verflucht haben. Nahe der Mitte sind drei Fassungen für Edelsteine zu sehen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@120 = ~Säure ist, sofern verfügbar, ein wirksames Hindernis für Magier, da sie deren Zaubern häufig unterbricht. Sinosta, ein unbedeutender Magier aus Tiefwasser, entwarf dieses Amulett, um den Wirkungen von Säure entgegenzuwirken. Unglücklicherweise nützte es Sinosta wenig: Er wurde in einer Hintergasse ermordet, nachdem er ein Mitglied der örtlichen Diebesgilde beleidigt hatte.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Säureresistenz: +25%
+
+Gewicht: 1~
+@122 = ~Dieses scheinbar harmlose Amulett schnürt sich eng um den Hals. Sprechen ist möglich, wenn auch kaum, und es macht die komplexen Lautäußerungen unmöglich, die zum Zaubern nötig sind. Einschnürungsamulette wurden für alles Mögliche verwendet, von Streichen zwischen Lehrlingen bis hin zur Schwächung von Erzmagiern, um ein Attentat zu erleichtern.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Fehlschlag beim Zaubern: 100%
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 1~
+@124 = ~Solche Amulette sind bei skrupellosen Händlern sehr beliebt. Diese Gegenstände wirken wie verzierte, teure Amulette und werden oft als Geschenke an potenzielle Kunden, Rivalen oder andere potenzielle Geschäftskontakte gegeben. Sie sind lediglich dazu gedacht, den Verstand zu trüben, ohne übermäßig aufzufallen, sodass der Händler seinen Vorteil bei komplexen Verhandlungen ausspielen kann.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Intelligenz: -2
+– Weisheit: -2
+– Charisma: -2
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 1~
+
+@1050 = ~Ihr hättet es besser machen können – viel besser – aber wir werden uns trotzdem durchwursteln.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// expanded gnoll stronghold                        \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@10013 = ~Dieser ungewöhnliche Gürtel wurde für einen Assassinen namens Mudbone gefertigt. Er war auf die Tötung von Priestern spezialisiert, insbesondere solcher, die jenen als Hindernis galten, die wenig Respekt vor gläubigen Menschen hatten. Der Gürtel sieht gut verarbeitet aus. Er muss aus hochwertigen Materialien gefertigt worden sein.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Magieresistenz: +2%
+
+Kampffähigkeiten:
+– Schaden gegen Kleriker: +2
+
+Gewicht: 2~
+@10016 = ~An diesem Kettenpanzer ist etwas wirklich Rohes und Primitives, doch Ihr spürt magische Energie in seinen Gliedern. Er sollte seinen Träger im Kampf schützen können, und die Magie könnte sich in der Wildnis als nützlich erweisen. Allerdings hat die Rüstung einen seltsamen Geruch, der Euch an Hundefell erinnert.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse gegen Tiere: +2
+– Charisma: -1
+
+Rüstungsklasse: 4 (2 gegen Hieb, 6 gegen Wucht)
+Benötigt:
+ 8 Stärke
+
+Gewicht: 20~
+@10019 = ~Dieser Umhang wurde aus verzaubertem Stoff gefertigt, der sich als recht nützlich erweisen dürfte, wenn man Gegner wie Basilisken bekämpft. Er sollte seinen Träger vor deren tödlichem Blick schützen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rettungswurf gegen Versteinerung/Verwandlung: +4
+
+Gewicht: 3~
+@10022 = ~Dieses Amulett wurde mit dunkler Magie verflucht. Wer es trägt, wird von Unglück verfolgt, und auf Reisen oder im Abenteuer ... kann Glück über Leben und Tod entscheiden.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Glück: -1
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 1~
+@10025 = ~Dieser Pfeil sieht zerbrochen aus, doch selbst wenn Ihr eine Hälfte haltet, schwebt die andere direkt daneben. Auch wenn er nicht wirklich mächtig ist, kann er nützlich sein, wenn einem Abenteurer die normalen Pfeile ausgehen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Schlägt als +1-Waffe zu
+– Kehrt zum Träger zurück, wenn abgeschossen
+
+Schaden: 1 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+@10028 = ~Dieser Stab wurde früher von einem Gnoll-Schamanen aus der Gnollfestung an der Schwertküste benutzt.
+
+Es ist schwer zu sagen, wer ihn erschaffen hat. Er fühlt sich recht roh an, und obwohl seine Macht nicht die größte ist, gibt es sicherlich Situationen, in denen er verwendet werden kann. Man glaubt, dass er die Macht besitzt, jede Säure tödlicher zu machen.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Jeglicher vom Träger verursachte Säureschaden wird um 20% erhöht
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Kampfstab
+Typ: 2-händig
+Benötigt:
+ 5 Stärke
+
+Gewicht: 4~
+@10030 = ~Dieser purpurne Umhang hat eine recht majestätische Aura, und man glaubt, dass er für einen König geschaffen wurde, aber ... die Legende verrät nicht, für welchen. Er soll nicht nur seinen Träger schützen, sondern auch alle um ihn herum glauben lassen, dass jedes seiner Worte wahr ist, und sie dazu bringen, ihn zu verehren.
+
+Ihr habt diesen Umhang als Zeichen des Vertrauens und der Dankbarkeit für die Sicherung der Gnollfestung erhalten.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse: +1
+– Rettungswürfe: +1
+– +1 auf Angriffs- und Schadenswürfe gegen Kämpfer, Mönche, Paladine, Waldläufer
+– +1 Charisma (nur Kämpfer, Finstere Streiter)
+
+Gewicht: 3~
+@10032 = ~Dieses Buch beschreibt Rituale, einige, um die natürliche Energie zu zähmen, und einige, um Yeenoghu, das Biest der Metzelei, zu erfreuen. Eines ist besonders morbide und beschreibt die Verbrennung menschlicher Schädel.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+@10034 = ~Diese Tasche ist mit medizinischen Vorräten gefüllt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 15~
+@10037 = ~Dieses brennende Fleisch ist tatsächlich Yeenoghus brennendes Fleisch. Wer es verzehrt, mag den besonderen Segen des Prinzen der Gnollen erhalten, doch er hat seinen Preis.
+
+EIGENSCHAFTEN:
+
+Speziell: Senkt bei Verzehr das Charisma um 1, gewährt aber +2 Schaden gegen gute Kreaturen. Der Bonus ist dauerhaft.
+
+Gewicht: 2~
+@10039 = ~Ihr habt diesen primitiven Schlüssel in der Gnollfestung gefunden. Er muss dort etwas öffnen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@10103 = ~In der Nähe gibt es eine Bergbaustadt. Nashkell ist ihr Name. Dort gibt es einen Tempel, und ich möchte, dass Ihr dorthin geht und mir einige medizinische Vorräte bringt. Der Priester wurde informiert, dass wir möglicherweise Hilfe brauchen könnten, wenn ich mich nicht irre. Schade, dass wir nicht vorher mit ihm gesprochen haben, bevor ich meine Freunde verlor, vielleicht hätten diese etwas genützt – nein. Das hätte die Tragödie auch nicht verhindert. Es tut mir leid, sie sind mir immer noch im Kopf.~
+@10188 = ~Wie andere ihrer Art besteht diese Hellebarde aus einer beilartigen Axtklinge, die auf einem etwa zwei Meter langen Schaft sitzt. Entlang ihres Griffes verläuft eine Reihe von Runen, die es dem Träger ermöglichen, seinen Schlägen zusätzlichen Schaden durch Elektrizität, Kälte oder Feuer nach Wahl zu verleihen. Gelegentlich entlädt sie bei einem einzigen Schlag einen Stoß aller drei Elemente.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– 1% Chance pro Treffer, dass das Ziel zusätzlich je 3 Punkte Kälte-, Elektrizitäts- und Feuerschaden erleidet
+
+ETW0: +1
+Schaden: 1W10+1, +1 Kälte-, Elektrizitäts- oder Feuerschaden (nach Wahl des Trägers)
+Schadensart: Hieb oder Stich, je nachdem, was besser ist
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+Benötigt:
+ 13 Stärke
+
+Gewicht: 14~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Exotic Item Pack                                 \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@40002 = ~Die Geschichte dieses magischen Köchers ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Unbegrenzte Pfeile
+
+Gewicht: 0~
+@40004 = ~Die Geschichte dieses magischen Behälters ist schon lange in Vergessenheit geraten. Es muss aber etwas mit der unerklärlichen, aber gut dokumentierten Knappheit fähiger Bogner in der Zeit der Sorgen zu tun haben.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Unbegrenzte Bolzen
+
+Gewicht: 0~
+@40006 = ~Obwohl dieser kleine Stoffbeutel leer erscheint, wird er doch von einer mächtigen magischen Aura umgeben.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Unbegrenzte Schleuderkugeln
+
+Gewicht: 0~
+@40008 = ~Mit diesem Stein, von dunkler purpurner Farbe, kann der Träger in die Schatten der Dunkelheit sehen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Infravision (bis zu 18 m)
+
+Gewicht: 2~
+@40010 = ~Der Stein fühlt sich kalt an und strahlt Energie aus.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Kältewiderstand: +10%
+
+Gewicht: 2~
+@40013 = ~Tsu-O-Shi +2~
+@40014 = ~Tsu-O-Shi, auch als die Begehrte Klinge bekannt, wurde vor über fünfhundert Jahren im Lande Wa von dem Schwertschmied Murakaken Shinji geschmiedet, von dem man sich erzählte, er könnte den Geist des Metalls selbst erwecken. Tsu-O-Shi wurde in der ansonsten unbedeutenden Familie Kasune von Generation zu Generation weitergereicht, bis der mächtige Daimyo Fushima Takagi, ein bekannter Liebhaber von Schwertern, es sah. Takagi, besessen von dem Schwert, versuchte viele Male vergeblich, es in seinen Besitz zu bringen. Schließlich warb er einen Clan von Ninjas an, die die Klinge für ihn stahlen und das Anwesen der Kasunes verbrannten, um den Diebstahl zu vertuschen. Als die Ninjas die Klinge ihrem Auftraggeber übergaben, wurden sie mit ebendieser Waffe niedergemacht und so jede Verbindung zwischen Takagi und den wahren Eigentümern des Schwerts zertrennt. Takagi verbarg das Schwert, zog sich aber oft zu dessen Versteck zurück, um seine Schönheit und Vollkommenheit zu bewundern. Als Takagi starb, weigerte sein Geist sich, die Erde zu verlassen und das Schwert zurückzulassen. So blieb sein Geist bei Tsu-O-Shi und wurde eins mit ihm. Seit diesem Tag muss sich jeder, der die mächtige Waffe führt, vor dem Geist des Fushima Takagi in Acht nehmen, der die Lebenskraft derer trinkt, die die Waffe berühren, um so mit dem Objekt seiner Begierde auf Toril verweilen zu können. Es besteht daher bei jeder Benutzung die Möglichkeit, daß die verfluchte Klinge dem Träger Lebensessenz entzieht.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Chance, bei Benutzung dauerhaft Lebenskraft oder Attribute vom Träger abzuziehen
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+ETW0: +2
+Schaden: 1W10+2 (Hieb)
+Initiativefaktor: 2
+Fertigkeit: Katana
+Typ: 1-händig
+Benötigt:
+ 6 Stärke
+
+Gewicht: 4~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// shaman - Dreamheart                              \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@60003 = ~Vampirwolf - Rudelführer~
+@60004 = ~Zombiewolf~
+@60005 = ~Manifestation der Verderbnis~
+@60006 = ~Furcht vor der Stasis~
+@60007 = ~Ringfliegen~
+@60008 = ~Kopf des Vampirwolfs~
+@60009 = ~Dies ist der Kopf eines Vampirwolfs, der ein Rudel untoter Wölfe anführte. Das Rudel schändete die Höhle, die, wie Ihr herausgefunden habt, ein Ort großer geistiger Macht ist.
+
+Er kann als Beweis dienen, dass Ihr mit dem Rudel abgerechnet habt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 3~
+@60010 = ~Herzfigur~
+@60011 = ~Diese Figur ist nicht viel größer als ein Kieselstein und sieht aus wie ein seltsames kleines Herz. Sie ist recht warm bei Berührung. Wenn Ihr sie haltet, fühlt es sich fast an, als würde sie schlagen. Es ist schwer zu sagen, ob es nur Eure Einbildung, Euer eigener Puls oder etwas anderes ist, aber es ist sicherlich eine faszinierende Empfindung.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@60012 = ~Seelenherz-Kraut~
+@60013 = ~Diese Pflanze hat leuchtende bläuliche Blätter. Das Kraut selbst hat außerdem einen süßen Duft, der Euch an Weintrauben erinnert.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@60015 = ~Schicksalsspindel +2~
+@60016 = ~Dieser Kurzbogen wurde einst von einem mächtigen Schamanen von der Schwertküste benutzt: Zaznya. Wenn man den Erzählungen glauben darf, war Zaznya eine geschickte Bogenschützin, beschützt von einer Armee von Geistern. Sie beschützte Orte der Macht vor denen, die sich wenig um ihre Vergangenheit kümmerten ... und um ihre Zukunft. Manche sagen, einige der Geister griffen mit ihr nach der Sehne des Bogens und halfen, ihre Pfeile mit großer Präzision zu lenken.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Kann zwei zusätzliche Zauber der 1. Stufe pro Tag wirken (nur Schamane)
+- Elektrizitätsresistenz: +10%
+
+ETW0: +2
+Schaden: +2
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: 2-händig
+Benötigt:
+ 3 Stärke
+
+Gewicht: 2~
+@60017 = ~Archäologische Ausgrabungsstätte, inneres Grabmal (Schamane)~
+@60018 = ~(Ihr habt ein seltsames, traumartiges Reich betreten. Und Ihr seid nicht allein.)~
+@60019 = ~(Was einst ein Freudenfeuer war, ist nun ein Strudel aus wirbelnden Glutresten und Asche geworden. Etwas daran ist einladend.)~
+@60020 = ~(Werdet Ihr es wagen, hineinzutreten, Schamane?)~
+@60021 = ~Ich sehe, Ihr habt meinen Ruf vernommen. Willkommen, Schamane.~
+@60022 = ~Wow. Das ist ... ein seltsamer Ort. Wartet - träumen wir? Und ist das da ein schwebendes Herz?~
+@60023 = ~Agh. Ich habe das Gefühl, Ihr habt uns in eine sinnlose Abschweifung geführt. Wisset, dass mir nicht gefällt, was ich sehe, <CHARNAME>.~
+@60024 = ~Ist das ein Traum, <CHARNAME>? Träumen wir? Es dünkt mich ein seltsamer Traum, das gestehe ich Euch, Anführer.~
+@60025 = ~Hmm? Wabernde Strudel ...? Wirre Visionen? Was ist das? Was für eine vage, wirre Reise ist das?~
+@60026 = ~Ich bin froh, dass Ihr mich gehört habt. Dass die Glut meines eigenen Traums Euch erreicht und hierher zurückgeführt hat. Sorgt Euch nicht, denn ich will Euch nichts zuleide tun.~
+@60027 = ~Wo bin ich? Wer seid Ihr?~
+@60028 = ~Das ist alles schön und gut, aber Eure Beweggründe kümmern mich wenig. Ich verlange Antworten. Was für ein boshafter Ort ist das, hmm?~
+@60029 = ~Ah. Ihr seid es. Seid Ihr hier, weil Ihr Eure Meinung geändert habt? Wollt Ihr mir helfen?~
+@60030 = ~Ich bin nicht sicher, ob ich verstehe, was Ihr seid und was Ihr von mir wollt. Ihr wart nicht gerade klar mit Euren Erklärungen.~
+@60031 = ~Nein. Ich glaube, ich gehe jetzt einfach.~
+@60032 = ~Ich nahm an, es würde Euch hier gefallen. Ihr habt diesen Ort gesehen. Nun, die dumpfe Inkarnation davon. Eine, die von Kozah genutzt wurde. Eine, die von den Archäologen untersucht wurde, diesen groben Ausgräbern.~
+@60033 = ~Was sie über diesen Ort wussten, war wahr. Aber sie wussten nicht, dass er bereits lebendig war, bevor sie diese Stätte fanden, ja sogar bevor Kozah und seine Leute diese Höhle betraten. Und dass ich, das Traumherz, hier schon eine ganze Weile schlage.~
+@60034 = ~Ich brauche vielleicht mehr Informationen als das. Was seid Ihr?~
+@60035 = ~Nichts, was Ihr sagt, ergibt irgendeinen Sinn, Kreatur. Es ist recht nervig, und ich habe wenig Geduld für Rätsel.~
+@60036 = ~Ich versuche es erneut: Ich bin das Traumherz. Ein Wesen, das aus den Hoffnungen und Kräften dieses alten Ortes geboren wurde und von all den Männern, Frauen, Tieren und Kreaturen genährt wurde, die diese Höhle betraten. Ich nährte mich von ihren Hoffnungen. Und während ihre Verstände, Herzen und Seelen heller wurden, von neuen Ideen angesteckt, während sie an die Wände malten, ihr Essen aßen, tanzten, wurde ich immer lebendiger.~
+@60037 = ~Das ist ein Ort großer Macht. Als diese Welt weit weniger fortgeschritten war, nannten sie diesen Ort die Grotte des Schlummergolds. Ein Ort der Geister und der Erde. Ein Ort, an dem Leute wie Ihr kamen und meditierten. Antworten fanden. Inspiration. Hoffnung. Freude. Und in jüngster Zeit wurde er verdorben.~
+@60038 = ~Sprecht Ihr von der Ausgrabung? Ich glaube nicht, dass diese Leute versucht haben, diesem Ort zu schaden.~
+@60039 = ~Ich bin nicht sicher, ob ich verstehe, wovon Ihr sprecht, aber es klingt, als wäre etwas wirklich Ernstes geschehen.~
+@60040 = ~Zur Sache, Kreatur.~
+@60041 = ~Diese Leute? Nein. Was in den wahren Kern dieses Ortes eindrang, war etwas Dunkleres.~
+@60042 = ~Nachdem die Ausgräber fort waren und den Eingang unversiegelt zurückließen, drangen verderbte Dinge in die Höhle ein. Während sie es nie schafften, den wahren Kern des Ortes zu erreichen, das wahre Schlummergold, gelang es ihnen, die von den Archäologen freigelegten Kammern zu schänden.~
+@60043 = ~Diese Kreaturen waren Tiere, oder vielmehr ihre Kadaver, berührt von den dunklen Fingern des Untodes. Ein Rudel untoter Wölfe, das das Freudenfeuer, die Wände und den Boden mit ihrem üblen Speichel, ihrem Gestank, ihrer Aura befleckte.~
+@60044 = ~Untote Wölfe? Diese armen Kreaturen müssen eine Schlacht gegen ein anderes untotes Wesen verloren haben. Solche Monster sollten nicht durch die Wildnis streifen. Wir sollten ihrem Elend ein Ende setzen, <CHARNAME>.~
+@60045 = ~Ich bemitleide die, die einem solchen Rudel von Kreaturen begegnen mögen.~
+@60046 = ~Das kann nicht ignoriert werden. Und deshalb brauche ich Euch.~
+@60047 = ~Wofür? Sie sind fort, nicht wahr?~
+@60048 = ~Hört zu, ich habe keine Zeit dafür. Ich gehe einfach. Es gibt ernstere Angelegenheiten, die meine Aufmerksamkeit brauchen.~
+@60049 = ~Sie sind nicht hier, aber sie sind nicht fort.~
+@60050 = ~Ich kann sie in der Nähe spüren. Und ich fürchte, sie könnten zurückkehren. Und das darf niemals geschehen.~
+@60051 = ~Diese Wände sind ein Heim goldener Träume. Der Erinnerungen. Wie ich Euch schon sagte, kamen die Leute hierher für Antworten. Um Frieden zu finden. Um zu trauern. Andere kamen für andere Arten von Ritualen. Die der Fruchtbarkeit. Sie lagen auf den Altären, während sie ihre Lüste, ihr Fleisch und ihre Freuden erforschten. Und das hat mich nie gestört. Lust kann ebenso stark sein wie Furcht und Hoffnung, wenn man ihr eine richtige Chance gibt.~
+@60052 = ~Diese Kreaturen brachten nicht nur Dunkelheit, sondern schwächten jahrhundertealte Erinnerungen. Unzählige Momente, die das Leben anderer bereicherten ... und mein eigenes.~
+@60053 = ~... und sie könnten immer noch zurückkehren. Sie kennen diesen Ort nun. Sie müssen seine Macht gespürt haben. Meine Kräfte. Und die all der Erinnerungen, die in diese Wände eingraviert sind. Wir können nicht riskieren, dass sie wieder hierherkommen. Noch mehr Schaden anrichten.~
+@60054 = ~Deshalb will ich, dass Ihr sie findet und tötet. Das ist doch, was Ihr tut, nicht wahr? Ich erkenne, dass Euch solche Kämpfe nicht fremd sind. Und Ihr seid außerdem ein Schamane. Wie die, die vor Euch hierherkamen.~
+@60055 = ~Ich helfe Euch. Ich möchte nicht, dass diese Kreaturen diesen Ort weiter verderben.~
+@60056 = ~Ich bezweifle, dass Ihr tatsächlich erkennen könnt, was ich gesehen habe oder was ich durchgemacht habe. Aber schön. Ich nehme an, ich kann Euch helfen.~
+@60057 = ~Ich habe keine Zeit dafür. Lockt einen anderen Narren, aber ich werde nicht Euer Hund oder Euer Diener sein.~
+@60058 = ~Wunderbar! Sie sind noch hier, irgendwo in der Nähe. Findet sie. Das Rudel war nicht groß, es waren fünf ... und sie alle verdienen es, zur Ruhe gebettet zu werden.~
+@60059 = ~Bitte kehrt zu mir zurück, wenn sie alle getötet sind.~
+@60060 = ~Das ist ... enttäuschend. Kehrt jedoch zu mir zurück, wenn Ihr Eure Meinung ändert.~
+@60061 = ~Habt Ihr diese Kreaturen gefunden? Sind sie tot?~
+@60062 = ~Das Rudel wird Euch keine Probleme mehr bereiten, noch wird es diesen Ort weiter verderben. Hier ist der Kopf des Rudelführers als Beweis.~
+@60063 = ~Noch nicht. Auf Wiedersehen.~
+@60064 = ~Also? Habt Ihr Eure Meinung geändert? Möchtet Ihr mir weiterhin helfen?~
+@60065 = ~Sagt mir einfach, was Ihr braucht. Vielleicht kann ich Euch doch helfen.~
+@60066 = ~Nein, eigentlich nicht.~
+@60067 = ~Ah! Nun, ich nehme an, dies kann als ein Zeichen des Sieges gesehen werden. Danke. Ihr habt gute Arbeit geleistet, Schamane.~
+@60068 = ~Ich habe mich gefragt, wie mächtig und einfallsreich Ihr sein könnt. Ihr seid nicht wie die, die nur über das Universum nachsinnen, sondern jemand, der die Wirklichkeit verändern kann. Und der einige Träume wahr werden lassen kann. Selbst wenn einige davon recht ... blutig sein mögen.~
+@60069 = ~Als Ihr in meine kleine goldene Welt tratet, spürte ich, dass etwas Besonderes an Euch ist. Und ich sehe, ich habe mich nicht geirrt. Ich kann nicht genau benennen, welcher Teil von Euch das ist, aber ... es ist sicherlich etwas an Euch, das Euch recht interessant macht.~
+@60070 = ~Danke. Nehme ich an.~
+@60071 = ~Natürlich bin ich besonders. Ich wurde mit der Gabe geistiger Stärke geboren. Nun, nicht nur geistiger.~
+@60072 = ~Gern geschehen.~
+@60073 = ~Und Ihr seid sicherlich nicht bescheiden. Aber das stört mich nicht.~
+@60074 = ~Ihr fasziniert mich. Euer Geist, Euer Fleisch, Euer Blut und Schweiß - sie alle spiegeln Zeichen von Erfahrung und starkem Willen wider. Das lässt mich fragen ... Ja, ich könnte Eure Hilfe noch gebrauchen.~
+@60075 = ~Ich habe einen Vorschlag. Helft mir weiter. Es gibt noch etwas, das Ihr für mich tun könntet. Wenn Ihr es tut, werde ich etwas mit Euch teilen. Eine Waffe, die ein anderer Schamane hinterlassen hat. Etwas, das Ihr in den kommenden Schlachten gebrauchen könntet.~
+@60076 = ~Und wenn ich solche Schlachten lieber vermeiden würde?~
+@60077 = ~Ich kann Euch helfen. Ich finde diesen Ort interessant und es wert, beschützt zu werden.~
+@60078 = ~Ich kann Euch helfen. Es sieht so aus, als gäbe es Leute, die mich tot sehen wollen. Ich könnte jede Ressource gebrauchen, die ich bekommen kann.~
+@60079 = ~Ich bin nicht interessiert. Tut mir leid, aber ich habe genug Zeit mit diesen Wölfen verschwendet. Ich muss gehen.~
+@60080 = ~Haha! Nun, es tut mir leid, das sagen zu müssen, aber ich fürchte, manche Schlachten und manche Eurer Feinde kümmern sich wenig darum, was Ihr bevorzugt. Und eine Waffe zu führen bedeutet nicht, dass man damit töten muss, oder?~
+@60081 = ~Nun, ich nehme an, ich kann mir zumindest anhören, was Ihr braucht.~
+@60082 = ~Ich glaube nicht, dass ich noch mehr Zeit mit Euch verschwenden kann. Tut mir leid, aber ich muss gehen.~
+@60083 = ~Ich freue mich, das zu hören.~
+@60084 = ~Diese Kreaturen, die Ihr getötet habt: ihre üble Gegenwart hatte eine Wirkung auf diesen Ort, wie ich Euch schon sagte. Aber der Fleck kann noch getilgt werden, wenn ein richtiges Ritual durchgeführt wird.~
+@60085 = ~Hier. Nehmt diese Figur und platziert sie dort, wo die Anhänger Kozahs ihr Idol zu platzieren pflegten, auf dem Altar, wo die Erinnerung an Kozah die Kontrolle über diese armen Ausgräber übernahm. Sie wird mich mit der weltlichen Inkarnation der Grotte verbinden, der äußeren Hülle des wahren Schlummergolds. Sobald es getan ist, kehrt zu mir zurück, denn das ist nicht das Einzige, worum ich Euch bitten werde.~
+@60086 = ~Ich tue, worum Ihr bittet.~
+@60087 = ~Ich habe keine Zeit dafür.~
+@60088 = ~Dann erwarte ich Eure Rückkehr.~
+@60089 = ~Schade. Aber Ihr wisst, wo Ihr mich findet, wenn Ihr Eure Meinung ändert.~
+@60090 = ~Bringt die Herzfigur, die ich Euch gab, dorthin, wo die Anhänger Kozahs ihr Idol aufstellten. Ich warte hier auf Euch.~
+@60091 = ~Ich kann fühlen, dass Ihr die Figur auf dem Altar platziert habt. Danke, Ihr habt gute Arbeit geleistet. Dank Euch wird die Verderbnis eingedämmt und wird sich nicht ausbreiten. Sie ist noch da, aber eingeschlossen. Stellt Euch einen geistigen Kolben vor, der sie nicht wachsen oder sich auf andere Teile des felsigen Fleisches ausbreiten lässt, das die Grotte bildet.~
+@60092 = ~Nun werden wir ein besonderes Kraut brauchen, um die Verderbnis aus der Grotte zu ziehen: das Seelenherz-Kraut. Das Problem ist, dass dies eine seltene Pflanze ist.~
+@60093 = ~Ihr würdet wohl am ehesten denken, sie wächst im Wald, aber nein. Sie findet sich gewöhnlich am Berghang, in felsigen Gegenden. Also, während ich weiß, dass es keine leichte Aufgabe ist: Wenn Ihr mir helfen wollt, müsst Ihr diese Pflanze finden.~
+@60094 = ~Ihr habt recht, das ist nicht sehr ... konkret. Wo in den Neun Höllen soll ich dieses Kraut finden?~
+@60095 = ~Ich kann Euch nicht versprechen, dass ich es finden werde, aber ich halte die Augen offen.~
+@60096 = ~Wie *sehr* konkret. Hmpf! Nun, es wird ein Wunder sein, wenn ich es finde.~
+@60097 = ~Dieser Ort ist mein Fleisch und meine ganze Welt. Ich weiß nicht, wo genau Ihr es finden werdet. Wäre ich an Eurer Stelle, würde ich jedoch in der Nähe der felsigen Gegenden suchen. Geht vielleicht nach Osten, fort von der salzigen Brise, und seht, ob Ihr etwas findet, wo die Berge das Land beherrschen.~
+@60098 = ~Ich glaube wirklich, dass Ihr Erfolg haben könntet. Ihr seht aus wie ein glücklicher <PRO_RACE>.~
+@60099 = ~Findet das Seelenherz-Kraut, bitte. Sucht dort, wo Berge aufragen und nach dem Himmel über Euch greifen.~
+@60100 = ~Ich kann den süßen Duft des Seelenherz-Krauts spüren! Ihr habt es gefunden. Oh, das ist wirklich aufregend!~
+@60101 = ~Nun bringt es zum Altar, auf dem Ihr die Figur platziert habt, und legt auch dieses Kraut darauf. Ich werde meine Kraft bündeln und sie nutzen, um das Untote herauszuziehen, das wir mit der Figur eingeschlossen haben. Denkt jedoch daran, dass dies bedeutet, dass die Verderbnis aus diesen Wänden gesogen wird, und Ihr Euch ihr stellen müsst. Bitte sterbt nicht, wenn das geschieht.~
+@60102 = ~Geht und legt das Kraut auf den Altar. Dorthin, wo Ihr die Herzfigur platziert habt und wo Ihr einst von den Ausgräbern angegriffen wurdet, die vom Zorn Kozahs verdorben waren.~
+@60103 = ~Ich kann spüren, dass die Manifestation der Verderbnis nicht tot ist. Tötet sie!~
+@60104 = ~Ihr seid wahrlich ein wunderbares Ding, Schamane. Mmm. Ihr seid wahrlich eine wunderbare Speise.~
+@60105 = ~Wartet - was meint Ihr?~
+@60106 = ~Mmm. Ich habe ein schlechtes Gefühl bei all dem.~
+@60107 = ~Ihr habt mir sehr geholfen, aber ... die Tatsache, dass nichts davon für Euch wirklich eine Herausforderung ist, lässt mich wieder die Langeweile überkommen.~
+@60108 = ~Warum dieser Tonwechsel? Sprecht!~
+@60109 = ~Ich weiß nicht, wovon Ihr sprecht. Helft mir zu verstehen, was vorgeht.~
+@60110 = ~Ich habe es Euch gesagt. Ich nähre mich von Erfahrung. Von Hoffnung. Von Träumen. Aber auch von Ängsten. Nervenkitzel. Lust. Und vielen anderen Empfindungen. Als diese Ausgräber mich weckten, fühlte ich mich hungrig. Daher versuchte ich, Euch zu kontaktieren. Ich spürte Euch damals, als Ihr unter den Ausgräbern tötetet. Ihr fühltet Euch ... stärker. Und ich fand Euch interessant.~
+@60111 = ~Diese Aufgaben von Euch drehten sich nicht nur um die Reinigung. Das auch, aber - ich war hungrig nach Empfindungen. Ich war ...~
+@60112 = ~... gelangweilt. Aber Ihr seid wie eine feine Erfrischung. Doch nun, nach einem weiteren Sieg von Euch, fühle ich, dass eine Veränderung nötig ist. Ich will mehr, als ich gesehen habe. Es tut mir leid, aber wir alle müssen etwas essen, und so sättige ich mich eben.~
+@60113 = ~War also alles ein Trick?~
+@60114 = ~Geister können wirklich trickreich sein. Bereitet Euch vor, ich fühle, wohin das alles führt, <CHARNAME>.~
+@60115 = ~Was um aller Geister willen soll das bedeuten? <CHARNAME>, seid vorsichtig. Ich fühle eine Veränderung in der Luft.~
+@60116 = ~Es sieht so aus, als hätte man mit uns gespielt.~
+@60117 = ~Boo findet, dieses Herz klingt jetzt anders. *Quiek*~
+@60118 = ~Was ist es dann? Eine Falle? Xsa nindol k'lar!~
+@60119 = ~Wenn mir langweilig ist, werden die Träume stumpf, und ich beginne, mehr Empfindungen zu suchen. Und ich will mehr davon von Euch. Ich will mehr und mehr und mehr und ...~
+@60120 = ~... ich brauche es einfach. Es tut mir leid, das ist nichts Persönliches, aber ich bin noch so hungrig.~
+@60121 = ~Das reicht. Ich bin unsterblich. Und Ihr seid stark. Und Ihr habt diese kleinen Dinge besiegt, die ich erschuf. Ich ... respektiere Euch. Ich sollte wohl nicht jemanden quälen, der versucht hat, mir zu helfen. Der kleine Rausch hat mir geholfen, und ich werde versuchen, den Drang zu schmausen zu beherrschen.~
+@60122 = ~Ich hoffe, Ihr werdet mir vergeben.~
+@60123 = ~Ich versuche es.~
+@60124 = ~Ihr habt gerade versucht, mich zu töten!~
+@60125 = ~Bei den Göttern, was seid Ihr? Ihr seid schlimmer als Kozah!~
+@60126 = ~Danke. Ihr seid sehr verständnisvoll.~
+@60127 = ~Und dafür entschuldige ich mich. Und ich muss zugeben, Ihr seid nicht leicht zu verspeisen.~
+@60128 = ~Eigentlich habe ich mich an den Träumen von Kozah gesättigt, also ... Aber ich bin nicht er. Und ich hätte mich daran erinnern sollen, bevor ich versuchte, Euch zu töten.~
+@60129 = ~Wie Ihr vielleicht bemerkt habt, könnt Ihr mich nicht töten, also lasst uns das einfach ... vergessen. Ich lasse Euch gehen. Ihr habt eine ganze Weile versucht, mir zu helfen. Ich weiß das zu schätzen. Und ich habe Euch etwas versprochen. Ihr findet es auf dem Altar, in dieser Inkarnation des Schlummergolds.~
+@60130 = ~Ich hoffe, Ihr werdet eines Tages Frieden finden und Euren Hunger sättigen. Ich werde es jedoch nicht sehen, denn ich bin am Ende.~
+@60131 = ~Euer Hunger muss wahrlich groß sein, wenn Ihr mich angegriffen habt. Aber ich nehme an, das ist recht normal. Ihr habt wahrscheinlich viele Jahre geschlafen und seid ... hungrig aufgewacht.~
+@60132 = ~Das stimmt. Ich nähre mich von Geschichten und Versprechen und Fantasien. Als ich zuerst erwachte, spürte ich einen dieser Ausgräber draußen. Er las etwas ... ein Buch. Und es ließ mich erkennen, wie leer ich mich fühle. Wie sehr ich meinen Körper mit etwas füllen will. Mit irgendetwas. Furcht. Hoffnung. Glaube. Visionen von Zorn und Feier und Sex und Intrigen! Wie in diesem Buch. Schade, dass der Mann tot ist und seine Sachen von irgendwelchen Schlägern genommen wurden. Denn ich frage mich, wie das Buch endete.~
+@60133 = ~Ich weiß, es klingt vielleicht albern, aber was, wenn ich Euch das Buch bringe? Erinnert Ihr Euch an den Titel?~
+@60134 = ~Was Ihr wollt und wie Ihr Euch fühlt, ist mir gleichgültig. Ich bin fertig. Ich nehme meine Belohnung und gehe.~
+@60135 = ~Ihr würdet das für mich tun? Das wäre etwas ... Neues.~
+@60136 = ~Ich glaube, es war eine Geschichte der ... Toten Drei. Ich würde sie liebend gern lesen. Ich habe nie ein eigenes Buch besessen.~
+@60137 = ~Ich wäre Euch dankbar, wenn Ihr mir dieses Buch brächtet.~
+@60138 = ~Natürlich. Lasst mich Euch etwas sagen, Schamane. Ich glaube, es gibt einen Teil von Euch, der für große Dinge gemacht ist. Behaltet das im Kopf, wenn Ihr den Pfad Eurer eigenen Geschichte wandelt.~
+@60139 = ~Und ich entschuldige mich für all die Feindseligkeit.~
+@60140 = ~Glaubt mir oder nicht, aber es ist gut, Euch lebendig zu sehen.~
+@60141 = ~Richtig. Tut mir leid, aber ich muss gehen.~
+@60142 = ~Ich habe das Buch, das Ihr erwähnt habt. Hier. Ich lasse es auf diesem Felsen.~
+@60143 = ~Ihr ... Ihr habt mir wirklich ein Buch gebracht? Ihr steckt voller Überraschungen, Schamane.~
+@60144 = ~Ich habe Euch bereits gesagt, dass Ihr den Bogen nehmen könnt, aber lasst mich etwas von meiner Erfahrung mit Euch teilen. Ich lasse Euch Einblicke in das sehen, was ich einst sah ...~
+@60145 = ~Und lasst mich Euch sagen, dass ich glaube, es gibt einen Teil von Euch, der ... Euch genauso überraschen kann, wie Ihr mich heute überrascht habt. Ihr seid für große Dinge gemacht. Denkt daran.~
+@60146 = ~Eure üblichen Träume werden aus irgendeinem Grund etwas anderes. Eine Vision einer Höhle voller ungewöhnlicher Malereien. Sie wirken lebendig und ein wenig bezaubernd. Ihr seid Euch nicht sicher, wie das möglich ist, aber sie hallen in Eurem Geist, Eurem Herzen und Eurer Seele wider, und dann ... werden sie zu einer Stimme. Einer, die Euch zurück zu einem Ort lockt, den Ihr vor einiger Zeit gesehen habt. Die archäologische Ausgrabungsstätte. Es ist schwer zu sagen, ob das alles eine Art Trick ist, den Euer Geist Euch spielt, oder etwas anderes. Der Traum wird immer lebendiger. Die Bilder werden Worte. Die Worte werden eine Stimme, und sie ist ganz anders als alles, was Ihr je gehört habt. Und sie wiederholt immer und immer wieder nur einen Satz: "Tretet in die Asche und träumt, was einst geträumt ... und verloren wurde."~
+@60147 = ~Traumherz~
+@60148 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis, und das Traumherz hat ein neues Buch zum Verschlingen. Die Sache ist geregelt, und der Geist ruht zufrieden in seiner Höhle.~
+@60149 = ~Traumherz
+
+Ich hatte einen prophetischen Traum, der eine fantastische Version der Höhle in der archäologischen Ausgrabung zeigte. Ich fühle mich gedrängt, zurückzukehren und das zu untersuchen.~
+@60150 = ~Traumherz
+
+Ich begegnete dem Traumherz, einem Geist, der in der Höhle lebt. Es wollte mich zu einer Aufgabe bewegen, die ich nicht übernehmen wollte.~
+@60151 = ~Traumherz
+
+Ich begegnete dem Traumherz, einem Geist, der in der Höhle lebt, und der mich beauftragt hat, ihm zu helfen, die Verderbnis aus der Höhle zu tilgen. Ich muss ein Rudel untoter Wölfe in der Nähe ausfindig machen und töten.~
+@60152 = ~Traumherz
+
+Die Wölfe wurden besiegt, und ich habe den Kopf des Rudelführers als Beweis. Ich sollte zurückkehren und mit dem Traumherz sprechen.~
+@60153 = ~Traumherz
+
+Das Traumherz hat mich gebeten, ein besonderes Seelenherz-Kraut zu finden. Es konnte nicht genau sagen, wo es wächst, schlug aber vor, dass ich in bergigen Gegenden suchen sollte, möglicherweise östlich von hier.~
+@60154 = ~Traumherz
+
+Ich habe das Seelenherz-Kraut gefunden. Nun kann ich zurückkehren und mit dem Traumherz sprechen und endlich die Verderbnis aus der Höhle tilgen.~
+@60155 = ~Traumherz
+
+Die Aufgaben des Traumherzens sind endlos. Ich erschuf den Wächter, und die jüngste Bitte war, eine Figur auf den Altar zu legen. Ich lehnte ab.~
+@60156 = ~Traumherz
+
+Nachdem der Wächter errichtet ist, hat mich das Traumherz gebeten, eine Figur auf den Altar zu legen.~
+@60157 = ~Traumherz
+
+Ich habe die Verderbnis besiegt, die sich manifestierte, nachdem ich das Seelenherz-Kraut auf den Altar gelegt hatte. Ich sollte zurückkehren und mit dem Geist sprechen.~
+@60158 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis. Das Traumherz wollte mehr von den Lebenden erleben und beschloss, dies in einem Kampf als Prüfung zu tun. Die Sache ist geregelt, und der Geist ruht getrost und zufrieden in seiner Höhle.~
+@60159 = ~Traumherz
+
+Die Höhle ist frei von Verderbnis. Das Traumherz wollte mehr von den Lebenden erfahren und beschloss, dies in einer Prüfung des Kampfes zu tun. Wir haben den Kampf bestanden, und der Geist hat Interesse an einem Buch über die Toten Drei bekundet.~
+@60160 = ~Irdenes Gefäß~
+@60161 = ~Dieses einfache Terrakottagefäß ist mit einer gleichmäßigen, klaren Glasur überzogen. Es ist derzeit leer.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5~
+@60162 = ~Gefülltes irdenes Gefäß~
+@60163 = ~Dieses einfache Terrakottagefäß ist mit einer gleichmäßigen, klaren Glasur überzogen. Ihr habt es mit Wasser aus dem Wasserfall gefüllt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 25~
+@60164 = ~Wächter-Samen~
+@60165 = ~Dieser besondere Samen wurde Euch vom Traumherz anvertraut. Man hat Euch gebeten, ihn draußen vor der Höhle des Traumherzens in die Erde zu setzen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@60166 = ~Ihr füllt das irdene Gefäß mit Wasser aus dem Wasserfall.~
+@60167 = ~Ihr findet eine weiche Stelle mit freiliegender Erde und pflanzt den Samen. Ihr gießt ihn außerdem mit dem irdenen Gefäß.~
+@60168 = ~Ihr sorgt wahrlich gut dafür, dass dieser Ort gedeiht, Schamane ... Also, da diese üblen Wölfe tot sind und die Höhle von der Verderbnis gereinigt wurde, sollten wir auch sicherstellen, dass keine Kreaturen wie sie unser schönes Heiligtum belästigen. Deshalb möchte ich einen Wächter für mich erschaffen.~
+@60169 = ~Einen Wächter?~
+@60170 = ~Eh, natürlich gibt es mehr zu tun. Es fühlt sich fast an, als wolltet Ihr mich hierbehalten.~
+@60171 = ~Ich bin fertig damit, für Euch zu arbeiten. Nein. Das nimmt zu viel meiner kostbaren Zeit in Anspruch.~
+@60172 = ~Ja. Einen Wächter.~
+@60173 = ~Ich möchte diesen Ort vor allem sicher und in perfektem Zustand halten, Schamane. Genau das verdient er. Was wir verdienen.~
+@60174 = ~Hier. Ich habe hier einen besonderen Samen. Ich möchte, dass Ihr ihn vor dem Eingang platziert, wo Ihr zuerst den Ausgräbern begegnet seid. Dort ist ein perfekter Platz dafür, zwischen dem Eingang und dem alten Eingang, der gerade nicht wirklich ... funktionsfähig ist.~
+@60175 = ~Dann gießt ihn. Ihr braucht das frischestmögliche Wasser. Irgendwo gibt es ein Gefäß ... ah! Hier! Es gibt einen Ort, an dem Ihr solches Wasser bekommen könnt. In der Nähe ist ein Wasserfall. Stellt das Gefäß darunter, lasst es sich füllen und gießt dann das Wasser über den Samen und lasst die Wunder geschehen!~
+@60176 = ~Ihr habt wunderbare Arbeit mit Euren anderen Aufgaben geleistet, bitte gebt noch nicht auf. Wir sind fast fertig.~
+@60177 = ~Wir sind fast da. Bitte denkt darüber nach. Atmet vielleicht tief frische Luft ein und kehrt zu mir zurück. Wir sollten unsere Zusammenarbeit noch nicht beenden, Schamane. Es wäre so schade ...~
+@60178 = ~Ich kann schon spüren, wie die Wurzeln des Wächters ihren Weg tiefer in die weiche Erde suchen. Danke, Schamane.~
+@60179 = ~Willkommen zurück, Schamane. Habt Ihr es Euch überlegt, mir einen Wächter zu erschaffen?~
+@60180 = ~Nein, habe ich nicht.~
+@60181 = ~Ich nehme an, ich kann mir anhören, was Ihr zu sagen habt.~
+@60182 = ~Willkommen zurück, Schamane. Habt Ihr den Wasserfall gefunden?~
+@60183 = ~Noch nicht, aber ich kehre zurück, sobald ich ihn gefunden habe.~
+@60184 = ~Ich habe Schwierigkeiten, ihn zu finden.~
+@60185 = ~Ich erwarte Eure Rückkehr.~
+@60186 = ~Sucht im Südosten, dann findet Ihr ihn. Eine Dryade und ihr Baum sind in der Nähe.~
+@60187 = ~Schöpft einfach Wasser am oberen Ende des Wasserfalls.~
+@60188 = ~Traumherz
+
+Das Wolfsrudel ist bereits besiegt, doch wie eine Marionette an Fäden wünscht das Traumherz, dass ich tanze. Das Traumherz wird warten müssen.~
+@60189 = ~Traumherz
+
+Nachdem das Wolfsrudel besiegt ist, bat mich das Traumherz, vor der Höhle einen Wächter zu erschaffen. Ich habe einen Samen, muss aber das irdene Gefäß mit Wasser aus einem Wasserfall im Südosten füllen.~
+@60190 = ~Traumherz
+
+Ich habe den Wasserfall gefunden und das irdene Gefäß mit klarem Quellwasser gefüllt. Ich sollte zur Ausgrabungsstätte zurückkehren.~
+@60191 = ~Traumherz
+
+Der Samen wurde gepflanzt und gegossen. Ich sollte zum Traumherz zurückkehren.~
+@60192 = ~Der Wächter des Traumherzens~
+@60193 = ~Am oberen Ende des Wasserfalls ist klares Wasser. Ihr solltet das irdene Gefäß hier füllen.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Monk - Restoring Saiai no Hito                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@70006 = ~Dieses Amulett wäre normalerweise in einem Griff eines Katanas verborgen, direkt unter der Lederwicklung. Genau dieses Amulett sieht wirklich alt aus.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@70008 = ~Dies sieht aus wie der Griff eines zerbrochenen Katanas. Es könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald seine Klinge gefunden ist.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+@70010 = ~Dies sieht aus wie die Klinge eines zerbrochenen Katanas. Sie könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald sein Griff gefunden ist.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+@70012 = ~Diese Armschienen wurden in Kozakura geschaffen. Sie sind warm bei Berührung, und obwohl sie recht leicht sind, wirken sie ziemlich robust. Von einer mächtigen Priesterin namens Ume nach der süßesten aller kozakuranischen Früchte verzaubert, mögen sie helfen, den Geist klar und im Gleichgewicht zu halten, selbst wenn der Zorn versucht, die Kontrolle über den Mönch zu übernehmen. Sie können dem Träger dieser Armschienen im Kampf auch helfen, indem sie seine Schläge lenken.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Nahkampf-ETW0: +2
+– Schutz vor Berserkerwut
+
+Gewicht: 1~
+@70014 = ~Dieses Schwert ist als Saiai no Hito bekannt. Es wurde von Ne Kurosuna geschaffen, einem ehemaligen Mitglied des Saku-Klosters. Er war eines der ursprünglichen Mitglieder des Klosters und trainierte dort jahrelang. Er war für seinen scharfen Verstand und seine anmutigen Techniken bekannt. Er war auch recht stark, wahrscheinlich einer der stärksten Mönche unter den anderen Mitgliedern des Saku-Klosters, solange er noch dort war.
+
+Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seinen früheren Geliebten an Räuber verloren hatte, die ihn töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seinem früheren Geliebten?
+
+Nach einigen Monaten beschloss er, dass er, wenn er diese Gefühle verstehen und entscheiden wollte, was zu tun sei, das Kloster verlassen und in Einsamkeit nachdenken und um Antworten und Erleuchtung beten musste. Da er gern durch Arbeit meditierte, begann er, Schwerter zu schmieden. Schließlich führte ihn das zur Erschaffung dieses Schwertes: Saiai no Hito. Es sollte ein Geschenk an Shiroume sein, da Ne beschlossen hatte, dass Frieden nur durch Ehrlichkeit erreicht werden kann. Er hoffte, dass ... Meister Yakuchi vielleicht verstehen, ihnen eine Chance geben oder zumindest helfen würde, Freunde zu bleiben. Ne beschloss, dass das ein Verrat an seiner früheren Liebe wäre. Er respektierte seine Vergangenheit noch immer. Er erinnerte sich noch immer daran.
+
+Saiai no Hito sollte ein Symbol der Liebe, der Verbundenheit und der Erleuchtung sein. Doch Ne Kurosuna wurde auf dem Weg zum Kloster getötet. Die Klinge ging daraufhin verloren, und es ist schwer zu sagen, wie sie ... oder vielmehr ihre Teile an die Schwertküste gelangten, doch dort ist es, wo die Klinge neu geschmiedet und in ihren früheren Glanz zurückversetzt wurde.
+
+Die Magie dieses Schwertes sollte denen helfen, die es führen, indem sie einen großen Vorteil im Kampf gewährt. Wenn man den Erzählungen glauben darf, sollte es auch das Herz des Mönchs davor schützen, jemals zermalmt oder gebrochen zu werden.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Wuchtschadensresistenz: +10% (nur Mönch)
+– Angriffe pro Runde: +1/2 (nur Mönch)
+
+Kampffähigkeiten:
+– Schlägt als +3-Waffe zu
+
+ETW0: +2
+Schaden: 1W10+1, +1 Feuer
+Schadensart: Hieb
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: 1-händig
+Benötigt:
+ 6 Stärke
+
+Gewicht: 5~
+@70016 = ~Dieser Ring ist als Inoshishis Mähne bekannt. Wer mit der kozakuranischen Sprache vertraut ist, weiß, dass Inoshishi "Wildschwein" bedeutet.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Rüstungsklasse gegen Wucht: +1
+
+Gewicht: 0~
+
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Calling - Thief's Quest                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@80009 = ~Dieser magische Knüppel fühlt sich kalt an. Er wurde offensichtlich verzaubert, um zusätzlichen Schaden zu verursachen und Erfrierungen hervorzurufen. In das Holz ist ein kleines eingeritztes Herz geschnitzt, samt einer kleinen Notiz: Lulu + Grong (ebenfalls eingeritzt). Vielleicht wurde die Waffe aus einem Zweig gefertigt, der ein Zeichen der Liebe sein sollte, aber ... diese Liebe hielt nicht.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+– Jeder erfolgreiche Treffer hat eine 75%ige Chance, zusätzlich 1 Kälteschaden zu verursachen
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Knüppel
+Typ: 1-händig
+Benötigt:
+ 5 Stärke
+
+Gewicht: 2~
+@80012 = ~Dieses Amulett sieht einem anderen Amulett, das als "Das verlorene Geschenk" bekannt ist, ein wenig ähnlich. Während beide dem Benutzer helfen können, mächtige feurige Geschosse zu schleudern, ist dieses hier außerdem ... verflucht und macht es dem Benutzer schwerer, sich zu konzentrieren und einem vollkommen klaren Gespräch zu folgen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Intelligenz: -2
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Aufladungsfähigkeit:
+– Geschoss
+  Schaden: 6W6 Feuer (Rettungswurf gegen Zauber halbiert)
+  Reichweite: 15 m
+  Wirkungsbereich: 4,5 m Radius
+
+Gewicht: 1~
+@80015 = ~Lachende alte Pflaume wurde von einer grünen Hexe von der Schwertküste geschaffen. Es ist eine mächtige Waffe, sehr scharf, sehr gefährlich, doch wer sie im Kampf benutzt, muss sich auch an ihre launische Natur gewöhnen. Die Klinge kann ihren Träger zwar schützen, doch haltet sie falsch, seid nicht sanft genug, und sie nimmt sich einen Teil dieses Schutzes oder schwächt Euch sogar, wenn es nichts anderes zu nehmen gibt.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Magieresistenz: +6%
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Kampffähigkeiten:
+– Jeder erfolgreiche Treffer hat eine 10%ige Chance, Eure Magieresistenz für 3 Runden um 2% zu senken. Dieser bösartige Fluch ist dieser Waffe höchst amüsant, also wird sie Euch jedes Mal auslachen, wenn das geschieht ... was ebenfalls recht nervig und, offen gesagt, wirklich unhöflich sein kann
+
+ETW0: +2
+Schaden: 1W4+2 (Stich)
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig
+Benötigt:
+ 3 Stärke
+
+Gewicht: 1~
+@80018 = ~Dieser verfluchte Ring ist als Ring der stinkenden Füße bekannt. Er wurde von einem sembischen Barden geschaffen, der seinem Freund einen Streich spielen wollte. Er gab ihm den Ring, aber ... aus irgendeinem Grund trug der Freund ihn weiter und sagte, er gefalle ihm recht gut. Ein seltsamer Geselle, ohne Zweifel.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+– Charisma: -1
+– Im Schatten verstecken: -5%
+– Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 0~
+@80020 = ~Bdharlan,
+
+ich verstehe, dass Ihr unserer Gruppe beitreten wollt. Wer weiß, vielleicht passt Ihr hinein. Ich schätze jedoch, Narlen wird prüfen wollen, ob Ihr die richtige Ergänzung wärt. Der Kerl will sichergehen, dass die Neuen nicht kneifen und ihm den Rücken freihalten.
+
+Denkt aber daran! Wenn er sich Euch nähert, hinterfragt NIEMALS seine Art zu sprechen. Wir haben uns daran gewöhnt, aber er ist wirklich empfindlich, was das betrifft. Wenn Ihr beide zusammenarbeitet, bekommt Ihr vielleicht Eure erste Gelegenheit, eine Münze oder zwei zu verdienen.
+
+Mit Grüßen,
+Freund~
+@80023 = ~Dieses Set magischer Dietriche kann sicher allen helfen, die ein Schloss so schnell wie möglich knacken und verschwinden wollen ... wo auch immer der Raub gerade stattfindet.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+– Kann einmal pro Tag Klopfen wirken
+
+Ausgerüstete Fähigkeiten:
+– Schlösser öffnen: +10%
+
+Gewicht: 0~
+
+// badges - EE overrides
+@100002 = ~Dieses kleine Bronzeabzeichen hängt an einer kleinen, feinen Kette. Es wurde der Leiche eines Räubers abgenommen und ist für den richtigen Käufer vielleicht von Wert.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@100008 = ~Vais Kopfgeld auf die Räuber
+Offizierin Jessa Vai von der Flammenden Faust sitzt mit ihrem Kontingent in Beregost fest. In ihrer Verzweiflung hat sie mir für jedes Räuberabzeichen, das ich ihr bringe, 50 Goldmünzen geboten. Sie hat sich im Windigen Schwindler einquartiert.~

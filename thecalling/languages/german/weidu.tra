@@ -1,1 +1,41 @@
+@0 = ~Keine der Komponenten dieser Mod ist für Euer Spiel verfügbar.~
+@1 = ~Die Funktionalität dieser Komponente ist bereits in einer Eurer installierten Mods enthalten oder wurde durch sie ersetzt.~
+@2 = ~Für diese Komponente wird Tales of the Sword Coast benötigt.~
+@3 = ~Diese Komponente ist noch nicht verfügbar.~
+@4 = ~Bevor Mods in diesem Spiel installiert werden können, wird DLC Merger benötigt. Weitere Informationen und einen Download-Link findet Ihr in der Liesmich-Datei.~
+@5 = ~Diese Komponente ist in Eurer Sprache noch nicht verfügbar.~
+@6 = ~Keine Berufungen installiert~
+@7 = ~Diese Komponente benötigt die Enhanced Edition~
+@8 = ~Berufungen~
+@9 = ~Zusätzlicher Inhalt~
+
+@100 = ~The Calling: Magier - Die verfluchten Armschützer~
+@101 = ~Möchtet Ihr Cheats installieren?
+
+  a) Keine Cheats; nur eine Berufung pro Spiel
+  b) Mehrere Berufungen erlauben, aber Klassenbeschränkungen beibehalten
+  c) Mehrere Berufungen ohne Klassenbeschränkungen erlauben~
+
+@10000 = ~The Calling: Kämpfer - Erweiterte Gnollfestung~
+
+@20000 = ~Friedliche Lösung für die Werwolfinsel~
+
+@30000 = ~Der Movanische Kult~
+
 @40000 = ~Exotische Gegenstaende~
+@40023 = ~Exotische Gegenstände hinzufügen~
+@40024 = ~Exotische Gegenstände hinzufügen und die von BGEE hinzugefügten entfernen~
+
+@50000 = ~Alle Berufungen für alle Klassen öffnen~
+
+@60000 = ~The Calling: Schamane - Der Traum~
+@60001 = ~Normalen Text verwenden~
+@60002 = ~Farbigen Text in Dialogen verwenden~
+
+@70000 = ~The Calling: Mönch - Die Wiederherstellung von Saiai no Hito~
+
+@80000 = ~The Calling: Dieb - Der Handel~
+
+@90000 = ~Gleichgeschlechtliche Durlyle/Delainy-Nebenhandlung~
+
+@100000 = ~Räuberskalps durch Abzeichen ersetzen~

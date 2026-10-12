@@ -6,6 +6,474 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+@102 = ~Perlen bestehen aus Aragonitschichten, die sich im Inneren von Austern und anderen Weichtieren mühsam um ein Stückchen Sand oder einen anderen Reizstoff gebildet haben. Die so entstandene Perle hat einen reichen, tiefen Glanz. Die meisten Perlen in der Welt sind weiß, es gibt aber auch seltenere Sorten wie Regenbogen- und schwarze Perlen. Diese Perle ist schwarz und wird wegen ihrer einzigartigen magischen Eigenschaften vor allem von Wahrsagern sehr geschätzt.~
+@103 = ~Bergmann Sal~
+@104 = ~Bergmann James~
+@105 = ~Grace~
+@106 = ~Wahrsagungsgerät~
+@107 = ~Iris Cotton~
+@108 = ~Largo Cotton~
+@109 = ~Magisches Pulver~
+@110 = ~Thalantyr hat Euch gebeten, dies Taerom Fuiruim zu überbringen. Wenn Taerom es seiner Schmiede beimischt, kann er die Armschützer in den Flammen zerstören.~
+@111 = ~Zirkon ist ein bräunlicher Kristall, der in magmatischem (vulkanischem) Gestein zu finden ist und in Wahrsagungsgeräten verwendet wird. Durch Erhitzen und Schleifen (üblicherweise Facettenschliff) erhält Zirkon seinen blassblauen Farbton.~
+@112 = ~Taeroms Erz~
+@113 = ~Dies ist eine Erzmischung für Taerom, gesammelt von Melicamp und Grace in den Minen von Nashkell.~
+@114 = ~Verfluchte Armschützer~
+@115 = ~Dies sind die Armschützer, die für Melicamps Verfluchung verantwortlich sind, nun endlich wiedergefunden. Trotz ihrer ungewöhnlichen und interessanten Natur hat Thalantyr entschieden, dass das Risiko, die Armschützer zu behalten, das Wissen überwiegt, das durch weiteres Studium gewonnen werden könnte.
+
+Da es unklug wäre, sie zu benutzen, hat Thalantyr sie verzaubert, sodass sie zu klein zum Tragen sind.~
+@116 = ~Beschädigtes Stück Pergament~
+@117 = ~Dieses Pergament scheint aus einem Buch gerissen worden zu sein und ist an den Rändern versengt. Nur ein kleiner Teil des Textes ist lesbar:
+
+Nahezu jeder Kristall kann zur Wahrsagung verwendet werden, wenn er richtig vorbereitet wird, auch wenn einige eine natürliche Affinität besitzen. Es ist ein verbreiteter Irrtum unter jenen, die Magie studieren, zu glauben, dass teure, schwer beschaffbare Edelsteine als Zauberkomponenten nötig seien, wo doch ein gewöhnlicher Zirkon oft genügt. Selbst mit einem fachgerecht gebauten Gerät sind die Ergebnisse oft unklar, was die Wahrsagung zu einem besonders schwierigen Zweig der Magie macht.~
+@118 = ~Dieses Gerät wurde von Thalantyr in Auftrag gegeben und von Taerom aus Beregost gebaut. Thalantyr hofft, damit die Armschützer ausfindig zu machen, die Melicamp verflucht haben. Nahe der Mitte sind drei Fassungen für Edelsteine zu sehen.~
+@119 = ~Amulett der Säureresistenz~
+@120 = ~Säure ist, sofern verfügbar, ein wirksames Hindernis für Magier, da sie deren Zaubern häufig unterbricht. Sinosta, ein unbedeutender Magier aus Tiefwasser, entwarf dieses Amulett, um den Wirkungen von Säure entgegenzuwirken. Unglücklicherweise nützte es Sinosta wenig: Er wurde in einer Hintergasse ermordet, nachdem er die örtliche Diebesgilde beleidigt hatte.
+
+EIGENSCHAFTEN:
+
+Säureresistenz: +25%~
+@121 = ~Amulett der Einschnürung~
+@122 = ~Dieses scheinbar harmlose Amulett schnürt sich eng um den Hals. Sprechen ist möglich, wenn auch kaum, und es macht die komplexen Lautäußerungen unmöglich, die zum Zaubern nötig sind. Einschnürungsamulette wurden für alles Mögliche verwendet, von Streichen zwischen Lehrlingen bis hin zur Schwächung von Erzmagiern, um ein Attentat zu erleichtern.
+
+EIGENSCHAFTEN:
+
+Verhindert das Zaubern
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
+@123 = ~Amulett des Schwachkopfs~
+@124 = ~Solche Amulette sind bei skrupellosen Händlern sehr beliebt. Diese Gegenstände wirken wie verzierte, teure Amulette und werden oft als Geschenke an potenzielle Kunden, Rivalen oder andere potenzielle Geschäftskontakte gegeben. Sie sind lediglich dazu gedacht, den Verstand zu trüben, ohne übermäßig aufzufallen, sodass der Händler seinen Vorteil bei komplexen Verhandlungen ausspielen kann.
+
+EIGENSCHAFTEN:
+
+Verringert Intelligenz, Weisheit und Charisma um 2, solange es getragen wird
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
+@125 = ~Schwarze Perle~
+@126 = ~Weiße Perle~
+@127 = ~Schwarze Perle mit Schale~
+
+@1000 = ~Gut, obwohl es größtes Glück war, dass Ihr nicht einen Flügel als Gliedmaße behalten habt. Ihr hattet schon immer einen kleinen Vogel, aber ich nehme an, das zählt nicht.~
+@1001 = ~Wir müssen uns bemühen, diese Armschützer zu finden, bevor sie eine andere unglückliche Seele verfluchen. <CHARNAME>, ich werde jede Hilfe brauchen, die ich bekommen kann, und Ihr versteht Euch auf Magie. Könnt Ihr mir helfen?~
+@1002 = ~Natürlich helfen wir.~
+@1003 = ~Was braucht Ihr von mir?~
+@1004 = ~Ich habe Besseres mit meiner Zeit anzufangen.~
+@1005 = ~Und am Ende gefiedert sein und Eier legen? Ich denke nicht!~
+@1006 = ~Das mag sein, aber ich habe wenig Erfahrung darin, Flüche zu brechen.~
+@1007 = ~Dafür gibt es wirklich keinen Anlass *Gack*. Wie Ihr sehen könnt *Gack*, bin ich vollständig *Gack* genesen.~
+@1008 = ~Ausgezeichnet. Unsere erste Aufgabe ist es, die Armschützer zu finden. Wenn sie nicht in der Gegend sind, dann fürchte ich, können wir nichts weiter tun. Melicamp!~
+@1009 = ~Ja, Meister Thalantyr?~
+@1010 = ~Bringt diese Notiz zu Taerom Fuiruim nach Beregost. Wir werden ein Wahrsagungsgerät brauchen, das uns hilft, den Aufenthaltsort der Armschützer zu ergründen.~
+@1011 = ~Taerom hat in der Vergangenheit bei solchen Schmuckstücken geholfen, und er kann die mechanische Hälfte dieses Gegenstands herstellen. Helft ihm bei allem, was er braucht.~
+@1012 = ~Ich bin auf dem Weg *Gack* nach Beregost.~
+@1013 = ~Und Melicamp? Seid vorsichtig, um Mystras willen. Solltet Ihr etwas Seltsames bemerken, kommt sofort hierher zurück.~
+@1014 = ~*Gack*~
+@1015 = ~Ja, nun ... seltsamer als Gackern.~
+@1016 = ~Nun, <CHARNAME>, ich werde Eure Hilfe brauchen, um das Gerät mit Energie zu versorgen. Ich brauche drei verschiedene Edelsteine.~
+@1017 = ~Ich überlasse es Eurem Ermessen, welche Edelsteine am besten für die Wahrsagung geeignet wären.~
+@1018 = ~Woher soll ich wissen, ob ein Edelstein funktioniert?~
+@1019 = ~Wo soll ich mit der Suche beginnen?~
+@1020 = ~Habt Ihr irgendwelche Vorlieben für die Edelsteine?~
+@1021 = ~In Ordnung, ich werde mit den Edelsteinen zurückkehren.~
+@1022 = ~Ihr müsst natürlich Euren eigenen Weg wählen. Und nun, wenn Ihr uns entschuldigt, Melicamp und ich werden diese Aufgabe selbst übernehmen müssen.~
+@1023 = ~Der Fluch auf den Armschützern ist ziemlich ungewöhnlich. Ich hatte die Armschützer behalten, statt sie zu zerstören, da ich sie für studierenswert hielt.~
+@1024 = ~Die Zerstörung sollte unkompliziert sein, aber das unmittelbare Problem ist ihr Aufenthaltsort. Wenn sie zu weit fort sind, können wir nichts tun.~
+@1025 = ~Wenn jemand sie gefunden hat, wird auch das Komplikationen verursachen.~
+@1026 = ~Ich werde Euch keine finanzielle Belohnung versprechen, doch aufgrund der ungewöhnlichen Natur der Armschützer werdet Ihr wahrscheinlich viel über Magie lernen, was in Eurer Ausbildung nie behandelt wurde.~
+@1027 = ~Ich helfe, wenn auch nur, um meine eigenen Fähigkeiten zu verbessern.~
+@1028 = ~Kein Geld, keine Hilfe. Wir gehen.~
+@1029 = ~Jeder Edelstein wird funktionieren, aber einige eignen sich besser für die Wahrsagung als andere und werden den Rest der Aufgabe erleichtern. Herauszufinden, welche, ist Eure Aufgabe, <CHARNAME>.~
+@1030 = ~Seid nicht albern, Edelsteine gibt es überall. Achtet einfach auf Euren Reisen darauf.~
+@1031 = ~Schwarze Perlen eignen sich gut für Wahrsagungsgeräte und werden von Sirinen geschätzt. Abgesehen davon müsst Ihr Eure eigenen Nachforschungen anstellen.~
+@1032 = ~Dann wünsche ich Euch viel Erfolg bei Eurer Aufgabe. Guten Tag.~
+@1035 = ~Ich habe einige Edelsteine für das Wahrsagungsgerät.~
+@1037 = ~Welchen Edelstein möchtet Ihr verwenden?~
+@1038 = ~Eigentlich denke ich, ich schaue mich noch etwas um und komme dann wieder.~
+@1039 = ~Ich habe meine Meinung geändert. Kann ich stattdessen Eure Waren sehen?~
+@1040 = ~Hmm.~
+@1041 = ~Eine interessante Wahl.~
+@1042 = ~Ein sehr wertvoller Stein. Ihr könntet jedoch feststellen, dass ein hoher Wert ihn nicht unbedingt zur besten Wahl als Zutat macht.~
+@1043 = ~Eine ausgezeichnete Wahl.~
+@1044 = ~Habt Ihr noch mehr?~
+@1045 = ~Ja, haben wir.~
+@1046 = ~Das ist erst einmal alles.~
+@1047 = ~Haben wir nicht. Aber wo wir schon hier sind, können wir Eure Waren sehen?~
+@1048 = ~Nun, Ihr habt Eure Auswahl getroffen; das sind alle drei.~
+@1049 = ~Ich glaube nicht, dass Ihr Euch über Eure Wahl Gedanken gemacht habt, aber was geschehen ist, ist geschehen.~
+@1050 = ~Ihr hättet es besser machen können - viel besser - aber wir werden uns trotzdem durchwursteln.~
+@1051 = ~Insgesamt habt Ihr solide Entscheidungen getroffen.~
+@1052 = ~Einige ausgezeichnete Entscheidungen, <CHARNAME>. Ich glaube nicht, dass wir Probleme mit der Wahrsagung haben werden.~
+@1053 = ~Ich glaube nicht, dass ich mir drei bessere Edelsteine zum Arbeiten wünschen könnte. Ihr habt Eure Hausaufgaben gemacht.~
+@1054 = ~Wir haben nun die Edelsteine, aber ich brauche noch ein Gerät, um sie zu fassen. Könntet Ihr schnell zur Donnerhammer-Schmiede hinübergehen und nach Melicamp sehen?~
+@1055 = ~Es wäre ganz seine Art, so eine einfache Aufgabe zu vermasseln.~
+@1056 = ~Dann gehen wir Melicamp helfen.~
+@1057 = ~Ich bin nicht Euer Laufmädchen! Er wird zurück sein, wenn er zurück ist.~
+@1058 = ~Ich bin nicht Euer Laufbursche! Er wird zurück sein, wenn er zurück ist.~
+@1059 = ~Sicher, aber können wir zuerst etwas einkaufen?~
+@1060 = ~Lebt wohl.~
+@1061 = ~Wisst Ihr etwas über schwarze Perlen?~
+@1062 = ~Sie werden von Sirinen sehr geschätzt, und die Priesterschaft hier im Tempel hat sie gelegentlich als Opfergaben für den Morgenfürsten zu besonderen Anlässen dargebracht.~
+@1063 = ~Können wir eine haben?~
+@1064 = ~Gebt uns eine!~
+@1065 = ~Was würde es kosten, eine von Euch zu bekommen?~
+@1066 = ~Interessant. Danke.~
+@1067 = ~Das sind Lathander geweihte Gaben! Das kann ich nicht.~
+@1068 = ~Bitte, wir versuchen, verfluchte Armschützer für Thalantyr aufzuspüren. Wir brauchen sie, um ein Wahrsagungsgerät zu bauen.~
+@1069 = ~Ihr könnt uns entweder die Perlen geben, oder wir nehmen alles hier ... einschließlich Eures Lebens.~
+@1070 = ~Vielleicht würde eine Spende ihren Verlust ausgleichen. Auch Gold kann Lathander geweiht werden, nicht wahr?~
+@1071 = ~Ich lasse mich nicht von einem dahergelaufenen Dieb einschüchtern! Zu mir, meine Brüder!~
+@1072 = ~Kann ich Euch noch mit etwas anderem behilflich sein?~
+@1073 = ~Ja, aber ...~
+@1074 = ~Die Perlen sind hübsch, aber damit könnt Ihr den Armen und Bedürftigen nicht viel helfen, oder?~
+@1075 = ~Ihr habt das Gute gesehen, das wir hier getan haben. Könnt Ihr uns nicht im Gegenzug helfen?~
+@1076 = ~Ich bin sicher, wir finden eine für beide Seiten vorteilhafte Vereinbarung.~
+@1077 = ~Die Perle war ein Kleinod des Tempels, und es ist sehr aufmerksam von Euch, uns eine neue zu geben.~
+@1078 = ~Wir haben auf unseren Reisen eine weitere schwarze Perle gefunden. Wir möchten sie dem Tempel als Ersatz für die Perle stiften, die Ihr uns gegeben habt.~
+@1079 = ~Ich denke nicht! Ich werde eine Perle nicht für Gold hergeben, als wäre dies ein gewöhnlicher Laden.~
+@1080 = ~Ich nehme an, eine Spende von ... 500 Goldmünzen würde ihren Verlust ausgleichen.~
+@1081 = ~Ich habe im Moment nicht so viel Geld.~
+@1082 = ~Nein, Euer Preis ist zu hoch.~
+@1083 = ~Klingt gut.~
+@1084 = ~Dann müsst Ihr eine andere Perle finden. Guten Tag.~
+@1085 = ~Ich möchte noch einmal über schwarze Perlen sprechen.~
+@1086 = ~In Ordnung.~
+@1087 = ~Wir haben darüber gesprochen, dem Tempel Gold im Austausch für eine schwarze Perle zu spenden.~
+@1088 = ~Stimmt, Ihr habt dem Tempel in der Vergangenheit geholfen~
+@1089 = ~Ich höre von den Stadtbewohnern nichts als Gutes über Eure Taten.~
+@1090 = ~Dann könnt Ihr die Perle haben, mit dem Segen des Morgenfürsten. Es wird ein Verlust für den Tempel sein, aber es ist besser, sie für das Gute einzusetzen, als sie in einer Vitrine liegen zu lassen.~
+@1091 = ~Thalantyr, der Bewohner der Hohen Hecke? Was habt Ihr mit ihm zu schaffen?~
+@1092 = ~Sein Lehrling wurde verflucht, und wir versuchen, den Gegenstand zu zerstören, der ihn verflucht hat.~
+@1093 = ~Ich habe mit Thalantyr zu tun.~
+@1094 = ~Thalantyr möchte ein Wahrsagungsgerät bauen.~
+@1095 = ~Thalantyr ist mir bekannt, ebenso wie Eure Gruppe.~
+@1096 = ~Ich kann keine Gabe für Lathander herausgeben, es sei denn, Ihr seid bereit zu erörtern, wie sie verwendet werden soll.~
+@1097 = ~Thalantyr ist mir bekannt, aber ich kenne Euch nicht gut genug. Vielleicht mit der Zeit, wenn ich Euch besser kenne.~
+@1098 = ~Bis dahin muss ich ablehnen. Guten Tag.~
+@1099 = ~So sei es.~
+@1100 = ~Und ich bin sicher, ich kann mich auf Eure Diskretion in dieser Sache verlassen.~
+@1101 = ~Habt Ihr Melicamp gesehen? Magierlehrling, gackert viel?~
+@1102 = ~Oh, sicher. Er suchte nach einem Erz, das wir im Moment nicht vorrätig haben, also habe ich ihn zu den Minen von Nashkell geschickt.~
+@1103 = ~Eine Freundin von mir, Grace, wollte das besondere Erz besorgen, das er brauchte.~
+@1104 = ~Wo war Melicamp noch gleich?~
+@1105 = ~Tut mir leid, ich bin zu beschäftigt mit den Problemen in der Mine.~
+@1106 = ~Ihr seid Grace? Habt Ihr Melicamp gesehen?~
+@1107 = ~Guten Tag.~
+@1108 = ~Und Euch ebenfalls.~
+@1109 = ~Wo war Melicamp noch gleich?~
+@1110 = ~Ich habe Melicamp etwas von dem Erz gegeben, das er brauchte, und er ist in die Mine hinabgestiegen, um den Rest zu holen.~
+@1111 = ~Wir alle sind dankbar für Eure Hilfe bei den Minen.~
+@1112 = ~*Bwaak* Oh, <GABBER>, Gott sei Dank seid Ihr hier!~
+@1113 = ~Es sind die Bergleute, irgendetwas ist *Gack* schiefgelaufen, sie ergeben kaum noch Sinn ... Ich brauche *Gack* Eure Hilfe.~
+@1114 = ~Nicht so schnell, Melicamp, und sagt mir, was nicht stimmt.~
+@1115 = ~Hört auf zu faseln!~
+@1116 = ~*Gack*~
+@1117 = ~Nachdem ich mit Grace gesprochen hatte, kam ich *Gack* hierher, um den Rest des Erzes für Taerom zu sammeln.~
+@1118 = ~Ich wurde *Gack* von ein paar Kobolden in die Enge getrieben. Ich habe sie abgewehrt, aber nun ja ... *Gack*~
+@1119 = ~Ein Teil meiner Magie ist, äh, irgendwie ... *Gack* ... nach hinten losgegangen.~
+@1120 = ~Diese beiden Bergleute wurden *Gack* in den Rückschlag verwickelt, und ich glaube, mit ihrem Gedächtnis stimmt *Gack* etwas nicht.~
+@1121 = ~Bitte, Ihr müsst *Gack* mir helfen.~
+@1122 = ~Ich habe keine Zeit, Euren Schlamassel aufzuräumen! Bringt das selbst in Ordnung, wir sind dann weg.~
+@1123 = ~Wirklich, Melicamp, Ihr müsst lernen, Euch zu beherrschen.~
+@1124 = ~Was schlagt Ihr vor?~
+@1125 = ~Schön, *Gack* danke für nichts. Kommt, Ihr zwei, wir verschwinden.~
+@1126 = ~Wer seid Ihr?~
+@1127 = ~Häh?~
+@1128 = ~Ich treffe *Gack* Euch in der Hohen Hecke wieder, nachdem ich das hier geregelt habe.~
+@1129 = ~Ja, für *Gack* Euch ist das leicht zu sagen. Ich höre Euch nicht gackern.~
+@1130 = ~Der Gedächtnisverlust scheint nicht allzu schlimm zu sein und könnte sogar von selbst nachlassen.~
+@1131 = ~Aber ich fühle mich schrecklich, und ich kann sie nicht so zurücklassen. Vielleicht, wenn wir ihrem Gedächtnis ein wenig auf die Sprünge helfen könnten ...~
+@1132 = ~Die anderen Bergleute in der Gegend könnten helfen. Fragt herum und seht, ob Ihr etwas über sie erfahren könnt.~
+@1133 = ~Es ist kein großer Plan, aber wir versuchen es.~
+@1134 = ~Wir werden die anderen Bergleute befragen und zurückkehren.~
+@1135 = ~Ich bleibe hier und passe auf, dass sie nicht fortwandern.~
+@1136 = ~Wie bin ich hierhergekommen?~
+@1137 = ~Wie funktioniert das?~
+@1138 = ~Wo ist dieser große Ochsenkarren?~
+@1139 = ~Was ist das für ein schönes Haus?~
+@1140 = ~Wohin führt diese Landstraße?~
+@1141 = ~Habe ich Recht? ... habe ich Unrecht?~
+@1142 = ~Wisst Ihr etwas über Sal oder James? ihr Gedächtnis wurde beschädigt.~
+@1143 = ~Kann nicht behaupten, dass ich das wüsste.~
+@1144 = ~Tut mir leid, Kumpel, ich weiß gar nichts über gar nichts.~
+@1145 = ~Nein, sie haben sich größtenteils für sich gehalten.~
+@1146 = ~Unter diesen Bedingungen ist es schwer, viel zu reden.~
+@1147 = ~Aber ich erinnere mich, dass James immerzu von seiner Freundin in Beregost erzählt hat. Winnie, wenn ich mich recht entsinne.~
+@1148 = ~Die zwei? Nein, tut mir leid.~
+@1149 = ~Wer sind Sal und James?~
+@1150 = ~Bis vor Kurzem habe ich tiefer in der Mine gearbeitet. Ich kenne die Bergleute auf dieser Ebene nicht so gut.~
+@1151 = ~Ja, Sal hat zwei Kinder zu Hause.~
+@1152 = ~Zwillinge, genauer gesagt. Robby und Ned.~
+@1153 = ~Sal, erinnert Ihr Euch nicht an Eure Zwillingsjungen? Bobby und Ned?~
+@1154 = ~Sal, erinnert Ihr Euch nicht an Eure Zwillingsjungen? Bobby und Ted?~
+@1155 = ~Sal, erinnert Ihr Euch nicht an Eure Zwillingsjungen? Robby und Ned?~
+@1156 = ~Sal, erinnert Ihr Euch nicht an Eure Zwillingsjungen? Robby und Ted?~
+@1157 = ~Ich fühle, wie ein Nebel sich lichtet ... ja, meine Jungen ... warte, was?~
+@1158 = ~Es sind Robby und Ned! Ich muss sie sofort besuchen.~
+@1159 = ~Ich fühle, wie ein Nebel sich lichtet ... ja, meine Jungen ...~
+@1160 = ~Robby und Ned! Papa kommt nach Hause!~
+@1161 = ~James, versucht, Euch an Eure Liebste in Beregost zu erinnern, Minnie.~
+@1162 = ~James, versucht, Euch an Eure Liebste in Beregost zu erinnern, Winnie.~
+@1163 = ~James, versucht, Euch an Eure Liebste in Nashkell zu erinnern, Minnie.~
+@1164 = ~James, versucht, Euch an Eure Liebste in Nashkell zu erinnern, Winnie.~
+@1165 = ~Ja, ich kann ihr Gesicht gerade so erkennen. Ah, mein Schätzchen!~
+@1166 = ~Aber es ist Winnie aus Beregost. Danke trotzdem für Eure Hilfe, ich gehe sie besuchen.~
+@1167 = ~Winnie! Ich mache mich auf nach Beregost, um Euch wiederzusehen!~
+@1168 = ~Schon Erfolg gehabt?~
+@1169 = ~Nein, noch nicht.~
+@1170 = ~Wir haben die Namen von Sals Zwillingsjungen erfahren.~
+@1171 = ~Wir wissen, dass James eine Liebste zu Hause hat.~
+@1172 = ~Bei Sal haben wir Erfolg gehabt, aber an James arbeiten wir noch.~
+@1173 = ~Bei James haben wir Erfolg gehabt, aber an Sal arbeiten wir noch.~
+@1174 = ~Gute Arbeit. Versucht, *Gack* Sals Gedächtnis damit auf die Sprünge zu helfen.~
+@1175 = ~Gut gemacht. Seht, ob Ihr *Gack* James' Gedächtnis wiederherstellen könnt.~
+@1176 = ~Hey, es *Gack* hat funktioniert! Wenn wir nur noch etwas *Gack* anderes für den anderen finden könnten ...~
+@1177 = ~Ich bin sicher, jemand *Gack* hier in der Gegend muss etwas wissen. Fragt weiter herum.~
+@1178 = ~Puh, Ihr habt wirklich meine *Gack* Innereien gerettet.~
+@1179 = ~Ich mache mich auf den Weg zurück zu *Gack* Thalantyr, bevor noch etwas passiert. Bringt dieses Erz *Gack* zu Taerom für mich.~
+@1180 = ~Thalantyr möchte Euch mit einem Wahrsagungsgerät beauftragen. Wir haben etwas Erz für die Aufgabe mitgebracht.~
+@1181 = ~Ja, Thalantyr hat eine Anleitung geschickt und erwähnt, dass der junge Melicamp mit dem Erz vorbeikommen würde.~
+@1182 = ~Ich vermute, da Ihr hier seid, hat Melicamp es wieder einmal geschafft, bei seiner Aufgabe *räusper* Federn zu lassen?~
+@1183 = ~Gebt mir, sagen wir, zwei Tage, dann habe ich das für Thalantyr fertig.~
+@1184 = ~Nein, noch nicht. Gebt mir noch etwas Zeit.~
+@1185 = ~Hallo <GABBER>. Ich habe das Astrolabium für Thalantyr fertig. Er hat bereits im Voraus bezahlt, also bringt es ihm mit meinen Grüßen zurück.~
+@1186 = ~Danke, Taerom, das mache ich.~
+@1187 = ~Danke. Wo wir schon hier sind, können wir Eure Waren sehen?~
+@1188 = ~Ich wollte nur nachsehen, ob Euer Projekt für Thalantyr schon fertig ist.~
+@1189 = ~Willkommen zurück, <GABBER>. Wie ich sehe, bringt Ihr mir auch Taeroms Arbeit.~
+@1190 = ~Ich habe die Edelsteine bereits vorbereitet, es ist also nur noch eine Frage, sie in die Fassungen einzusetzen ...~
+@1191 = ~Und da wären wir! Sollen wir beginnen?~
+@1192 = ~Meister Thalantyr, ich bin *Gack* zurückgekehrt.~
+@1193 = ~Melicamp, was hat Euch so lange aufgehalten?~
+@1194 = ~Ein paar *Gack* Komplikationen, aber das tut nichts zur Sache. Hier ist Euer neuer *Gack* Wahrsager von Taerom.~
+@1195 = ~Ja, fahrt bitte fort.~
+@1196 = ~Wie genau soll das funktionieren?~
+@1197 = ~Wahrsagung ist selbst unter idealen Bedingungen eine ungenaue Kunst. Da Ihr Euch auf Wahrsagung spezialisiert habt, wisst Ihr das bereits, nicht wahr, <CHARNAME>?~
+@1198 = ~Wahrsagung ist selbst unter idealen Bedingungen eine ungenaue Kunst.~
+@1199 = ~Viel wird von den Zauberkomponenten abhängen, die wir ausgewählt haben, um das Wahrsagungsgerät mit Energie zu versorgen. Eure Wahl der Edelsteine wird die größte Auswirkung haben.~
+@1200 = ~Dann fangen wir an.~
+@1201 = ~Und das, wie man so sagt, war es dann.~
+@1202 = ~Bah! Wie ich befürchtet habe, war das Gerät nur für einen einzigen Versuch gut.~
+@1203 = ~Eure Wahl der Edelsteine war außerordentlich schlecht. Die Armschützer sind noch in der Region, aber ich konnte es nur auf ein Gebiet nördlich von Feuerwein eingrenzen.~
+@1204 = ~Eure Wahl der Edelsteine hat die Wirksamkeit des Geräts beeinträchtigt. Die Armschützer sind noch in der Region; sucht nach einer Blume nördlich von Feuerwein.~
+@1205 = ~Es verlief ungefähr wie erwartet. Die Armschützer sind, soweit ich es bestimmen kann, in Gullykin.~
+@1206 = ~Eure Wahl der Edelsteine war sehr gut. Die Armschützer sind in Gullykin, an einer Halblingsfrau.~
+@1207 = ~Ihr hättet keine besseren Edelsteine auswählen können. Ich konnte die Armschützer klar an einer "Iris Cotton" in Gullykin erkennen.~
+@1208 = ~Ihr müsst gehen und die Armschützer holen.~
+@1209 = ~Wenn jemand sie trägt, dann versucht nicht, sie zu entfernen! Sie werden wahrscheinlich verschwinden, wie es bei Melicamp geschah.~
+@1210 = ~Ich kann das nicht genug betonen. Es würde alle unsere bisherigen Bemühungen zunichtemachen.~
+@1211 = ~Geht jetzt und kehrt mit den Armschützern zurück.~
+@1212 = ~Bitte, Abenteurer, Ihr müsst mir helfen.~
+@1213 = ~Meine Frau Iris hat diese Armschützer gefunden, und sie hat sich gerade in ein Eichhörnchen verwandelt!~
+@1214 = ~Ich weiß nicht, was ich tun soll!~
+@1215 = ~Beruhigt Euch. Wir sind tatsächlich genau deswegen in Gullykin.~
+@1216 = ~Sicher, wir können helfen. Gegen Bezahlung.~
+@1217 = ~Wie es aussieht, haben wir die verfluchten Armschützer gefunden.~
+@1218 = ~Ich bin nur ein armer Halbling, aber Ihr könnt das wenige Gold bekommen, das ich habe, alle 40 Stück, wenn Ihr meine Frau retten könnt.~
+@1219 = ~Tut mir leid, aber das wird Euch mehr kosten.~
+@1220 = ~40 Gold sind nicht einmal des Nehmens wert. Kommt, Ihr Wicht, wir helfen Euch trotzdem. Behaltet Euer Gold.~
+@1221 = ~Rückt es raus.~
+@1222 = ~Schön, dann gehe ich wohl einfach zu Alvanhendar.~
+@1223 = ~Danke, schätze ich.~
+@1224 = ~Nehmt es, nehmt es!~
+@1225 = ~Bitte, wie könnt Ihr helfen?~
+@1226 = ~Ein Magier nahe Beregost hat nach diesen Armschützern gesucht. Ihr müsst zur Hohen Hecke reisen.~
+@1227 = ~Wir können helfen, aber Ihr müsst zur Hohen Hecke westlich von Beregost reisen, um den Magier Thalantyr zu sehen.~
+@1228 = ~Ein Magier? Warum kein Priester? Alvanhendar hier im Ort hat in der Vergangenheit solche Dienste geleistet.~
+@1229 = ~Diese Armschützer tragen einen ungewöhnlichen Fluch. Alvanhendar könnte den Fluch vielleicht entfernen, aber die Armschützer werden verschwinden.~
+@1230 = ~Alvanhendar wird Euch nicht helfen können.~
+@1231 = ~Thalantyr studiert diese Armschützer schon seit einiger Zeit und weiß, was mit ihnen zu tun ist.~
+@1232 = ~Aber meine Frau wird sicher sein, richtig? Wen kümmert es, wenn die Armschützer verschwinden, das ist doch der ganze Sinn!~
+@1233 = ~Aber die Armschützer werden zu einem anderen armen Unschuldigen weiterziehen, wie Eurer Frau.~
+@1234 = ~Das stimmt wohl, nehme ich an. Dann geht mal zum Tempel.~
+@1235 = ~Vertraut uns, es ist sicherer, einfach Thalantyr aufzusuchen.~
+@1236 = ~Daran hatte ich nicht gedacht. Ja, ich möchte nicht, dass jemand anderes das durchmachen muss.~
+@1237 = ~Wir treffen Euch dann an der Hohen Hecke.~
+@1238 = ~Wie könnt Ihr so sicher sein?~
+@1239 = ~Wir ziehen nicht einfach so über die Schwertküste, um diese Armschützer zu zerstören. Vertraut uns.~
+@1240 = ~Thalantyr hat den Fluch bereits einmal aufgehoben. Er kann es wieder tun.~
+@1241 = ~Nichts ist sicher, aber Thalantyr hat die Sache recht eingehend erforscht.~
+@1242 = ~In Ordnung, ich gebe diesem Thalantyr eine Chance.~
+@1243 = ~*Fiep*~
+@1244 = ~Wir sind heil hier angekommen.~
+@1245 = ~Gut, <CHARNAME>, ich hatte gehofft, dass Ihr bald auftaucht.~
+@1246 = ~Während Ihr unterwegs wart, um die Cottons zu holen, haben Melicamp und ich einige Nachforschungen angestellt.~
+@1247 = ~Wir glauben, einen Weg *Gack* gefunden zu haben, die Armschützer zu entfernen, ohne dass sie verschwinden.~
+@1248 = ~Die Beschwörung erfordert jedoch drei Magier, also brauchen wir Eure Hilfe. Herr Cotton, seid Ihr und Eure Frau bereit?~
+@1249 = ~So bereit, wie wir sein können, nehme ich an.~
+@1250 = ~Gut, dann lasst uns beginnen.~
+@1251 = ~Wartet einen Moment, wie lautet die Beschwörung?~
+@1252 = ~So ist es recht. Lasst uns beginnen.~
+@1253 = ~Ich bin nicht bereit! Ihr habt mir meine Rolle noch nicht erklärt.~
+@1254 = ~Halt, was soll ich tun?~
+@1255 = ~Es gibt keine feste Beschwörung. Sie wird in drei Versen zu je drei Zeilen gesungen. Ich spreche eine Zeile, dann Melicamp, dann Ihr, und dann wiederholen wir den Vorgang.~
+@1256 = ~Ich weiß nicht genau, was ich tun muss, also müsst Ihr und Melicamp folgen und die richtigen Worte singen.~
+@1257 = ~Sucht die Muster in den Worten. Ihr seid schließlich ein Magier, und ich erwarte, dass Ihr Eure Intelligenz zeigt.~
+@1258 = ~Lasst uns beginnen.~
+@1259 = ~Avra boriden covra!~
+@1260 = ~Destius ennui *Gack* fristias!~
+@1261 = ~Bebeshia kikirt lalaji!~
+@1262 = ~Kukuty *Gack* nenerzuo poposh!~
+@1263 = ~Lopitaph heuroz zampe!~
+@1264 = ~Ephestues solidar *Gack* rillan!~
+@1265 = ~Nozika abersto omerth!~
+@1266 = ~Amari estus culirn!~
+@1267 = ~Gharmas huegas inferita!~
+@1268 = ~Tatagh yoyost wiwirshu!~
+@1269 = ~Xavros yuca zylenos!~
+@1270 = ~Nun der letzte Schliff ...~
+@1271 = ~Seht her!~
+@1272 = ~Und das, wie man so sagt, war es dann.~
+@1273 = ~Ähm. Noch einmal.~
+@1274 = ~Entschuldigt das, Frau Cotton, obwohl ich froh bin, den Fluch aufgehoben zu sehen. Ich kann Euch einige Tränke geben, die Eure Schmerzen und Beschwerden lindern.~
+@1275 = ~Das war äußerst unangenehm, doch ich danke Euch für Eure Bemühungen.~
+@1276 = ~Ehrlich, <CHARNAME>, habt Ihr Euch überhaupt Mühe gegeben? Es ist ein Wunder, dass die arme Frau nicht getötet wurde.~
+@1277 = ~Und da die Beschwörung verpfuscht wurde, sind die Armschützer natürlich verschwunden. Melicamp, wir haben noch mehr Arbeit, obwohl wir diesmal unbedingt zuverlässigere Hilfe finden müssen.~
+@1278 = ~Natürlich, *Gack* Meister Thalantyr.~
+@1279 = ~Nun, danke trotzdem für Eure Bemühungen, <CHARNAME>. Ich hoffe, Ihr habt wenigstens etwas daraus gelernt.~
+@1280 = ~Nun, es sieht so aus, als wäre der Fluch zumindest aufgehoben. Wie fühlt Ihr Euch, Frau Cotton?~
+@1281 = ~Und es scheint ... ja, bedauerlich. Die Armschützer sind verschwunden. Ihr habt zu viele Zeilen verpatzt, <CHARNAME>.~
+@1282 = ~Eure Dienste werden nicht mehr benötigt. Melicamp und ich werden einen weiteren Versuch unternehmen, sie zu finden.~
+@1283 = ~Gut gemacht, gut gemacht. Frau Cotton, fühlt sich alles richtig an?~
+@1284 = ~Ja, danke! Obwohl mir ein wenig nach Erdnüssen ist ...~
+@1285 = ~Das wird *Gack* vielleicht etwas länger dauern, bis es vorübergeht.~
+@1286 = ~Und endlich haben wir die Armschützer! Lasst mich eine letzte Anpassung daran vornehmen, um sicherzustellen, dass sie nicht getragen werden können.~
+@1287 = ~<CHARNAME>, mit diesem Pulver sollte Taeroms Schmiede heiß genug brennen, um sie endlich zu zerstören.~
+@1288 = ~Danke für Eure Hilfe.~
+@1289 = ~Thalantyr hat uns hierher geschickt, um in Eurer Schmiede einige verfluchte Armschützer zu zerstören.~
+@1290 = ~Was redet er da? Er weiß doch, dass dies nur eine gewöhnliche Schmiede ist.~
+@1291 = ~Er hat uns diese Pulver gegeben. Er sagte, es würde Eure Schmiede heiß genug machen, um die Armschützer zu zerstören.~
+@1292 = ~Mit diesem Pulver sollte Eure Schmiede heiß genug sein, um den Fluch zu brechen.~
+@1293 = ~Nun, bei solchen Dingen hat er gewöhnlich recht. Doch da kommt mir eine Idee ...~
+@1294 = ~<CHARNAME>, vielleicht kann ich etwas Neues schmieden, sobald die Armschützer schmelzen. Einmal durchdrungen, behalten Materialien manchmal ihre Kräfte, wenn auch in schwächerer oder veränderter Form, selbst nachdem der Gegenstand zerbrochen oder ausgelaugt ist.~
+@1295 = ~Ich kann wirklich nicht vorhersagen, welche magischen Eigenschaften er haben mag, falls überhaupt welche. Er könnte sogar verflucht bleiben.~
+@1296 = ~Wenn Ihr das Risiko nicht eingehen wollt, streuen wir die Überreste einfach auf die Kohlen und lassen sie verbrennen.~
+@1297 = ~Nach all der Arbeit, sie zu zerstören, gehe ich nicht das Risiko ein, nun einfach einen neuen verfluchten Gegenstand zu schmieden.~
+@1298 = ~Was könntet Ihr herstellen?~
+@1299 = ~Nein, zerstört sie. Aus ihren Überresten kann nichts Gutes entstehen, egal wie oft sie neu geschmiedet werden.~
+@1300 = ~Wir werden das meiste Metall im Feuer der Schmiede und durch Thalantyrs Pulver verlieren, doch ich nehme an, wir werden genug für ein Schmuckstück haben. Ein Amulett vielleicht.~
+@1301 = ~Sicher, wir gehen das Risiko ein.~
+@1302 = ~Dann feuern wir die Schmiede an.~
+@1303 = ~Thalantyrs Pulver hat wie ein Zauber gewirkt!~
+@1304 = ~Nun, wir halten diese Schmiede schön heiß, bis wir so viel von diesen Armschützern wie möglich verbrannt haben.~
+@1305 = ~Bis dahin benutzen wir die anderen Schmieden, nur für den Fall.~
+@1306 = ~Und das hier ist für Euch. Nur für den Fall: Ich würde dringend empfehlen, es zu identifizieren, bevor Ihr es benutzt.~
+@1307 = ~Wir können nicht weiter vorgehen, bis Ihr Melicamp findet. Ich habe ihn zu Taerom in die Donnerhammer-Schmiede geschickt.~
+@1310 = ~Ich bin froh, dass Melicamp zurückgekehrt ist. Jetzt brauchen wir nur noch Taerom, damit er das mechanische Gerät fertigstellt.~
+@1311 = ~Wir können fortfahren, sobald Melicamp aus der Donnerhammer-Schmiede zurückkehrt.~
+@1312 = ~Ihr müsst diese Armschützer finden und hierherbringen.~
+@1313 = ~Bringt diese Armschützer und das Pulver zu Taerom, damit wir endlich fertig werden.~
+@1314 = ~Also ... war es das?~
+@1315 = ~Ja, fürchte ich.~
+@1316 = ~Oh, Ihr schon wieder. Alvanhendar, das waren die Abenteurer, die ich erwähnt habe.~
+@1317 = ~Ich habe alles versucht, was ich kenne. Euer Magierfreund ist jetzt vielleicht ihre einzige Hoffnung.~
+@1318 = ~Wir treffen Euch dann an der Hohen Hecke.~
+@1319 = ~Thalantyr sollte alles vorbereitet haben. Machen wir uns auf den Weg.~
+@1320 = ~Wir müssen uns bemühen, diese Armschützer zu finden, bevor sie eine andere unglückliche Seele verfluchen. <CHARNAME>, ich werde jede Hilfe brauchen, die ich bekommen kann, und Ihr seid Abenteurer. Könnt Ihr mir helfen?~
+@1321 = ~Die Beschwörung erfordert jedoch drei Personen, also brauchen wir Eure Hilfe. Herr Cotton, seid Ihr und Eure Frau bereit?~
+@1322 = ~Was müssen wir als Nächstes für die Armschützer tun?~
+@1323 = ~Die Armschützer sind noch in der Region, aber ich konnte es nur auf ein Gebiet nördlich von Feuerwein eingrenzen.~
+@1324 = ~Die Armschützer sind noch in der Region; sucht nach einer Blume nördlich von Feuerwein.~
+@1325 = ~Die Armschützer sind, soweit ich es bestimmen kann, in Gullykin.~
+@1326 = ~Die Armschützer sind in Gullykin, an einer Halblingsfrau.~
+@1327 = ~Ich konnte die Armschützer klar an einer "Iris Cotton" in Gullykin erkennen.~
+@1328 = ~Wo habt Ihr gesagt, waren die Armschützer noch gleich?~
+@1329 = ~Was soll ich jetzt mit den Armschützern tun?~
+@1330 = ~Gibt es sonst noch etwas?~
+@1331 = ~Das ist eine prächtige Perle, aber ich fürchte, sie ist für unsere Zwecke noch zu unreif. Ich wäre erfreut, wenn Ihr eine andere findet.~
+@1332 = ~Schwarze Perlen müssen ein wenig reifen, bevor sie auf solche Weise verwendet werden können.~
+@1333 = ~Wir werden jedoch auf Melicamps Rückkehr warten müssen, bevor wir mit der Wahrsagung beginnen.~
+@1334 = ~Wenn man vom Teufel spricht, dann erscheint er. Fangen wir an.~
+@1335 = ~Zerstört die verfluchten Armschützer~
+@1336 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben, aber ich lehnte ab.~
+@1337 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben. Thalantyr hat uns mit der Konstruktion eines Wahrsagungsgeräts beauftragt. Während Melicamp nach Beregost geht, um mit Taerom zu arbeiten, muss ich drei verschiedene Edelsteine sammeln, um das Gerät mit Energie zu versorgen. Ich muss aufmerksam sein und nach eigenem Ermessen handeln.~
+@1338 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr bat mich um Hilfe bei der Zerstörung der Armschützer, die Melicamp verflucht haben. Thalantyr hat uns mit der Konstruktion eines Wahrsagungsgeräts beauftragt. Während Melicamp nach Beregost geht, um mit Taerom zu arbeiten, muss ich drei Edelsteine sammeln, um das Gerät mit Energie zu versorgen. Thalantyr erwähnte, dass schwarze Perlen nützlich sind, aber ansonsten muss ich aufmerksam sein und nach eigenem Ermessen handeln.~
+@1339 = ~Zerstört die verfluchten Armschützer
+
+Ich habe Thalantyr drei Edelsteine geliefert, um das Wahrsagungsgerät mit Energie zu versorgen. Melicamp ist jedoch noch nicht von seinem Besuch bei Taerom in Beregost zurückgekehrt, und Thalantyr hat mich gebeten, nach seinem Fortschritt zu sehen.~
+@1340 = ~Zerstört die verfluchten Armschützer
+
+Ich habe Thalantyr drei Edelsteine geliefert, um das Wahrsagungsgerät mit Energie zu versorgen. Melicamp ist noch nicht von seinem Besuch bei Taerom in Beregost zurückgekehrt, aber ich kann keine Zeit verschwenden, um nach ihm zu sehen. Er wird irgendwann zurückkehren.~
+@1341 = ~Zerstört die verfluchten Armschützer
+
+Taerom hatte das benötigte Erz für das Wahrsagungsgerät nicht, also schickte er Melicamp zu seinem Kontakt Grace in die Minen von Nashkell. Ich sollte dort nach ihm sehen.~
+@1342 = ~Zerstört die verfluchten Armschützer
+
+Grace stattete Melicamp mit einem Teil des benötigten Erzes aus. Es war nicht genug, also ist Melicamp in die Mine hinabgestiegen, um mehr zu finden.~
+@1343 = ~Zerstört die verfluchten Armschützer
+
+Melicamps Magie ist nach hinten losgegangen und hat die Erinnerungen zweier Bergleute zerstört. Ich weigerte mich, seinen Schlamassel auszubügeln, also ging er mit den Bergleuten fort, um zu versuchen, ihnen zu helfen. Ich bin sicher, er wird irgendwann den Weg zurück zu Thalantyr finden.~
+@1344 = ~Zerstört die verfluchten Armschützer
+
+Melicamps Magie ist nach hinten losgegangen und hat die Erinnerungen zweier Bergleute beschädigt, Sal und James. Melicamp schlägt vor, mit den anderen Bergleuten zu sprechen. Wenn wir einige Einzelheiten über sie erfahren können, können wir vielleicht ihr Gedächtnis auffrischen und wiederherstellen, was fehlt.~
+@1345 = ~Zerstört die verfluchten Armschützer
+
+Ich habe dem Bergmann Sal geholfen, indem ich ihn an seine Zwillingsjungen erinnerte.~
+@1346 = ~Zerstört die verfluchten Armschützer
+
+Ich habe dem Bergmann James geholfen, indem ich ihn an seine Liebste in Beregost erinnerte.~
+@1347 = ~Zerstört die verfluchten Armschützer
+
+Die Bergleute wurden gerettet, und Melicamp hat mir das benötigte Erz gegeben. Während er sich auf den Rückweg zu Thalantyr macht, bringe ich das Erz zu Taerom, damit er das Wahrsagungsgerät schmieden kann.~
+@1348 = ~Zerstört die verfluchten Armschützer
+
+Ich habe das Erz Taerom gegeben, damit er das Gerät schmiedet. Er sagt, es wird in zwei Tagen fertig sein.~
+@1349 = ~Zerstört die verfluchten Armschützer
+
+Taerom hat das Wahrsagungsgerät erfolgreich geschmiedet und es mir gegeben. Ich sollte zur Hohen Hecke zurückkehren, damit Thalantyr nach den Armschützern suchen kann.~
+@1350 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war jedoch so schlecht, dass wir ihren Aufenthaltsort nur auf ein Gebiet nördlich von Feuerwein eingrenzen konnten.~
+@1351 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war jedoch schlecht, und wir konnten ihren Aufenthaltsort nur auf ein Gebiet nördlich von Feuerwein eingrenzen. Thalantyr sagt, wir sollen nach einer Blume suchen.~
+@1352 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war ausreichend, und wir konnten den Aufenthaltsort auf Gullykin eingrenzen.~
+@1353 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war gut, und wir konnten die Armschützer an einer in Gullykin lebenden Halblingsfrau ausfindig machen.~
+@1354 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr hat das Wahrsagungsgerät benutzt, um die Armschützer zu lokalisieren. Meine Auswahl der Edelsteine war ausgezeichnet, und wir konnten die Armschützer an einer in Gullykin lebenden Halblingsfrau namens Iris Cotton ausfindig machen.~
+@1355 = ~Zerstört die verfluchten Armschützer
+
+Ich habe die verfluchten Armschützer endlich gefunden! Wir trafen Largo Cotton in Gullykin und entdeckten, dass seine Frau Iris in ein Eichhörnchen verwandelt wurde. Largo möchte sehen, ob der örtliche Priester Alvanhendar helfen kann, bevor sie zur Hohen Hecke reisen. Ich sollte sie am örtlichen Tempel hier in Gullykin treffen.~
+@1356 = ~Zerstört die verfluchten Armschützer
+
+Ich habe die verfluchten Armschützer endlich gefunden! Wir trafen Largo Cotton in Gullykin und entdeckten, dass seine Frau Iris in ein Eichhörnchen verwandelt wurde. Ich habe Largo überzeugt, zur Hohen Hecke zu reisen und mit Thalantyr zu sprechen. Ich sollte ebenfalls dorthin reisen.~
+@1357 = ~Zerstört die verfluchten Armschützer
+
+Leider konnte der örtliche Kleriker Alvanhendar Iris Cotton bei dem Fluch der Armschützer nicht helfen. Die Cottons reisen zur Hohen Hecke, um Thalantyr zu treffen. Ich sollte ebenfalls dorthin reisen.~
+@1358 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Leider habe ich meinen Teil der Beschwörung nicht richtig hinbekommen: Iris wurde verletzt, und die Armschützer sind verschwunden.
+
+Thalantyr hat mir für meine Bemühungen gedankt, und mein Teil daran ist getan. Thalantyr und Melicamp werden versuchen, die Armschützer ohne mich zu finden.~
+@1359 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Ich habe einen Teil der Beschwörung verpatzt, doch Iris hat es mit nur leichten Beschwerden überstanden, die Armschützer sind jedoch verschwunden.
+
+Thalantyr hat mir für meine Bemühungen gedankt, und mein Teil daran ist getan. Thalantyr und Melicamp werden versuchen, die Armschützer ohne mich zu finden.~
+@1360 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton von den verfluchten Armschützern befreien. Die Beschwörung war gut genug, dass Iris ohne Nebenwirkungen davonkam.
+
+Ich sollte die Armschützer zusammen mit einem besonderen Pulver, das Thalantyr bereitgestellt hat, zu Taerom nach Beregost bringen. Das Pulver wird dafür sorgen, dass seine Schmiede heiß genug brennt, um die Armschützer ein für alle Mal zu zerstören.~
+@1361 = ~Zerstört die verfluchten Armschützer
+
+Thalantyr, Melicamp und ich konnten Iris Cotton mit einer perfekten Beschwörung von den verfluchten Armschützern befreien.
+
+Ich sollte die Armschützer zusammen mit einem besonderen Pulver, das Thalantyr bereitgestellt hat, zu Taerom nach Beregost bringen. Das Pulver wird dafür sorgen, dass seine Schmiede heiß genug brennt, um die Armschützer ein für alle Mal zu zerstören.~
+@1362 = ~Zerstört die verfluchten Armschützer
+
+Die Armschützer sind endlich zerstört und in der magisch verstärkten Hitze von Taeroms Schmiede zu Schlacke geschmolzen. Taerom bot an, zu versuchen, die Überreste zu einem neuen magischen Gegenstand zu schmieden, aber da sie aus verfluchtem Material stammen, wollte ich das Risiko nicht eingehen.~
+@1363 = ~Zerstört die verfluchten Armschützer
+
+Die Armschützer sind endlich zerstört. Die magisch verstärkte Hitze von Taeroms Schmiede hat sie vernichtet, und Taerom konnte aus ihren Überresten einen neuen Gegenstand schmieden. Ob der neue Gegenstand einen Teil ihrer ursprünglichen verfluchten Energie behält oder stattdessen nützlich ist, bleibt abzuwarten.~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -14,6 +482,316 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
+@10000 = ~Erweiterte Gnollfestung~
+@10001 = ~Argh, ich habe Euch kommen sehen ... Nun werde ich Euch fallen sehen! Argh! Auuu!~
+@10002 = ~Gnoll-Schwächling~
+@10003 = ~Schamane Sirkhr~
+@10004 = ~Siechender Gnoll~
+@10005 = ~Häuptling Hvalanya~
+@10006 = ~Wachhund Purkht~
+@10007 = ~Hauptmann Stilind~
+@10008 = ~Amnischer Soldat~
+@10009 = ~Amnischer Späher Manlytoe~
+@10010 = ~Kalvranalan~
+@10011 = ~Stab der ätzenden Gedanken +1~
+@10012 = ~Gürtel der Vorzeichen~
+@10013 = ~Dieser ungewöhnliche Gürtel wurde für einen Assassinen namens Mudbone gefertigt. Er war auf die Tötung von Priestern spezialisiert, insbesondere solcher, die jenen als Hindernis galten, die wenig Respekt vor gläubigen Menschen hatten. Der Gürtel sieht gut verarbeitet aus. Er muss aus hochwertigen Materialien gefertigt worden sein.
+
+EIGENSCHAFTEN:
+
+Schaden: +2 Bonus gegen Kleriker
+Magieresistenz: 2%
+
+Gewicht: 2~
+@10015 = ~Kettenhemd des primitiven Respekts +1~
+@10016 = ~An diesem Kettenpanzer ist etwas wirklich Rohes und Primitives, doch Ihr spürt magische Energie in seinen Gliedern. Er sollte seinen Träger im Kampf schützen können, und die Magie könnte sich in der Wildnis als nützlich erweisen. Allerdings hat die Rüstung einen seltsamen Geruch, der Euch an Hundefell erinnert.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten: Rüstungsklasse gegen Tiere: +2
+Ausgerüstete Fähigkeiten: -1 Charisma
+Rüstungsklasse: 4
+Gewicht: 20
+Benötigt: Stärke 8
+Kann nicht verwendet werden von:
+ Druide 
+ Magier 
+ Dieb~
+@10017 = ~Schlupfwinkel~
+@10018 = ~Umhang der Formstabilität~
+@10019 = ~Dieser Umhang wurde aus verzaubertem Stoff gefertigt, der sich als recht nützlich erweisen dürfte, wenn man Gegner wie Basilisken bekämpft, da er seinen Träger vor deren tödlichem Blick schützt.
+
+EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten: +4 Bonus auf alle Rettungswürfe gegen Verwandlung~
+@10020 = ~Torbogen~
+@10021 = ~Amulett des dunklen Unglücks~
+@10022 = ~Dieses Amulett wurde mit dunkler Magie verflucht. Wer es trägt, wird von Unglück verfolgt, und auf Reisen oder im Abenteuer ... kann Glück über Leben und Tod entscheiden.
+
+EIGENSCHAFTEN:
+
+Glück: um 1 verringert
+Speziell: kann nur durch den Zauber "Fluch brechen" entfernt werden~
+@10023 = ~Tempel des Biests der Metzelei~
+@10024 = ~Pfeil des zerbrochenen Geistes +1~
+@10025 = ~Dieser Pfeil sieht zerbrochen aus, doch selbst wenn Ihr eine Hälfte haltet, schwebt die andere direkt daneben. Auch wenn er nicht wirklich mächtig ist, kann er nützlich sein, wenn einem Abenteurer die normalen Pfeile ausgehen.
+
+EIGENSCHAFTEN:
+
+Kehrt zum Träger zurück, wenn abgeschossen
+
+Speziell: Schlägt als +1-Waffe zu
+Schaden: 1
+Schadensart: Geschoss (Stich)
+Gewicht: 0
+Schusswaffe: Bogen
+Kann nicht verwendet werden von:
+ Kleriker
+ Druide
+ Magier~
+@10026 = ~Innenbereich der Gnollfestung~
+@10027 = ~Dieser Stab wurde früher von einem Gnoll-Schamanen aus der Gnollfestung an der Schwertküste benutzt.
+
+Es ist schwer zu sagen, wer ihn erschaffen hat. Er fühlt sich recht roh an, und obwohl seine Macht nicht die größte ist, gibt es sicherlich Situationen, in denen er verwendet werden kann.
+
+EIGENSCHAFTEN:
+
+Spezielle Fähigkeiten: Kann einmal pro Tag Melfs Säurepfeil wirken
+ETW0: +1
+Schaden: 1W6+1
+Schadensart: Wucht
+Initiativefaktor: 3
+Fertigkeit: Kampfstab
+Typ: 2-händig
+Benötigt: Stärke 5~
+@10029 = ~Umhang des Regenten-Kriegers~
+@10030 = ~Dieser purpurne Umhang hat eine recht majestätische Aura, und man glaubt, dass er für einen König geschaffen wurde, aber ... die Legende verrät nicht, für welchen. Er soll nicht nur seinen Träger schützen, sondern auch alle um ihn herum glauben lassen, dass jedes seiner Worte wahr ist, und sie dazu bringen, ihn zu verehren.
+
+Ihr habt diesen Umhang als Zeichen des Vertrauens und der Dankbarkeit für die Sicherung der Gnollfestung erhalten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +1 Bonus
+Rettungswurf: +1 Bonus
+ETW0: +1 gegen Kämpfer, Mönche, Paladine, Waldläufer
+Schaden: +1 gegen Kämpfer, Mönche, Paladine, Waldläufer
+Charisma: Einmal pro Tag 1W4 Charisma für zehn Runden (nur Kämpfer)
+Gewicht: 3~
+@10031 = ~Ritualbuch der Gnollen~
+@10032 = ~Dieses Buch beschreibt Rituale: einige, um die natürliche Energie zu zähmen, und einige, um Yeenoghu, das Biest der Metzelei, zu erfreuen. Ein Ritual ist besonders morbide und beschreibt die Verbrennung menschlicher Schädel.~
+@10033 = ~Medizinische Vorräte~
+@10034 = ~Diese Tasche ist mit medizinischen Vorräten gefüllt.~
+@10035 = ~Fleisch~
+@10036 = ~Yeenoghus brennendes Fleisch~
+@10037 = ~Dieses brennende Fleisch ist tatsächlich Yeenoghus brennendes Fleisch. Wer es verzehrt, mag den besonderen Segen des Prinzen der Gnollen erhalten, doch er hat seinen Preis.
+
+EIGENSCHAFTEN:
+
+Speziell: Senkt bei Verzehr das Charisma um 1, gewährt aber +2 Schaden gegen gute Kreaturen. Der Bonus ist dauerhaft.
+
+Gewicht: 2~
+@10038 = ~Primitiver Schlüssel~
+@10039 = ~Ihr habt diesen primitiven Schlüssel in der Gnollfestung gefunden. Er muss dort etwas öffnen.~
+@10040 = ~Ich wurde gebeten, Euch auszurichten, dass "die Hoffnung durch die Straßen Athkatlas wandelt".~
+@10041 = ~Ahh, kühne Abenteurer an unserer Tür. Helm schützt die gesamten Reiche, und seine Diener stehen zu Eurer Verfügung. Der Wachsame ist bereit, Euren Gebrechen Abhilfe zu schaffen und somit den unnachgiebigen Blick des Großen Anführers abzulenken – natürlich für eine angemessene Gabe. Wir wollen uns doch gegenseitig unseren guten Willen beweisen, Ihr versteht schon.~
+@10042 = ~Welche Art von Diensten bietet Ihr an?~
+@10043 = ~Ich brauche im Moment nichts von Euch. Auf Wiedersehen.~
+@10044 = ~Hmm? Ich verstehe, dass Ihr das nicht ohne Grund sagt. Ihr seid wegen der Vorräte hier, die ich für den Notfall vorbereiten sollte, richtig?~
+@10045 = ~Ja.~
+@10046 = ~Nun, was glaubt Ihr?~
+@10047 = ~Es ist nicht meine Aufgabe, Euch zu befragen, sondern Euch dies zu geben. Nehmt diese Truhe und bringt sie zu denen, die sie brauchen.~
+@10048 = ~Wisset, dass Helm über Euch wachen wird.~
+@10049 = ~Argh! Wir ... haben Gäste ... Grr! Törichte Dinger! Ihr wisst, dass man Häuptling Hvalanya nicht stört?!~
+@10050 = ~Nein, ich glaube nicht, dass das auf meinem Weg hierher jemand erwähnt hat. Aber sie waren alle damit beschäftigt, tot zu sein.~
+@10051 = ~Es tut mir leid, Hvalanya, aber ich kann nicht zulassen, dass Ihr die Leute der Schwertküste angreift. Ich bin hier, um Euch aufzuhalten.~
+@10052 = ~Hahahaha! Ihr seid ein lustiges kleines Ding! Ich und meine Jungs werden Euch zeigen, dass man Häuptling Hvalanya nicht einfach anbellt und erwartet, hier heil herauszukommen! Auuu!~
+@10053 = ~Ich grüße Euch, Freund.~
+@10054 = ~Ihr! Argh, Euresgleichen weiß nicht, wann man Gnolle in Ruhe lassen sollte ...! Böse Alte, verhasst von den starken Gnollen, sogar vom Häuptling.~
+@10055 = ~Wer seid Ihr?~
+@10056 = ~Na, na. Das ist ja eine ganz schöne Sammlung, die Ihr da habt. Beeindruckend für jemanden Euresgleichen.~
+@10057 = ~Jetzt fragt Ihr ...?! Nachdem Ihr alte Gnolle getötet oder verletzt habt? Argh!~
+@10058 = ~Das ist alles mein ...!~
+@10059 = ~Alte Gnolle verdienen Respekt und wir ... haben diesen Ort eingenommen. Und diesen Raum, in dem ein alter Priester lebte. Jetzt ist er tot. Jetzt nutze ich diesen Ort.~
+@10060 = ~Viele der anderen Gnolle behandeln mich und die alten und schwächeren Gnolle wie kranke Hunde! Sie lachen! Pinkeln uns an! Aber obwohl wir unter ihrem Heim leben, kennen wir unseren Wert ... Wir kennen unsere Stärke!~
+@10061 = ~Wir preisen Yeenoghu! Und wir töten. Und wir essen. Selbst wenn wir unsere eigenen essen müssen ... aber Ihr ...~
+@10062 = ~Ihr seid vielleicht viel leckerer ... Wir werden heute schmausen.~
+@10063 = ~Seid vorsichtig, Abenteurer. Das ist ein gefährlicher Ort ... Ich ... ich habe die meisten meiner Leute an Monster verloren, die die nahe gelegene Festung besetzen. Ihr seht aus wie ein guter Krieger, <PRO_RACE>, aber diese Kreaturen hier sind wild!~
+@10064 = ~Was ist mit den Leuten geschehen, von denen Ihr sprecht? Sind sie tot?~
+@10065 = ~Sie müssen schwach gewesen sein, wenn sie wegen irgendwelcher rohen Kreaturen gestorben sind.~
+@10066 = ~Es waren gute Männer und Frauen ... Wir kamen hierher, um diesen Ort zu beanspruchen. Er sollte der amnischen Armee gehören, nicht diesen Kreaturen. Wir wurden von Athkatla hierher geschickt, um den Ort zu erkunden und zu sehen, ob eine kleine Gruppe die Gnolle still und leise ausschalten und ihn zu einem Operationspunkt machen könnte.~
+@10067 = ~Wir gerieten in eine Falle. Sie warfen Felsbrocken auf uns, andere wurden mit ihren Hellebarden und Klingen getötet.~
+@10068 = ~Minsk fürchtet diese Kreaturen nicht. Sie sind böse, und dem Bösen wird irgendwann immer ordentlich der Hintern versohlt! Höchstwahrscheinlich von Minsk und Boo. *Quiek*~
+@10069 = ~Nun, natürlich scheitern die Unvorbereiteten immer. (Deshalb braucht man immer einen ordentlichen Plan. Und ein paar Trottel, die als Kanonenfutter dienen können.)~
+@10070 = ~A-arme Leute. Ich k-kann mir nur vorstellen, wie schwer es sich anfühlt, v-vertraute Freunde zu verlieren ...~
+@10071 = ~Ich bin der Einzige, der das überlebt hat. Aber ... Ihr seht stark aus. Vielleicht könntet Ihr tatsächlich überleben.~
+@10072 = ~Vielleicht können wir doch noch etwas dagegen tun. Da wir schon hier sind, können wir Euch vielleicht helfen und Eure Leute rächen.~
+@10073 = ~Nun, Ihr Armen. Ich nehme an, Ihr solltet nach Hause zurückkehren und dem Gott, dem Ihr dient, dafür danken, dass er Euch Euer erbärmliches Leben geschenkt hat. Und nun entschuldigt mich, ich muss gehen.~
+@10074 = ~Ihr wollt mir helfen? Das ... das wäre wirklich wunderbar.~
+@10075 = ~Was ich herausgefunden habe, ist, dass es hier zwei Gruppen gibt. Die schwächeren Gnolle, die alten, und die, die verletzt wurden und nicht mehr so nützlich sind wie früher. Sie werden von einem Schamanen angeführt.~
+@10076 = ~Aber es gibt auch eine andere Gruppe der jüngeren, stärkeren Gnolle. Sie werden von ihrem Häuptling angeführt. Einem weiblichen Gnoll. Sie nennen sie "Häuptling Hvalanya". Sie soll recht grausam sein. Zumindest haben wir das daraus geschlossen, wie sie über sie sprechen.~
+@10077 = ~Beide müssen gestoppt werden, wenn wir diesen Ort übernehmen wollen. Aber es gibt noch einen Dritten, der ebenfalls gestoppt werden sollte ...~
+@10078 = ~Einen Dritten?~
+@10079 = ~Wer ist der Dritte? Sagt es mir endlich!~
+@10080 = ~Der Dritte ist nicht gerade ein Anführer, sondern eine Art ... Wachhund. Er steht normalerweise auf einem der Türme. Ich bin mir allerdings nicht sicher, auf welchem.~
+@10081 = ~Hmm, aber es wäre vielleicht eine gute Idee, ihn ebenfalls zu erledigen. Also, zwei Anführer und ein Wachhund.~
+@10082 = ~Das ist alles? Hah! Die sind tot, bevor Ihr "meine ganze Truppe ist gestorben" sagen könnt.~
+@10083 = ~Genau.~
+@10084 = ~Im Ernst? Ihr Tod ist eine Tragödie. Macht Euch nicht darüber lustig.~
+@10085 = ~Wenn diese drei Gnolle getötet werden, sollten die anderen fliehen oder sich verstecken. Ohne die wichtigsten Mitglieder ihres Rudels oder Clans oder wie auch immer sie sich nennen, sind sie keine echte Bedrohung mehr!~
+@10086 = ~Seid Ihr sicher, dass Ihr das bewältigen könnt? Ihr seht stark aus, aber ich muss Euch das einfach fragen. Es sind verdammt viele.~
+@10087 = ~Keine Sorge. Ich weiß, was ich tue.~
+@10088 = ~Das werden wir erst wissen, wenn ich es versucht habe.~
+@10089 = ~Wenn ich entscheide, dass es zu viele sind, laufe ich einfach weg.~
+@10090 = ~Richtig. Wenn Ihr glaubt, eine Chance gegen sie zu haben, und wenn Ihr es schafft, diese drei zu töten, dann kommt bitte zu mir zurück und lasst mich wissen, dass das Leben meiner Freunde nicht umsonst geopfert wurde.~
+@10091 = ~Ihr seid ein grausamer Mensch. Vielleicht werdet Ihr mit der Zeit verstehen, dass ... dass dieser Ort vom Einfluss dieser Kreaturen befreit werden muss. Wenn ja, kommt dann zu mir zurück.~
+@10092 = ~Ihr schon wieder? Seid Ihr hier, um Euch über mich und meine toten Freunde lustig zu machen.~
+@10093 = ~Erinnert mich: Was ist mit Euren Freunden geschehen?~
+@10094 = ~Ihr und sie sind mir gleichgültig. Auf Wiedersehen.~
+@10095 = ~Ah, Ihr kommt zurück. Habt Ihr es geschafft, die Gnoll-Anführer und den Wachhund zu erledigen?~
+@10096 = ~Ja. Sie sind alle tot. Es sieht so aus, als wären die Gnolle größtenteils verschwunden, aber hier und da könnte noch der eine oder andere sein. Ohne Anführer sollten sie leichte Ziele sein.~
+@10097 = ~Ich arbeite noch daran.~
+@10098 = ~Ihr ... Ihr habt es wirklich geschafft! Ich wünschte, meine Freunde wären hier, um das zu hören. Aber ich möchte glauben, dass sie Teil davon sind. Teil dieses Sieges. Doch die Arbeit ist noch nicht getan. Es gibt noch viel zu tun.~
+@10099 = ~Lasst uns tiefer in der Festung treffen, am oberen Ende der Treppe. Dort sollten wir unsere Mission fortsetzen. Wenn Ihr interessiert seid. Aber lasst mich Euch sagen, es wird Eure Zeit wert sein, mein Kriegerfreund.~
+@10100 = ~Hmm. Alles sieht gut aus ... Nun, ich habe es geschafft, von dem Turm aus ein Signal zu senden, wie ich es den Spähern südlich von hier angekündigt hatte. Ich denke, sie werden mir ein paar weitere Leute schicken, aber ich will nicht, dass wieder etwas schiefgeht.~
+@10101 = ~Und ich nehme an, Ihr braucht meine Hilfe, um zu verhindern, dass so etwas noch einmal geschieht, richtig? Sagt mir, wie ich helfen kann.~
+@10102 = ~Tut mir leid, aber ich habe keine Zeit, Euch zu helfen.~
+@10103 = ~In der Nähe gibt es eine Bergbaustadt. Nashkell ist ihr Name. Dort gibt es einen Tempel, und ich möchte, dass Ihr dorthin geht und mir einige medizinische Vorräte bringt. Der Priester wurde informiert, dass wir möglicherweise Hilfe brauchen könnten, wenn ich mich nicht irre. Schade, dass wir nicht vorher mit ihm gesprochen haben, bevor ich meine Freunde verlor, vielleicht hätten diese etwas genützt – nein. Das hätte die Tragödie auch nicht verhindert. Es tut mir leid, sie sind mir immer noch im Kopf.~
+@10104 = ~Jetzt könnten wir diese Vorräte brauchen. Die Festung ist vielleicht gesäubert, aber wer weiß, vielleicht streifen noch mehr dieser Kreaturen durch diese Berge und Pfade. Während wir also darauf warten, dass mehr Männer und Frauen hierher kommen, um mir zu helfen, könntet Ihr nach Nashkell gehen und den Priester um die Vorräte bitten.~
+@10105 = ~Und wird der Kleriker mir einfach glauben, dass Ihr mich geschickt habt?~
+@10106 = ~Das klingt nach einer leichten Aufgabe. Ich weiß, wo Nashkell liegt.~
+@10107 = ~Tut mir leid, aber nein. Ich habe keine Zeit dafür. Eigentlich muss ich gehen. Auf Wiedersehen.~
+@10108 = ~Ihr müsst nur sagen: "Die Hoffnung wandelt durch die Straßen Athkatlas." Dann weiß er, dass Ihr wegen der Vorräte geschickt wurdet.~
+@10109 = ~Klingt einfach.~
+@10110 = ~Klingt einfach. Könnt Ihr das nicht selbst erledigen?~
+@10111 = ~Es klingt langweilig und ... ich habe keine Zeit dafür. Auf Wiedersehen.~
+@10112 = ~Das ist es auch.~
+@10113 = ~Ich muss auf die Verstärkung warten. Außerdem muss jemand hier bleiben.~
+@10114 = ~Der schwierige Teil ist vielleicht, Nashkell zu erreichen, aber wenn Ihr den Weg kennt, wird es für Euch einfacher sein. Einfacher, als wenn ich selbst dorthin ginge.~
+@10115 = ~Helft mir bei der Aufgabe, bitte. Ich brauche wirklich Eure Hilfe.~
+@10116 = ~Sobald Ihr die Vorräte habt, kommt einfach hierher. Und ich werde darüber nachdenken, wie ich Euch belohnen kann, wenn die ganze Situation völlig unter Kontrolle ist.~
+@10117 = ~Ihr seid zurück, wie ich sehe. Habt Ihr die Vorräte?~
+@10118 = ~Ich habe die Vorräte hier.~
+@10119 = ~Ich arbeite noch daran. Ich lasse es Euch wissen, sobald ich sie habe.~
+@10120 = ~Prächtig! Gerade rechtzeitig! Schaut! Die Verstärkung ist da!~
+@10121 = ~Manlytoe! Hier!~
+@10122 = ~Es ist gut, Euch lebendig zu sehen, Stilind! Wo sind die anderen?~
+@10123 = ~Sie sind ...~
+@10124 = ~...~
+@10125 = ~Es tut mir wirklich leid, Stilind. Wirklich. War Mandar bei ihnen? Ich weiß, dass Ihr zwei unzertrennlich wart.~
+@10126 = ~Ja. Er ... er ist auch fort ...~
+@10127 = ~Bei den Göttern, seine Familie wird am Boden zerstört sein.~
+@10128 = ~Ich werde es ihnen sagen. Sobald ich zurück bin. Sobald unsere Mission vorbei ist.~
+@10129 = ~Konzentrieren wir uns ... auf das, was ansteht. Bitte.~
+@10130 = ~Natürlich. Wie ist die Lage?~
+@10131 = ~Die Festung ist gesichert. Ich habe Hilfe von diesem tapferen Kämpfer hier bekommen.~
+@10132 = ~Nun ... gern geschehen.~
+@10133 = ~Ich tue es für eine Belohnung. Ich hoffe, das ist klar.~
+@10134 = ~Ihr müsst recht stark sein. Gute Arbeit.~
+@10135 = ~Verstehe. Das ist ... gut zu wissen.~
+@10136 = ~Es muss schwierig gewesen sein, sich all diesen Kreaturen zu stellen.~
+@10137 = ~Ja ... Für den Fall, dass es wieder schiefgeht, hat unser Freund hier die medizinischen Vorräte für uns geholt. Die aus Nashkell.~
+@10138 = ~Gut. Aber hoffen wir, dass wir sie nicht brauchen.~
+@10139 = ~Richtig.~
+@10140 = ~Ihr und Eure Leute solltet Euch jetzt ausruhen und diese Hallen und Wände selbst überprüfen. Es könnte sich als nützlich erweisen. In der Zwischenzeit gibt es noch einen letzten Gefallen, um den ich unseren Helfer bitten muss. Sprecht mich an, wenn Ihr bereit seid.~
+@10141 = ~Ihr habt uns sehr geholfen, mein Freund. Aber es gibt noch einen letzten Gefallen, um den ich Euch bitten muss.~
+@10142 = ~Was ist es?~
+@10143 = ~Tut mir leid, aber ich habe keine Zeit dafür. Ich sollte gehen.~
+@10144 = ~Seht Ihr, als Ihr nach Nashkell aufgebrochen seid, habe ich herausgefunden, dass sich in dem Turm dort eine seltsame Kreatur befindet. Es gibt einen Riss in der Wand und ... dieser Turm scheint von einem bizarren Geist heimgesucht zu werden.~
+@10145 = ~Ich bin mir nicht sicher, ob einer dieser Männer und Frauen Erfahrung im Kampf gegen Geister hat, daher hoffte ich, dass Ihr ihn vielleicht für uns erledigen könntet. Ich verspreche, dass dies der letzte Gefallen sein wird, um den ich Euch je bitten werde. Und wenn es vorbei ist, bekommt Ihr etwas von mir.~
+@10146 = ~Ihr habt uns sehr geholfen, da wäre das nur fair.~
+@10147 = ~Also ... ein Geist, sagt Ihr ...~
+@10148 = ~Nein. Ich bin fertig damit, Euch zu helfen. Ich muss jetzt gehen. Auf Wiedersehen.~
+@10149 = ~Ja. Helft uns, bitte. Ich verspreche, dass das, was ich für Euch habe, wirklich seinen Wert hat.~
+@10150 = ~Hallo, Freund! Habt Ihr es geschafft, den Geist zu erledigen, von dem ich Euch erzählt habe?~
+@10151 = ~Ja. Er wird Euch keinen Kummer mehr bereiten.~
+@10152 = ~Nein, noch nicht. Auf Wiedersehen.~
+@10153 = ~Bei den Göttern! Ihr seid wahrlich einer der mächtigsten Krieger, die ich je getroffen habe.~
+@10154 = ~Diese Mission ist dank Euch kein Fehlschlag. Wir werden diesen Ort nutzen, um sicherzustellen, dass Reisen von Athkatla nach Nashkell von nun an sicherer sind.~
+@10155 = ~Wie ich versprochen habe, habe ich etwas für Euch. Einen besonderen Umhang, der Euch schützen wird. Ich hoffe, er wird Euch gute Dienste leisten. Außerdem nehmt diese paar Münzen. Sechshundert Goldmünzen. Ich weiß, es ist nicht viel, aber ... mehr kann ich nicht bieten.~
+@10156 = ~Danke für alles, was Ihr für uns getan habt. Seid versichert, dass Euer Name für uns alle hier zum Inbegriff eines furchtlosen Kriegers werden wird.~
+@10157 = ~Ich freue mich immer, Euch zu sehen, mein Freund.~
+@10158 = ~Ich sollte wohl später mein Schwert reinigen.~
+@10159 = ~Bei den Göttern, ich hoffe wirklich, dass wir hier nicht sterben.~
+@10160 = ~Ich mache noch ein paar Liegestütze vor dem Schlafengehen.~
+@10161 = ~Der Weg hierher war gefährlich, aber ich glaube wirklich, dass wir hier gute Arbeit leisten können.~
+@10162 = ~Innenbereich der Gnollfestung - Zweite Ebene~
+@10163 = ~Gnollfestung - Unheimlicher Raum~
+@10164 = ~Gnollfestung - Westlicher Lagerraum~
+@10165 = ~Gnollfestung - Östlicher Lagerraum~
+@10166 = ~Nun, der Ort ist nicht in Bestform, aber ich glaube, dass er sich mit einigen Ressourcen wieder herrichten lässt. Wände kann man ausbessern. Das wird etwas Gold erfordern, aber ... nichts davon ist unmöglich. Ich habe einige Waren hierher gebracht, falls wir Waffen oder Tränke brauchen.~
+@10167 = ~Es ist gut, Euch wiederzusehen.~
+@10168 = ~Wenn Ihr etwas braucht, kann ich Euch zeigen, was ich habe.~
+@10169 = ~Zeigt mir Eure Waren.~
+@10170 = ~Ich glaube, ich habe alles, was ich brauche. Auf Wiedersehen.~
+@10171 = ~Lebt wohl.~
+@10172 = ~Quartiermeister~
+@10173 = ~Die Gnollfestung sichern~
+@10174 = ~Die Gnollfestung sichern
+
+Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er wollte Hilfe bei irgendeinem Unsinn und ich lehnte ab.~
+@10175 = ~Die Gnollfestung sichern
+
+Ich traf Hauptmann Stilind am Eingang der Gnollfestung. Er ist der letzte Rest einer Truppe, die von Athkatla ausgeschickt wurde, um die Gnollfestung zu sichern. Er bat mich um Hilfe beim Kampf gegen ihre Anführerin, Häuptling Hvalanya, sowie gegen einen Schamanen einer rivalisierenden Gruppe. Außerdem muss ein Gnoll besiegt werden, der von einem der Türme aus Wache hält.~
+@10176 = ~Die Gnollfestung sichern
+
+Wir haben die Gnoll-Anführerin, Häuptling Hvalanya, besiegt.~
+@10177 = ~Die Gnollfestung sichern
+
+Schamane Sirkhr, der Anführer der rivalisierenden Gnoll-Fraktion, wurde in einem alten Tempel unter der Festung besiegt.~
+@10178 = ~Die Gnollfestung sichern
+
+Der Wächter von den Türmen, Purkht, wurde getötet.~
+@10179 = ~Die Gnollfestung sichern
+
+Ich habe die drei Gnolle wie von Hauptmann Stilind gefordert besiegt. Ich sollte ihm am Eingang der Festung Bericht erstatten.~
+@10180 = ~Die Gnollfestung sichern
+
+Hauptmann Stilind ist zuversichtlich, dass die übrigen Gnolle sich zerstreuen werden, da ihre Anführer fort sind. Er hat mich gebeten, ihn tiefer in der Festung zu treffen.~
+@10181 = ~Die Gnollfestung sichern
+
+Stilind hat mich gebeten, medizinische Vorräte zu holen, während er auf Verstärkung aus Athkatla wartet. Ich sollte zum Tempel des Helm in Nashkell reisen und dem Priester sagen: "Die Hoffnung wandelt durch die Straßen Athkatlas".~
+@10182 = ~Die Gnollfestung sichern
+
+Ich sollte mit den medizinischen Vorräten von Nalin zu Hauptmann Stilind in die Gnollfestung zurückkehren.~
+@10183 = ~Die Gnollfestung sichern
+
+Mit seinen medizinischen Vorräten in der Hand und Verstärkung im Rücken hat Hauptmann Stilind nun die feste Kontrolle über die Gnollfestung. Er möchte später mit mir über eine weitere Aufgabe sprechen.~
+@10184 = ~Die Gnollfestung sichern
+
+Hauptmann Stilind hat mich gebeten, einen Geist zu untersuchen, der in einem Riss in der Wand auf der nächsten Ebene lauert.~
+@10185 = ~Die Gnollfestung sichern
+
+Der Geist, den Hauptmann Stilind erwähnte, ist besiegt. Ich sollte meinen Erfolg melden.~
+@10186 = ~Die Gnollfestung sichern
+
+Die Gnollfestung ist nun dank meiner Bemühungen eine Festung von Amn. Ich wurde von Hauptmann Stilind für meine Arbeit gut belohnt.~
+@10187 = ~Hellebarde der Chimäre~
+@10188 = ~Wie andere ihrer Art besteht diese Hellebarde aus einer beilartigen Axtklinge, die auf einem etwa zwei Meter langen Schaft sitzt. Entlang ihres Griffes verläuft eine Reihe von Runen, die es dem Träger ermöglichen, seinen Schlägen zusätzlichen Schaden durch Elektrizität, Kälte oder Feuer nach Wahl zu verleihen. Gelegentlich entlädt sie bei einem einzigen Schlag einen Stoß aller drei Elemente.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+   1% Chance pro Treffer, dass das Ziel zusätzlich je 3 Punkte Kälte-, Elektrizitäts- und Feuerschaden erleidet
+
+ETW0: +1
+Schaden: 1W10+1
+Schadensart: Stich
+Speziell: +1 Kälte-, Elektrizitäts- oder Feuerschaden (nach Wahl des Trägers)
+Gewicht: 14
+Initiativefaktor: 8
+Fertigkeit: Hellebarde
+Typ: 2-händig
+Benötigt: Stärke 13
+Kann nicht verwendet werden von:
+ Druide
+ Kleriker
+ Magier
+ Dieb~
+@10189 = ~Elektrizität~
+@10190 = ~Kälte~
+@10191 = ~Feuer~
+@10192 = ~Die Spannungen mit Baldurs Tor wachsen, und diese Festung kontrolliert einen guten Abschnitt der Küste. Wir wollten nach getaner Arbeit hier zu den Minen von Nashkell weiterziehen. Aber wir wurden bemerkt.~
+@10193 = ~Es mag ein gewaltiger Gegner sein, und Ihr seid der Aufgabe im Moment vielleicht nicht gewachsen. Wir können einige einfache Schutzsiegel errichten, um den Geist festzuhalten, bis Ihr bereit seid.~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -23,16 +801,17 @@
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 @21604 = ~Warum müssen wir kämpfen? Kann Euch nicht mit all diesem Wissen gehen lassen. Wir hätten friedlich existieren können, aber nun habt Ihr gekämpft und werdet es niemals akzeptieren. Andere werden kommen und töten oder erobern. Abenteurer wie Ihr kommen doch immer, oder? Nein, ich muss kämpfen und Ihr müsst sterben! Es gibt vielleicht noch Hoffnung, wenn Selaad zurückkehrt, aber Ihr könnt nicht mehr helfen.~
-@21605 = ~Kaishas, wir haben nur gekämpft, weil wir dazu gezwungen wurden. Es war nicht unsere Tuen, sondern Eures und es gibt keinen Grund, warum das fortgesetzt werden muss.~
-@21606 = ~Wir wurden dazu gezwungen zu kämpfen, Kaishas, und wir haben gut gekämpft - glaubt Ihr wirklich, dass Ihr uns aufhalten könnt, indem Ihr dieses Schiff entert?~
+@21605 = ~Kaishas, wir haben nur gekämpft, weil wir dazu gezwungen wurden. Es war nicht unser Tun, sondern Eures und es gibt keinen Grund, warum das fortgesetzt werden muss.~
+@21606 = ~Wir wurden dazu gezwungen zu kämpfen, Kaishas, und wir haben gut gekämpft - glaubt Ihr wirklich, dass Ihr uns davon abhalten könnt, dieses Schiff zu entern?~
 @21607 = ~Euer Dorf und die Tunnel darunter sind nun angefüllt mit den Kadavern der Eurigen. Falls Ihr wirklich kämpfen wollt, dann sei dem so, aber Ihr macht einen Fehler.~
-@21608 = ~Sterbt, - wenn Ihr ein Monster seid, sollte ich Euch als solches behandeln.~
-@21609 = ~Welch Großzügigkeit, aber falls Ihr geht, werdet Ihr ohnehin ausrotten. Andere werden kommen, andere Narren nur um das "Böse" zu bekämpfen, das wir sind. Nein, wir müssen nun hier alleine zurückbleiben und selbiges müsst Ihr. Sterbt und schlaft und Ihr werdet die Einsamkeit nicht kennen. Falls Selaad zurückkehrt, werden wir es vielleicht wieder versuchen. Bis dahin bleiben wir.~
+@21608 = ~Dann sterbt - wenn Ihr ein Monster seid, werde ich Euch als eines behandeln.~
+@21609 = ~Welch Großzügigkeit, aber falls Ihr geht, werdet Ihr uns ohnehin ausrotten. Andere werden kommen, andere Narren nur um das "Böse" zu bekämpfen, das wir sind. Nein, wir müssen nun hier alleine zurückbleiben und selbiges müsst Ihr. Sterbt und schlaft und Ihr werdet die Einsamkeit nicht kennen. Falls Selaad zurückkehrt, werden wir es vielleicht wieder versuchen. Bis dahin bleiben wir.~
 @21610 = ~Kaishas, es gibt keinen Grund hierfür. Ich will es nicht tun, aber wir werden Euch töten, wenn wir müssen. Glaubt Ihr wirklich Ihr könnt uns aufhalten, obwohl Karoug und Daese es nicht konnten?~
-@21611 = ~Ich... fürchte, dass wir es nicht können. Aber wir sollten es versuchen. Uns bleibt keine Wahl.~
+@21611 = ~Ich... fürchte, dass wir es nicht können. Aber wir werden es versuchen. Uns bleibt keine Wahl.~
 @21612 = ~Kaishas, das ist Wahnsinn. Ihr werdet in den Tod gehen und ich will Euch nicht einmal töten!~
 @21613 = ~Vielleicht nicht. Aber Ihr seid verwundet und müde und die Meute ist dicht hinter Euch. Selbst Abenteurer können nur so lange kämpfen. Ungeachtet dessen, es muss so sein. Es tut mir wahrlich leid.~
-@21614 = ~Ich habe nur ungern mit Kaishas gekämpft. Sie schien zu denken, dass es keinen anderen Weg geben würde. Sie hat erwähnt, dass es eine zweite Chance geben könnte, falls Selaad eines Tages zurückkehrt. Er ist der vermisste Häuptling, wenn ich mich richtig erinnere.~
+@21614 = ~Die mysteriöse Insel
+Ich habe nur ungern mit Kaishas gekämpft. Sie schien zu denken, dass es keinen anderen Weg geben würde. Sie hat erwähnt, dass es eine zweite Chance geben könnte, falls Selaad eines Tages zurückkehrt. Er ist der vermisste Häuptling, wenn ich mich richtig erinnere.~
 @21615 = ~Vielleicht sind wir Monster. Aber wir tun, was wir müssen, um zu überleben.~
 @21616 = ~Ihr erinnert mich nur daran, dass dies sein muss. Zu viel ist zwischen uns geschehen. Ich weiß nicht, ob wir Euch aufhalten können oder nicht, aber die Antwort wird schnell bekannt sein.~
 @21617 = ~Welche Wahl gibt es? Falls die Wahrheit bekannt ist, wird Verderben über uns kommen!~
@@ -40,50 +819,51 @@
 @21619 = ~Ihr könnt uns vertrauen. Wir werden niemand von Eurem Volk erzählen - es wird sein, als wären wir nie an diesen Ort gekommen.~
 @21620 = ~Sterbt gut... es tut mir wahrlich leid, dass es auf diese Weise enden muss.~
 @21621 = ~Wie gerne würde ich Euch glauben! Aber versteht genau, die Zukunft meines Volkes steht hier auf dem Spiel. Ich kann kein Risiko eingehen.~
-@21622 = ~Wir haben unser Leben jeden Tag, seit dem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tuen, um Euch zu überzeugen? Wieviele Babies müssen wir noch vor den Wolfweren retten? ~
-@21623 = ~Wir haben unser Leben jeden Tag, seit dem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tuen, um Euch zu überzeugen?~
-@21624 = ~Ihr könnt nichts tun. Es tut mir wahrlich Leid.~
+@21622 = ~Wir haben unser Leben jeden Tag, seitdem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tun, um Euch zu überzeugen? Wie viele Babys müssen wir noch vor den Wolfwere retten? ~
+@21623 = ~Wir haben unser Leben jeden Tag, seitdem wir hier angespült worden sind, für Euer verdammtes Volk riskiert! Was müssen wir noch tun, um Euch zu überzeugen?~
+@21624 = ~Ihr könnt nichts tun. Es tut mir wahrlich leid.~
 @21625 = ~Ihr... könnt nichts tun. Maralee wird für Eure Tat für immer dankbar sein.... genauso wie ich. Aber obwohl es tapfer war, habt Ihr es getan ohne unsere wahre Natur zu erkennen.~
 @21626 = ~Und nun erkenne ich sie. Macht Euch bereit, Kaishas - dies endet nun.~
 @21627 = ~Langsam wird es lächerlich. Eure Undankbarkeit macht mich krank - ich hatte gehofft, dass ich Euch nicht als Monster sehen muss, aber es sieht aus, als wäre ich da falsch gelegen.~
-@21628 = ~Kaishas, haltet Ihr mich für einen Narren? Ich wusste, dass Ihr Werewölfe seit, selbst bevor ich mit Karoug gesprochen hatte... offen gesagt war ich fünf Minuten nachdem ich Euer Dorf betreten hatte Euch gegenüber misstrauisch! Falls Ihr versucht uns zu töten, dann fahrt damit fort, aber um Aos Willen, zollt uns etwas Anerkennung für unsere Intelligenz!~
-@21629 = ~Ich zolle Euch große Anerkennung, sowohl für Intelligenz als auch für Tapferkeit. Dennoch ist dies alles die Pflicht einer Anfühererin. Ich kann es nicht riskieren, dass Ihr lügt.~
+@21628 = ~Kaishas, haltet Ihr mich für einen Narren? Ich wusste, dass Ihr Werwölfe wart, selbst bevor ich mit Karoug gesprochen hatte... offen gesagt war ich fünf Minuten nachdem ich Euer Dorf betreten hatte Euch gegenüber misstrauisch! Falls Ihr versucht uns zu töten, dann fahrt damit fort, aber um Aos Willen, zollt uns etwas Anerkennung für unsere Intelligenz!~
+@21629 = ~Ich zolle Euch große Anerkennung, sowohl für Intelligenz als auch für Tapferkeit. Dennoch ist dies alles die Pflicht einer Anführerin. Ich kann es nicht riskieren, dass Ihr lügt.~
 @21630 = ~Kaishas, bitte, wartet! <CHARNAME> lügt nicht! <PRO_HESHE> und ich haben eine Verbindung gefunden... lange nachdem <PRO_HESHE> die Wahrheit über uns erkannt haben muss! Verschont <PRO_HIMHER> - <PRO_HESHE> mag unsere wahre Natur kennen, aber <PRO_HESHE> wird das Geheimnis für sich behalten.~
 @21631 = ~Ich...~
 @21632 = ~Kaishas, mein Peladan ist wegen diesen Außenstehenden immer noch am Leben. Soll ich ihn aufwachsen lassen, in dem Wissen, dass wir Peladans Retter abgeschlachtet haben? Dass wir in Wahrheit genauso wie in unserer äußeren Form Monster sind?~
-@21633 = ~Ich... ich war ein Narr. Vergebt mir, <CHARNAME>, dass ich uns an der Rand der Verwandtschaft mit wilden Tieren gebracht habe. Aber wir sind besser als Karoug... danke, dass Ihr das gewusst habt, selbst als ich es vergessen hatte.~
-@21634 = ~Geht, in Frieden. Ich weiß nicht, was sich ereignen wird, wenn Ihr meinen Ehemann gegenübertretet. Ich fürchte sehr um ihn, aber hat sein Schicksal selbst in der Hand. Falls er das Geschenk nicht bereitwillig zurücknimmt... dann müsst Ihr tun, was Ihr tun müsst.~
+@21633 = ~Ich... ich war ein Narr. Vergebt mir, <CHARNAME>, dass ich uns an den Rand der Verwandtschaft mit wilden Tieren gebracht habe. Aber wir sind besser als Karoug... danke, dass Ihr das gewusst habt, selbst als ich es vergessen hatte.~
+@21634 = ~Geht, in Frieden. Ich weiß nicht, was sich ereignen wird, wenn Ihr meinen Ehemann gegenübertretet. Ich fürchte sehr um ihn, aber er bringt sein Schicksal selbst über sich. Falls er das Geschenk nicht bereitwillig zurücknimmt... dann müsst Ihr tun, was Ihr tun müsst.~
 @21635 = ~Eines Tages, hoffe ich, wird Peladan ein Geschwisterchen haben. <PRO_HISHER> Name wird "<CHARNAME>" sein.~
 @21636 = ~Wir werden uns nie wieder treffen, <CHARNAME>. Das... bekümmert mich. Erinnert Euch an mich, selbst wenn Ihr alles andere über unser Volk vergesst.~
 @21637 = ~Ich habe es geschafft Kaishas Gan davon zu überzeugen, uns in Frieden gehen zu lassen... mit ein bisschen Hilfe von Delainy. Ein reizendes Mädchen, aber manche Dinge sollen nicht sein, nehme ich an.~
 @21638 = ~Ich habe es geschafft Kaishas Gan davon zu überzeugen, uns in Frieden gehen zu lassen... mit ein bisschen Hilfe von Durlyle. Es gab etwas besonderes zwischen uns... aber manche Dinge sollen nicht sein, nehme ich an.~
 @21639 = ~Das tut es in der Tat. Wahrlich, es tut mir leid.~
-@21640 = ~Ihr beschämt mich, Außenstehender. Groß ist unsere Schuld Euch gegenüber. Dennoch ist dies alles die Pflicht einer Anfühererin. Ich kann es nicht riskieren, dass Ihr lügt.~
-@21641 = ~Ihr seid zurückgekehrt! Und Ihr seid im Rudel... ich rieche es an Euch. Aber wo ist Kaishas? Wo ist mein Gefährte?~
+@21640 = ~Ihr beschämt mich, Außenstehender. Groß ist unsere Schuld Euch gegenüber. Dennoch ist dies alles die Pflicht einer Anführerin. Ich kann es nicht riskieren, dass Ihr lügt.~
+@21641 = ~Ihr seid zurückgekehrt! Und Ihr seid im Rudel... ich rieche es an Euch. Aber wo ist Kaishas? Wo ist meine Gefährtin?~
 @21642 = ~Warum habt Ihr uns geschickt? Was sollte auf dieser Insel passieren?~
-@21643 = ~Sie ist auf der Insel zurückgeblieben. Euer Gefährtin hätte uns beinahe getötet, als wir den Fluch ablehnten, den sie auf uns gelegt hat... aber zuletzt ist sie weise geworden. Erlöst uns von dem "Geschenk" und kehrt zurück zu ihr, "Mendas". Es gibt hier nichts für Euch.~
-@21644 = ~Das Logbuch war nichts! Balduran war nichts! Er hatte das Geschenk abgelehnt, dass die Großväter ihm angeboten haben. Ihr solltet nur Kaishas die Seekarten geben und Karoug töten, damit er ihr nicht folgen kann. Kaishas hätte das Rudel hierher gebracht, wo ich alles vorbereitet habe. Erbärmlich! Ihr konntet solch einfache Aufgaben nicht erfüllen? Stattdessen lasst Ihr meine Familie im Stich und stehlt das Boot um Euer grausames Leben zu retten?~
+@21643 = ~Sie ist auf der Insel zurückgeblieben. Eure Gefährtin hätte uns getötet, als wir den Fluch ablehnten, den sie auf uns gelegt hat... aber zuletzt ist sie weise geworden. Erlöst uns von dem "Geschenk" und kehrt zurück zu ihr, "Mendas". Es gibt hier nichts für Euch.~
+@21644 = ~Das Logbuch war nichts! Balduran war nichts! Er hatte das Geschenk abgelehnt, das die Großväter ihm angeboten haben. Ihr solltet nur Kaishas die Seekarten geben und Karoug töten, damit er ihr nicht folgen kann. Kaishas hätte das Rudel hierher gebracht, wo ich alles vorbereitet habe. Erbärmlich! Ihr konntet solch einfache Aufgaben nicht erfüllen? Stattdessen lasst Ihr meine Familie im Stich und stehlt das Boot um Euer grausames Leben zu retten?~
 @21645 = ~Nun ist es Zeit, dieses Wortgeplänkel zu beenden, Mendas. Es ist Zeit, dass Ihr für Eure Lügen und Eure Bosheit zahlt. Bereitet Euch vor zu sterben.~
-@21646 = ~Dies endet hier. Erlöst uns von dem "Geschenk" und kehrt zu Eurem Gefährten zurück, Mendas. Es gibt hier nichts für Euch.~
+@21646 = ~Dies endet hier. Erlöst uns von dem "Geschenk" und kehrt zu Eurer Gefährtin zurück, Mendas. Es gibt hier nichts für Euch.~
 @21647 = ~Hunde! Ihr seid es nicht wert, durch meine Hand zu sterben, aber sterben sollt Ihr! Zu mir, Baresh! Eine blutige Abrechnung steht bevor!~
-@21648 = ~Das Rätsel dieser Insel ist klar geworden. Mendas/Selaad hat uns unter dem falschen Vorwand, wir sollen Beweise in dem, was für Baldurans Schiffswrack gehalten wird, aufspüren, auf die Insel geschickt. Es war in der Tat das Schiff des Abenteurers, obgleich sein persönliches Schicksal immernoch ein Geheimnis bleibt. Baldurans Mannschaft wurde irgendwann während dieser schicksalhaften Reise mit Lycanthrophie infiziert. Das Schiff wurde auf Grund gesetzt und abgewrackt, wodurch die zwei Stämme der Lycanthropen, Werwölfe und Wolfwere, zurückblieben und gegeneinander um das Überleben kämpfen mussten. Die besser organisierten Werwölfen haben ein Dorf gebaut, in dessen Nähe wir kürzlich auf unsere eigenen schicksalhaften Reise Schiffbruch erlitten. Die chaotischen Wolfwere bezogen Ihr Quartier in den Ruinen von Baldurans Schiff und beide Rudel überlebten seitdem in einer unruhigen Koexstistenz. Mendas/Selaad ist letztlich das Risiko eingegangen zum Festland zu segeln. Irgendwie hat er es geschafft und sich eine plausible Geschichte ausgedacht, da er entdeckt hatte, dass jemand schließlich die Insel gefunden hatte. Zunächst hat er uns die Seekarten stehlen und später zu der Insel reisen lassen, um sie in die Hände seiner Werwolf-Gefährtin zu übergeben. Sie hat uns die Wolfwere töten lassen und dann unsere Gruppe mit Lycanthrophie angesteckt, in der Absicht, dass wir uns dem Rudel anschließen oder im Kampf sterben. Aber wir konnten sie davon überzeugen, uns in Frieden gehen zu lassen. Wir sind schlussendlich nach Hause gesegelt, um die Wahrheit über Mendas Doppelzüngigkeit herauszufinden. Das Schicksal scheint es zu genießen, mit mir zu spielen.~
-@21649 = ~Ich bin verwundert, Mendas, oder sollte ich sagen Selaad. Da Ihr der Anführer der Werwölfe seid, warum segelt Ihr nicht selbst zur Insel zurück?~
-@21650 = ~Ich bin kein Seefahrer. Ich bleibe, um diesen Ort für mein Volk vorzubereiten. Für Generationen waren wir auf der Insel gefangen. Es ist Zeit, dass wir in das Land unserer Großväter heimkehren. Sie haben Karten gebraucht und ich Abenteurer, die nicht viele Fragen stellen. Dennoch seid Ihr gescheitert. Ich frage nochmal - wo ist Kaishas?~
-@21651 = ~"Erlösen"? Meine närrische Gefährtin, was habt Ihr ihnen erzählt? Das ist kein Fluch, den man aufheben muss - es ist ein Geschenk, das man auskosten muss! Er kann nur "geheilt" werden, indem man den Häuptling der Werwölfe tötet. Ich bin der Häuptling und ich befinde Euch für unwürdig, mit meine Rudel umherzuziehen. Ihr werdet heute hier sterben. Zu mir Baresh! Eine blutige Abrechnung steht bevor!~
-@21652 = ~Selaad Gan ist der Anführer des wahren Volkes. Er erwartet die Rückkehr seiner Gefährtin Kaishas. Warum seid Ihr nicht mit Ihr zurückgekehrt?~
-@21653 = ~Es ist nicht an Euch, mit Fragen zu stellen. Welche Rolle habt Ihr hierbei gespielt?~
-@21654 = ~Es scheint, dass Ihr in die Irre geführt wurdet. Kaishas ist tot und ihre mörderische Art ist mit ihr gestorben.~
+@21648 = ~Die mysteriöse Insel
+Das Rätsel dieser Insel ist klar geworden. Mendas/Selaad hat uns unter dem falschen Vorwand, wir sollten Beweise in dem, was für Baldurans Schiffswrack gehalten wird, aufspüren, auf die Insel geschickt. Es war in der Tat das Schiff des Abenteurers, obgleich sein persönliches Schicksal immer noch ein Geheimnis bleibt. Baldurans Mannschaft wurde irgendwann während dieser schicksalhaften Reise mit Lykanthropie infiziert. Das Schiff wurde auf Grund gesetzt und abgewrackt, wodurch die zwei Stämme der Lykanthropen, Werwölfe und Wolfwere, zurückblieben und gegeneinander um das Überleben kämpfen mussten. Die besser organisierten Werwölfe haben ein Dorf gebaut, in dessen Nähe wir kürzlich auf unserer eigenen schicksalhaften Reise Schiffbruch erlitten. Die chaotischen Wolfwere bezogen ihr Quartier in den Ruinen von Baldurans Schiff und beide Rudel überlebten seitdem in einer unruhigen Koexistenz. Mendas/Selaad ist letztlich das Risiko eingegangen zum Festland zu segeln. Irgendwie hat er es geschafft und sich eine plausible Geschichte ausgedacht, da er entdeckt hatte, dass jemand schließlich die Insel gefunden hatte. Zunächst hat er uns die Seekarten stehlen und später zu der Insel reisen lassen, um sie in die Hände seiner Werwolf-Gefährtin zu übergeben. Sie hat uns die Wolfwere töten lassen und dann unsere Gruppe mit Lykanthropie angesteckt, in der Absicht, dass wir uns dem Rudel anschließen oder im Kampf sterben. Aber wir konnten sie davon überzeugen, uns in Frieden gehen zu lassen. Wir sind schlussendlich nach Hause gesegelt, um die Wahrheit über Mendas Doppelzüngigkeit herauszufinden. Das Schicksal scheint es zu genießen, mit mir zu spielen.~
+@21649 = ~Ich bin verwundert, Mendas, oder sollte ich sagen Selaad. Da Ihr der Anführer der Werwölfe seid, warum seid Ihr nicht selbst zur Insel zurückgesegelt?~
+@21650 = ~Ich bin kein Seefahrer. Ich bleibe, um diesen Ort für mein Volk vorzubereiten. Für Generationen waren wir auf der Insel gefangen. Es ist Zeit, dass wir in das Land unserer Großväter heimkehren. Sie haben Karten gebraucht und ich Abenteurer, die nicht viele Fragen stellen. Dennoch seid Ihr gescheitert. Ich frage noch einmal - wo ist Kaishas?~
+@21651 = ~"Erlösen"? Meine närrische Gefährtin, was habt Ihr ihnen erzählt? Das ist kein Fluch, den man aufheben muss - es ist ein Geschenk, das man auskosten muss! Er kann nur "geheilt" werden, indem man den Häuptling der Werwölfe tötet. Ich bin der Häuptling und ich befinde Euch für unwürdig, mit meinem Rudel umherzuziehen. Ihr werdet heute hier sterben. Zu mir, Baresh! Eine blutige Abrechnung steht bevor!~
+@21652 = ~Selaad Gan ist der Anführer des wahren Volkes. Er erwartet die Rückkehr seiner Gefährtin Kaishas. Warum seid Ihr nicht mit ihr zurückgekehrt?~
+@21653 = ~Es ist nicht an Euch, mir Fragen zu stellen. Welche Rolle habt Ihr hierbei gespielt?~
+@21654 = ~Es scheint, dass wir getäuscht wurden. Kaishas ist tot, und ihr mörderisches Gesindel ist mit ihr gestorben.~
 @21655 = ~Wir wurden angeheuert, um Baldurans Logbuch wieder zu finden. Wir haben es hierher gebracht und nun erwarten wir Bezahlung.~
-@21656 = ~Es scheint, dass Ihr in die Irre geführt wurdet. Kaishas bleibt auf der Insel. Wir müssen Selaad gegenübertreten und ihn den Fluch aufheben lassen, den uns seine Gefährtin närrischer Weiser beschert hat.~
+@21656 = ~Es scheint, dass wir getäuscht wurden. Kaishas bleibt auf der Insel. Wir müssen Selaad gegenübertreten und ihn den Fluch aufheben lassen, den uns seine Gefährtin närrischerweise beschert hat.~
 @21657 = ~Der Meister wünscht seine Frau, Kaishas Gan, zu sehen. Ist sie immer noch auf dem Schiff?~
 @21658 = ~Das geht Euch nichts an. Tretet beiseite.~
 @21659 = ~Wer ist Euer Meister? Wir arbeiten für Mendas von Tiefwasser.~
 @21660 = ~Ich bin Baresh. Ich bin von der wahren Rasse, nicht so wie Ihr. Der Meister wünscht seine Frau, Kaishas Gan, zu sehen. Ist sie immer noch auf dem Schiff?~
-@21661 = ~Das Buch ist nicht! Eure Aufgabe war es, die Sippe des Meisters zu retten. Wo ist die Gefährtin des Meisters, Kaishas?~
+@21661 = ~Das Buch ist nichts! Eure Aufgabe war es, die Sippe des Meisters zu retten. Wo ist die Gefährtin des Meisters, Kaishas?~
 @21662 = ~Eure Aufgabe war klar. Reist zu der Inselheimat und rettet die Sippe des Meisters. Da Ihr dabei gescheitert seid, sollte Kaishas die Seekarten von Euch nehmen. Unnütze Menschlinge! Selaad duldet Versagen nicht wirklich gut.~
 @21663 = ~Idiot! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Kaishas hat uns angegriffen und wir waren gezwungen, uns selbst zu verteidigen. Mendas wurde von seiner eigenen Gerissenheit betrogen.~
-@21664 = ~Mendas hat uns getäuscht. Er ist der, dem wir gegenübertreten müssen. Ihr seid kaum ein Lakai.~
-@21665 = ~Idioten! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Bringt uns nun zu Selaad!~
+@21664 = ~Mendas hat uns getäuscht. Er ist der, dem wir gegenübertreten müssen. Ihr seid nur ein Lakai.~
+@21665 = ~Idiot! Wir wurden unter falschem Vorwand ausgeschickt und irgendwie ist es unsere Schuld? Bringt uns nun zu Selaad!~
 @21666 = ~Nutzloser Schuft! Dafür wird der Meister Euch das Mark aus den Knochen saugen!~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -117,7 +897,7 @@ Der Stoffbeutel enthält eine unbegrenzte Anzahl von Schleuderkugeln.~
 @40007 = ~Dunkler Purpurner Ionenstein~
 @40008 = ~Mit diesem Stein, von dunkler purpurner Farbe, kann der Träger in die Schatten der Dunkelheit sehen.
 EIGENSCHAFTEN:
-Infravision (bis zu 30 m)
+Infravision (bis zu 18 m)
 Gewicht: 2~
 @40009 = ~Flimmernd Weißer Ionenstein~
 @40010 = ~Der Stein fühlt sich kalt an und strahlt Energie aus.
@@ -180,3 +960,675 @@ Fertigkeit: Katana
 Typ: 1-händig
 Mindeststärke: 6
 ~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Monk - Restoring Saiai no Hito                   \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@70001 = ~Inoshishi~
+@70002 = ~Vaxffee der Gierige~
+@70003 = ~Aasfresser Tymothy~
+@70004 = ~Stöhnender Troll~
+@70005 = ~Klingenamulett~
+@70006 = ~Dieses Amulett wäre normalerweise in einem Griff eines Katanas verborgen, direkt unter der Lederwicklung. Genau dieses Amulett sieht wirklich alt aus.~
+@70007 = ~Schwertgriff~
+@70008 = ~Dies sieht aus wie der Griff eines zerbrochenen Katanas. Es könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald seine Klinge gefunden ist.~
+@70009 = ~Schwertklinge~
+@70010 = ~Dies sieht aus wie die Klinge eines zerbrochenen Katanas. Sie könnte Teil des Saiai no Hito sein, eines kozakuranischen Schwertes mit gewaltigem Ruf, das Ne Kurosuna mit einem anderen Mönch im Sinn schuf: Shiroume Yakuchi.
+
+Vielleicht lässt es sich noch reparieren ... sobald sein Griff gefunden ist.~
+@70011 = ~Kin no Kemono~
+@70012 = ~Diese Armschienen wurden in Kozakura geschaffen. Sie sind warm bei Berührung, und obwohl sie recht leicht sind, wirken sie ziemlich robust. Von einer mächtigen Priesterin namens Ume nach der süßesten aller kozakuranischen Früchte verzaubert, mögen sie helfen, den Geist klar und im Gleichgewicht zu halten, selbst wenn der Zorn versucht, die Kontrolle über den Mönch zu übernehmen. Sie können dem Träger dieser Armschienen im Kampf auch helfen, indem sie seine Schläge lenken.
+
+EIGENSCHAFTEN:
+
+Nahkampf-ETW0: +2
+Schutz vor Berserkerwut
+Gewicht: 1
+Verwendbar von:
+ Mönche~
+@70013 = ~Saiai no Hito~
+@70014 = ~Dieses Schwert ist als Saiai no Hito bekannt. Es wurde von Ne Kurosuna geschaffen, einem ehemaligen Mitglied des Saku-Klosters. Er war eines der ursprünglichen Mitglieder des Klosters und trainierte dort jahrelang. Er war für seinen scharfen Verstand und seine anmutigen Techniken bekannt. Er war auch recht stark, wahrscheinlich einer der stärksten Mönche unter den anderen Mitgliedern des Saku-Klosters, solange er noch dort war.
+
+Im zehnten Jahr seiner Arbeit begann er, romantische Gefühle für Shiroume Yakuchi zu entwickeln, einen anderen Mönch desselben Klosters. Obwohl man ihn einen Meister der Disziplin, des Körpers und der Strategie nennen konnte, war er darauf nicht vorbereitet, da Ne seinen früheren Geliebten an Räuber verloren hatte, die ihn töteten. Er hatte nie erwartet, solche Gefühle erneut zu entwickeln, und schon gar nicht für jemanden aus demselben Kloster. Das machte ihn unruhig, hin- und hergerissen zwischen alter Liebe und der neu gefundenen. Er war sich nicht sicher, ob er Shiroume je von seinen Gefühlen erzählen sollte. Was, wenn der Mann diese Gefühle niemals erwidern könnte? Würde das ihre Freundschaft verändern? Und wäre das ein Verrat an seinem früheren Geliebten?
+
+Nach einigen Monaten beschloss er, dass er, wenn er diese Gefühle verstehen und entscheiden wollte, was zu tun sei, das Kloster verlassen und in Einsamkeit nachdenken und um Antworten und Erleuchtung beten musste. Da er gern durch Arbeit meditierte, begann er, Schwerter zu schmieden. Schließlich führte ihn das zur Erschaffung dieses Schwertes: Saiai no Hito. Es sollte ein Geschenk an Shiroume sein, da Ne beschlossen hatte, dass Frieden nur durch Ehrlichkeit erreicht werden kann. Er hoffte, dass ... Meister Yakuchi vielleicht verstehen, ihnen eine Chance geben oder zumindest helfen würde, Freunde zu bleiben. Ne beschloss, dass das ein Verrat an seiner früheren Liebe wäre. Er respektierte seine Vergangenheit noch immer. Er erinnerte sich noch immer daran.
+
+Saiai no Hito sollte ein Symbol der Liebe, der Verbundenheit und der Erleuchtung sein. Doch Ne Kurosuna wurde auf dem Weg zum Kloster getötet. Die Klinge ging daraufhin verloren, und es ist schwer zu sagen, wie sie ... oder vielmehr ihre Teile an die Schwertküste gelangten, doch dort ist es, wo die Klinge neu geschmiedet und in ihren früheren Glanz zurückversetzt wurde.
+
+Die Magie dieses Schwertes sollte denen helfen, die es führen, indem sie einen großen Vorteil im Kampf gewährt. Wenn man den Erzählungen glauben darf, sollte es auch das Herz des Mönchs davor schützen, jemals zermalmt oder gebrochen zu werden.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+– Einmal pro Tag, wenn aktiviert und von einem Mönch gehalten, erhält die Figur +1 Angriff pro Runde sowie +10% Wuchtresistenz für die nächsten 3 Runden.
+
+Kampffähigkeiten:
+– Schlägt als +3-Waffe zu
+
+ETW0: +1 Bonus
+Schaden: 1W10+1
+Speziell: +1 Feuerschaden
+Schadensart: Hieb
+Gewicht: 5
+Initiativefaktor: 3
+Fertigkeit: Katana
+Typ: 1-händig
+Benötigt: Stärke 6
+Kann nicht verwendet werden von:
+ Druide
+ Kleriker
+ Magier~
+@70015 = ~Inoshishis Mähne~
+@70016 = ~Dieser Ring ist als Inoshishis Mähne bekannt. Wer mit der kozakuranischen Sprache vertraut ist, weiß, dass Inoshishi "Wildschwein" bedeutet.
+
+EIGENSCHAFTEN:
+
+Rüstungsklassenbonus: +1 gegen Wuchtwaffen~
+@70017 = ~Abenteurer! Es ist gut, hier jemanden wie mich zu sehen: jemanden, der den Weg der Disziplin kennt. Ich bin Inoshishi. Inoshishi von Dojyu. Ein Mitglied des Saku-Klosters.~
+@70018 = ~Jemanden wie Euch?~
+@70019 = ~Woher wisst Ihr, dass wir etwas gemeinsam haben, Inoshishi?~
+@70020 = ~Freut mich, Euch kennenzulernen, Inoshishi.~
+@70021 = ~Jemanden, der die Stärke kennt, die aus Gleichgewicht und Disziplin kommt. Ich folge schon eine ganze Weile dem Weg des waffenlosen Kampfes, ebenso wie der Kontrolle über meine Muskeln und meine Kraft. Ich weiß nicht, ob wir alle dieselben Eigenschaften teilen, aber es gibt Anzeichen dafür, dass Ihr die Disziplin kennt, von der ich spreche.~
+@70022 = ~Ganz ebenso. Und die Tatsache, dass Ihr zu wissen scheint, von welcher Art Disziplin ich spreche, lässt mein Herz wärmer werden. Sie zu erlernen, den waffenlosen Kampf zu üben und meinen Geist wach und ruhig zu halten, ist ein wichtiger Teil meines Lebens.~
+@70023 = ~Ich bin aus den fernen Ländern von Kara-Tur hierhergekommen. Um genau zu sein, aus Kozakura. Ich kam mit einer Mission hierher, doch ich muss zugeben, dass ich mich recht verloren fühle. Diese ... Schwertküste ist ganz anders als meine Heimat, daher nimmt die Arbeit, die mich hierherbrachte, mehr Zeit in Anspruch, als ich erwartet hatte.~
+@70024 = ~Welche Art von Arbeit hat Euch hierhergebracht, Inoshishi? Was ist diese Mission, von der Ihr sprecht?~
+@70025 = ~Hört zu, Ihr und Eure Mission sind mir gleichgültig. Ich bin selbst beschäftigt genug. Seid so freundlich und geht mir aus dem Weg.~
+@70026 = ~Ich kam hierher auf der Suche nach einer mächtigen Klinge. Einem Katana namens Saiai no Hito. Es wurde von einem der ersten, ursprünglichen Mitglieder unseres Klosters geschmiedet, einem Mann namens Ne Kurosuna. Wenn unsere Dokumente stimmen, trat er von seiner Stellung zurück und verließ unsere Bruderschaft. Manche sagen, es geschah, als er sich in einen anderen Bruder verliebte, Shiroume Yakuchi. Wir wissen, dass ihre Beziehung Ne unruhig machte, da er seinen Geliebten zuvor an eine Gruppe Räuber verloren hatte ...~
+@70027 = ~Soweit wir verstehen, wollte er über seine Vergangenheit, Gegenwart und Zukunft meditieren. Wir glauben, er fühlte sich auf die Gefühle, die zu ihm zurückkehrten, nicht vorbereitet, und es war ihm, als verrate er die Erinnerung an seine längst verlorene Liebe. Wir fanden sein Tagebuch und erfuhren, dass er sich zwischen verschiedenen Lieben und verschiedenen Wegen hin- und hergerissen fühlte.~
+@70028 = ~Dieses Gefühl muss ihn recht zerrissen haben, wenn man bedenkt, dass es ihn dazu brachte, das Kloster zu verlassen.~
+@70029 = ~Hah! Es ist gut zu wissen, dass auch Männer sich mit ihren Ideen und Gefühlen verwirren können und nicht immer wir es sind, die verwirrt zurückbleiben! Hmpf!~
+@70030 = ~Ah, sowohl das Herz als auch die Angst können uns an die seltsamsten Orte führen, nicht wahr? Heh.~
+@70031 = ~Ich k-kann mit ihm und dem Bedürfnis mitfühlen, z-zu verstehen, was in einem vorgeht. Besonders, wenn s-solche Gefühle im Spiel sind und wir e-entscheiden müssen, w-was wir damit tun. Ob wir sie gestehen wollen.~
+@70032 = ~Manchmal ist es recht leicht, den Weg zu verlieren, wenn Leidenschaft im Spiel ist. Deshalb ist es immer am besten, sich vor Augen zu halten, was man genau will. Und wie sehr man es wirklich braucht, natürlich.~
+@70033 = ~Seine Meditation geschah oft durch Arbeit. Er baute eine Schmiede und wurde ein Schwertschmied. Manche sagen, er wollte seine Fragen, Zweifel und Hoffnungen in die Schwerter einprägen, die er schuf. Das führte ihn zur Erschaffung von Saiai no Hito, der Klinge, von der ich Euch erzählte.~
+@70034 = ~Ihr fragt Euch sicher, warum ich Euch all das erzähle.~
+@70035 = ~Ich glaube, Ihr habt einen Grund, diese Geschichte mit mir zu teilen.~
+@70036 = ~In der Tat frage ich mich, worauf Ihr mit dieser ... etwas langweiligen Geschichte hinauswollt.~
+@70037 = ~Hört zu. Diese Klinge, Eure Geschichte und der Grund, warum Ihr hier seid, sind mir gleichgültig. Geht und belästigt jemand anderen, ja? Ich muss gehen.~
+@70038 = ~Seht Ihr, diese Geschichte war recht lange verloren, und wir haben irgendwie ... darüber nachgedacht, was mit der Geschichte von Bruder Ne zu tun sei. Wir beschlossen, dass wir die Klinge finden und unter die Artefakte unseres Klosters einreihen sollten, unter andere Symbole der Hingabe. Sie verdient es, dort zu sein. Sie sollte dort sein. Bruder Ne hat sich dem Verständnis seiner Hoffnungen, seiner Liebe gewidmet.~
+@70039 = ~Das Problem ist, dass er längst dahingegangen ist. Und ebenso seine Schmiede. Mehr noch, wir fanden heraus, dass jemand irgendwann die Klinge gestohlen hat, die ein Geschenk an den werden sollte, den er liebte. Wir versuchten, ihre Geschichte zurückzuverfolgen, herauszufinden, wo sie sein könnte. Wir fanden heraus, dass sie Kozakura und Kara-Tur verließ und hierhergebracht wurde, an die Schwertküste.~
+@70040 = ~Das muss eine ganz schöne Reise gewesen sein. Ich verstehe einigermaßen, welche Schwierigkeiten damit verbunden gewesen sein mögen.~
+@70041 = ~Aber ... Kozakura ist sooo weit weg! Ist es das nicht? Ich bin mir nicht sicher, wie JEMAND so weit hätte reisen können. Es sei denn, er wusste, wie man ein Portal öffnet, vielleicht? Das wäre VIEL bequemer. Nun, er muss gewusst haben, wie man eines öffnet; nur so ergibt das alles einen Sinn!~
+@70042 = ~So viel Gerede! Und es geht nicht einmal um Tiax! Macht es kurz, sagt einfach, was Ihr braucht, und lasst uns ihm die Hilfe verweigern, die er braucht!~
+@70043 = ~*seufz* Wird er uns wirklich bitten, diese Klinge zu finden? Es klingt nach etwas ziemlich Unmöglichem.~
+@70044 = ~Das ist meine Mission. Die Klinge zu finden und mit ihr zurück zum Saku-Kloster zu reisen.~
+@70045 = ~Das klingt nach einer schwierigen Mission.~
+@70046 = ~Hah! Viel Glück damit! Es klingt nach etwas Unmöglichem!~
+@70047 = ~Tut, was Ihr tun müsst, es betrifft mich nicht. Eigentlich habe ich schon zu viel Zeit mit Euch und Euren Geschichten verbracht. Ich muss gehen. Auf Wiedersehen.~
+@70048 = ~Das ist es. Aber ich glaube wirklich, dass ich diese Klinge wiederherstellen kann.~
+@70049 = ~Es mag nach etwas Unmöglichem klingen, aber ich glaube, ich kann es schaffen, wenn ich wachsam und achtsam bleibe.~
+@70050 = ~Aber ... nun, da ich darüber nachdenke, heißt das nicht, dass ich es allein tun muss. Würdet Ihr mir bei meiner Mission helfen? Ich verspreche Euch eine Belohnung dafür. Für Eure Hilfe.~
+@70051 = ~Ah, "Belohnung". Das ist das Schlüsselwort, auf das ich gewartet habe.~
+@70052 = ~Denkt nur darüber nach. Vielleicht könnten wir beide davon profitieren?~
+@70053 = ~Es klingt nach einer wichtigen Mission. Wie Ihr sagtet, teilen wir einige ähnliche Eigenschaften, und Euch ohne jede Hilfe zu lassen, würde sich falsch anfühlen. Sagt mir, was zu tun ist. Was braucht Ihr von mir?~
+@70054 = ~Ihr, Euer Gold, Eure Traditionen und irgendeine dumme Klinge sind mir gleichgültig. Tut mir leid, aber Ihr seid auf Euch allein gestellt. Außerdem muss ich wirklich gehen. Auf Wiedersehen.~
+@70055 = ~Oh, danke! Habt vielen Dank!~
+@70056 = ~Seht Ihr, ich bin nicht ohne Grund zum Freundlichen Arm gekommen. Vor nicht allzu langer Zeit wurde ich von einer Frau angegriffen, einer Schlägerin. Sie nahm einige meiner Habseligkeiten mit. Ich muss einen Teil meiner Vorräte auffrischen. Außerdem hörte ich, dass es hier einen Tempel gibt, einen, der der Weisheit gewidmet ist. Ich dachte, ich schaue, ob die Person, die dort arbeitet, helfen kann.~
+@70057 = ~Nun, da wir unsere Kräfte bündeln sollen, denke ich, wir sollten gemeinsam mit dieser Person sprechen. Treffen wir uns also im Tempel und sehen wir, ob es uns hilft, mehr darüber zu erfahren, wo wir das Katana suchen sollten.~
+@70058 = ~Ich warte im Tempel auf Euch. Bitte kommt dorthin.~
+@70059 = ~Verstehe. Ihr seid einer von den Selbstsüchtigen. Gut. Ich werde Euch nicht weiter belästigen.~
+@70060 = ~Ah, Ihr seid da! Gut. Sehen wir, ob wir etwas über den Verbleib des Schwertes herausfinden können.~
+@70061 = ~Nun, mit ein paar Gleichgesinnten können wir vielleicht einen Hinweis bekommen. Es ist offensichtlich von großer Bedeutung für unseren neuen Freund.~
+@70062 = ~Bleiben wir optimistisch. Was verloren ist, kann immer gefunden werden! Oder ... zumindest meistens!~
+@70063 = ~Weisheit! Ah, es ist immer am besten, sie direkt aus dem Schädel zu graben! Aber ich sehe keine Schädel zum Graben. Schade, das könnte nett sein. Netter als das hier. Ha!~
+@70064 = ~Hmm, diese Klinge muss wirklich wichtig für ihn sein, nicht wahr? Ich habe nach drei Tagen aufgegeben, als Ihr mir vor zwei Jahren mein Buch verlegt habt! Wie auch immer, sehen wir, ob wir etwas Nützliches herausfinden, ja?~
+@70065 = ~Entschuldigt, Priesterin. Ich brauche Eure Führung.~
+@70066 = ~Führung, hmm? Erzählt mir mehr, junger Mann, und wer weiß, vielleicht werde ich Euch ein ehrliches Wort oder zwei anbieten.~
+@70067 = ~Ich kam hierher auf der Suche nach einem alten Schwert, Saiai no Hito. Leider ohne Erfolg. Die Schwertküste ist kein kleiner Ort, und ich brauche vielleicht etwas Hilfe. Ich habe ein weiteres Paar Augen bei mir, aber wir müssten wissen, in welche Richtung wir suchen sollten. Ich hoffte, dass vielleicht jemand vom Tempel der Weisheit uns helfen könnte, dieses entscheidende Detail zu finden.~
+@70068 = ~Wenn ich Euch so ansehe, habt Ihr sicher schon einiges bereist, nicht wahr, Junge?~
+@70069 = ~Lasst Gellana Euch ein wenig helfen. Ich benötige zweihundert Goldmünzen und etwas, das mir helfen würde, eine Verbindung zu diesem Schwert herzustellen, das Ihr sucht. Habt Ihr so etwas?~
+@70070 = ~Ich ...~
+@70071 = ~Habt Ihr?~
+@70072 = ~Sagt mir nicht, dass Ihr nichts habt, das helfen würde ...~
+@70073 = ~Ich erwähnte, dass ich bestohlen wurde. Ich hatte ein Amulett, von dem meine Brüder und Schwestern glauben, dass es einst im Griff des Schwertes steckte. Aber dieses Amulett war eines der Dinge, die mir genommen wurden.~
+@70074 = ~Es tut mir leid, aber ich brauche dieses Teil, um den Zauber für Euch zu wirken, Junge.~
+@70075 = ~Ich ... ich verstehe. Aber vielleicht ist es nicht zu spät. Vielleicht ist diese Schlägerin noch zu finden. Ich habe noch etwas Gold, mein Freund, ich kann für den Zauber bezahlen, es kommt also nur noch darauf an, die Person zu finden, die mich angegriffen hat.~
+@70076 = ~Aber genau das würde ich auch "den schwierigen Teil" nennen, Inoshishi.~
+@70077 = ~Nun ... wir können versuchen, sie zu finden, aber ich weiß nicht, ob wir Erfolg haben werden ...~
+@70078 = ~Das ist lächerlich. Wisst Ihr was? Ihr seid auf Euch allein gestellt. Geht und sucht diese Frau selbst. Ich mache nicht mehr mit.~
+@70079 = ~Ihr habt darin offensichtlich mehr Erfahrung. Könntet Ihr versuchen, dieses Amulett zu bekommen? Bitte.~
+@70080 = ~Ich versuche es.~
+@70081 = ~Argh ... Schön ...~
+@70082 = ~Nein. Ich habe keine Zeit dafür.~
+@70083 = ~Wisst Ihr was? Ich glaube, ich habe einen Fehler gemacht. Ihr seid auf Euch allein gestellt. Auf Wiedersehen.~
+@70084 = ~Danke, mein Freund.~
+@70085 = ~Ich wurde auf dem Weg hierher von der Stadt südlich davon ausgeraubt. Ich glaube, sie nennen sie ... Beregost ...?~
+@70086 = ~Vielleicht ist das ihr übliches "Jagdgebiet". Vielleicht ist sie noch irgendwo dort?~
+@70087 = ~Bitte prüft das für mich und lasst mich wissen, was Ihr findet.~
+@70088 = ~Ich dachte, Ihr würdet mir wirklich helfen, aber es sieht so aus, als hätte ich mich geirrt.~
+@70089 = ~Na, na, na! Wen haben wir denn da! Die Leute nehmen gewöhnlich den Weg dort unten, und ich beobachte sie wirklich gern. Wisst Ihr, manchmal, wenn ihre Taschen zu schwer sind, kann ich ihnen helfen, indem ich ihnen etwas von dieser "Bürde" abnehme, hahaha!~
+@70090 = ~Ihr müsst diejenige sein, die Inoshishi angegriffen hat.~
+@70091 = ~Was für ein Zufall! Ich liebe es einfach, anderen Dinge wegzunehmen, die sie gestohlen haben. Ihr seht aus wie so eine Art Dieb.~
+@70092 = ~Der Fremde? Er war eine leichte Beute.~
+@70093 = ~Ich greife gewöhnlich von oben an, aber das heißt nicht, dass ich mich nicht auch ohne diesen Vorteil verteidigen kann.~
+@70094 = ~Kommt. Zeigt mir, was Ihr draufhabt!~
+@70095 = ~Habt Ihr es geschafft, das Amulett zurückzuholen?~
+@70096 = ~Ja. Hier ist es.~
+@70097 = ~Ich arbeite daran.~
+@70098 = ~Ihr habt sie gefunden?! Das ist großartig! Habt vielen Dank!~
+@70099 = ~Jetzt haben wir alles, was wir brauchten, und Madame Gellana sollte uns helfen können. Habe ich recht?~
+@70100 = ~Ich denke schon. Ah, es ist eine Weile her, dass mich jemand "Madame" genannt hat, haha! Kommt her. Zeigt mir dieses Amulett.~
+@70101 = ~Natürlich, hier ist es.~
+@70102 = ~Und? Habt Ihr etwas gefunden, Madame Gellana?~
+@70103 = ~Ich ... ich glaube, ich habe etwas, aber es ist recht ungewöhnlich! Es sieht so aus, als wäre Euer Schwert in zwei Teile zerbrochen.~
+@70104 = ~Was?! Wie?!~
+@70105 = ~Nun, bei dieser Art von Frage kann ich Euch nicht helfen.~
+@70106 = ~Aber wisst Ihr, wo diese Teile sind? Wo sollen wir sie suchen?~
+@70107 = ~Ich habe etwas gesehen, ja. Kurze Einblicke oder Empfindungen von ... Orten.~
+@70108 = ~Einer davon war eine Art Turm. Mit einem Licht. Es könnte ein Leuchtturm gewesen sein. Ich hörte Wasser, aber auch einige Stimmen. Es ist schwer zu sagen, ob es Geister waren oder ... vielleicht einfach Menschen.~
+@70109 = ~Und der zweite?~
+@70110 = ~Der zweite war ganz anders. Das andere wurde von einem ... fleischigen Sack gehalten. Ich glaube, es wurde von irgendeinem Monster verschluckt. Ich bin mir nicht sicher, wie das möglich ist, aber obwohl ... es sich im Inneren befindet, lebt die Kreatur noch. Es muss ein Monster sein, das sich selbst heilen oder sogar inneren Schnitten widerstehen kann.~
+@70111 = ~Die Kreatur war in einer felsigen Gegend. Es gab Felsen. Sand. Ich hatte das Gefühl, alles war recht trocken. Aber mehr weiß ich nicht.~
+@70112 = ~Ich bin mir nicht sicher, ob das genug ist, aber das ist alles, was ich sah, Kind.~
+@70113 = ~Es ist mehr, als wir hatten. Danke.~
+@70114 = ~Gern geschehen.~
+@70115 = ~Kommt, mein Freund. Lasst uns draußen sprechen.~
+@70116 = ~Nun, es könnte besser sein. Und es hätte schlimmer sein können.~
+@70117 = ~Ich denke, Ihr kennt die Schwertküste besser, also kann ich Euch nur bitten, die Augen offen zu halten. Ich weiß nicht, wie viele Leuchttürme es dort gibt, aber ich nehme an, mehr als einen. Und die Kreatur, die sie erwähnte ... in einer trockenen, felsigen Gegend. Das ist nicht sehr genau, aber vielleicht habt Ihr schon so einen Ort gesehen?~
+@70118 = ~Ich werde die Karte studieren und mich umhören. In der Zwischenzeit, wenn Ihr an Orten seid, die diesen Beschreibungen entsprechen, untersucht sie bitte. Mehr bitte ich nicht.~
+@70119 = ~Natürlich. Ich verlasse Euch jetzt nicht. Ich lasse es Euch wissen, wenn ich diese Schwertteile finde.~
+@70120 = ~Ich bin fertig damit, Euch zu helfen. Tut mir leid, aber Ihr seid auf Euch allein gestellt. Auf Wiedersehen.~
+@70121 = ~Danke! Ich bin wirklich dankbar!~
+@70122 = ~Ich dachte, Ihr würdet mir helfen, aber ... egal. Ich werde Euch nicht weiter belästigen!~
+@70123 = ~Habt Ihr gefunden, was wir suchen?~
+@70124 = ~Ich habe den Griff des Schwertes gefunden!~
+@70125 = ~Ich habe die Klinge des Schwertes gefunden!~
+@70126 = ~Nein, noch nicht.~
+@70127 = ~Ich bin so froh! Lasst mich einen Blick darauf werfen ...~
+@70128 = ~Wirklich?! Im Ernst? Lasst mich einen Blick darauf werfen ...~
+@70129 = ~Ja! Das ist ein Teil von Saiai no Hito!~
+@70130 = ~Wir brauchen noch den anderen Teil, aber wir sind auf dem richtigen Weg.~
+@70131 = ~Lasst es mich wissen, wenn Ihr den zweiten Teil des Schwertes findet.~
+@70132 = ~Ja! Das ist ein Teil von Saiai no Hito! Die Klinge!~
+@70133 = ~Ich bin so froh, dass Ihr diesen Teil gefunden habt. Aber das ist nicht das Ende unserer Schatzsuche.~
+@70134 = ~Lasst es mich wissen, wenn Ihr den zweiten Teil des Schwertes findet, den Griff.~
+@70135 = ~Oh, welch herrlicher Tag! Es sieht so aus, als hätten wir beide Teile des Schwertes!~
+@70136 = ~Jetzt müssen wir es reparieren! Es muss wieder ein Ganzes werden. Und ich weiß genau, wen ich fragen muss.~
+@70137 = ~Als ich in Beregost war, sprach ich mit dem Schmied dort. Er ist sehr geschickt, und ich glaube, er könnte dieses Schwert reparieren.~
+@70138 = ~Holt den Sternenfall-Wetzstein und trefft mich in Beregost. Ich nehme an, Ihr müsst Euch zuerst ausruhen, aber wenn Ihr fertig und bereit seid, trefft mich an seiner Schmiede in der Stadt. Bitte lasst mich nicht zu lange auf Euch warten.~
+@70139 = ~... ah, das könnte etwas wert sein ...~
+@70140 = ~Wartet! Wer seid Ihr? Ihr wollt meine Schätze nehmen!~
+@70141 = ~Ich suche nur nach einem Schwertteil, man sagte mir, es sei vielleicht bei einem Leuchtturm, also dachte ich, ich schaue, ob es hier ist.~
+@70142 = ~Ja, genau deshalb bin ich hier.~
+@70143 = ~Es ist mein! Alles mein!~
+@70144 = ~Hmm, es sieht so aus, als wäre der Schmied nicht hier. Kehren wir während seiner Arbeitszeit zu ihm zurück.~
+@70145 = ~Es ist gut, Euch zu sehen, Freund! Nun, wir haben beide Teile des Schwertes, und wir sind hier und ... ich übernehme das Reden, ich hoffe, das stört Euch nicht.~
+@70146 = ~Entschuldigt, Meister Schmied. Ich möchte Euch eine Frage stellen.~
+@70147 = ~Klar, was braucht Ihr?~
+@70148 = ~Ich habe hier dieses Katana. Eines, das zerbrochen wurde, wie es aussieht, und ich hoffte, dass Ihr es vielleicht reparieren könnt.~
+@70149 = ~Schauen wir mal, was Ihr da habt ...~
+@70150 = ~Hmm, es sieht so aus, als wäre es zerbrochen, ja, und ... es ist kein neues Schwert, aber es sieht wirklich gut aus. Jemand muss viel Arbeit in die Fertigung gesteckt haben.~
+@70151 = ~Glaubt Ihr, es lässt sich reparieren?~
+@70152 = ~Hmm, vielleicht. Aber Katanas sind ganz anders als das, was ich gewöhnlich mache, man muss wirklich vorsichtig sein, um sie perfekt zu halten.~
+@70153 = ~Ihr seht aus wie jemand, der diese Aufgabe bewältigen könnte.~
+@70154 = ~Hah! Vielleicht! Aber das wird mich eine Weile kosten. Außerdem wird es nicht billig. 1.200 Goldmünzen. Normalerweise würde ich mehr nehmen, aber es sieht so aus, als wäre diese Klinge wichtig für Euch. Es wird vier Tage dauern, sie zu reparieren.~
+@70155 = ~Ich habe 1.000 ...~
+@70156 = ~Es sind 1.200, tut mir leid. Es gibt Probleme mit Eisen, und die Preise werden allgemein nicht niedriger. Die Leute wollen, dass ihre Klingen fein und scharf sind, und das braucht Zeit.~
+@70157 = ~Hier. Die 200 Goldmünzen, die Ihr braucht.~
+@70158 = ~Tut mir leid, aber ich gebe mein Gold nicht dafür aus, Inoshishi.~
+@70159 = ~Tut mir leid, ich würde Euch helfen, Inoshishi, aber ich habe nicht so viel Gold.~
+@70160 = ~Danke, mein Freund. Ihr seid wahrlich die beste Hilfe, die ich bekommen könnte.~
+@70161 = ~Richtig. Kehrt in vier Tagen zu mir zurück. Dann sollte es fertig sein.~
+@70162 = ~Danke, natürlich. Ich warte auf Euch, <CHARNAME>, damit Ihr kommen und die Klinge in ihrer wiederhergestellten Pracht sehen könnt. Vier Tage, und meine Mission ist beendet.~
+@70163 = ~Ich ... ich gebe Euch meinen Siegelring.~
+@70164 = ~Danke. Tut mir leid, aber auch ich habe Ausgaben.~
+@70165 = ~Ich verstehe.~
+@70166 = ~Richtig. Kehrt in vier Tagen zu mir zurück. Dann sollte Eure Klinge repariert sein.~
+@70167 = ~Danke. Ich warte auf Euch, <CHARNAME>, damit Ihr kommen und die Klinge in ihrer wiederhergestellten Pracht sehen könnt. Vier Tage, und meine Mission ist beendet.~
+@70168 = ~Hmm, es sieht so aus, als wäre unser Freund gerade nicht hier. Suchen wir ihn während seiner Arbeitszeit auf.~
+@70169 = ~Ihr seid da! Meister Schmied, habt Ihr es geschafft, die Klinge zu reparieren, die wir Euch gebracht haben?~
+@70170 = ~Es war keine leichte Aufgabe, aber ja, sie ist hier.~
+@70171 = ~Seht Euch das nur an! So eine erstaunliche Arbeit! Ihr habt das gut gemacht!~
+@70172 = ~Hah! Anders mache ich es gar nicht. Ich meine, die Sachen sollen ja in Schuss bleiben.~
+@70173 = ~Es ist erstaunlich! Danke!~
+@70174 = ~Kommt, mein Freund! Gehen wir, und ich lasse Euch die Klinge bei etwas natürlichem Licht sehen.~
+@70175 = ~Seht Euch nur diese Klinge an. Oh, sie ist prächtig! Und das wäre ohne Eure Hilfe nicht möglich gewesen.~
+@70176 = ~Saiai no Hito ist ein Teil unserer Geschichte, ebenso wie Ne Kurosuna. Seine Geschichte ist zwar auf gewisse Weise tragisch, kann aber auch andere inspirieren. Er hat wahrlich seine Liebe gefunden, und obwohl ... er starb, bevor er Shiroume gegenübertreten und herausfinden konnte, ob dieser dasselbe empfindet, kann man ihn dennoch für seine Hingabe und den Weg, seine Gefühle zu verstehen, in Erinnerung behalten.~
+@70177 = ~Danke. Nun seid auch Ihr ein Teil dieser Geschichte. Und ich nehme an, es ist auch der Moment, Euch zu belohnen.~
+@70178 = ~Ich habe magische Armschienen für Euch, aber ... Ihr habt mir auch geholfen, die Reparatur des Schwertes zu bezahlen, also habe ich beschlossen, Euch zusätzlich meinen Siegelring zu geben. Er ist nicht mächtig, aber vielleicht wird er Euch nützlich sein.~
+@70179 = ~Ich habe magische Armschienen für Euch. Sie sind recht mächtig, und vielleicht werden sie Euch auf Euren Abenteuern helfen.~
+@70180 = ~Ihr wart eine große Hilfe bei dieser Mission, also lasst mich das noch einmal sagen: Danke.~
+@70181 = ~Ich bin wahrlich dankbar dafür. Bringt die Klinge zu Eurem Kloster und lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70182 = ~Ich verstehe, dass dieses Schwert Teil der Vergangenheit Eures Klosters ist, aber ich werde es brauchen, wenn ich meine eigene Mission erfüllen soll. Gorion, der Mann, der sich um mich gekümmert hat, ist tot. Aber ich werde mich nicht zu ihm gesellen, und ich weiß, dass es Leute gibt, die versuchen werden, mich zu vernichten.~
+@70183 = ~Tut mir leid, aber es gab einen anderen Grund, warum ich Euch geholfen habe. Ich werde dieses Schwert nehmen. Selbst wenn ich Euch dafür töten muss.~
+@70184 = ~Das ist der Plan.~
+@70185 = ~Danke für alles. Ich werde nie vergessen, was Ihr getan habt und wie Ihr mir geholfen habt, <PRO_BROTHERSISTER>.~
+@70186 = ~Ich ... was? Ich ... es tut mir leid, aber ich kann Euch dieses Schwert nicht einfach geben.~
+@70187 = ~Ne war ein Mann der Leidenschaft. Der Hoffnung. Und ich brauche gerade jetzt Hoffnung. Ich verspreche, ich werde dieses Schwert mit Respekt führen. Ich werde es so führen, wie Shiroume Yakuchi es führen würde. Es geht um Leben und Tod, also ... bitte. Lasst dieses Schwert ein Symbol nicht nur der Liebe sein, sondern auch der Hoffnung.~
+@70188 = ~Ich verstehe. Und ich nehme an, Ihr habt recht, ich kann es nicht einfach so nehmen. Bitte, bringt es zu Eurem Kloster. Lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70189 = ~Es tut mir leid, aber ich brauche dieses Katana. Ich werde dieses Schwert nehmen. Selbst wenn ich Euch dafür töten muss.~
+@70190 = ~Ich ... Bei den Göttern, das ist wirklich ernst, nicht wahr? Ihr braucht dieses Schwert wirklich, um das hier zu überleben? Ich weiß nicht, warum, aber wenn ich Euch ansehe, fühle ich ... ich fühle, dass das, was Ihr sagt, die Wahrheit ist.~
+@70191 = ~Nehmt es. Ich werde meine Brüder und Schwestern belügen, aber ich möchte, dass Ihr es gut einsetzt. Lasst seine Geschichte leben. Lasst die Geschichte von Ne Kurosuna mit Euch leben, durch Eure Geschichten, durch dieses Schwert.~
+@70192 = ~Bitte versprecht mir das.~
+@70193 = ~Ich verspreche es.~
+@70194 = ~Ich glaube, ich töte Euch einfach und nehme das Schwert von Eurem Leichnam.~
+@70195 = ~...~
+@70196 = ~Hier. Aber brecht dieses Versprechen niemals. Und lasst dieses Schwert nie wieder zerbrechen.~
+@70197 = ~Ihr ... Ihr macht Witze, richtig? Hah! Ihr hättet mich fast erwischt.~
+@70198 = ~Natürlich mache ich Witze. Bitte, bringt es zu Eurem Kloster. Lasst die Geschichte von Ne Kurosuna für immer weiterleben.~
+@70199 = ~Ich mache keine Witze. Ich brauche diese Klinge. Ich glaube, ich töte Euch einfach und nehme das Schwert von Eurem Leichnam.~
+@70200 = ~Es tut mir leid, aber das kann ich nicht zulassen!~
+@70201 = ~Die Wiederherstellung von Saiai no Hito~
+@70202 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich wurde am Freundlichen Arm von einem zerlumpten Fremden angegangen und habe ihn prompt fortgeschickt.~
+@70203 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe zugestimmt, Inoshishi zu helfen, einem Reisenden an der Schwertküste, der Saiai no Hito zurückgewinnen will, eine Klinge von einiger Bedeutung für seinen Orden.~
+@70204 = ~Die Wiederherstellung von Saiai no Hito
+
+Inoshishi wurde irgendwo zwischen hier und Beregost ein Amulett geraubt. Er hat uns gebeten, den Banditen aufzuspüren und ihm sein Amulett im Tempel der Weisheit zurückzubringen.~
+@70205 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishis Banditin gefunden und sein Amulett zurückgeholt. Ich sollte zu ihm in den Tempel der Weisheit zurückkehren.~
+@70206 = ~Die Wiederherstellung von Saiai no Hito
+
+Inoshishis Aufgaben kamen nicht voran, und ich habe Besseres zu tun. Ich habe ihm das gesagt, und nun kann ich meine Zeit produktiveren Zwecken widmen.~
+@70207 = ~Die Wiederherstellung von Saiai no Hito
+
+Gellanas Wahrsagung hat ergeben, dass die Klinge in zwei Teile zerbrochen wurde. Einer ist nahe einem Leuchtturm, der andere im Bauch eines Biests in einer felsigen Gegend.~
+@70208 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe den Schwertgriff von einem Aasfresser in Ulgoths Bart zurückgeholt. Ich muss noch den anderen Teil finden, der im Bauch eines Biests in einer felsigen Gegend steckt.~
+@70209 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe die Schwertklinge aus dem Bauch eines Trolls geborgen. Ich muss noch den anderen Teil finden, der nahe einem Leuchtturm ist.~
+@70210 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe beide Teile der Klinge geborgen. Ich sollte zu Inoshishi zurückkehren, der draußen vor dem Tempel der Weisheit auf mich wartet.~
+@70211 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe beide Teile der Klinge geborgen und sie Inoshishi gegeben. Er ist bereits nach Beregost vorausgegangen, wo er an der Donnerhammer-Schmiede warten wird. Ich muss zum Karneval in Nashkell reisen und einen Sternenfall-Wetzstein finden.~
+@70212 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich traf Inoshishi, aber die Schmiede war geschlossen. Ich kehre zurück, wenn sie geöffnet ist.~
+@70213 = ~Die Wiederherstellung von Saiai no Hito
+
+Taerom hat den Auftrag angenommen, Saiai no Hito neu zu schmieden, obwohl Inoshishi seinen Siegelring dazugeben musste, um dafür zu bezahlen. Ich sollte in vier Tagen zurückkehren, wenn es fertig ist.~
+@70214 = ~Die Wiederherstellung von Saiai no Hito
+
+Taerom hat den Auftrag angenommen, Saiai no Hito neu zu schmieden, obwohl wir helfen mussten, dafür zu bezahlen. Ich sollte in vier Tagen zurückkehren, wenn es fertig ist.~
+@70215 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich ging zu Inoshishi, um die neu geschmiedete Klinge zu sehen, aber die Schmiede war geschlossen. Ich kehre zurück, wenn sie geöffnet ist.~
+@70216 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Er hat mich für meine Hilfe belohnt und ist in seine Heimat aufgebrochen.~
+@70217 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Ich habe ihn überzeugt, dass wir die Klinge brauchen, um Frieden an der Schwertküste wiederherzustellen, und versprochen, die Klinge eines Tages zurückzubringen.~
+@70218 = ~Die Wiederherstellung von Saiai no Hito
+
+Ich habe Inoshishi geholfen, Saiai no Hito zu seinem früheren Glanz zurückzuführen. Er versuchte, mich mit kümmerlichen Kleinodien zu entlohnen, aber ich verlangte die Klinge selbst.~
+@70219 = ~Und er half immer seinen anderen Brüdern. Dann verliebte er sich in einen von uns, und obwohl ich nicht verstehe, wie es sich angefühlt haben muss, zwischen alter und neu empfundener Liebe hin- und hergerissen zu sein, und angesichts der Fragen, ob seine Gefühle erwidert würden, habe ich die Dokumente gelesen und weiß, dass er ein ehrlicher und starker Mann war, und man sollte ihn in Erinnerung behalten, ebenso wie seine Liebe bei ihm sein sollte.~
+@70220 = ~Sternenfall-Wetzstein~
+@70221 = ~Der Sternenfall-Wetzstein ist eine ungewöhnliche alchemistische Verbindung, bekannt für ihre verblüffende azurblaue Farbe.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5~
+@70222 = ~Ich suche etwas: einen Sternenfall-Wetzstein. Ich hörte, jemand hier könnte ihn haben.~
+@70223 = ~Tut mir leid, aber ich bin es nicht. Ihr müsst wohl woanders suchen.~
+@70224 = ~Ich habe ihn schon einmal gesehen, aber damals in Athkatla. Tut mir leid, aber ich habe nichts dergleichen.~
+@70225 = ~Das ist eine seltene Sache! Vielleicht hat jemand hier so einen Wetzstein, aber ich bin es nicht, tut mir leid.~
+@70226 = ~Ich hörte, jemand hier hat Ankheg-Panzer bestellt! Ich habe sie hier.~
+@70227 = ~Nun, ich habe so einen Wetzstein, wenn Ihr ihn braucht, aber ich brauche etwas im Austausch dafür.~
+@70228 = ~Seht Ihr, ich hörte von diesen Rüstungen aus Ankhegs. Und ich dachte, ich versuche mich selbst an solch einer Rüstung, wenn der Karneval vorbei ist und ich wieder zu Hause bin. Nun, mit etwas Hilfe von meinem vertrauten Schmied Cromwell.~
+@70229 = ~Aber ich brauche etwas Material dafür. Fünf Ankheg-Panzer. Bringt mir die, und ich gebe Euch den Wetzstein dafür. Das ist ein faires Angebot, vertraut mir. Sternenfall-Erz ist wirklich selten!~
+@70230 = ~Ihr habt sie wirklich? Ihr versteht es wahrlich, andere zu überraschen. Im positiven Sinne natürlich!~
+@70231 = ~Hier, der Wetzstein, den Ihr braucht. Und ich nehme diese Panzer. Und ... nun muss ich herausfinden, wie in den Neun Höllen ich sie wieder nach Süden bekomme.~
+@70232 = ~Danke dafür! Denkt daran, ich brauche fünf davon.~
+@70233 = ~Ich bin sicher, er wird einen Sternenfall-Wetzstein brauchen. Während Ihr die Teile des Schwertes zurückgeholt habt, habe ich mich umgehört, und ich glaube, es gibt einen am Karneval in Nashkell.~
+@70234 = ~Ich habe auch diesen seltenen Sternenfall-Wetzstein für Euch besorgt, den Ihr verwenden könnt.~
+@70235 = ~Die Wiederherstellung von Saiai no Hito
+
+Der Rüstungshändler am Karneval in Nashkell hat einen Sternenfall-Wetzstein, aber er möchte sich daran versuchen, eine Rüstung aus Ankheg-Panzern herzustellen. Er ist bereit, den Wetzstein gegen fünf Panzer zu tauschen.~
+@70236 = ~Nun müssen wir größtenteils nur noch warten. Bevor Ihr geht, möchte ich Euch etwas anbieten.~
+@70237 = ~Es ist eine Weile her, dass ich mit meinen Brüdern und Schwestern trainiert habe. Das ließ mich erkennen, dass Ihr vielleicht, bevor Ihr zu Euren anderen Missionen zurückkehrt, Lust hättet, mit mir zu trainieren, <PRO_BROTHERSISTER>?~
+@70238 = ~Ich könnte wohl eine gute Trainingseinheit gebrauchen. Ja. Ich glaube, das kann ich tun, Inoshishi.~
+@70239 = ~Tut mir leid, aber ich habe keine Zeit dafür. Wir sehen uns wieder, sobald die Klinge repariert ist. Bis dahin.~
+@70240 = ~Ich freue mich! Nun, suchen wir den richtigen Ort dafür.~
+@70241 = ~Ich verstehe, natürlich. Es sieht so aus, als hättet Ihr viel zu tun. Wir treffen uns hier, wenn die Klinge wieder ein Ganzes ist.~
+@70242 = ~Dies sieht nach dem richtigen Ort dafür aus. Also, <PRO_BROTHERSISTER>, wenn Ihr bereit seid, sollten wir beginnen!~
+@70243 = ~Nun ... ich ... ich glaube, das war eine ganz schöne Einheit! Ihr müsst viele Schlachten geschlagen haben ...! Eure Kampftechnik ist recht ... bemerkenswert! Entschuldigt, ich glaube, ich muss erst einmal zu Atem kommen!~
+@70244 = ~Es ist gut, dass ich meinen Wasserschlauch hier habe. Ihr könnt etwas haben, wenn Ihr durstig seid.~
+@70245 = ~Wo seid Ihr noch gleich aufgewachsen? Auf einem Schlachtfeld, heh?~
+@70246 = ~Es war eigentlich eher wie eine ... Bibliothek.~
+@70247 = ~Nein, nicht wirklich. Aber ich hatte immer das Gefühl, dass ich auf alles vorbereitet sein muss. Und dass ich sowohl meine Kräfte als auch meine Schwächen beherrschen will.~
+@70248 = ~Das geht Euch nichts an. Wir sollten trainieren, nicht persönliche Informationen austauschen.~
+@70249 = ~Eine Bibliothek? Das ist kaum zu glauben! Aber andererseits habt Ihr keinen Grund zu lügen. Ach, und ich dachte, Inoshishi wäre für sein Alter und die Zeit, die er auf sein Gleichgewicht und seine Stärke verwandte, immer recht gut!~
+@70250 = ~Ihr wisst offensichtlich, was Ihr tut. Ach, und ich dachte, Inoshishi wäre für sein Alter und die Zeit, die er auf sein Gleichgewicht und seine Stärke verwandte, immer recht gut!~
+@70251 = ~Richtig. Es tut mir leid, ich wollte nicht neugierig sein.~
+@70252 = ~Diese Einheit erinnerte mich daran, wie es sich im Saku-Kloster anfühlte. Die Trainingseinheiten, die Meditationen. Ich vermisse sie genauso sehr wie die Luft, den Weihrauch und die Abende nach einem schönen Tag, an denen man meditiert, während die Sonne die Horizontlinie überquert und der Mond aufsteigt.~
+@70253 = ~Viele mögen denken, dass das Leben in einem Kloster langweilig ist, doch es bringt viel Freude und Zuversicht und das Gefühl von Bestimmung mit sich.~
+@70254 = ~Was meint Ihr?~
+@70255 = ~Hört zu, das ist alles sehr nett, aber ich muss gehen. Danke für diese Trainingseinheit. Wir sehen uns wieder an der Schmiede, wenn die Klinge repariert ist, in ein paar Tagen.~
+@70256 = ~Ich hörte einmal, wie manche Leute sagten, wir verschwendeten unsere Zeit mit sinnloser Kontemplation und Disziplin, während wir unser Leben wirklich genießen könnten, indem wir frei sind. Aber unser Leben im Kloster ist das, was ich als Freiheit betrachte. Dort wurde ich auf diese Mission vorbereitet. Dort verstand ich mich selbst besser. Und dort wurde mir beigebracht, mich zu verteidigen, falls etwas schiefgeht.~
+@70257 = ~Das ist eine Art von Freiheit. Oder zumindest ein Weg, der mich zu ihr führen mag.~
+@70258 = ~Ich nehme an, jeder muss seinen eigenen Weg zur Freiheit finden. Und es klingt wirklich so, als hättet Ihr Euren Weg gefunden, mein Freund.~
+@70259 = ~Ihr sagtet, Ihr wurdet dort auf Eure Mission vorbereitet, doch ich bin derjenige, der die meiste Arbeit macht. Nein, wovon Ihr sprecht, ist keine Freiheit. Es ist ein Käfig. Einer aus Gold und Frieden, aber dennoch ein Käfig.~
+@70260 = ~Ich kenne Euer Kloster nicht, und ich glaube nicht, dass mich solche Gespräche interessieren. Eigentlich ist es Zeit für mich, weiterzuziehen. Wir sehen uns wieder an der Schmiede, wenn die Klinge repariert ist, in ein paar Tagen.~
+@70261 = ~Diese Leute, von denen Ihr hörtet: Sie wandeln einfach einen anderen Pfad. Sie folgen einem anderen Ruf.~
+@70262 = ~Ich nehme an, das habe ich.~
+@70263 = ~Ich glaube nicht, dass ich zustimme, aber ich werde sicher über das nachdenken, was Ihr gesagt habt, meine Freunde. Und sei es nur, um zu verstehen, WARUM Ihr es gesagt habt. Danke.~
+@70264 = ~Mmm. Ich nehme an, Ihr habt recht. Ich sollte deswegen nicht zornig sein, und vielleicht lässt mich das, was Ihr gesagt habt, ihre Worte hinter mir lassen.~
+@70265 = ~...~
+@70266 = ~Ich glaube, wir wandeln einen interessanten Pfad, Ihr und ich. Einen, der Disziplin erfordert, und ... und die Bereitschaft, Fragen ins Auge zu sehen, die unseren Geist und unsere Seele herausfordern mögen. Mir wurde meine Aufgabe gestellt, und das lässt mich fragen, ob Euch Eure bereits gestellt wurde. Oder ob es nur ein Vorspiel zu etwas Größerem ist, diese Dinge, mit denen Ihr Euch gerade auseinandersetzt. Aber ...~
+@70267 = ~... es tut mir leid. Manchmal stelle ich zu viele Fragen oder rede zu viele Worte, wenn jemand anderes nur einen Moment ausruhen musste, heh. Nun, das hat mir Sakurachi gesagt, eine meiner Freundinnen. Hmm, ich vermisse sie tatsächlich ziemlich.~
+@70268 = ~Es ist Zeit aufzustehen, und ... agh. Hah! Ihr habt mir hier wahrlich eine Lektion erteilt, mit all diesen Bewegungen, mit denen ich nicht gerechnet hatte und denen ich nicht auszuweichen wusste! Es ist gut, dass ich so zäh bin, wie mein Name vermuten lässt, hahaha!~
+@70269 = ~Ich bin nicht sicher, ob ich verstehe.~
+@70270 = ~Wartet, "Inoshishi" bedeutet ...~
+@70271 = ~Heh, Inoshishi bedeutet nichts anderes als "Wildschwein". Und ich hatte immer eine Schwäche für diese Tiere. Man hält sie für stark und widerstandsfähig. Und recht haarig, hah! Was soll ich sagen, es liegt mir einfach in den Genen.~
+@70272 = ~Ich danke Euch für dieses Training, mein Freund. Ich habe bereits genug von Eurer Zeit beansprucht. Wisset, dass ich auch für dieses Gespräch dankbar bin. Ihr habt vieles gesagt, das mich wirklich zum Nachdenken brachte.~
+@70273 = ~Es ist Zeit für etwas Meditation. Wir sehen uns bald, <PRO_BROTHERSISTER>, an der Schmiede, wenn die Klinge repariert und bereit für ihre Rückkehr nach Hause ist.~
+@70274 = ~Ich ... verstehe. Nun, dann nehme ich nicht noch mehr von Eurer Zeit in Anspruch. Wir sehen uns bald, an der Schmiede, wenn die Klinge repariert und bereit für ihre Rückkehr nach Hause ist.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// The Calling - Thief's Quest                      \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+@80001 = ~Bdharlan der Einfältige~
+@80002 = ~Pelerlertiana~
+@80003 = ~Sporenkolonie~
+@80004 = ~Mysteriöse Frau~
+@80005 = ~Mallandrea~
+@80006 = ~Xamm~
+@80007 = ~Pelerlertianas Lichtung~
+@80008 = ~Kalter Lümmel +1~
+@80009 = ~Dieser magische Knüppel fühlt sich kalt an. Er wurde offensichtlich verzaubert, um zusätzlichen Schaden zu verursachen und Erfrierungen hervorzurufen. In das Holz ist ein kleines eingeritztes Herz geschnitzt, samt einer kleinen Notiz: Lulu + Grong (ebenfalls eingeritzt). Vielleicht wurde die Waffe aus einem Zweig gefertigt, der ein Zeichen der Liebe sein sollte, aber ... diese Liebe hielt nicht.
+
+EIGENSCHAFTEN:
+
+Kampffähigkeiten:
+- Jeder erfolgreiche Treffer hat eine 75%ige Chance, zusätzlich 1 Kälteschaden zu verursachen
+
+ETW0: +1
+Schaden: 1W6+1 (Wucht)
+Initiativefaktor: 3
+Fertigkeit: Knüppel
+Typ: 1-händig
+Benötigt: Stärke 5
+
+Gewicht: 2~
+@80011 = ~Dieses eine dumme Geschenk~
+@80012 = ~Dieses Amulett sieht einem anderen Amulett, das als "Das verlorene Geschenk" bekannt ist, ein wenig ähnlich. Während beide dem Benutzer helfen können, mächtige feurige Geschosse zu schleudern, ist dieses hier außerdem ... verflucht und macht es dem Benutzer schwerer, sich zu konzentrieren und einem vollkommen klaren Gespräch zu folgen.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Intelligenz: -2
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Aufladungsfähigkeit:
+- Geschoss
+  Schaden: 6W6 Feuer (Rettungswurf gegen Zauber halbiert)
+  Reichweite: 15 m
+  Wirkungsbereich: 4,5 m Radius
+
+Gewicht: 1~
+@80014 = ~Lachende alte Pflaume +2~
+@80015 = ~Lachende alte Pflaume wurde von einer grünen Hexe von der Schwertküste geschaffen. Es ist eine mächtige Waffe, sehr scharf, sehr gefährlich, doch wer sie im Kampf benutzt, muss sich auch an ihre launische Natur gewöhnen. Die Klinge kann ihren Träger zwar schützen, doch haltet sie falsch, seid nicht sanft genug, und sie nimmt sich einen Teil dieses Schutzes oder schwächt Euch sogar, wenn es nichts anderes zu nehmen gibt.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Magieresistenz: +6%
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Kampffähigkeiten:
+- Jeder erfolgreiche Treffer hat eine 10%ige Chance, Eure Magieresistenz für 3 Runden um 2% zu senken. Dieser bösartige Fluch ist dieser Waffe höchst amüsant, also wird sie Euch jedes Mal auslachen, wenn das geschieht ... was ebenfalls recht nervig und, offen gesagt, wirklich unhöflich sein kann
+
+ETW0: +2
+Schaden: 1W4+2 (Stich)
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Benötigt: Stärke 3
+
+Gewicht: 1~
+@80017 = ~Ring der stinkenden Füße~
+@80018 = ~Dieser verfluchte Ring ist als Ring der stinkenden Füße bekannt. Er wurde von einem sembischen Barden geschaffen, der seinem Freund einen Streich spielen wollte. Er gab ihm den Ring, aber ... aus irgendeinem Grund trug der Freund ihn weiter und sagte, er gefalle ihm recht gut. Ein seltsamer Geselle, ohne Zweifel.
+
+EIGENSCHAFTEN:
+
+Ausgerüstete Fähigkeiten:
+- Charisma: -1
+- Im Schatten verstecken: -5%
+- Kann nur durch den Zauber "Fluch brechen" entfernt werden
+
+Gewicht: 0~
+@80020 = ~Bdharlan,
+
+ich verstehe, dass Ihr unserer Gruppe beitreten wollt. Wer weiß, vielleicht passt Ihr hinein. Ich schätze jedoch, Narlen wird prüfen wollen, ob Ihr die richtige Ergänzung wärt. Der Kerl will sichergehen, dass die Neuen nicht kneifen und ihm den Rücken freihalten.
+
+Denkt aber daran! Wenn er sich Euch nähert, hinterfragt NIEMALS seine Art zu sprechen. Wir haben uns daran gewöhnt, aber er ist wirklich empfindlich, was das betrifft. Wenn Ihr beide zusammenarbeitet, bekommt Ihr vielleicht Eure erste Gelegenheit, eine Münze oder zwei zu verdienen.
+
+Mit Grüßen,
+Freund~
+@80021 = ~Dietriche~
+@80022 = ~Dietriche von Masks Kumpel~
+@80023 = ~Dieses Set magischer Dietriche kann sicher allen helfen, die ein Schloss so schnell wie möglich knacken und verschwinden wollen ... wo auch immer der Raub gerade stattfindet.
+
+EIGENSCHAFTEN:
+
+Aufladungsfähigkeit:
+- Kann einmal pro Tag Klopfen wirken
+
+Ausgerüstete Fähigkeiten:
+- Schlösser öffnen: +10%
+
+Gewicht: 0~
+@80024 = ~Nehmt das, ihr dummen Ameisen! Haha!~
+@80025 = ~Verdammt! Es ist auf meinem Stiefel! Na ja ... hehehe.~
+@80026 = ~Hahaha! Schaut, wer zurückgekommen ist!~
+@80027 = ~Nun, es sieht so aus, als gäbe es mehr wie mich, Glückspilze, die versuchen, in die Stadt Baldurs Tor zu gelangen! Ich hörte, das ist ein Ort, um ein neues Leben zu beginnen! Und eine Münze oder zwei zu verdienen. Und ich denke, Ihr wisst, was ich mit "verdienen" meine.~
+@80028 = ~Vielleicht weiß ich das. Aber warum wollt Ihr ein neues Leben beginnen?~
+@80029 = ~Ich habe keine Ahnung, wovon Ihr sprecht. Und ich glaube nicht, dass ich Zeit für irgendein Geplauder habe, also ... auf Wiedersehen.~
+@80030 = ~Sagen wir einfach, ich weiß, was es bedeutet, ein oder zwei Tage mit leerem Magen herumzulaufen.~
+@80031 = ~Aber ich hörte, dass es in der Stadt eine Gruppe gibt! Eine Gilde, und ich dachte, dass das vielleicht genau das ist, was ich brauche! Eine Gruppe, die mir den Rücken freihält, wenn ich tue, was ich am besten kann! Aber es gibt ein kleines Problem, das ich lösen muss. Einen Fall, den ich abschließen möchte, bevor ich diese Brücke überqueren und mein neues Leben genießen kann!~
+@80032 = ~Was genau steht zwischen Eurem jetzigen Leben und Eurem neuen Leben?~
+@80033 = ~Was auch immer. Hört zu, ich habe keine Zeit für solches Geplauder und ... ich muss gehen.~
+@80034 = ~Wartet! Es gibt Gold. Es gibt so viel Gold, und es kann Eures sein. Helft mir nur ... etwas zu Ende zu bringen!~
+@80035 = ~Und welche Art von Hilfe erhofft Ihr Euch, hmm? Was ist dieser "Fall", von dem Ihr sprecht?~
+@80036 = ~Ich bin nicht interessiert. Nun geht mir aus dem Weg, oder sie finden Euren Leichnam unter der Brücke dort.~
+@80037 = ~Seht Ihr, ich ... begegnete dieser Frau und versuchte, ihr etwas wegzunehmen. Etwas Essen ...~
+@80038 = ~... und einen Zauberstab, er sah teuer aus ...~
+@80039 = ~... und da war dieses Amulett ...~
+@80040 = ~... es lag direkt neben den Goldmünzen, die sie neben ihrem Kissen hatte ...~
+@80041 = ~... und ich brauchte nur noch ein paar Dinge von ihr, wie das Kissen selbst ...~
+@80042 = ~... einen neuen Wasserschlauch ...~
+@80043 = ~... einen Heiltrank ...~
+@80044 = ~... etwas Salbe, ich habe diesen üblen Juckreiz ... da unten ...~
+@80045 = ~... einen neuen Kamm, ich will ordentlich aussehen, sobald ich in Baldurs Tor bin ...~
+@80046 = ~... eine Schere, ich muss wirklich meine Fingernägel schneiden ...~
+@80047 = ~... ich hoffte, vielleicht etwas Parfüm zu finden ...~
+@80048 = ~... und ich brauchte wirklich ein frisches Paar Socken! Meine sind so klebrig, als wäre ich in Honig oder Baumsaft getreten.~
+@80049 = ~Das ist ... eine ziemlich lange Liste!~
+@80050 = ~Socken? Im Ernst? Und im Ernst ... Igitt.~
+@80051 = ~Wenn Ihr auch diese Unterwäsche von jemand anderem gestohlen habt, ist es kein Wunder, dass Ihr jetzt diesen Ausschlag habt.~
+@80052 = ~Ich habe keine Zeit für solchen Unsinn. Tut mir leid, aber ich muss gehen.~
+@80053 = ~Hey! Stellt mich nicht bloß! Ich lebe schon eine ganze Weile in der Wildnis und ... und ich hatte keine andere Wahl! Im Ernst!~
+@80054 = ~Ich weiß, ich habe versucht, viel zu nehmen, aber Ihr wisst, wie das ist. Wenn man hungert, will man einfach alles nehmen, was man kriegen kann, nur für den Fall, dass wieder etwas schiefgeht. Man will sich auf das Schlimmste vorbereiten.~
+@80055 = ~Wie auch immer, ich musste fliehen. Und ich habe meine Tasche nahe dem Zelt dieser Frau zurückgelassen, und ich brauche sie. Wirklich. Also hoffte ich, dass ich hier vielleicht jemanden treffe, jemanden, der bereit ist zu helfen. Oder jemanden wie mich, nur ... heimlicher.~
+@80056 = ~Eh, schön. Wenn Ihr wollt, kann ich Euch helfen. Zeigt mir nur den Weg.~
+@80057 = ~Ich habe keine Zeit für solchen Unsinn. Nun muss ich gehen.~
+@80058 = ~Ihr helft mir? Oh, das ist wunderbar!~
+@80059 = ~Lasst mich meine Sachen nehmen, gebt mir einen Moment, um ... nun ja, Wasser zu lassen, und ... kommt gleich wieder zu mir. Und schaut weg, ja? Ich glaube nicht, dass ich bei so etwas Gesellschaft brauche.~
+@80060 = ~Verdammt! Dann muss ich mich nach jemand anderem umsehen.~
+@80061 = ~Lasst mich in Frieden Wasser lassen, hmm? Wenn Ihr zuschauen wollt, dann tut es mir leid, aber ich stehe nicht auf so etwas.~
+@80062 = ~Aaah, meine Blase ist leer, also können wir weitermachen.~
+@80063 = ~Zeigt mir den Weg.~
+@80064 = ~Ich brauche einen Moment. Wartet hier auf mich.~
+@80065 = ~Mhm! Folgt mir.~
+@80066 = ~Ooo, haha! Schaut Euch nur das Gesicht von diesem da an! Schöner als das, was ich seit Tagen gesehen habe!~
+@80067 = ~Oh, das reimt sich sogar! Das ist sogar noch besser! Mmm!~
+@80068 = ~Wir hatten eine Abmachung, also ... überreiche ich Euch Euer Geschenk, Hexe. Ich hoffe, Ihr nehmt es an.~
+@80069 = ~Es sieht nett aus, mhm. Aber ich sollte mir wohl auch <PRO_HISHER> Zähne ansehen, schlechte Zähne und stinkender Atem sind wirklich nicht appetitlich! Hahaha!~
+@80070 = ~Nö. Ich denke, sie sollten in Ordnung sein.~
+@80071 = ~Nun, ich habe Euch etwas im Austausch für meine eigene Freiheit gebracht. Also befreit mich. Ich verspreche, ich werde nie wieder versuchen, Euch zu bestehlen.~
+@80072 = ~Hmm. Vielleicht sollte ich ... wenn Ihr mir helft, diesen da hier zu ergreifen.~
+@80073 = ~Hey! Ich sollte nur jemanden herbringen, nicht gegen ihn kämpfen!~
+@80074 = ~Dient mir, kleines Wesen, nur noch eine Weile, und ich erledige, was Eurem Herzen und Eurem Geist gerade nicht recht ist!~
+@80075 = ~Lasst mich in Eure Brust und Euren Schädel sehen und schauen ...! Mhm!~
+@80076 = ~Ich ...~
+@80077 = ~Ihr wollt, dass es aufhört zu jucken! Hahaha! Gut! Ich kann dabei helfen! Der Juckreiz Eures ... Zweigs wird im Zwinkern eines Auges enden! Meines Auges, natürlich, hahahaha!~
+@80078 = ~Wir haben eine Abmachung.~
+@80079 = ~Im Ernst? Ihr habt mich einfach verkauft und zugestimmt, mich zu ergreifen, damit Eure Privatteile aufhören zu jucken? Das ist wirklich erbärmlich.~
+@80080 = ~Wenn Ihr glaubt, Ihr könntet mich aufhalten oder mir auch nur nahe kommen, seid Ihr noch dümmer, als ich dachte.~
+@80081 = ~Bitte tut das nicht! Ihr müsst dieser Hexe nicht dienen!~
+@80082 = ~Tut mir leid, aber ich schätze, der Handel ist besiegelt, und mein Leiden wird schlimmer.~
+@80083 = ~Kommt, Hexe, schnappen wir sie uns!~
+@80084 = ~Nun, Ihr habt Euch mit Narlen recht gut geschlagen, und ich bin sicher, Alatos würde Euch gerne bei der einen oder anderen Aufgabe einsetzen, aber es gibt auch andere, die gerne mit Euch arbeiten würden. Und mit "andere" meine ich ... mich natürlich.~
+@80085 = ~Narlens Auftrag war eine niedere Pflicht, aber ich kann Euch mehr bieten als nur das. Eine weitere Mission, nichts weiter, also nehme ich nicht viel von Eurer Zeit in Anspruch. Aber es wird nicht leicht.~
+@80086 = ~Wenn Ihr gut bezahlt, bin ich interessiert.~
+@80087 = ~Tut mir leid, ich bin nicht interessiert. Als ich das letzte Mal jemandem wie Euch helfen wollte, wurde ich von einer grünen Hexe angegriffen.~
+@80088 = ~Natürlich tue ich das.~
+@80089 = ~Seht Ihr, ich muss jemanden loswerden. Und es ist mir egal, wie es geschieht. Tötet ihn, lasst ihn die Stadt verlassen ... es ist mir wirklich egal.~
+@80090 = ~Wer ist dieser Mann, den Ihr loswerden wollt?~
+@80091 = ~Ich ... glaube, ich habe meine Meinung geändert. Tut mir leid, aber ich bin an einem solchen Auftrag nicht interessiert.~
+@80092 = ~Ein Mann. Ein Mitglied der Flammenden Faust. Xamm. Er hat mit meiner Freundin geschlafen. Sie ist auf seinen dummen Charme hereingefallen. Außerdem schläft er mit der halben Stadt. Er hat die Herzen vieler Mädchen gebrochen. Und ich verstehe wirklich nicht, warum der Rest, ungeachtet von Geschlecht, Reichtum und Bildung, immer noch glaubt, er sei irgendeiner Aufmerksamkeit wert.~
+@80093 = ~Andere kümmern mich wenig, aber meine Freundin ... sie hat etwas Heilung verdient. Wirklich.~
+@80094 = ~Warum kümmert Ihr Euch nicht selbst um ihn?~
+@80095 = ~Er klingt wie ein Hund, der mehr als nur einen Trick kennt, haha! Aber ... wenn Ihr bezahlt, kann ich mich um ihn kümmern.~
+@80096 = ~Er klingt wie ein ziemliches Ekel. Ich helfe Euch gerne und sorge dafür, dass er Baldurs Tor verlässt.~
+@80097 = ~Tut mir leid, aber ich bin nicht interessiert.~
+@80098 = ~Weil ich ein dummes Versprechen gegeben habe, dass ich nicht versuchen werde, ihn zur Rede zu stellen. Deshalb brauche ich Euch.~
+@80099 = ~Verstehe. Heh, er klingt wie ein Hund, der mehr als nur einen Trick kennt! Aber ... wenn Ihr bezahlt, kann ich mich um ihn kümmern.~
+@80100 = ~Ich verstehe. Er klingt wie ein ziemliches Ekel. Ich helfe Euch gerne und sorge dafür, dass er Baldurs Tor verlässt.~
+@80101 = ~Mhm. Tut mir leid, aber ich bin nicht interessiert. Ich denke, Ihr müsst jemand anderen suchen, der Euch hilft.~
+@80102 = ~Ich freue mich, das zu hören!~
+@80103 = ~Nun, der knifflige Teil ist, dass er kein eigenes Zuhause hat. Er nutzt gewöhnlich die Unterkünfte anderer Mädchen oder Tavernen, um sich auszuruhen. Um es noch schwieriger zu machen, muss ich wissen, dass der Auftrag in drei Tagen erledigt ist. Danach muss ich die Stadt verlassen, und ich will wissen, dass es Petunia gut geht und dieser Narr sie nicht mehr belästigt. Aber es gibt jemanden, der wissen könnte, wo er zu finden ist.~
+@80104 = ~Ein Familienmitglied? Ein Freund? Ein Kollege?~
+@80105 = ~Wisst Ihr was? Ich glaube, ich habe meine Meinung geändert. Tut mir leid, aber Ihr müsst das allein erledigen.~
+@80106 = ~Seine Freundin, Mallandrea.~
+@80107 = ~Soviel ich weiß, sollte sie im Unterkeller sein, direkt unter der Errötenden Nixe.~
+@80108 = ~Ihr habt gut mit Narlen zusammengearbeitet und ihm geholfen, etwas zu stehlen, hmm? Nun, sehen wir, ob Ihr auch ein Ziel findet, das sich bewegt.~
+@80109 = ~Denkt daran, drei Tage. Ich muss dann abreisen, und ich kann Euch nicht bezahlen, wenn Ihr es nicht rechtzeitig schafft. Sobald es erledigt ist, findet mich nahe dem Stadttor. Ich hoffe, Ihr findet mich dort wirklich bald.~
+@80110 = ~Narr! Argh! Also gut. Ich suche mir jemand anderen! Geht mir aus dem Weg!~
+@80111 = ~So, so, so! Was für ein nettes Gesicht Ihr habt. Ganz küssbar.~
+@80112 = ~Ich suche Mallandrea. Seid Ihr das?~
+@80113 = ~Warum kommt Ihr nicht näher und tut das, hmm?~
+@80114 = ~Ich bin daran nicht interessiert.~
+@80115 = ~Oh, Schätzchen! Tut mir leid, aber ich bin nicht in Stimmung. Aber ich bin sicher, dass ein paar Münzen helfen, irgendein Mädchen oder einen Jungen zu überzeugen, oder wen auch immer Ihr möchtet.~
+@80116 = ~Oh! Ich bin berühmt! Hah! Das wusste ich nicht.~
+@80117 = ~Ich muss Euren Freund finden. Sein Name ist Xamm.~
+@80118 = ~Ich habe diese Fantasie: Ich wollte schon immer ein kleines Abenteuer mit einem Mitglied der Flammenden Faust haben. Ich hörte, Ihr kennt jemanden wie ihn.~
+@80119 = ~Und warum müsstet Ihr mit ihm sprechen?~
+@80120 = ~Hier ist ein Entgelt dafür, dass Ihr keine Fragen stellt. Dreihundert Goldmünzen. Also, wo finde ich ihn?~
+@80121 = ~Ich habe diese Fantasie: Ich wollte schon immer ein kleines Abenteuer mit einem Mitglied der Flammenden Faust haben. Ich hörte, er ist einer von ihnen. Wer weiß, vielleicht wäre er an etwas Schäkerei interessiert?~
+@80122 = ~Sagt mir, wo er ist, oder ich schneide Euch in Stücke und lasse dann in jeder Taverne von Baldurs Tor ein Stück zurück.~
+@80123 = ~Das geht Euch nichts an.~
+@80124 = ~Das ist ... seltsam genau. Mmm. Ich mag das. Er ist immer in Stimmung, also gut, ich sage Euch, wo Ihr ihn findet. Und ich hoffe, er erzählt mir später, wie es gelaufen ist.~
+@80125 = ~Gut! Ich sage es Euch! Nur ... haltet Abstand!~
+@80126 = ~Mmm. Ich mag die Art, wie Ihr Eure Probleme löst. Gut, ich sage Euch, wo Ihr ihn findet.~
+@80127 = ~Er hat beschlossen, sich einen Tag freizunehmen, er ist gerade außerhalb der Stadt, nahe am Fluss, und genießt etwas Zeit allein. Andererseits ... beinhaltet selbst seine Zeit allein ab und zu andere Leute.~
+@80128 = ~Und nun entschuldigt mich, aber ich muss gehen.~
+@80129 = ~Ich ahne Ärger! Ich sage Euch nichts!~
+@80130 = ~Wie langweilig. Nun, entschuldigt mich, aber ich bin beschäftigt.~
+@80131 = ~Ah, noch jemand, der auf der Suche nach Nervenkitzel ist? Ein kleines ... Etwas? Tut mir leid, <PRO_BOYGIRL>, ich bin ausgepumpt. Ziemlich ... wörtlich.~
+@80132 = ~Ah, es klingt, als wärt Ihr der Mann, den ich suche. Der berüchtigte Soldat der Flammenden Faust.~
+@80133 = ~So ein Pech, denn ich dachte, wir würden ein wenig spielen! Aber ich glaube, ich kann trotzdem etwas Spaß haben ... nur werdet Ihr ihn nicht mögen.~
+@80134 = ~Berüchtigt? Hmm.~
+@80135 = ~Ich muss sagen, Euer Ton gefällt mir nicht ...~
+@80136 = ~Scherz beiseite: Was wollt Ihr?~
+@80137 = ~Jemand will, dass Ihr verschwindet. Und ich habe das Bedürfnis, ein wenig Dampf abzulassen. Ich lasse Dampf gewöhnlich während eines Kampfes ab.~
+@80138 = ~Jemand will, dass Ihr verschwindet. Wir haben also zwei Möglichkeiten: Ich töte Euch, oder Ihr nehmt diese hundert Goldmünzen und geht und kehrt nie zurück.~
+@80139 = ~Jemand will, dass Ihr verschwindet. Und ... dieser Ort, den Ihr gewählt habt, ist recht günstig. (Versucht, ihn bewusstlos zu schlagen und in den Fluss zu stoßen.)~
+@80140 = ~Jemand will, dass Ihr verschwindet. Nehmt Eure Sachen und geht. Bitte.~
+@80141 = ~Für wen haltet Ihr mich? Ich weiß, wie man ein Schwert benutzt, und ich fürchte Leute wie Euch nicht!~
+@80142 = ~Ich ... ich stecke wirklich in ziemlichen Schwierigkeiten, hmm? Normalerweise würde ich Euch nicht glauben, aber Ihr würdet mir kein Gold anbieten, wenn das ein Bluff wäre.~
+@80143 = ~Schön. Ich gehe einfach. Ich hörte, es gibt viele nette Mädchen in Tiefwasser.~
+@80144 = ~Was ...?! Ich ... *platsch*~
+@80145 = ~Ich vertraue darauf, dass der Auftrag erledigt ist.~
+@80146 = ~Er ist es. Er ist fort.~
+@80147 = ~Ich arbeite daran.~
+@80148 = ~Gut! Ich stelle keine sinnlosen Fragen, ich bin zufrieden mit der bloßen Information, dass er mir und meiner Freundin keine Probleme mehr bereiten wird.~
+@80149 = ~Gute Arbeit. Und wie versprochen habe ich etwas für Euch. Fünfhundert Goldmünzen und ein kleines Etwas, das jemand wie Ihr recht nützlich finden kann.~
+@80150 = ~Ich muss sagen, wer auch immer Ihr sucht, dieser Jemand steckt in ziemlichen Schwierigkeiten. Und bemüht Euch nicht, mich zu fragen, ob ich gehört habe, dass Ihr jemanden sucht. Die halbe Stadt sucht jemanden oder etwas, und die andere Hälfte läuft vor etwas davon. Das nennt man Leben.~
+@80151 = ~Beistand für Bdharlan~
+@80152 = ~Beistand für Bdharlan
+
+Bdharlan sprach mich nahe der Lindwurmsquerung mit einem Auftrag an, aber ich war nicht interessiert.~
+@80153 = ~Beistand für Bdharlan
+
+Bdharlan sprach mich nahe der Lindwurmsquerung mit einem Auftrag an und hat mich gebeten, ihm zu folgen ... nach einer kleinen Pause.~
+@80154 = ~Beistand für Bdharlan
+
+Bdharlan hat mich mit seiner Hexe von einer Partnerin hintergangen, aber sie haben die Bedrohung unterschätzt. Er und seine Mätresse liegen tot, und ich habe ein paar Kleinodien, die davon zeugen.~
+@80155 = ~Beistand für Bdharlan
+
+Bdharlan hat mich hintergangen, aber ich bin mit meinem Leben entkommen.~
+@80156 = ~Ein Auftrag für die Mysteriöse Frau~
+@80157 = ~Ein Auftrag für die Mysteriöse Frau
+
+Eine Frau sprach mich vor der Diebesgilde in Baldurs Tor an. Sie hatte von meiner Arbeit mit Narlen gehört und hatte einen Auftrag für mich, aber er gefiel mir nicht, und ich lehnte ab.~
+@80158 = ~Ein Auftrag für die Mysteriöse Frau
+
+Eine Frau sprach mich vor der Diebesgilde in Baldurs Tor an. Sie hatte von meiner Arbeit mit Narlen gehört und hatte einen Auftrag für mich, Xamm, einen Soldaten der Flammenden Faust, loszuwerden, der ihre Freundin belästigt. Um ihn zu finden, sollte ich mit ihrer Freundin Mallandrea im Unterkeller sprechen.
+
+Der Auftrag muss in drei Tagen erledigt werden.~
+@80159 = ~Ein Auftrag für die Mysteriöse Frau
+
+Ich sprach mit Mallandrea im Unterkeller, und sie sagte, ich könne Xamm nahe dem Fluss direkt vor der Stadt finden.~
+@80160 = ~Ein Auftrag für die Mysteriöse Frau
+
+Ich sprach mit Mallandrea im Unterkeller, konnte aber nicht in Erfahrung bringen, wo sich Xamm aufhält. Jetzt kann ich nur hoffen, ihn durch reinen Zufall zu finden.~
+@80161 = ~Ein Auftrag für die Mysteriöse Frau
+
+Ich fand Xamm nahe dem Fluss direkt vor dem Stadttor und erledigte ihn. Ich sollte in die Stadt zurückkehren und nach der mysteriösen Frau unmittelbar innerhalb des Stadttors suchen.~
+@80162 = ~Ein Auftrag für die Mysteriöse Frau
+
+Die mysteriöse Frau war froh, dass Xamm ihre Freundin nicht mehr belästigen kann, und belohnte mich für meine Mühe.~
+@80163 = ~Ein Auftrag für die Mysteriöse Frau
+
+Ich konnte Xamm nicht innerhalb der geforderten drei Tage finden und erledigen.~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Replace Bandit Scalps with Badges                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+// new name/descript for bandit scalps
+@100001 = ~Bronzeabzeichen~
+@100002 = ~Dieses kleine Bronzeabzeichen hängt an einer kleinen, feinen Kette. Es wurde der Leiche eines Räubers abgenommen und ist für den richtigen Käufer vielleicht von Wert.~
+// bgee strref 19466
+@100003 = ~Die Überfälle sind seit Eurer Rückkehr aus Nashkell schlimmer geworden. Früher dachte ich, dass es sich dabei nur um gewöhnliche Räuber handelt, die schnell etwas Geld verdienen möchten, aber heute sehe ich das anders. Die stehen bestimmt in jemandes Auftrag … Verdammt, das ist ja ein schönes Durcheinander, nicht wahr? Auf jeden Fall muss ich meine Truppen nach Baldurs Tor zurückbringen! Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Einige der Händler in der Region haben sich ebenfalls entschlossen, Geld für die Räuberabzeichen beizusteuern, aber ich zahle Euch den besten Preis. Ich will dieses ganze Gebiet gesäubert haben, und ich möchte wissen, was bei den Neun Höllen hier eigentlich vorgeht …~
+// bgee strref 19469
+@100004 = ~Ich habe zwei Gesetze, die sich auf Euren wertvollen persönlichen Freiraum ausdehnen, <CHARNAME>: Haltet mir keine Moralpredigten, und sprecht mir nicht von Mitleid … Also, fangen wir noch einmal an, und diesmal will ich eine Sprache verwenden, die sogar Euch verständlich ist. Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Ich will dieses Gebiet gesäubert haben, bevor der Winter beginnt und alles noch schlimmer wird, verstanden? Gut. Jetzt geht mir aus den Augen.~
+// bgee strref 19470
+@100005 = ~Meine Truppe und ich sind von Baldurs Tor abgeschnitten. Wir haben schon seit fast einer Woche keine neuen Befehle erhalten und, ehrlich gesagt, gefällt mir das Ganze gar nicht. Die Überfälle sind seit Eurer Rückkehr aus Nashkell schlimmer geworden. Früher dachte ich, dass es sich dabei nur um gewöhnliche Räuber handelt, die schnell etwas Geld verdienen möchten, aber heute sehe ich das anders. Die stehen bestimmt in jemandes Auftrag … Auf jeden Fall muss ich meine Truppen nach Baldurs Tor zurückbringen! Ich werde für jedes bronzene Räuberabzeichen, das Ihr mir bringt, 50 Goldmünzen bezahlen. Sagt das bitte auch weiter. Ich will dieses ganze Gebiet gesäubert haben, bevor der Winter beginnt.~
+// bgee strref 19472
+@100006 = ~Ich sehe schon, dass Ihr fleißig wart. Also, weiter so. Je mehr bronzene Abzeichen ich bekomme, desto reicher werdet Ihr. Ich nehme Euch die Abzeichen eben ab.~
+// bgee strref 19703
+@100007 = ~Ich hoffe, dass Eure Reise erfolgreich war, <CHARNAME>. Denkt daran, dass Ihr mir die Abzeichen der toten Räuber bringen müsst, wenn Ihr die Belohnung möchtet. Ein Beweisstück muss ich haben.~
+// bgee strref 27501
+@100008 = ~Auf der Suche nach Räuberabzeichen.
+Offizierin Jessa Vai von der Flammenden Faust sitzt mit ihrem Kontingent in Beregost fest. In ihrer Verzweiflung hat sie mir für jedes Räuberabzeichen, das ich ihr bringe, 50 Goldmünzen geboten. Sie hat sich im Windigen Schwindler einquartiert.~
+// bgt from chloe's dialogue
+@100009 = ~Auf der Suche nach Räuberabzeichen.
+
+Ein Mädchen namens Chloe hat uns erzählt, dass eine Offizierin namens Vai im Windigen Schwindler in Beregost auf ein Gespräch mit uns wartet.~
+// bgt final quest entry
+@100010 = ~Auf der Suche nach Räuberabzeichen.
+
+Wir machten gute Geschäfte damit, Räuberabzeichen an Offizierin Jessa Vai von der Flammenden Faust zu verkaufen, doch sie hat aus dem Hauptquartier in Baldurs Tor den Befehl erhalten, dorthin zurückzukehren und Bericht über die Beseitigung der Räuberplage zu erstatten.~
+
+// sotsc compat
+@100011 = ~Hmm, nur wenn Ihr Euch um ein paar ... Unkräuter kümmert. Ich gebe Euch für je fünf bronzene Abzeichen, die Ihr diesen groben Räubern abnehmt, eine Blume.~
+@100012 = ~Ich habe die Abzeichen hier.~
+@100013 = ~In Ordnung. Fünf Abzeichen für eine meiner wunderschönen Blumen. Passt gut darauf auf.~
+@100014 = ~...hmm, vielleicht sollte ich diese Abzeichen für etwas Kompost verkaufen.~
